@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoneageTools", "StoneageTools\StoneageTools.csproj", "{666A7B14-910C-469B-B73F-76F6B15EC00F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{666A7B14-910C-469B-B73F-76F6B15EC00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666A7B14-910C-469B-B73F-76F6B15EC00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666A7B14-910C-469B-B73F-76F6B15EC00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666A7B14-910C-469B-B73F-76F6B15EC00F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5782418D-C937-48AC-B656-4103460A7189}
+	EndGlobalSection
+EndGlobal

@@ -67,150 +67,146 @@ namespace StoneageTools.Units
         public static double Meter_2_EarthDistanceFromSun(double inVal)     => inVal / 149600000000;
         public static double SunRadius_2_Meter(double inVal)        => inVal * 696000000;
         public static double Meter_2_SunRadius(double inVal)        => inVal / 696000000;
-
-/* 
-        yes, there is more on distances...
-        1 exameter [Em] = 1.0E+18 meter [m]
-        exameter to meter,   meter to exameter
-        1 petameter [Pm] = 1.0E+15 meter [m]
-        petameter to meter,   meter to petameter
-        1 terameter [Tm] = 1000000000000 meter [m]
-        terameter to meter,   meter to terameter
-        1 gigameter [Gm] = 1000000000 meter [m]
-        gigameter to meter,   meter to gigameter
-        1 megameter [Mm] = 1000000 meter [m]
-        megameter to meter,   meter to megameter
-        1 hectometer [hm] = 100 meter [m]
-        hectometer to meter,   meter to hectometer
-        1 dekameter [dam] = 10 meter [m]
-        dekameter to meter,   meter to dekameter
-        1 micron [µ] = 1.0E-6 meter [m]
-        micron to meter,   meter to micron
-        1 picometer [pm] = 1.0E-12 meter [m]
-        picometer to meter,   meter to picometer
-        1 femtometer [fm] = 1.0E-15 meter [m]
-        femtometer to meter,   meter to femtometer
-        1 attometer [am] = 1.0E-18 meter [m]
-        attometer to meter,   meter to attometer
-        1 league [lea] = 4828.032 meter [m]
-        league to meter,   meter to league
-        1 nautical league (UK) = 5559.552 meter [m]
-        nautical league (UK) to meter,   meter to nautical league (UK)
-        1 nautical league (int.) = 5556 meter [m]
-        nautical league (int.) to meter,   meter to nautical league (int.)
-        1 league (statute) [st.league] = 4828.0416560833 meter [m]
-        league (statute) to meter,   meter to league (statute)
-        1 mile (statute) [mi, mi (US)] = 1609.3472186944 meter [m]
-        mile (statute) to meter,   meter to mile (statute)
-        1 mile (US survey) [mi] = 1609.3472186944 meter [m]
-        mile (US survey) to meter,   meter to mile (US survey)
-        1 mile (Roman) = 1479.804 meter [m]
-        mile (Roman) to meter,   meter to mile (Roman)
-        1 kiloyard [kyd] = 914.4 meter [m]
-        kiloyard to meter,   meter to kiloyard
-        1 furlong [fur] = 201.168 meter [m]
-        furlong to meter,   meter to furlong
-        1 furlong (US survey) [fur] = 201.1684023368 meter [m]
-        furlong (US survey) to meter,   meter to furlong (US survey)
-        1 chain [ch] = 20.1168 meter [m]
-        chain to meter,   meter to chain
-        1 chain (US survey) [ch] = 20.1168402337 meter [m]
-        chain (US survey) to meter,   meter to chain (US survey)
-        1 rope = 6.096 meter [m]
-        rope to meter,   meter to rope
-        1 rod [rd] = 5.0292 meter [m]
-        rod to meter,   meter to rod
-        1 rod (US survey) [rd] = 5.0292100584 meter [m]
-        rod (US survey) to meter,   meter to rod (US survey)
-        1 perch = 5.0292 meter [m]
-        perch to meter,   meter to perch
-        1 pole = 5.0292 meter [m]
-        pole to meter,   meter to pole
-        1 fathom [fath] = 1.8288 meter [m]
-        fathom to meter,   meter to fathom
-        1 fathom (US survey) [fath] = 1.8288036576 meter [m]
-        fathom (US survey) to meter,   meter to fathom (US survey)
-        1 ell = 1.143 meter [m]
-        ell to meter,   meter to ell
-        1 foot (US survey) [ft] = 0.3048006096 meter [m]
-        foot (US survey) to meter,   meter to foot (US survey)
-        1 link [li] = 0.201168 meter [m]
-        link to meter,   meter to link
-        1 link (US survey) [li] = 0.2011684023 meter [m]
-        link (US survey) to meter,   meter to link (US survey)
-        1 cubit (UK) = 0.4572 meter [m]
-        cubit (UK) to meter,   meter to cubit (UK)
-        1 hand = 0.1016 meter [m]
-        hand to meter,   meter to hand
-        1 span (cloth) = 0.2286 meter [m]
-        span (cloth) to meter,   meter to span (cloth)
-        1 finger (cloth) = 0.1143 meter [m]
-        finger (cloth) to meter,   meter to finger (cloth)
-        1 nail (cloth) = 0.05715 meter [m]
-        nail (cloth) to meter,   meter to nail (cloth)
-        1 inch (US survey) [in] = 0.0254000508 meter [m]
-        inch (US survey) to meter,   meter to inch (US survey)
-        1 barleycorn = 0.0084666667 meter [m]
-        barleycorn to meter,   meter to barleycorn
-        1 mil [mil, thou] = 2.54E-5 meter [m]
-        mil to meter,   meter to mil
-        1 microinch = 2.54E-8 meter [m]
-        microinch to meter,   meter to microinch
-        1 angstrom [A] = 1.0E-10 meter [m]
-        angstrom to meter,   meter to angstrom
-        1 a.u. of length [a.u., b] = 5.2917724900001E-11 meter [m]
-        a.u. of length to meter,   meter to a.u. of length
-        1 X-unit [X] = 1.00208E-13 meter [m]
-        X-unit to meter,   meter to X-unit
-        1 fermi [F, f] = 1.0E-15 meter [m]
-        fermi to meter,   meter to fermi
-        1 arpent = 58.5216 meter [m]
-        arpent to meter,   meter to arpent
-        1 pica = 0.0042333333 meter [m]
-        pica to meter,   meter to pica
-        1 point = 0.0003527778 meter [m]
-        point to meter,   meter to point
-        1 twip = 1.76389E-5 meter [m]
-        twip to meter,   meter to twip
-        1 aln = 0.5937777778 meter [m]
-        aln to meter,   meter to aln
-        1 famn = 1.7813333333 meter [m]
-        famn to meter,   meter to famn
-        1 caliber [cl] = 0.000254 meter [m]
-        caliber to meter,   meter to caliber
-        1 centiinch [cin] = 0.000254 meter [m]
-        centiinch to meter,   meter to centiinch
-        1 ken = 2.11836 meter [m]
-        ken to meter,   meter to ken
-        1 Russian archin = 0.7112 meter [m]
-        Russian archin to meter,   meter to Russian archin
-        1 Roman actus = 35.47872 meter [m]
-        Roman actus to meter,   meter to Roman actus
-        1 vara de tarea = 2.505456 meter [m]
-        vara de tarea to meter,   meter to vara de tarea
-        1 vara conuquera = 2.505456 meter [m]
-        vara conuquera to meter,   meter to vara conuquera
-        1 vara castellana = 0.835152 meter [m]
-        vara castellana to meter,   meter to vara castellana
-        1 cubit (Greek) = 0.462788 meter [m]
-        cubit (Greek) to meter,   meter to cubit (Greek)
-        1 long reed = 3.2004 meter [m]
-        long reed to meter,   meter to long reed
-        1 reed = 2.7432 meter [m]
-        reed to meter,   meter to reed
-        1 long cubit = 0.5334 meter [m]
-        long cubit to meter,   meter to long cubit
-        1 handbreadth = 0.0762 meter [m]
-        handbreadth to meter,   meter to handbreadth
-        1 fingerbreadth = 0.01905 meter [m]
-        fingerbreadth to meter,   meter to fingerbreadth
-        1 Planck length = 1.61605E-35 meter [m]
-        Planck length to meter,   meter to Planck length
-        1 Electron radius (classical) = 2.81794092E-15 meter [m]
-        Electron radius (classical) to meter,   meter to Electron radius (classical)
-        1 Bohr radius [b, a.u.] = 5.2917724900001E-11 meter [m]
-        Bohr radius to meter,   meter to Bohr radius
-        */
+        public static double Exameter_2_Meter(double inVal)                             => inVal * 1E+19;		 // [Em] -> m
+        public static double Meter_2_Exameter(double inVal)                             => inVal / 1E+19;		 // m -> [Em]
+        public static double Petameter_2_Meter(double inVal)                            => inVal * 10000000000000000;		 // [Pm] -> m
+        public static double Meter_2_Petameter(double inVal)                            => inVal / 10000000000000000;		 // m -> [Pm]
+        public static double Terameter_2_Meter(double inVal)                            => inVal * 1000000000000;		 // [Tm] -> m
+        public static double Meter_2_Terameter(double inVal)                            => inVal / 1000000000000;		 // m -> [Tm]
+        public static double Gigameter_2_Meter(double inVal)                            => inVal * 1000000000;		 // [Gm] -> m
+        public static double Meter_2_Gigameter(double inVal)                            => inVal / 1000000000;		 // m -> [Gm]
+        public static double Megameter_2_Meter(double inVal)                            => inVal * 1000000;		 // [Mm] -> m
+        public static double Meter_2_Megameter(double inVal)                            => inVal / 1000000;		 // m -> [Mm]
+        public static double Hectometer_2_Meter(double inVal)                           => inVal * 100;		 // [hm] -> m
+        public static double Meter_2_Hectometer(double inVal)                           => inVal / 100;		 // m -> [hm]
+        public static double Dekameter_2_Meter(double inVal)                            => inVal * 10;		 // [dam] -> m
+        public static double Meter_2_Dekameter(double inVal)                            => inVal / 10;		 // m -> [dam]
+        public static double Micron_2_Meter(double inVal)                               => inVal * 1E-05;		 // [µ] -> m
+        public static double Meter_2_Micron(double inVal)                               => inVal / 1E-05;		 // m -> [µ]
+        public static double Picometer_2_Meter(double inVal)                            => inVal * 1E-11;		 // [pm] -> m
+        public static double Meter_2_Picometer(double inVal)                            => inVal / 1E-11;		 // m -> [pm]
+        public static double Femtometer_2_Meter(double inVal)                           => inVal * 1E-14;		 // [fm] -> m
+        public static double Meter_2_Femtometer(double inVal)                           => inVal / 1E-14;		 // m -> [fm]
+        public static double Attometer_2_Meter(double inVal)                            => inVal * 1E-17;		 // [am] -> m
+        public static double Meter_2_Attometer(double inVal)                            => inVal / 1E-17;		 // m -> [am]
+        public static double League_2_Meter(double inVal)                               => inVal * 4828032;		 // [lea] -> m
+        public static double Meter_2_League(double inVal)                               => inVal / 4828032;		 // m -> [lea]
+        public static double NauticalLeagueUK_2_Meter(double inVal)                     => inVal * 5559552;		 // NauticalLeagueUK -> m
+        public static double Meter_2_NauticalLeagueUK(double inVal)                     => inVal / 5559552;		 // m -> NauticalLeagueUK
+        public static double NauticalLeagueInt_2_Meter(double inVal)                    => inVal * 5556;		 // NauticalLeagueInt. -> m
+        public static double Meter_2_NauticalLeagueInt(double inVal)                    => inVal / 5556;		 // m -> NauticalLeagueInt.
+        public static double LeagueStatute_2_Meter(double inVal)                        => inVal * 48280416560833;		 // [st.league] -> m
+        public static double Meter_2_LeagueStatute(double inVal)                        => inVal / 48280416560833;		 // m -> [st.league]
+        public static double MileStatute_2_Meter(double inVal)                          => inVal * 16093472186944;		 // [mi, mi (US)] -> m
+        public static double Meter_2_MileStatute(double inVal)                          => inVal / 16093472186944;		 // m -> [mi, mi (US)]
+        public static double MileUSSurvey_2_Meter(double inVal)                         => inVal * 16093472186944;		 // [mi] -> m
+        public static double Meter_2_MileUSSurvey(double inVal)                         => inVal / 16093472186944;		 // m -> [mi]
+        public static double MileRoman_2_Meter(double inVal)                            => inVal * 1479804;		 // MileRoman -> m
+        public static double Meter_2_MileRoman(double inVal)                            => inVal / 1479804;		 // m -> MileRoman
+        public static double Kiloyard_2_Meter(double inVal)                             => inVal * 9144;		 // [kyd] -> m
+        public static double Meter_2_Kiloyard(double inVal)                             => inVal / 9144;		 // m -> [kyd]
+        public static double Furlong_2_Meter(double inVal)                              => inVal * 201168;		 // [fur] -> m
+        public static double Meter_2_Furlong(double inVal)                              => inVal / 201168;		 // m -> [fur]
+        public static double FurlongUSSurvey_2_Meter(double inVal)                      => inVal * 2011684023368;		 // [fur] -> m
+        public static double Meter_2_FurlongUSSurvey(double inVal)                      => inVal / 2011684023368;		 // m -> [fur]
+        public static double Chain_2_Meter(double inVal)                                => inVal * 201168;		 // [ch] -> m
+        public static double Meter_2_Chain(double inVal)                                => inVal / 201168;		 // m -> [ch]
+        public static double ChainUSSurvey_2_Meter(double inVal)                        => inVal * 201168402337;		 // [ch] -> m
+        public static double Meter_2_ChainUSSurvey(double inVal)                        => inVal / 201168402337;		 // m -> [ch]
+        public static double Rope_2_Meter(double inVal)                                 => inVal * 6096;		 // Rope -> m
+        public static double Meter_2_Rope(double inVal)                                 => inVal / 6096;		 // m -> Rope
+        public static double Rod_2_Meter(double inVal)                                  => inVal * 50292;		 // [rd] -> m
+        public static double Meter_2_Rod(double inVal)                                  => inVal / 50292;		 // m -> [rd]
+        public static double RodUSSurvey_2_Meter(double inVal)                          => inVal * 50292100584;		 // [rd] -> m
+        public static double Meter_2_RodUSSurvey(double inVal)                          => inVal / 50292100584;		 // m -> [rd]
+        public static double Perch_2_Meter(double inVal)                                => inVal * 50292;		 // Perch -> m
+        public static double Meter_2_Perch(double inVal)                                => inVal / 50292;		 // m -> Perch
+        public static double Pole_2_Meter(double inVal)                                 => inVal * 50292;		 // Pole -> m
+        public static double Meter_2_Pole(double inVal)                                 => inVal / 50292;		 // m -> Pole
+        public static double Fathom_2_Meter(double inVal)                               => inVal * 18288;		 // [fath] -> m
+        public static double Meter_2_Fathom(double inVal)                               => inVal / 18288;		 // m -> [fath]
+        public static double FathomUSSurvey_2_Meter(double inVal)                       => inVal * 18288036576;		 // [fath] -> m
+        public static double Meter_2_FathomUSSurvey(double inVal)                       => inVal / 18288036576;		 // m -> [fath]
+        public static double Ell_2_Meter(double inVal)                                  => inVal * 1143;		 // Ell -> m
+        public static double Meter_2_Ell(double inVal)                                  => inVal / 1143;		 // m -> Ell
+        public static double FootUSSurvey_2_Meter(double inVal)                         => inVal * 3048006096;		 // [ft] -> m
+        public static double Meter_2_FootUSSurvey(double inVal)                         => inVal / 3048006096;		 // m -> [ft]
+        public static double Link_2_Meter(double inVal)                                 => inVal * 201168;		 // [li] -> m
+        public static double Meter_2_Link(double inVal)                                 => inVal / 201168;		 // m -> [li]
+        public static double LinkUSSurvey_2_Meter(double inVal)                         => inVal * 2011684023;		 // [li] -> m
+        public static double Meter_2_LinkUSSurvey(double inVal)                         => inVal / 2011684023;		 // m -> [li]
+        public static double CubitUK_2_Meter(double inVal)                              => inVal * 4572;		 // CubitUK -> m
+        public static double Meter_2_CubitUK(double inVal)                              => inVal / 4572;		 // m -> CubitUK
+        public static double Hand_2_Meter(double inVal)                                 => inVal * 1016;		 // Hand -> m
+        public static double Meter_2_Hand(double inVal)                                 => inVal / 1016;		 // m -> Hand
+        public static double SpanCloth_2_Meter(double inVal)                            => inVal * 2286;		 // SpanCloth -> m
+        public static double Meter_2_SpanCloth(double inVal)                            => inVal / 2286;		 // m -> SpanCloth
+        public static double FingerCloth_2_Meter(double inVal)                          => inVal * 1143;		 // FingerCloth -> m
+        public static double Meter_2_FingerCloth(double inVal)                          => inVal / 1143;		 // m -> FingerCloth
+        public static double NailCloth_2_Meter(double inVal)                            => inVal * 5715;		 // NailCloth -> m
+        public static double Meter_2_NailCloth(double inVal)                            => inVal / 5715;		 // m -> NailCloth
+        public static double InchUSSurvey_2_Meter(double inVal)                         => inVal * 254000508;		 // [in] -> m
+        public static double Meter_2_InchUSSurvey(double inVal)                         => inVal / 254000508;		 // m -> [in]
+        public static double Barleycorn_2_Meter(double inVal)                           => inVal * 84666667;		 // Barleycorn -> m
+        public static double Meter_2_Barleycorn(double inVal)                           => inVal / 84666667;		 // m -> Barleycorn
+        public static double Mil_2_Meter(double inVal)                                  => inVal * 0.00254;		 // [mil, thou] -> m
+        public static double Meter_2_Mil(double inVal)                                  => inVal / 0.00254;		 // m -> [mil, thou]
+        public static double Microinch_2_Meter(double inVal)                            => inVal * 2.54E-06;		 // Microinch -> m
+        public static double Meter_2_Microinch(double inVal)                            => inVal / 2.54E-06;		 // m -> Microinch
+        public static double Angstrom_2_Meter(double inVal)                             => inVal * 1E-09;		 // [A] -> m
+        public static double Meter_2_Angstrom(double inVal)                             => inVal / 1E-09;		 // m -> [A]
+//        public static double A.u.OfLength_2_Meter(double inVal)                         => inVal * 529.17724900001;		 // [a.u., b] -> m
+//        public static double Meter_2_A.u.OfLength(double inVal)                         => inVal / 529.17724900001;		 // m -> [a.u., b]
+        public static double XUnit_2_Meter(double inVal)                               => inVal * 1.00208E-08;		 // [X] -> m
+        public static double Meter_2_XUnit(double inVal)                               => inVal / 1.00208E-08;		 // m -> [X]
+        public static double Fermi_2_Meter(double inVal)                                => inVal * 1E-14;		 // [F, f] -> m
+        public static double Meter_2_Fermi(double inVal)                                => inVal / 1E-14;		 // m -> [F, f]
+        public static double Arpent_2_Meter(double inVal)                               => inVal * 585216;		 // Arpent -> m
+        public static double Meter_2_Arpent(double inVal)                               => inVal / 585216;		 // m -> Arpent
+        public static double Pica_2_Meter(double inVal)                                 => inVal * 42333333;		 // Pica -> m
+        public static double Meter_2_Pica(double inVal)                                 => inVal / 42333333;		 // m -> Pica
+        public static double Point_2_Meter(double inVal)                                => inVal * 3527778;		 // Point -> m
+        public static double Meter_2_Point(double inVal)                                => inVal / 3527778;		 // m -> Point
+        public static double Twip_2_Meter(double inVal)                                 => inVal * 1.76389;		 // Twip -> m
+        public static double Meter_2_Twip(double inVal)                                 => inVal / 1.76389;		 // m -> Twip
+        public static double Aln_2_Meter(double inVal)                                  => inVal * 5937777778;		 // Aln -> m
+        public static double Meter_2_Aln(double inVal)                                  => inVal / 5937777778;		 // m -> Aln
+        public static double Famn_2_Meter(double inVal)                                 => inVal * 17813333333;		 // Famn -> m
+        public static double Meter_2_Famn(double inVal)                                 => inVal / 17813333333;		 // m -> Famn
+        public static double Caliber_2_Meter(double inVal)                              => inVal * 254;		 // [cl] -> m
+        public static double Meter_2_Caliber(double inVal)                              => inVal / 254;		 // m -> [cl]
+        public static double Centiinch_2_Meter(double inVal)                            => inVal * 254;		 // [cin] -> m
+        public static double Meter_2_Centiinch(double inVal)                            => inVal / 254;		 // m -> [cin]
+        public static double Ken_2_Meter(double inVal)                                  => inVal * 211836;		 // Ken -> m
+        public static double Meter_2_Ken(double inVal)                                  => inVal / 211836;		 // m -> Ken
+        public static double RussianArchin_2_Meter(double inVal)                        => inVal * 7112;		 // RussianArchin -> m
+        public static double Meter_2_RussianArchin(double inVal)                        => inVal / 7112;		 // m -> RussianArchin
+        public static double RomanActus_2_Meter(double inVal)                           => inVal * 3547872;		 // RomanActus -> m
+        public static double Meter_2_RomanActus(double inVal)                           => inVal / 3547872;		 // m -> RomanActus
+        public static double VaraDeTarea_2_Meter(double inVal)                          => inVal * 2505456;		 // VaraDeTarea -> m
+        public static double Meter_2_VaraDeTarea(double inVal)                          => inVal / 2505456;		 // m -> VaraDeTarea
+        public static double VaraConuquera_2_Meter(double inVal)                        => inVal * 2505456;		 // VaraConuquera -> m
+        public static double Meter_2_VaraConuquera(double inVal)                        => inVal / 2505456;		 // m -> VaraConuquera
+        public static double VaraCastellana_2_Meter(double inVal)                       => inVal * 835152;		 // VaraCastellana -> m
+        public static double Meter_2_VaraCastellana(double inVal)                       => inVal / 835152;		 // m -> VaraCastellana
+        public static double CubitGreek_2_Meter(double inVal)                           => inVal * 462788;		 // CubitGreek -> m
+        public static double Meter_2_CubitGreek(double inVal)                           => inVal / 462788;		 // m -> CubitGreek
+        public static double LongReed_2_Meter(double inVal)                             => inVal * 32004;		 // LongReed -> m
+        public static double Meter_2_LongReed(double inVal)                             => inVal / 32004;		 // m -> LongReed
+        public static double Reed_2_Meter(double inVal)                                 => inVal * 27432;		 // Reed -> m
+        public static double Meter_2_Reed(double inVal)                                 => inVal / 27432;		 // m -> Reed
+        public static double LongCubit_2_Meter(double inVal)                            => inVal * 5334;		 // LongCubit -> m
+        public static double Meter_2_LongCubit(double inVal)                            => inVal / 5334;		 // m -> LongCubit
+        public static double Handbreadth_2_Meter(double inVal)                          => inVal * 762;		 // Handbreadth -> m
+        public static double Meter_2_Handbreadth(double inVal)                          => inVal / 762;		 // m -> Handbreadth
+        public static double Fingerbreadth_2_Meter(double inVal)                        => inVal * 1905;		 // Fingerbreadth -> m
+        public static double Meter_2_Fingerbreadth(double inVal)                        => inVal / 1905;		 // m -> Fingerbreadth
+        public static double PlanckLength_2_Meter(double inVal)                         => inVal * 1.61605E-30;		 // PlanckLength -> m
+        public static double Meter_2_PlanckLength(double inVal)                         => inVal / 1.61605E-30;		 // m -> PlanckLength
+        public static double ElectronRadiusClassical_2_Meter(double inVal)              => inVal * 2.81794092E-07;		 // ElectronRadiusClassical -> m
+        public static double Meter_2_ElectronRadiusClassical(double inVal)              => inVal / 2.81794092E-07;		 // m -> ElectronRadiusClassical
+        public static double BohrRadius_2_Meter(double inVal)                           => inVal * 529.17724900001;		 // [b, a.u.] -> m
+        public static double Meter_2_BohrRadius(double inVal)                           => inVal / 529.17724900001;		 // m -> [b, a.u.]
         #endregion
 
         #region temperature
@@ -289,84 +285,147 @@ namespace StoneageTools.Units
         public static double Kilogram_2_EarthMass(double inVal)     => inVal / 5.9760000000002E+24;
         public static double SunMass_2_Kilogram(double inVal)       => inVal * 2.0E+30;
         public static double Kilogram_2_SunMass(double inVal)       => inVal / 2.0E+30;
+        public static double Exagram_2_Kilogram(double inVal)                           => inVal * 10000000000000000;		 // [Eg] -> kg
+        public static double Kilogram_2_Exagram(double inVal)                           => inVal / 10000000000000000;		 // kg -> [Eg]
+        public static double Petagram_2_Kilogram(double inVal)                          => inVal * 1000000000000;		 // [Pg] -> kg
+        public static double Kilogram_2_Petagram(double inVal)                          => inVal / 1000000000000;		 // kg -> [Pg]
+        public static double Teragram_2_Kilogram(double inVal)                          => inVal * 1000000000;		 // [Tg] -> kg
+        public static double Kilogram_2_Teragram(double inVal)                          => inVal / 1000000000;		 // kg -> [Tg]
+        public static double Gigagram_2_Kilogram(double inVal)                          => inVal * 1000000;		 // [Gg] -> kg
+        public static double Kilogram_2_Gigagram(double inVal)                          => inVal / 1000000;		 // kg -> [Gg]
+        public static double Megagram_2_Kilogram(double inVal)                          => inVal * 1000;		 // [Mg] -> kg
+        public static double Kilogram_2_Megagram(double inVal)                          => inVal / 1000;		 // kg -> [Mg]
+        public static double Hectogram_2_Kilogram(double inVal)                         => inVal * 1;		 // [hg] -> kg
+        public static double Kilogram_2_Hectogram(double inVal)                         => inVal / 1;		 // kg -> [hg]
+        public static double Dekagram_2_Kilogram(double inVal)                          => inVal * 1;		 // [dag] -> kg
+        public static double Kilogram_2_Dekagram(double inVal)                          => inVal / 1;		 // kg -> [dag]
+        public static double Decigram_2_Kilogram(double inVal)                          => inVal * 1;		 // [dg] -> kg
+        public static double Kilogram_2_Decigram(double inVal)                          => inVal / 1;		 // kg -> [dg]
+        public static double Centigram_2_Kilogram(double inVal)                         => inVal * 0.0001;		 // [cg] -> kg
+        public static double Kilogram_2_Centigram(double inVal)                         => inVal / 0.0001;		 // kg -> [cg]
+        public static double Microgram_2_Kilogram(double inVal)                         => inVal * 1E-08;		 // [µg] -> kg
+        public static double Kilogram_2_Microgram(double inVal)                         => inVal / 1E-08;		 // kg -> [µg]
+        public static double Nanogram_2_Kilogram(double inVal)                          => inVal * 1E-11;		 // [ng] -> kg
+        public static double Kilogram_2_Nanogram(double inVal)                          => inVal / 1E-11;		 // kg -> [ng]
+        public static double Picogram_2_Kilogram(double inVal)                          => inVal * 1E-14;		 // [pg] -> kg
+        public static double Kilogram_2_Picogram(double inVal)                          => inVal / 1E-14;		 // kg -> [pg]
+        public static double Femtogram_2_Kilogram(double inVal)                         => inVal * 1E-17;		 // [fg] -> kg
+        public static double Kilogram_2_Femtogram(double inVal)                         => inVal / 1E-17;		 // kg -> [fg]
+        public static double Attogram_2_Kilogram(double inVal)                          => inVal * 1E-20;		 // [ag] -> kg
+        public static double Kilogram_2_Attogram(double inVal)                          => inVal / 1E-20;		 // kg -> [ag]
+        public static double Dalton_2_Kilogram(double inVal)                            => inVal * 1.6605300000013E-14;		 // Dalton -> kg
+        public static double Kilogram_2_Dalton(double inVal)                            => inVal / 1.6605300000013E-14;		 // kg -> Dalton
+        public static double KilogramForceSquareSecondMeter_2_Kilogram(double inVal)    => inVal * 980665;		 // Kilogram-forceSquareSecond/meter -> kg
+        public static double Kilogram_2_KilogramForceSquareSecondMeter(double inVal)    => inVal / 980665;		 // kg -> Kilogram-forceSquareSecond/meter
+        public static double Kilopound_2_Kilogram(double inVal)                         => inVal * 45359237;		 // [kip] -> kg
+        public static double Kilogram_2_Kilopound(double inVal)                         => inVal / 45359237;		 // kg -> [kip]
+        public static double Kip_2_Kilogram(double inVal)                               => inVal * 45359237;		 // Kip -> kg
+        public static double Kilogram_2_Kip(double inVal)                               => inVal / 45359237;		 // kg -> Kip
+        public static double Slug_2_Kilogram(double inVal)                              => inVal * 145939029372;		 // Slug -> kg
+        public static double Kilogram_2_Slug(double inVal)                              => inVal / 145939029372;		 // kg -> Slug
+        public static double PoundForceSquareSecondFoot_2_Kilogram(double inVal)        => inVal * 145939029372;		 // Pound-forceSquareSecond/foot -> kg
+        public static double Kilogram_2_PoundForceSquareSecondFoot(double inVal)        => inVal / 145939029372;		 // kg -> Pound-forceSquareSecond/foot
+        public static double PoundTroyOrApothecary_2_Kilogram(double inVal)             => inVal * 3732417216;		 // PoundTroyOrApothecary -> kg
+        public static double Kilogram_2_PoundTroyOrApothecary(double inVal)             => inVal / 3732417216;		 // kg -> PoundTroyOrApothecary
+        public static double Poundal_2_Kilogram(double inVal)                           => inVal * 140867196;		 // [pdl] -> kg
+        public static double Kilogram_2_Poundal(double inVal)                           => inVal / 140867196;		 // kg -> [pdl]
+        public static double TonAssayUS_2_Kilogram(double inVal)                        => inVal * 2916667;		 // [AT (US)] -> kg
+        public static double Kilogram_2_TonAssayUS(double inVal)                        => inVal / 2916667;		 // kg -> [AT (US)]
+        public static double TonAssayUK_2_Kilogram(double inVal)                        => inVal * 326666667;		 // [AT (UK)] -> kg
+        public static double Kilogram_2_TonAssayUK(double inVal)                        => inVal / 326666667;		 // kg -> [AT (UK)]
+        public static double KilotonMetric_2_Kilogram(double inVal)                     => inVal * 1000000;		 // [kt] -> kg
+        public static double Kilogram_2_KilotonMetric(double inVal)                     => inVal / 1000000;		 // kg -> [kt]
+        public static double QuintalMetric_2_Kilogram(double inVal)                     => inVal * 100;		 // [cwt] -> kg
+        public static double Kilogram_2_QuintalMetric(double inVal)                     => inVal / 100;		 // kg -> [cwt]
+        public static double HundredweightUS_2_Kilogram(double inVal)                   => inVal * 45359237;		 // HundredweightUS -> kg
+        public static double Kilogram_2_HundredweightUS(double inVal)                   => inVal / 45359237;		 // kg -> HundredweightUS
+        public static double HundredweightUK_2_Kilogram(double inVal)                   => inVal * 5080234544;		 // HundredweightUK -> kg
+        public static double Kilogram_2_HundredweightUK(double inVal)                   => inVal / 5080234544;		 // kg -> HundredweightUK
+        public static double QuarterUS_2_Kilogram(double inVal)                         => inVal * 1133980925;		 // [qr (US)] -> kg
+        public static double Kilogram_2_QuarterUS(double inVal)                         => inVal / 1133980925;		 // kg -> [qr (US)]
+        public static double QuarterUK_2_Kilogram(double inVal)                         => inVal * 1270058636;		 // [qr (UK)] -> kg
+        public static double Kilogram_2_QuarterUK(double inVal)                         => inVal / 1270058636;		 // kg -> [qr (UK)]
+        public static double StoneUS_2_Kilogram(double inVal)                           => inVal * 5669904625;		 // StoneUS -> kg
+        public static double Kilogram_2_StoneUS(double inVal)                           => inVal / 5669904625;		 // kg -> StoneUS
+        public static double StoneUK_2_Kilogram(double inVal)                           => inVal * 635029318;		 // StoneUK -> kg
+        public static double Kilogram_2_StoneUK(double inVal)                           => inVal / 635029318;		 // kg -> StoneUK
+        public static double Tonne_2_Kilogram(double inVal)                             => inVal * 1000;		 // [t] -> kg
+        public static double Kilogram_2_Tonne(double inVal)                             => inVal / 1000;		 // kg -> [t]
+        public static double Pennyweight_2_Kilogram(double inVal)                       => inVal * 15551738;		 // [pwt] -> kg
+        public static double Kilogram_2_Pennyweight(double inVal)                       => inVal / 15551738;		 // kg -> [pwt]
+        public static double ScrupleApothecary_2_Kilogram(double inVal)                 => inVal * 12959782;		 // [s.ap] -> kg
+        public static double Kilogram_2_ScrupleApothecary(double inVal)                 => inVal / 12959782;		 // kg -> [s.ap]
+        public static double Grain_2_Kilogram(double inVal)                             => inVal * 6.47989;		 // [gr] -> kg
+        public static double Kilogram_2_Grain(double inVal)                             => inVal / 6.47989;		 // kg -> [gr]
+        public static double Gamma_2_Kilogram(double inVal)                             => inVal * 1E-08;		 // Gamma -> kg
+        public static double Kilogram_2_Gamma(double inVal)                             => inVal / 1E-08;		 // kg -> Gamma
+        #endregion
 
-        /* there are few more weights:
-        1 exagram [Eg] = 1.0E+15 kilogram [kg]
-        exagram to kilogram,   kilogram to exagram
-        1 petagram [Pg] = 1000000000000 kilogram [kg]
-        petagram to kilogram,   kilogram to petagram
-        1 teragram [Tg] = 1000000000 kilogram [kg]
-        teragram to kilogram,   kilogram to teragram
-        1 gigagram [Gg] = 1000000 kilogram [kg]
-        gigagram to kilogram,   kilogram to gigagram
-        1 megagram [Mg] = 1000 kilogram [kg]
-        megagram to kilogram,   kilogram to megagram
-        1 hectogram [hg] = 0.1 kilogram [kg]
-        hectogram to kilogram,   kilogram to hectogram
-        1 dekagram [dag] = 0.01 kilogram [kg]
-        dekagram to kilogram,   kilogram to dekagram
-        1 decigram [dg] = 0.0001 kilogram [kg]
-        decigram to kilogram,   kilogram to decigram
-        1 centigram [cg] = 1.0E-5 kilogram [kg]
-        centigram to kilogram,   kilogram to centigram
-        1 microgram [µg] = 1.0E-9 kilogram [kg]
-        microgram to kilogram,   kilogram to microgram
-        1 nanogram [ng] = 1.0E-12 kilogram [kg]
-        nanogram to kilogram,   kilogram to nanogram
-        1 picogram [pg] = 1.0E-15 kilogram [kg]
-        picogram to kilogram,   kilogram to picogram
-        1 femtogram [fg] = 1.0E-18 kilogram [kg]
-        femtogram to kilogram,   kilogram to femtogram
-        1 attogram [ag] = 1.0E-21 kilogram [kg]
-        attogram to kilogram,   kilogram to attogram
-        1 dalton = 1.6605300000013E-27 kilogram [kg]
-        dalton to kilogram,   kilogram to dalton
-        1 kilogram-force square second/meter = 9.80665 kilogram [kg]
-        kilogram-force square second/meter to kilogram,   kilogram to kilogram-force square second/meter
-        1 kilopound [kip] = 453.59237 kilogram [kg]
-        kilopound to kilogram,   kilogram to kilopound
-        1 kip = 453.59237 kilogram [kg]
-        kip to kilogram,   kilogram to kip
-        1 slug = 14.5939029372 kilogram [kg]
-        slug to kilogram,   kilogram to slug
-        1 pound-force square second/foot = 14.5939029372 kilogram [kg]
-        pound-force square second/foot to kilogram,   kilogram to pound-force square second/foot
-        1 pound (troy or apothecary) = 0.3732417216 kilogram [kg]
-        pound (troy or apothecary) to kilogram,   kilogram to pound (troy or apothecary)
-        1 poundal [pdl] = 0.0140867196 kilogram [kg]
-        poundal to kilogram,   kilogram to poundal
-        1 ton (assay) (US) [AT (US)] = 0.02916667 kilogram [kg]
-        ton (assay) (US) to kilogram,   kilogram to ton (assay) (US)
-        1 ton (assay) (UK) [AT (UK)] = 0.0326666667 kilogram [kg]
-        ton (assay) (UK) to kilogram,   kilogram to ton (assay) (UK)
-        1 kiloton (metric) [kt] = 1000000 kilogram [kg]
-        kiloton (metric) to kilogram,   kilogram to kiloton (metric)
-        1 quintal (metric) [cwt] = 100 kilogram [kg]
-        quintal (metric) to kilogram,   kilogram to quintal (metric)
-        1 hundredweight (US) = 45.359237 kilogram [kg]
-        hundredweight (US) to kilogram,   kilogram to hundredweight (US)
-        1 hundredweight (UK) = 50.80234544 kilogram [kg]
-        hundredweight (UK) to kilogram,   kilogram to hundredweight (UK)
-        1 quarter (US) [qr (US)] = 11.33980925 kilogram [kg]
-        quarter (US) to kilogram,   kilogram to quarter (US)
-        1 quarter (UK) [qr (UK)] = 12.70058636 kilogram [kg]
-        quarter (UK) to kilogram,   kilogram to quarter (UK)
-        1 stone (US) = 5.669904625 kilogram [kg]
-        stone (US) to kilogram,   kilogram to stone (US)
-        1 stone (UK) = 6.35029318 kilogram [kg]
-        stone (UK) to kilogram,   kilogram to stone (UK)
-        1 tonne [t] = 1000 kilogram [kg]
-        tonne to kilogram,   kilogram to tonne
-        1 pennyweight [pwt] = 0.0015551738 kilogram [kg]
-        pennyweight to kilogram,   kilogram to pennyweight
-        1 scruple (apothecary) [s.ap] = 0.0012959782 kilogram [kg]
-        scruple (apothecary) to kilogram,   kilogram to scruple (apothecary)
-        1 grain [gr] = 6.47989E-5 kilogram [kg]
-        grain to kilogram,   kilogram to grain
-        1 gamma = 1.0E-9 kilogram [kg]
-        gamma to kilogram,   kilogram to gamma
-
-        */        
+        #region time
+        public static double Millisecond_2_Second(double inVal)                         => inVal * 1;		 // [ms] -> s
+        public static double Second_2_Millisecond(double inVal)                         => inVal / 1;		 // s -> [ms]
+        public static double Minute_2_Second(double inVal)                              => inVal * 60;		 // [min] -> s
+        public static double Second_2_Minute(double inVal)                              => inVal / 60;		 // s -> [min]
+        public static double Hour_2_Second(double inVal)                                => inVal * 3600;		 // [h] -> s
+        public static double Second_2_Hour(double inVal)                                => inVal / 3600;		 // s -> [h]
+        public static double Day_2_Second(double inVal)                                 => inVal * 86400;		 // [d] -> s
+        public static double Second_2_Day(double inVal)                                 => inVal / 86400;		 // s -> [d]
+        public static double Week_2_Second(double inVal)                                => inVal * 604800;		 // Week -> s
+        public static double Second_2_Week(double inVal)                                => inVal / 604800;		 // s -> Week
+        public static double Month_2_Second(double inVal)                               => inVal * 2628000;		 // Month -> s
+        public static double Second_2_Month(double inVal)                               => inVal / 2628000;		 // s -> Month
+        public static double Year_2_Second(double inVal)                                => inVal * 31536000;		 // [y] -> s
+        public static double Second_2_Year(double inVal)                                => inVal / 31536000;		 // s -> [y]
+        public static double Decade_2_Second(double inVal)                              => inVal * 315360000;		 // Decade -> s
+        public static double Second_2_Decade(double inVal)                              => inVal / 315360000;		 // s -> Decade
+        public static double Century_2_Second(double inVal)                             => inVal * 3153600000;		 // Century -> s
+        public static double Second_2_Century(double inVal)                             => inVal / 3153600000;		 // s -> Century
+        public static double Millennium_2_Second(double inVal)                          => inVal * 31536000000;		 // Millennium -> s
+        public static double Second_2_Millennium(double inVal)                          => inVal / 31536000000;		 // s -> Millennium
+        public static double Microsecond_2_Second(double inVal)                         => inVal * 1E-05;		 // [µs] -> s
+        public static double Second_2_Microsecond(double inVal)                         => inVal / 1E-05;		 // s -> [µs]
+        public static double Nanosecond_2_Second(double inVal)                          => inVal * 1E-08;		 // [ns] -> s
+        public static double Second_2_Nanosecond(double inVal)                          => inVal / 1E-08;		 // s -> [ns]
+        public static double Picosecond_2_Second(double inVal)                          => inVal * 1E-11;		 // [ps] -> s
+        public static double Second_2_Picosecond(double inVal)                          => inVal / 1E-11;		 // s -> [ps]
+        public static double Femtosecond_2_Second(double inVal)                         => inVal * 1E-14;		 // [fs] -> s
+        public static double Second_2_Femtosecond(double inVal)                         => inVal / 1E-14;		 // s -> [fs]
+        public static double Attosecond_2_Second(double inVal)                          => inVal * 1E-17;		 // [as] -> s
+        public static double Second_2_Attosecond(double inVal)                          => inVal / 1E-17;		 // s -> [as]
+        public static double Shake_2_Second(double inVal)                               => inVal * 1E-07;		 // Shake -> s
+        public static double Second_2_Shake(double inVal)                               => inVal / 1E-07;		 // s -> Shake
+        public static double MonthSynodic_2_Second(double inVal)                        => inVal * 255144384;		 // MonthSynodic -> s
+        public static double Second_2_MonthSynodic(double inVal)                        => inVal / 255144384;		 // s -> MonthSynodic
+        public static double YearJulian_2_Second(double inVal)                          => inVal * 31557600;		 // YearJulian -> s
+        public static double Second_2_YearJulian(double inVal)                          => inVal / 31557600;		 // s -> YearJulian
+        public static double YearLeap_2_Second(double inVal)                            => inVal * 31622400;		 // YearLeap -> s
+        public static double Second_2_YearLeap(double inVal)                            => inVal / 31622400;		 // s -> YearLeap
+        public static double YearTropical_2_Second(double inVal)                        => inVal * 31556930;		 // YearTropical -> s
+        public static double Second_2_YearTropical(double inVal)                        => inVal / 31556930;		 // s -> YearTropical
+        public static double YearSidereal_2_Second(double inVal)                        => inVal * 3155814954;		 // YearSidereal -> s
+        public static double Second_2_YearSidereal(double inVal)                        => inVal / 3155814954;		 // s -> YearSidereal
+        public static double DaySidereal_2_Second(double inVal)                         => inVal * 8616409;		 // DaySidereal -> s
+        public static double Second_2_DaySidereal(double inVal)                         => inVal / 8616409;		 // s -> DaySidereal
+        public static double HourSidereal_2_Second(double inVal)                        => inVal * 35901704166667;		 // HourSidereal -> s
+        public static double Second_2_HourSidereal(double inVal)                        => inVal / 35901704166667;		 // s -> HourSidereal
+        public static double MinuteSidereal_2_Second(double inVal)                      => inVal * 598361736111;		 // MinuteSidereal -> s
+        public static double Second_2_MinuteSidereal(double inVal)                      => inVal / 598361736111;		 // s -> MinuteSidereal
+        public static double SecondSidereal_2_Second(double inVal)                      => inVal * 9972695602;		 // SecondSidereal -> s
+        public static double Second_2_SecondSidereal(double inVal)                      => inVal / 9972695602;		 // s -> SecondSidereal
+        public static double Fortnight_2_Second(double inVal)                           => inVal * 1209600;		 // Fortnight -> s
+        public static double Second_2_Fortnight(double inVal)                           => inVal / 1209600;		 // s -> Fortnight
+        public static double Septennial_2_Second(double inVal)                          => inVal * 220752000;		 // Septennial -> s
+        public static double Second_2_Septennial(double inVal)                          => inVal / 220752000;		 // s -> Septennial
+        public static double Octennial_2_Second(double inVal)                           => inVal * 252288000;		 // Octennial -> s
+        public static double Second_2_Octennial(double inVal)                           => inVal / 252288000;		 // s -> Octennial
+        public static double Novennial_2_Second(double inVal)                           => inVal * 283824000;		 // Novennial -> s
+        public static double Second_2_Novennial(double inVal)                           => inVal / 283824000;		 // s -> Novennial
+        public static double Quindecennial_2_Second(double inVal)                       => inVal * 473040000;		 // Quindecennial -> s
+        public static double Second_2_Quindecennial(double inVal)                       => inVal / 473040000;		 // s -> Quindecennial
+        public static double Quinquennial_2_Second(double inVal)                        => inVal * 157680000;		 // Quinquennial -> s
+        public static double Second_2_Quinquennial(double inVal)                        => inVal / 157680000;		 // s -> Quinquennial
+        public static double PlanckTime_2_Second(double inVal)                          => inVal * 5.39056E-39;		 // PlanckTime -> s
+        public static double Second_2_PlanckTime(double inVal)                          => inVal / 5.39056E-39;		 // s -> PlanckTime
         #endregion
     }
 }

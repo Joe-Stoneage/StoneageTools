@@ -55,6 +55,10 @@ namespace StoneageTools.Strings
             a[0] = char.ToUpper(a[0], CultureInfo.InvariantCulture);
             return new string(a);
         }
+        public static string RemoveCharacters(this string input, params char[] unwantedCharacters)
+        {
+            return input == null ? null : string.Join(string.Empty, input.Split(unwantedCharacters));
+        }
 
         public static string Capitalize(this string input)
         {
@@ -65,6 +69,19 @@ namespace StoneageTools.Strings
             for (int i = 0; i < a.Length; i++)
             {
                 if (i == 0 || (i > 0 && a[i - 1] == ' '))
+                    a[i] = char.ToUpper(a[i], CultureInfo.InvariantCulture);
+            }
+            return new string(a);
+        }
+        public static string Capitalize(this string input, char marker)
+        {
+            if (string.IsNullOrWhiteSpace(input))
+                return string.Empty;
+
+            char[] a = input.ToCharArray();
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (i == 0 || (i > 0 && a[i - 1] == marker))
                     a[i] = char.ToUpper(a[i], CultureInfo.InvariantCulture);
             }
             return new string(a);

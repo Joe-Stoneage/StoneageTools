@@ -21,6 +21,8 @@ namespace StoneageToolsTest
 
         private static void Main()
         {
+            DataTextConverter.DoIt();
+            /*
             NewSection("");
 
             NewSection("Start Strings");
@@ -30,7 +32,7 @@ namespace StoneageToolsTest
             Test_math.Test();
 
             NewSection("Start Coordinates");
-            Test_coordinates.Test();
+            Test_coordinates.Test(); */
         }
     }
 }

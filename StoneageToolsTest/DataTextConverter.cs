@@ -7,11 +7,12 @@ namespace StoneageToolsTest
     {
         public static void DoIt()
         {
-            string fileIn ="data-time-second";
+            string fileIn ="data";
             string fileOut ="result.txt";
             int t, len;
-            double wert1, wert2;
+            string wert1, wert2;
             string a1, a2, wertstr;
+            string oa1, oa2;
             string u1, u2;
             string p1, p2;
 
@@ -25,12 +26,15 @@ namespace StoneageToolsTest
                 {
                     len = line.Length;
                     a1 = line[..(t - 1)].Trim();
+                    oa1 = a1;
                     a2 = line[(t+1)..].Trim();
+                    oa2 = "vv: " + a2;
 
                     t = a1.IndexOf("[");
                     if (t != -1)
                     {
                         u1 = a1[t..].Trim();
+                        u1 = u1.Substring(1, u1.Length-2);
                         a1 = a1[..(t-1)].Trim();
                     }
                     else
@@ -39,30 +43,56 @@ namespace StoneageToolsTest
                     }
 
                     t = a2.IndexOf("[");
-                    u2 = a2[t..].Trim();
-                    u2 = u2.Substring(1, u2.Length-2);
-                    //u2 = u2.Capitalize();
-                    a2 = a2[..(t-1)].Trim();
+                    if (t != -1)
+                    {
+                        u2 = a2[t..].Trim();
+                        u2 = u2.Substring(1, u2.Length-2);
+                        a2 = a2[..(t-1)].Trim();
+                    }
+                    else
+                    {
+                        u2 = string.Empty;
+                    }
 
                     t = a1.IndexOf(" ");    // wert 1 links
                     wertstr = a1[..t].Trim();
-                    wert1 = Double.Parse(wertstr);
+                    wert1 = wertstr;
                     a1 = a1[(t+1)..].Trim();
 
                     t = a2.IndexOf(" ");    // wert 2 rechts
                     wertstr = a2[..t].Trim();
-                    wert2 = Double.Parse(wertstr);
+                    wert2 = wertstr;
                     a2 = a2[(t+1)..].Trim();
 
                     a1 = a1.Capitalize();
                     a1 = a1.Capitalize('(');
+                    a1 = a1.Capitalize('/');
+                    a1 = a1.Capitalize('@');
+                    a1 = a1.Replace("@","At");
+                    a1 = a1.Replace("/","Per");
+                    a1 = a1.Replace("°","Deg");
+                    a1 = a1.Replace("'s","");
+                    a1 = a1.Capitalize('-');
+                    a1 = a1.RemoveCharacters('(', ')','-',' ');
 
-                    a1 = a1.RemoveCharacters('(', ')',' ');
+                    a2 = a2.Capitalize();
+                    a2 = a2.Capitalize('(');
+                    a2 = a2.Capitalize('/');
+                    a2 = a2.Capitalize('@');
+                    a2 = a2.Replace("@","At");
+                    a2 = a2.Replace("/","Per");
+                    a2 = a2.Replace("°","Deg");
+                    a2 = a2.Replace("'s","");
+                    a2 = a2.Capitalize('-');
+                    a2 = a2.RemoveCharacters('(', ')','-',' ');
 
                     if (u1 == string.Empty)
                     {
                         u1 = a1;
-                        System.Console.WriteLine($"Extra {u1}");
+                    }
+                    if (u2 == string.Empty)
+                    {
+                        u2 = a2;
                     }
 
                     a2 = a2.Capitalize();
@@ -75,7 +105,7 @@ namespace StoneageToolsTest
                     {
                         p1 = p1 + " ";
                     }
-                    p1 = p1 + $"=> inVal * {wert2};\t\t // {u1} -> {u2}";
+                    p1 = p1 + $"=> inVal * {wert2};";
 
                     System.Console.WriteLine($"{line}");
                     System.Console.WriteLine($"{p1}");
@@ -85,13 +115,22 @@ namespace StoneageToolsTest
                     {
                         p2 = p2 + " ";
                     }
-                    p2 = p2 + $"=> inVal / {wert2};\t\t // {u2} -> {u1}";
+                    p2 = p2 + $"=> inVal / {wert2};";
                     System.Console.WriteLine($"{p2}");
 
                     System.Console.WriteLine("\n");
 
+                    code.Add("/// <summary>");
+                    code.Add($"/// {u1} -> {u2}");
+                    code.Add("/// "+ oa1 + " to " + oa2);
+                    code.Add("/// </summary>");
                     code.Add(p1);
+                    code.Add("/// <summary>");
+                    code.Add($"/// {u2} -> {u1}");
+                    code.Add("/// "+ oa2 + " to " + oa1);
+                    code.Add("/// </summary>");
                     code.Add(p2);
+                    code.Add("");
                 }
             }
             File.WriteAllLines(fileOut, code);

@@ -5,7 +5,7 @@ namespace StoneageTools.Units
 {
     public static partial class StoneageToolsUnits
     {
-        #region speed , base: meter per second
+        #region speed, base: meter per second
 
         /// <summary>
         /// km/h -> m/s

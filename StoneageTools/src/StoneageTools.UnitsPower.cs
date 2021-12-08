@@ -5,7 +5,7 @@ namespace StoneageTools.Units
 {
     public static partial class StoneageToolsUnits
     {
-        #region power , base: watt
+        #region power, base: watt
 
         /// <summary>
         /// EW -> W

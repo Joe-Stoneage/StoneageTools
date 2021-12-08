@@ -5,7 +5,7 @@ namespace StoneageTools.Units
 {
     public static partial class StoneageToolsUnits
     {
-        #region , base: 
+        #region, base: 
         #endregion
     }
 }

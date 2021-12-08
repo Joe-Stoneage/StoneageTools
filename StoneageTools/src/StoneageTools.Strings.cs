@@ -57,7 +57,7 @@ namespace StoneageTools.Strings
         }
         public static string RemoveCharacters(this string input, params char[] unwantedCharacters)
         {
-            return input == null ? null : string.Join(string.Empty, input.Split(unwantedCharacters));
+            return input == null ? string.Empty : string.Join(string.Empty, input.Split(unwantedCharacters));
         }
 
         public static string Capitalize(this string input)

@@ -17,5 +17,63 @@ namespace StoneageTools.Units
         public static double Fahrenheit_2_Rankine(double inVal) => inVal-459.67;
 
         #endregion
+
+        #region temperature interval, base: kelvin
+        /// <summary>
+        /// °C -> K
+        /// 1 degree Celsius [°C] to vv: 1 kelvin [K]
+        /// </summary>
+        public static double DegreeCelsius_2_Kelvin(double inVal)                       => inVal * 1;
+        /// <summary>
+        /// K -> °C
+        /// vv: 1 kelvin [K] to 1 degree Celsius [°C]
+        /// </summary>
+        public static double Kelvin_2_DegreeCelsius(double inVal)                       => inVal / 1;
+
+        /// <summary>
+        /// °C -> K
+        /// 1 degree centigrade [°C] to vv: 1 kelvin [K]
+        /// </summary>
+        public static double DegreeCentigrade_2_Kelvin(double inVal)                    => inVal * 1;
+        /// <summary>
+        /// K -> °C
+        /// vv: 1 kelvin [K] to 1 degree centigrade [°C]
+        /// </summary>
+        public static double Kelvin_2_DegreeCentigrade(double inVal)                    => inVal / 1;
+
+        /// <summary>
+        /// °F -> K
+        /// 1 degree Fahrenheit [°F] to vv: 0.5555555556 kelvin [K]
+        /// </summary>
+        public static double DegreeFahrenheit_2_Kelvin(double inVal)                    => inVal * 0.5555555556;
+        /// <summary>
+        /// K -> °F
+        /// vv: 0.5555555556 kelvin [K] to 1 degree Fahrenheit [°F]
+        /// </summary>
+        public static double Kelvin_2_DegreeFahrenheit(double inVal)                    => inVal / 0.5555555556;
+
+        /// <summary>
+        /// °R -> K
+        /// 1 degree Rankine [°R] to vv: 0.5555555556 kelvin [K]
+        /// </summary>
+        public static double DegreeRankine_2_Kelvin(double inVal)                       => inVal * 0.5555555556;
+        /// <summary>
+        /// K -> °R
+        /// vv: 0.5555555556 kelvin [K] to 1 degree Rankine [°R]
+        /// </summary>
+        public static double Kelvin_2_DegreeRankine(double inVal)                       => inVal / 0.5555555556;
+
+        /// <summary>
+        /// °r -> K
+        /// 1 degree Reaumur [°r] to vv: 1.25 kelvin [K]
+        /// </summary>
+        public static double DegreeReaumur_2_Kelvin(double inVal)                       => inVal * 1.25;
+        /// <summary>
+        /// K -> °r
+        /// vv: 1.25 kelvin [K] to 1 degree Reaumur [°r]
+        /// </summary>
+        public static double Kelvin_2_DegreeReaumur(double inVal)                       => inVal / 1.25;
+
+        #endregion
     }
 }

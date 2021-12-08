@@ -5,7 +5,7 @@ namespace StoneageTools.Units
 {
     public static partial class StoneageToolsUnits
     {
-        #region acceleration , base: meter per square second
+        #region acceleration, base: meter per square second
 
         /// <summary>
         /// DecimeterPerSquareSecond -> MeterPerSquareSecond

@@ -5,7 +5,7 @@ namespace StoneageTools.Units
 {
     public static partial class StoneageToolsUnits
     {
-        #region fuel consumption , base: meter/liter
+        #region fuel consumption, base: meter/liter
 
         /// <summary>
         /// Em/L -> m/L

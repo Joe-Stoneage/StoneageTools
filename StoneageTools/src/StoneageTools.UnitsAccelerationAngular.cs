@@ -5,7 +5,7 @@ namespace StoneageTools.Units
 {
     public static partial class StoneageToolsUnits
     {
-        #region acceleration - angular , base: radian per square second
+        #region acceleration - angular, base: radian per square second
 
         /// <summary>
         /// RadianPerSquareMinute -> RadianPerSquareSecond

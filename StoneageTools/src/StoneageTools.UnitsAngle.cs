@@ -5,7 +5,7 @@ namespace StoneageTools.Units
 {
     public static partial class StoneageToolsUnits
     {
-        #region angle , base: degree
+        #region angle, base: degree
 
         /// <summary>
         /// rad -> °

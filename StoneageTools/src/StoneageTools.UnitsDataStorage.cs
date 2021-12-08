@@ -5,7 +5,7 @@ namespace StoneageTools.Units
 {
     public static partial class StoneageToolsUnits
     {
-        #region data storage , base: bit
+        #region data storage, base: bit
 
         /// <summary>
         /// Nibble -> b

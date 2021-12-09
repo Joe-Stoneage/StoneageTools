@@ -8,7 +8,7 @@ namespace StoneageTools.Units
         #region torque, base: newton meter
         /// <summary>
         /// N*cm -> N*m
-        /// 1 newton centimeter [N*cm] to vv: 0.01 newton meter [N*m]
+        /// 1 newton centimeter [N*cm] =  0.01 newton meter [N*m]
         /// </summary>
         public static double NewtonCentimeter_2_NewtonMeter(double inVal)               => inVal * 0.01;
         /// <summary>
@@ -19,7 +19,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// N*mm -> N*m
-        /// 1 newton millimeter [N*mm] to vv: 0.001 newton meter [N*m]
+        /// 1 newton millimeter [N*mm] =  0.001 newton meter [N*m]
         /// </summary>
         public static double NewtonMillimeter_2_NewtonMeter(double inVal)               => inVal * 0.001;
         /// <summary>
@@ -30,7 +30,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dyn*m -> N*m
-        /// 1 dyne meter [dyn*m] to vv: 1.0E-5 newton meter [N*m]
+        /// 1 dyne meter [dyn*m] =  1.0E-5 newton meter [N*m]
         /// </summary>
         public static double DyneMeter_2_NewtonMeter(double inVal)                      => inVal * 1.0E-5;
         /// <summary>
@@ -41,7 +41,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dyn*cm -> N*m
-        /// 1 dyne centimeter [dyn*cm] to vv: 1.0E-7 newton meter [N*m]
+        /// 1 dyne centimeter [dyn*cm] =  1.0E-7 newton meter [N*m]
         /// </summary>
         public static double DyneCentimeter_2_NewtonMeter(double inVal)                 => inVal * 1.0E-7;
         /// <summary>
@@ -52,7 +52,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dyn*mm -> N*m
-        /// 1 dyne millimeter [dyn*mm] to vv: 1.0E-8 newton meter [N*m]
+        /// 1 dyne millimeter [dyn*mm] =  1.0E-8 newton meter [N*m]
         /// </summary>
         public static double DyneMillimeter_2_NewtonMeter(double inVal)                 => inVal * 1.0E-8;
         /// <summary>
@@ -63,7 +63,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramForceCentimeter -> N*m
-        /// 1 kilogram-force centimeter to vv: 0.0980665 newton meter [N*m]
+        /// 1 kilogram-force centimeter =  0.0980665 newton meter [N*m]
         /// </summary>
         public static double KilogramForceCentimeter_2_NewtonMeter(double inVal)        => inVal * 0.0980665;
         /// <summary>
@@ -74,7 +74,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramForceMillimeter -> N*m
-        /// 1 kilogram-force millimeter to vv: 0.00980665 newton meter [N*m]
+        /// 1 kilogram-force millimeter =  0.00980665 newton meter [N*m]
         /// </summary>
         public static double KilogramForceMillimeter_2_NewtonMeter(double inVal)        => inVal * 0.00980665;
         /// <summary>
@@ -85,7 +85,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gf*m -> N*m
-        /// 1 gram-force meter [gf*m] to vv: 0.00980665 newton meter [N*m]
+        /// 1 gram-force meter [gf*m] =  0.00980665 newton meter [N*m]
         /// </summary>
         public static double GramForceMeter_2_NewtonMeter(double inVal)                 => inVal * 0.00980665;
         /// <summary>
@@ -96,7 +96,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GramForceMillimeter -> N*m
-        /// 1 gram-force millimeter to vv: 9.80665E-6 newton meter [N*m]
+        /// 1 gram-force millimeter =  9.80665E-6 newton meter [N*m]
         /// </summary>
         public static double GramForceMillimeter_2_NewtonMeter(double inVal)            => inVal * 9.80665E-6;
         /// <summary>
@@ -107,7 +107,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ozf*ft -> N*m
-        /// 1 ounce-force foot [ozf*ft] to vv: 0.084738624 newton meter [N*m]
+        /// 1 ounce-force foot [ozf*ft] =  0.084738624 newton meter [N*m]
         /// </summary>
         public static double OunceForceFoot_2_NewtonMeter(double inVal)                 => inVal * 0.084738624;
         /// <summary>
@@ -118,7 +118,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ozf*in -> N*m
-        /// 1 ounce-force inch [ozf*in] to vv: 0.007061552 newton meter [N*m]
+        /// 1 ounce-force inch [ozf*in] =  0.007061552 newton meter [N*m]
         /// </summary>
         public static double OunceForceInch_2_NewtonMeter(double inVal)                 => inVal * 0.007061552;
         /// <summary>
@@ -129,7 +129,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lbf*in -> N*m
-        /// 1 pound-force inch [lbf*in] to vv: 0.1129848333 newton meter [N*m]
+        /// 1 pound-force inch [lbf*in] =  0.1129848333 newton meter [N*m]
         /// </summary>
         public static double PoundForceInch_2_NewtonMeter(double inVal)                 => inVal * 0.1129848333;
         /// <summary>

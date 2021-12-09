@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// km^2 -> m^2
-        /// 1 square kilometer [km^2] to vv: 1000000 square meter [m^2]
+        /// 1 square kilometer [km^2] =  1000000 square meter [m^2]
         /// </summary>
         public static double SquareKilometer_2_SquareMeter(double inVal)                => inVal * 1000000;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cm^2 -> m^2
-        /// 1 square centimeter [cm^2] to vv: 0.0001 square meter [m^2]
+        /// 1 square centimeter [cm^2] =  0.0001 square meter [m^2]
         /// </summary>
         public static double SquareCentimeter_2_SquareMeter(double inVal)               => inVal * 0.0001;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mm^2 -> m^2
-        /// 1 square millimeter [mm^2] to vv: 1.0E-6 square meter [m^2]
+        /// 1 square millimeter [mm^2] =  1.0E-6 square meter [m^2]
         /// </summary>
         public static double SquareMillimeter_2_SquareMeter(double inVal)               => inVal * 1.0E-6;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µm^2 -> m^2
-        /// 1 square micrometer [µm^2] to vv: 1.0E-12 square meter [m^2]
+        /// 1 square micrometer [µm^2] =  1.0E-12 square meter [m^2]
         /// </summary>
         public static double SquareMicrometer_2_SquareMeter(double inVal)               => inVal * 1.0E-12;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ha -> m^2
-        /// 1 hectare [ha] to vv: 10000 square meter [m^2]
+        /// 1 hectare [ha] =  10000 square meter [m^2]
         /// </summary>
         public static double Hectare_2_SquareMeter(double inVal)                        => inVal * 10000;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ac -> m^2
-        /// 1 acre [ac] to vv: 4046.8564224 square meter [m^2]
+        /// 1 acre [ac] =  4046.8564224 square meter [m^2]
         /// </summary>
         public static double Acre_2_SquareMeter(double inVal)                           => inVal * 4046.8564224;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi^2 -> m^2
-        /// 1 square mile [mi^2] to vv: 2589988.110336 square meter [m^2]
+        /// 1 square mile [mi^2] =  2589988.110336 square meter [m^2]
         /// </summary>
         public static double SquareMile_2_SquareMeter(double inVal)                     => inVal * 2589988.110336;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// yd^2 -> m^2
-        /// 1 square yard [yd^2] to vv: 0.83612736 square meter [m^2]
+        /// 1 square yard [yd^2] =  0.83612736 square meter [m^2]
         /// </summary>
         public static double SquareYard_2_SquareMeter(double inVal)                     => inVal * 0.83612736;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft^2 -> m^2
-        /// 1 square foot [ft^2] to vv: 0.09290304 square meter [m^2]
+        /// 1 square foot [ft^2] =  0.09290304 square meter [m^2]
         /// </summary>
         public static double SquareFoot_2_SquareMeter(double inVal)                     => inVal * 0.09290304;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in^2 -> m^2
-        /// 1 square inch [in^2] to vv: 0.00064516 square meter [m^2]
+        /// 1 square inch [in^2] =  0.00064516 square meter [m^2]
         /// </summary>
         public static double SquareInch_2_SquareMeter(double inVal)                     => inVal * 0.00064516;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hm^2 -> m^2
-        /// 1 square hectometer [hm^2] to vv: 10000 square meter [m^2]
+        /// 1 square hectometer [hm^2] =  10000 square meter [m^2]
         /// </summary>
         public static double SquareHectometer_2_SquareMeter(double inVal)               => inVal * 10000;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dam^2 -> m^2
-        /// 1 square dekameter [dam^2] to vv: 100 square meter [m^2]
+        /// 1 square dekameter [dam^2] =  100 square meter [m^2]
         /// </summary>
         public static double SquareDekameter_2_SquareMeter(double inVal)                => inVal * 100;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dm^2 -> m^2
-        /// 1 square decimeter [dm^2] to vv: 0.01 square meter [m^2]
+        /// 1 square decimeter [dm^2] =  0.01 square meter [m^2]
         /// </summary>
         public static double SquareDecimeter_2_SquareMeter(double inVal)                => inVal * 0.01;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nm^2 -> m^2
-        /// 1 square nanometer [nm^2] to vv: 1.0E-18 square meter [m^2]
+        /// 1 square nanometer [nm^2] =  1.0E-18 square meter [m^2]
         /// </summary>
         public static double SquareNanometer_2_SquareMeter(double inVal)                => inVal * 1.0E-18;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// a -> m^2
-        /// 1 are [a] to vv: 100 square meter [m^2]
+        /// 1 are [a] =  100 square meter [m^2]
         /// </summary>
         public static double Are_2_SquareMeter(double inVal)                            => inVal * 100;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// b -> m^2
-        /// 1 barn [b] to vv: 1.0E-28 square meter [m^2]
+        /// 1 barn [b] =  1.0E-28 square meter [m^2]
         /// </summary>
         public static double Barn_2_SquareMeter(double inVal)                           => inVal * 1.0E-28;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SquareMileUSSurvey -> m^2
-        /// 1 square mile (US survey) to vv: 2589998.4703195 square meter [m^2]
+        /// 1 square mile (US survey) =  2589998.4703195 square meter [m^2]
         /// </summary>
         public static double SquareMileUSSurvey_2_SquareMeter(double inVal)             => inVal * 2589998.4703195;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SquareFootUSSurvey -> m^2
-        /// 1 square foot (US survey) to vv: 0.0929034116 square meter [m^2]
+        /// 1 square foot (US survey) =  0.0929034116 square meter [m^2]
         /// </summary>
         public static double SquareFootUSSurvey_2_SquareMeter(double inVal)             => inVal * 0.0929034116;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CircularInch -> m^2
-        /// 1 circular inch to vv: 0.0005067075 square meter [m^2]
+        /// 1 circular inch =  0.0005067075 square meter [m^2]
         /// </summary>
         public static double CircularInch_2_SquareMeter(double inVal)                   => inVal * 0.0005067075;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Township -> m^2
-        /// 1 township to vv: 93239571.972096 square meter [m^2]
+        /// 1 township =  93239571.972096 square meter [m^2]
         /// </summary>
         public static double Township_2_SquareMeter(double inVal)                       => inVal * 93239571.972096;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Section -> m^2
-        /// 1 section to vv: 2589988.110336 square meter [m^2]
+        /// 1 section =  2589988.110336 square meter [m^2]
         /// </summary>
         public static double Section_2_SquareMeter(double inVal)                        => inVal * 2589988.110336;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ac -> m^2
-        /// 1 acre (US survey) [ac] to vv: 4046.8726098743 square meter [m^2]
+        /// 1 acre (US survey) [ac] =  4046.8726098743 square meter [m^2]
         /// </summary>
         public static double AcreUSSurvey_2_SquareMeter(double inVal)                   => inVal * 4046.8726098743;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Rood -> m^2
-        /// 1 rood to vv: 1011.7141056 square meter [m^2]
+        /// 1 rood =  1011.7141056 square meter [m^2]
         /// </summary>
         public static double Rood_2_SquareMeter(double inVal)                           => inVal * 1011.7141056;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ch^2 -> m^2
-        /// 1 square chain [ch^2] to vv: 404.68564224 square meter [m^2]
+        /// 1 square chain [ch^2] =  404.68564224 square meter [m^2]
         /// </summary>
         public static double SquareChain_2_SquareMeter(double inVal)                    => inVal * 404.68564224;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SquareRod -> m^2
-        /// 1 square rod to vv: 25.29285264 square meter [m^2]
+        /// 1 square rod =  25.29285264 square meter [m^2]
         /// </summary>
         public static double SquareRod_2_SquareMeter(double inVal)                      => inVal * 25.29285264;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SquareRodUSSurvey -> m^2
-        /// 1 square rod (US survey) to vv: 25.2929538117 square meter [m^2]
+        /// 1 square rod (US survey) =  25.2929538117 square meter [m^2]
         /// </summary>
         public static double SquareRodUSSurvey_2_SquareMeter(double inVal)              => inVal * 25.2929538117;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SquarePerch -> m^2
-        /// 1 square perch to vv: 25.29285264 square meter [m^2]
+        /// 1 square perch =  25.29285264 square meter [m^2]
         /// </summary>
         public static double SquarePerch_2_SquareMeter(double inVal)                    => inVal * 25.29285264;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SquarePole -> m^2
-        /// 1 square pole to vv: 25.29285264 square meter [m^2]
+        /// 1 square pole =  25.29285264 square meter [m^2]
         /// </summary>
         public static double SquarePole_2_SquareMeter(double inVal)                     => inVal * 25.29285264;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mil^2 -> m^2
-        /// 1 square mil [mil^2] to vv: 6.4516E-10 square meter [m^2]
+        /// 1 square mil [mil^2] =  6.4516E-10 square meter [m^2]
         /// </summary>
         public static double SquareMil_2_SquareMeter(double inVal)                      => inVal * 6.4516E-10;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CircularMil -> m^2
-        /// 1 circular mil to vv: 5.067074790975E-10 square meter [m^2]
+        /// 1 circular mil =  5.067074790975E-10 square meter [m^2]
         /// </summary>
         public static double CircularMil_2_SquareMeter(double inVal)                    => inVal * 5.067074790975E-10;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Homestead -> m^2
-        /// 1 homestead to vv: 647497.027584 square meter [m^2]
+        /// 1 homestead =  647497.027584 square meter [m^2]
         /// </summary>
         public static double Homestead_2_SquareMeter(double inVal)                      => inVal * 647497.027584;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Sabin -> m^2
-        /// 1 sabin to vv: 0.09290304 square meter [m^2]
+        /// 1 sabin =  0.09290304 square meter [m^2]
         /// </summary>
         public static double Sabin_2_SquareMeter(double inVal)                          => inVal * 0.09290304;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Arpent -> m^2
-        /// 1 arpent to vv: 4041.28224 square meter [m^2]
+        /// 1 arpent =  4041.28224 square meter [m^2]
         /// </summary>
         public static double Arpent_2_SquareMeter(double inVal)                         => inVal * 4041.28224;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Cuerda -> m^2
-        /// 1 cuerda to vv: 3930.395625 square meter [m^2]
+        /// 1 cuerda =  3930.395625 square meter [m^2]
         /// </summary>
         public static double Cuerda_2_SquareMeter(double inVal)                         => inVal * 3930.395625;
         /// <summary>
@@ -383,7 +383,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Plaza -> m^2
-        /// 1 plaza to vv: 6400 square meter [m^2]
+        /// 1 plaza =  6400 square meter [m^2]
         /// </summary>
         public static double Plaza_2_SquareMeter(double inVal)                          => inVal * 6400;
         /// <summary>
@@ -394,7 +394,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VarasCastellanasCuad -> m^2
-        /// 1 varas castellanas cuad to vv: 0.698737 square meter [m^2]
+        /// 1 varas castellanas cuad =  0.698737 square meter [m^2]
         /// </summary>
         public static double VarasCastellanasCuad_2_SquareMeter(double inVal)           => inVal * 0.698737;
         /// <summary>
@@ -405,7 +405,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VarasConuquerasCuad -> m^2
-        /// 1 varas conuqueras cuad to vv: 6.288633 square meter [m^2]
+        /// 1 varas conuqueras cuad =  6.288633 square meter [m^2]
         /// </summary>
         public static double VarasConuquerasCuad_2_SquareMeter(double inVal)            => inVal * 6.288633;
         /// <summary>
@@ -416,7 +416,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ElectronCrossSection -> m^2
-        /// 1 Electron cross section to vv: 6.6524615999999E-29 square meter [m^2]
+        /// 1 Electron cross section =  6.6524615999999E-29 square meter [m^2]
         /// </summary>
         public static double ElectronCrossSection_2_SquareMeter(double inVal)           => inVal * 6.6524615999999E-29;
         /// <summary>

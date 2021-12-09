@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// km/h -> m/s
-        /// 1 kilometer/hour [km/h] to vv: 0.2777777778 meter/second [m/s]
+        /// 1 kilometer/hour [km/h] =  0.2777777778 meter/second [m/s]
         /// </summary>
         public static double KilometerPerHour_2_MeterPerSecond(double inVal)            => inVal * 0.2777777778;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi/h -> m/s
-        /// 1 mile/hour [mi/h] to vv: 0.44704 meter/second [m/s]
+        /// 1 mile/hour [mi/h] =  0.44704 meter/second [m/s]
         /// </summary>
         public static double MilePerHour_2_MeterPerSecond(double inVal)                 => inVal * 0.44704;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m/h -> m/s
-        /// 1 meter/hour [m/h] to vv: 0.0002777778 meter/second [m/s]
+        /// 1 meter/hour [m/h] =  0.0002777778 meter/second [m/s]
         /// </summary>
         public static double MeterPerHour_2_MeterPerSecond(double inVal)                => inVal * 0.0002777778;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m/min -> m/s
-        /// 1 meter/minute [m/min] to vv: 0.0166666667 meter/second [m/s]
+        /// 1 meter/minute [m/min] =  0.0166666667 meter/second [m/s]
         /// </summary>
         public static double MeterPerMinute_2_MeterPerSecond(double inVal)              => inVal * 0.0166666667;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// km/min -> m/s
-        /// 1 kilometer/minute [km/min] to vv: 16.6666666667 meter/second [m/s]
+        /// 1 kilometer/minute [km/min] =  16.6666666667 meter/second [m/s]
         /// </summary>
         public static double KilometerPerMinute_2_MeterPerSecond(double inVal)          => inVal * 16.6666666667;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// km/s -> m/s
-        /// 1 kilometer/second [km/s] to vv: 1000 meter/second [m/s]
+        /// 1 kilometer/second [km/s] =  1000 meter/second [m/s]
         /// </summary>
         public static double KilometerPerSecond_2_MeterPerSecond(double inVal)          => inVal * 1000;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cm/h -> m/s
-        /// 1 centimeter/hour [cm/h] to vv: 2.7777777777778E-6 meter/second [m/s]
+        /// 1 centimeter/hour [cm/h] =  2.7777777777778E-6 meter/second [m/s]
         /// </summary>
         public static double CentimeterPerHour_2_MeterPerSecond(double inVal)           => inVal * 2.7777777777778E-6;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cm/min -> m/s
-        /// 1 centimeter/minute [cm/min] to vv: 0.0001666667 meter/second [m/s]
+        /// 1 centimeter/minute [cm/min] =  0.0001666667 meter/second [m/s]
         /// </summary>
         public static double CentimeterPerMinute_2_MeterPerSecond(double inVal)         => inVal * 0.0001666667;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cm/s -> m/s
-        /// 1 centimeter/second [cm/s] to vv: 0.01 meter/second [m/s]
+        /// 1 centimeter/second [cm/s] =  0.01 meter/second [m/s]
         /// </summary>
         public static double CentimeterPerSecond_2_MeterPerSecond(double inVal)         => inVal * 0.01;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mm/h -> m/s
-        /// 1 millimeter/hour [mm/h] to vv: 2.7777777777778E-7 meter/second [m/s]
+        /// 1 millimeter/hour [mm/h] =  2.7777777777778E-7 meter/second [m/s]
         /// </summary>
         public static double MillimeterPerHour_2_MeterPerSecond(double inVal)           => inVal * 2.7777777777778E-7;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mm/min -> m/s
-        /// 1 millimeter/minute [mm/min] to vv: 1.66667E-5 meter/second [m/s]
+        /// 1 millimeter/minute [mm/min] =  1.66667E-5 meter/second [m/s]
         /// </summary>
         public static double MillimeterPerMinute_2_MeterPerSecond(double inVal)         => inVal * 1.66667E-5;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mm/s -> m/s
-        /// 1 millimeter/second [mm/s] to vv: 0.001 meter/second [m/s]
+        /// 1 millimeter/second [mm/s] =  0.001 meter/second [m/s]
         /// </summary>
         public static double MillimeterPerSecond_2_MeterPerSecond(double inVal)         => inVal * 0.001;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft/h -> m/s
-        /// 1 foot/hour [ft/h] to vv: 8.46667E-5 meter/second [m/s]
+        /// 1 foot/hour [ft/h] =  8.46667E-5 meter/second [m/s]
         /// </summary>
         public static double FootPerHour_2_MeterPerSecond(double inVal)                 => inVal * 8.46667E-5;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft/min -> m/s
-        /// 1 foot/minute [ft/min] to vv: 0.00508 meter/second [m/s]
+        /// 1 foot/minute [ft/min] =  0.00508 meter/second [m/s]
         /// </summary>
         public static double FootPerMinute_2_MeterPerSecond(double inVal)               => inVal * 0.00508;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft/s -> m/s
-        /// 1 foot/second [ft/s] to vv: 0.3048 meter/second [m/s]
+        /// 1 foot/second [ft/s] =  0.3048 meter/second [m/s]
         /// </summary>
         public static double FootPerSecond_2_MeterPerSecond(double inVal)               => inVal * 0.3048;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// yd/h -> m/s
-        /// 1 yard/hour [yd/h] to vv: 0.000254 meter/second [m/s]
+        /// 1 yard/hour [yd/h] =  0.000254 meter/second [m/s]
         /// </summary>
         public static double YardPerHour_2_MeterPerSecond(double inVal)                 => inVal * 0.000254;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// yd/min -> m/s
-        /// 1 yard/minute [yd/min] to vv: 0.01524 meter/second [m/s]
+        /// 1 yard/minute [yd/min] =  0.01524 meter/second [m/s]
         /// </summary>
         public static double YardPerMinute_2_MeterPerSecond(double inVal)               => inVal * 0.01524;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// yd/s -> m/s
-        /// 1 yard/second [yd/s] to vv: 0.9144 meter/second [m/s]
+        /// 1 yard/second [yd/s] =  0.9144 meter/second [m/s]
         /// </summary>
         public static double YardPerSecond_2_MeterPerSecond(double inVal)               => inVal * 0.9144;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi/min -> m/s
-        /// 1 mile/minute [mi/min] to vv: 26.8224 meter/second [m/s]
+        /// 1 mile/minute [mi/min] =  26.8224 meter/second [m/s]
         /// </summary>
         public static double MilePerMinute_2_MeterPerSecond(double inVal)               => inVal * 26.8224;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi/s -> m/s
-        /// 1 mile/second [mi/s] to vv: 1609.344 meter/second [m/s]
+        /// 1 mile/second [mi/s] =  1609.344 meter/second [m/s]
         /// </summary>
         public static double MilePerSecond_2_MeterPerSecond(double inVal)               => inVal * 1609.344;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kt, kn -> m/s
-        /// 1 knot [kt, kn] to vv: 0.5144444444 meter/second [m/s]
+        /// 1 knot [kt, kn] =  0.5144444444 meter/second [m/s]
         /// </summary>
         public static double Knot_2_MeterPerSecond(double inVal)                        => inVal * 0.5144444444;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kt (UK) -> m/s
-        /// 1 knot (UK) [kt (UK)] to vv: 0.5147733333 meter/second [m/s]
+        /// 1 knot (UK) [kt (UK)] =  0.5147733333 meter/second [m/s]
         /// </summary>
         public static double KnotUK_2_MeterPerSecond(double inVal)                      => inVal * 0.5147733333;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VelocityOfLightInVacuum -> m/s
-        /// 1 Velocity of light in vacuum to vv: 299792458 meter/second [m/s]
+        /// 1 Velocity of light in vacuum =  299792458 meter/second [m/s]
         /// </summary>
         public static double VelocityOfLightInVacuum_2_MeterPerSecond(double inVal)     => inVal * 299792458;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CosmicVelocityFirst -> m/s
-        /// 1 Cosmic velocity - first to vv: 7899.9999999999 meter/second [m/s]
+        /// 1 Cosmic velocity - first =  7899.9999999999 meter/second [m/s]
         /// </summary>
         public static double CosmicVelocityFirst_2_MeterPerSecond(double inVal)         => inVal * 7899.9999999999;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CosmicVelocitySecond -> m/s
-        /// 1 Cosmic velocity - second to vv: 11200 meter/second [m/s]
+        /// 1 Cosmic velocity - second =  11200 meter/second [m/s]
         /// </summary>
         public static double CosmicVelocitySecond_2_MeterPerSecond(double inVal)        => inVal * 11200;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CosmicVelocityThird -> m/s
-        /// 1 Cosmic velocity - third to vv: 16670 meter/second [m/s]
+        /// 1 Cosmic velocity - third =  16670 meter/second [m/s]
         /// </summary>
         public static double CosmicVelocityThird_2_MeterPerSecond(double inVal)         => inVal * 16670;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EarthVelocity -> m/s
-        /// 1 Earth's velocity to vv: 29765 meter/second [m/s]
+        /// 1 Earth's velocity =  29765 meter/second [m/s]
         /// </summary>
         public static double EarthVelocity_2_MeterPerSecond(double inVal)               => inVal * 29765;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VelocityOfSoundInPureWater -> m/s
-        /// 1 Velocity of sound in pure water to vv: 1482.6999999998 meter/second [m/s]
+        /// 1 Velocity of sound in pure water =  1482.6999999998 meter/second [m/s]
         /// </summary>
         public static double VelocityOfSoundInPureWater_2_MeterPerSecond(double inVal)  => inVal * 1482.6999999998;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VelocityOfSoundInSeaWater20DegC,10MeterDeep -> m/s
-        /// 1 Velocity of sound in sea water (20°C, 10 meter deep) to vv: 1521.6 meter/second [m/s]
+        /// 1 Velocity of sound in sea water (20°C, 10 meter deep) =  1521.6 meter/second [m/s]
         /// </summary>
         public static double VelocityOfSoundInSeaWater20DegC10MeterDeep_2_MeterPerSecond(double inVal)=> inVal * 1521.6;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mach20DegC,1Atm -> m/s
-        /// 1 Mach (20°C, 1 atm) to vv: 343.6 meter/second [m/s]
+        /// 1 Mach (20°C, 1 atm) =  343.6 meter/second [m/s]
         /// </summary>
         public static double Mach20DegC1Atm_2_MeterPerSecond(double inVal)             => inVal * 343.6;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MachSIStandard -> m/s
-        /// 1 Mach (SI standard) to vv: 295.0464000003 meter/second [m/s]
+        /// 1 Mach (SI standard) =  295.0464000003 meter/second [m/s]
         /// </summary>
         public static double MachSIStandard_2_MeterPerSecond(double inVal)              => inVal * 295.0464000003;
         /// <summary>

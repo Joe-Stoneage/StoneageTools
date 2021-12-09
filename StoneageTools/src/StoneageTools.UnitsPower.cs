@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EW -> W
-        /// 1 exawatt [EW] to vv: 1.0E+18 watt [W]
+        /// 1 exawatt [EW] =  1.0E+18 watt [W]
         /// </summary>
         public static double Exawatt_2_Watt(double inVal)                               => inVal * 1.0E+18;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PW -> W
-        /// 1 petawatt [PW] to vv: 1.0E+15 watt [W]
+        /// 1 petawatt [PW] =  1.0E+15 watt [W]
         /// </summary>
         public static double Petawatt_2_Watt(double inVal)                              => inVal * 1.0E+15;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TW -> W
-        /// 1 terawatt [TW] to vv: 1000000000000 watt [W]
+        /// 1 terawatt [TW] =  1000000000000 watt [W]
         /// </summary>
         public static double Terawatt_2_Watt(double inVal)                              => inVal * 1000000000000;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GW -> W
-        /// 1 gigawatt [GW] to vv: 1000000000 watt [W]
+        /// 1 gigawatt [GW] =  1000000000 watt [W]
         /// </summary>
         public static double Gigawatt_2_Watt(double inVal)                              => inVal * 1000000000;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MW -> W
-        /// 1 megawatt [MW] to vv: 1000000 watt [W]
+        /// 1 megawatt [MW] =  1000000 watt [W]
         /// </summary>
         public static double Megawatt_2_Watt(double inVal)                              => inVal * 1000000;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kW -> W
-        /// 1 kilowatt [kW] to vv: 1000 watt [W]
+        /// 1 kilowatt [kW] =  1000 watt [W]
         /// </summary>
         public static double Kilowatt_2_Watt(double inVal)                              => inVal * 1000;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hW -> W
-        /// 1 hectowatt [hW] to vv: 100 watt [W]
+        /// 1 hectowatt [hW] =  100 watt [W]
         /// </summary>
         public static double Hectowatt_2_Watt(double inVal)                             => inVal * 100;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// daW -> W
-        /// 1 dekawatt [daW] to vv: 10 watt [W]
+        /// 1 dekawatt [daW] =  10 watt [W]
         /// </summary>
         public static double Dekawatt_2_Watt(double inVal)                              => inVal * 10;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dW -> W
-        /// 1 deciwatt [dW] to vv: 0.1 watt [W]
+        /// 1 deciwatt [dW] =  0.1 watt [W]
         /// </summary>
         public static double Deciwatt_2_Watt(double inVal)                              => inVal * 0.1;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cW -> W
-        /// 1 centiwatt [cW] to vv: 0.01 watt [W]
+        /// 1 centiwatt [cW] =  0.01 watt [W]
         /// </summary>
         public static double Centiwatt_2_Watt(double inVal)                             => inVal * 0.01;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mW -> W
-        /// 1 milliwatt [mW] to vv: 0.001 watt [W]
+        /// 1 milliwatt [mW] =  0.001 watt [W]
         /// </summary>
         public static double Milliwatt_2_Watt(double inVal)                             => inVal * 0.001;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µW -> W
-        /// 1 microwatt [µW] to vv: 1.0E-6 watt [W]
+        /// 1 microwatt [µW] =  1.0E-6 watt [W]
         /// </summary>
         public static double Microwatt_2_Watt(double inVal)                             => inVal * 1.0E-6;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nW -> W
-        /// 1 nanowatt [nW] to vv: 1.0E-9 watt [W]
+        /// 1 nanowatt [nW] =  1.0E-9 watt [W]
         /// </summary>
         public static double Nanowatt_2_Watt(double inVal)                              => inVal * 1.0E-9;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pW -> W
-        /// 1 picowatt [pW] to vv: 1.0E-12 watt [W]
+        /// 1 picowatt [pW] =  1.0E-12 watt [W]
         /// </summary>
         public static double Picowatt_2_Watt(double inVal)                              => inVal * 1.0E-12;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fW -> W
-        /// 1 femtowatt [fW] to vv: 1.0E-15 watt [W]
+        /// 1 femtowatt [fW] =  1.0E-15 watt [W]
         /// </summary>
         public static double Femtowatt_2_Watt(double inVal)                             => inVal * 1.0E-15;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// aW -> W
-        /// 1 attowatt [aW] to vv: 1.0E-18 watt [W]
+        /// 1 attowatt [aW] =  1.0E-18 watt [W]
         /// </summary>
         public static double Attowatt_2_Watt(double inVal)                              => inVal * 1.0E-18;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hp, hp (UK) -> W
-        /// 1 horsepower [hp, hp (UK)] to vv: 745.6998715823 watt [W]
+        /// 1 horsepower [hp, hp (UK)] =  745.6998715823 watt [W]
         /// </summary>
         public static double Horsepower_2_Watt(double inVal)                            => inVal * 745.6998715823;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Horsepower550Ft*lbfPerS -> W
-        /// 1 horsepower (550 ft*lbf/s) to vv: 745.6998715823 watt [W]
+        /// 1 horsepower (550 ft*lbf/s) =  745.6998715823 watt [W]
         /// </summary>
         public static double Horsepower550FtTimesLbfPerS_2_Watt(double inVal)               => inVal * 745.6998715823;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HorsepowerMetric -> W
-        /// 1 horsepower (metric) to vv: 735.49875 watt [W]
+        /// 1 horsepower (metric) =  735.49875 watt [W]
         /// </summary>
         public static double HorsepowerMetric_2_Watt(double inVal)                      => inVal * 735.49875;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HorsepowerBoiler -> W
-        /// 1 horsepower (boiler) to vv: 9809.5000000002 watt [W]
+        /// 1 horsepower (boiler) =  9809.5000000002 watt [W]
         /// </summary>
         public static double HorsepowerBoiler_2_Watt(double inVal)                      => inVal * 9809.5000000002;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HorsepowerElectric -> W
-        /// 1 horsepower (electric) to vv: 746 watt [W]
+        /// 1 horsepower (electric) =  746 watt [W]
         /// </summary>
         public static double HorsepowerElectric_2_Watt(double inVal)                    => inVal * 746;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HorsepowerWater -> W
-        /// 1 horsepower (water) to vv: 746.043 watt [W]
+        /// 1 horsepower (water) =  746.043 watt [W]
         /// </summary>
         public static double HorsepowerWater_2_Watt(double inVal)                       => inVal * 746.043;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PferdestarkePs -> W
-        /// 1 pferdestarke (ps) to vv: 735.49875 watt [W]
+        /// 1 pferdestarke (ps) =  735.49875 watt [W]
         /// </summary>
         public static double PferdestarkePs_2_Watt(double inVal)                        => inVal * 735.49875;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu/h -> W
-        /// 1 Btu (IT)/hour [Btu/h] to vv: 0.2930710702 watt [W]
+        /// 1 Btu (IT)/hour [Btu/h] =  0.2930710702 watt [W]
         /// </summary>
         public static double BtuITPerHour_2_Watt(double inVal)                          => inVal * 0.2930710702;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu/min -> W
-        /// 1 Btu (IT)/minute [Btu/min] to vv: 17.5842642103 watt [W]
+        /// 1 Btu (IT)/minute [Btu/min] =  17.5842642103 watt [W]
         /// </summary>
         public static double BtuITPerMinute_2_Watt(double inVal)                        => inVal * 17.5842642103;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu/s -> W
-        /// 1 Btu (IT)/second [Btu/s] to vv: 1055.05585262 watt [W]
+        /// 1 Btu (IT)/second [Btu/s] =  1055.05585262 watt [W]
         /// </summary>
         public static double BtuITPerSecond_2_Watt(double inVal)                        => inVal * 1055.05585262;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu (th)/h -> W
-        /// 1 Btu (th)/hour [Btu (th)/h] to vv: 0.292875 watt [W]
+        /// 1 Btu (th)/hour [Btu (th)/h] =  0.292875 watt [W]
         /// </summary>
         public static double BtuThPerHour_2_Watt(double inVal)                          => inVal * 0.292875;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BtuThPerMinute -> W
-        /// 1 Btu (th)/minute to vv: 17.5724999996 watt [W]
+        /// 1 Btu (th)/minute =  17.5724999996 watt [W]
         /// </summary>
         public static double BtuThPerMinute_2_Watt(double inVal)                        => inVal * 17.5724999996;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu (th)/s -> W
-        /// 1 Btu (th)/second [Btu (th)/s] to vv: 1054.3499999744 watt [W]
+        /// 1 Btu (th)/second [Btu (th)/s] =  1054.3499999744 watt [W]
         /// </summary>
         public static double BtuThPerSecond_2_Watt(double inVal)                        => inVal * 1054.3499999744;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MBtu/h -> W
-        /// 1 MBtu (IT)/hour [MBtu/h] to vv: 293071.07017222 watt [W]
+        /// 1 MBtu (IT)/hour [MBtu/h] =  293071.07017222 watt [W]
         /// </summary>
         public static double MBtuITPerHour_2_Watt(double inVal)                         => inVal * 293071.07017222;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MBH -> W
-        /// 1 MBH to vv: 293.0710701722 watt [W]
+        /// 1 MBH =  293.0710701722 watt [W]
         /// </summary>
         public static double MBH_2_Watt(double inVal)                                   => inVal * 293.0710701722;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonRefrigeration -> W
-        /// 1 ton (refrigeration) to vv: 3516.8528420667 watt [W]
+        /// 1 ton (refrigeration) =  3516.8528420667 watt [W]
         /// </summary>
         public static double TonRefrigeration_2_Watt(double inVal)                      => inVal * 3516.8528420667;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kcal/h -> W
-        /// 1 kilocalorie (IT)/hour [kcal/h] to vv: 1.163 watt [W]
+        /// 1 kilocalorie (IT)/hour [kcal/h] =  1.163 watt [W]
         /// </summary>
         public static double KilocalorieITPerHour_2_Watt(double inVal)                  => inVal * 1.163;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilocalorieITPerMinute -> W
-        /// 1 kilocalorie (IT)/minute to vv: 69.78 watt [W]
+        /// 1 kilocalorie (IT)/minute =  69.78 watt [W]
         /// </summary>
         public static double KilocalorieITPerMinute_2_Watt(double inVal)                => inVal * 69.78;
         /// <summary>
@@ -383,7 +383,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilocalorieITPerSecond -> W
-        /// 1 kilocalorie (IT)/second to vv: 4186.8 watt [W]
+        /// 1 kilocalorie (IT)/second =  4186.8 watt [W]
         /// </summary>
         public static double KilocalorieITPerSecond_2_Watt(double inVal)                => inVal * 4186.8;
         /// <summary>
@@ -394,7 +394,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilocalorieThPerHour -> W
-        /// 1 kilocalorie (th)/hour to vv: 1.1622222222 watt [W]
+        /// 1 kilocalorie (th)/hour =  1.1622222222 watt [W]
         /// </summary>
         public static double KilocalorieThPerHour_2_Watt(double inVal)                  => inVal * 1.1622222222;
         /// <summary>
@@ -405,7 +405,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilocalorieThPerMinute -> W
-        /// 1 kilocalorie (th)/minute to vv: 69.7333333333 watt [W]
+        /// 1 kilocalorie (th)/minute =  69.7333333333 watt [W]
         /// </summary>
         public static double KilocalorieThPerMinute_2_Watt(double inVal)                => inVal * 69.7333333333;
         /// <summary>
@@ -416,7 +416,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilocalorieThPerSecond -> W
-        /// 1 kilocalorie (th)/second to vv: 4184 watt [W]
+        /// 1 kilocalorie (th)/second =  4184 watt [W]
         /// </summary>
         public static double KilocalorieThPerSecond_2_Watt(double inVal)                => inVal * 4184;
         /// <summary>
@@ -427,7 +427,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cal/h -> W
-        /// 1 calorie (IT)/hour [cal/h] to vv: 0.001163 watt [W]
+        /// 1 calorie (IT)/hour [cal/h] =  0.001163 watt [W]
         /// </summary>
         public static double CalorieITPerHour_2_Watt(double inVal)                      => inVal * 0.001163;
         /// <summary>
@@ -438,7 +438,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cal/min -> W
-        /// 1 calorie (IT)/minute [cal/min] to vv: 0.06978 watt [W]
+        /// 1 calorie (IT)/minute [cal/min] =  0.06978 watt [W]
         /// </summary>
         public static double CalorieITPerMinute_2_Watt(double inVal)                    => inVal * 0.06978;
         /// <summary>
@@ -449,7 +449,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cal/s -> W
-        /// 1 calorie (IT)/second [cal/s] to vv: 4.1868 watt [W]
+        /// 1 calorie (IT)/second [cal/s] =  4.1868 watt [W]
         /// </summary>
         public static double CalorieITPerSecond_2_Watt(double inVal)                    => inVal * 4.1868;
         /// <summary>
@@ -460,7 +460,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cal (th)/h -> W
-        /// 1 calorie (th)/hour [cal (th)/h] to vv: 0.0011622222 watt [W]
+        /// 1 calorie (th)/hour [cal (th)/h] =  0.0011622222 watt [W]
         /// </summary>
         public static double CalorieThPerHour_2_Watt(double inVal)                      => inVal * 0.0011622222;
         /// <summary>
@@ -471,7 +471,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CalorieThPerMinute -> W
-        /// 1 calorie (th)/minute to vv: 0.0697333333 watt [W]
+        /// 1 calorie (th)/minute =  0.0697333333 watt [W]
         /// </summary>
         public static double CalorieThPerMinute_2_Watt(double inVal)                    => inVal * 0.0697333333;
         /// <summary>
@@ -482,7 +482,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CalorieThPerSecond -> W
-        /// 1 calorie (th)/second to vv: 4.184 watt [W]
+        /// 1 calorie (th)/second =  4.184 watt [W]
         /// </summary>
         public static double CalorieThPerSecond_2_Watt(double inVal)                    => inVal * 4.184;
         /// <summary>
@@ -493,7 +493,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// FootPoundForcePerHour -> W
-        /// 1 foot pound-force/hour to vv: 0.0003766161 watt [W]
+        /// 1 foot pound-force/hour =  0.0003766161 watt [W]
         /// </summary>
         public static double FootPoundForcePerHour_2_Watt(double inVal)                 => inVal * 0.0003766161;
         /// <summary>
@@ -504,7 +504,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// FootPoundForcePerMinute -> W
-        /// 1 foot pound-force/minute to vv: 0.0225969658 watt [W]
+        /// 1 foot pound-force/minute =  0.0225969658 watt [W]
         /// </summary>
         public static double FootPoundForcePerMinute_2_Watt(double inVal)               => inVal * 0.0225969658;
         /// <summary>
@@ -515,7 +515,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// FootPoundForcePerSecond -> W
-        /// 1 foot pound-force/second to vv: 1.3558179483 watt [W]
+        /// 1 foot pound-force/second =  1.3558179483 watt [W]
         /// </summary>
         public static double FootPoundForcePerSecond_2_Watt(double inVal)               => inVal * 1.3558179483;
         /// <summary>
@@ -526,7 +526,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lbf*ft/h -> W
-        /// 1 pound-foot/hour [lbf*ft/h] to vv: 0.0003766161 watt [W]
+        /// 1 pound-foot/hour [lbf*ft/h] =  0.0003766161 watt [W]
         /// </summary>
         public static double PoundFootPerHour_2_Watt(double inVal)                      => inVal * 0.0003766161;
         /// <summary>
@@ -537,7 +537,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundFootPerMinute -> W
-        /// 1 pound-foot/minute to vv: 0.0225969658 watt [W]
+        /// 1 pound-foot/minute =  0.0225969658 watt [W]
         /// </summary>
         public static double PoundFootPerMinute_2_Watt(double inVal)                    => inVal * 0.0225969658;
         /// <summary>
@@ -548,7 +548,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundFootPerSecond -> W
-        /// 1 pound-foot/second to vv: 1.3558179483 watt [W]
+        /// 1 pound-foot/second =  1.3558179483 watt [W]
         /// </summary>
         public static double PoundFootPerSecond_2_Watt(double inVal)                    => inVal * 1.3558179483;
         /// <summary>
@@ -559,7 +559,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// erg/s -> W
-        /// 1 erg/second [erg/s] to vv: 1.0E-7 watt [W]
+        /// 1 erg/second [erg/s] =  1.0E-7 watt [W]
         /// </summary>
         public static double ErgPerSecond_2_Watt(double inVal)                          => inVal * 1.0E-7;
         /// <summary>
@@ -570,7 +570,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kV*A -> W
-        /// 1 kilovolt ampere [kV*A] to vv: 1000 watt [W]
+        /// 1 kilovolt ampere [kV*A] =  1000 watt [W]
         /// </summary>
         public static double KilovoltAmpere_2_Watt(double inVal)                        => inVal * 1000;
         /// <summary>
@@ -581,7 +581,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// V*A -> W
-        /// 1 volt ampere [V*A] to vv: 1 watt [W]
+        /// 1 volt ampere [V*A] =  1 watt [W]
         /// </summary>
         public static double VoltAmpere_2_Watt(double inVal)                            => inVal * 1;
         /// <summary>
@@ -592,7 +592,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NewtonMeterPerSecond -> W
-        /// 1 newton meter/second to vv: 1 watt [W]
+        /// 1 newton meter/second =  1 watt [W]
         /// </summary>
         public static double NewtonMeterPerSecond_2_Watt(double inVal)                  => inVal * 1;
         /// <summary>
@@ -603,7 +603,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// J/s -> W
-        /// 1 joule/second [J/s] to vv: 1 watt [W]
+        /// 1 joule/second [J/s] =  1 watt [W]
         /// </summary>
         public static double JoulePerSecond_2_Watt(double inVal)                        => inVal * 1;
         /// <summary>
@@ -614,7 +614,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EJ/s -> W
-        /// 1 exajoule/second [EJ/s] to vv: 1.0E+18 watt [W]
+        /// 1 exajoule/second [EJ/s] =  1.0E+18 watt [W]
         /// </summary>
         public static double ExajoulePerSecond_2_Watt(double inVal)                     => inVal * 1.0E+18;
         /// <summary>
@@ -625,7 +625,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PJ/s -> W
-        /// 1 petajoule/second [PJ/s] to vv: 1.0E+15 watt [W]
+        /// 1 petajoule/second [PJ/s] =  1.0E+15 watt [W]
         /// </summary>
         public static double PetajoulePerSecond_2_Watt(double inVal)                    => inVal * 1.0E+15;
         /// <summary>
@@ -636,7 +636,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TJ/s -> W
-        /// 1 terajoule/second [TJ/s] to vv: 1000000000000 watt [W]
+        /// 1 terajoule/second [TJ/s] =  1000000000000 watt [W]
         /// </summary>
         public static double TerajoulePerSecond_2_Watt(double inVal)                    => inVal * 1000000000000;
         /// <summary>
@@ -647,7 +647,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GJ/s -> W
-        /// 1 gigajoule/second [GJ/s] to vv: 1000000000 watt [W]
+        /// 1 gigajoule/second [GJ/s] =  1000000000 watt [W]
         /// </summary>
         public static double GigajoulePerSecond_2_Watt(double inVal)                    => inVal * 1000000000;
         /// <summary>
@@ -658,7 +658,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MJ/s -> W
-        /// 1 megajoule/second [MJ/s] to vv: 1000000 watt [W]
+        /// 1 megajoule/second [MJ/s] =  1000000 watt [W]
         /// </summary>
         public static double MegajoulePerSecond_2_Watt(double inVal)                    => inVal * 1000000;
         /// <summary>
@@ -669,7 +669,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kJ/s -> W
-        /// 1 kilojoule/second [kJ/s] to vv: 1000 watt [W]
+        /// 1 kilojoule/second [kJ/s] =  1000 watt [W]
         /// </summary>
         public static double KilojoulePerSecond_2_Watt(double inVal)                    => inVal * 1000;
         /// <summary>
@@ -680,7 +680,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hJ/s -> W
-        /// 1 hectojoule/second [hJ/s] to vv: 100 watt [W]
+        /// 1 hectojoule/second [hJ/s] =  100 watt [W]
         /// </summary>
         public static double HectojoulePerSecond_2_Watt(double inVal)                   => inVal * 100;
         /// <summary>
@@ -691,7 +691,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// daJ/s -> W
-        /// 1 dekajoule/second [daJ/s] to vv: 10 watt [W]
+        /// 1 dekajoule/second [daJ/s] =  10 watt [W]
         /// </summary>
         public static double DekajoulePerSecond_2_Watt(double inVal)                    => inVal * 10;
         /// <summary>
@@ -702,7 +702,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dJ/s -> W
-        /// 1 decijoule/second [dJ/s] to vv: 0.1 watt [W]
+        /// 1 decijoule/second [dJ/s] =  0.1 watt [W]
         /// </summary>
         public static double DecijoulePerSecond_2_Watt(double inVal)                    => inVal * 0.1;
         /// <summary>
@@ -713,7 +713,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cJ/s -> W
-        /// 1 centijoule/second [cJ/s] to vv: 0.01 watt [W]
+        /// 1 centijoule/second [cJ/s] =  0.01 watt [W]
         /// </summary>
         public static double CentijoulePerSecond_2_Watt(double inVal)                   => inVal * 0.01;
         /// <summary>
@@ -724,7 +724,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mJ/s -> W
-        /// 1 millijoule/second [mJ/s] to vv: 0.001 watt [W]
+        /// 1 millijoule/second [mJ/s] =  0.001 watt [W]
         /// </summary>
         public static double MillijoulePerSecond_2_Watt(double inVal)                   => inVal * 0.001;
         /// <summary>
@@ -735,7 +735,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µJ/s -> W
-        /// 1 microjoule/second [µJ/s] to vv: 1.0E-6 watt [W]
+        /// 1 microjoule/second [µJ/s] =  1.0E-6 watt [W]
         /// </summary>
         public static double MicrojoulePerSecond_2_Watt(double inVal)                   => inVal * 1.0E-6;
         /// <summary>
@@ -746,7 +746,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nJ/s -> W
-        /// 1 nanojoule/second [nJ/s] to vv: 1.0E-9 watt [W]
+        /// 1 nanojoule/second [nJ/s] =  1.0E-9 watt [W]
         /// </summary>
         public static double NanojoulePerSecond_2_Watt(double inVal)                    => inVal * 1.0E-9;
         /// <summary>
@@ -757,7 +757,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pJ/s -> W
-        /// 1 picojoule/second [pJ/s] to vv: 1.0E-12 watt [W]
+        /// 1 picojoule/second [pJ/s] =  1.0E-12 watt [W]
         /// </summary>
         public static double PicojoulePerSecond_2_Watt(double inVal)                    => inVal * 1.0E-12;
         /// <summary>
@@ -768,7 +768,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fJ/s -> W
-        /// 1 femtojoule/second [fJ/s] to vv: 1.0E-15 watt [W]
+        /// 1 femtojoule/second [fJ/s] =  1.0E-15 watt [W]
         /// </summary>
         public static double FemtojoulePerSecond_2_Watt(double inVal)                   => inVal * 1.0E-15;
         /// <summary>
@@ -779,7 +779,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// aJ/s -> W
-        /// 1 attojoule/second [aJ/s] to vv: 1.0E-18 watt [W]
+        /// 1 attojoule/second [aJ/s] =  1.0E-18 watt [W]
         /// </summary>
         public static double AttojoulePerSecond_2_Watt(double inVal)                    => inVal * 1.0E-18;
         /// <summary>
@@ -790,7 +790,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// J/h -> W
-        /// 1 joule/hour [J/h] to vv: 0.0002777778 watt [W]
+        /// 1 joule/hour [J/h] =  0.0002777778 watt [W]
         /// </summary>
         public static double JoulePerHour_2_Watt(double inVal)                          => inVal * 0.0002777778;
         /// <summary>
@@ -801,7 +801,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// J/min -> W
-        /// 1 joule/minute [J/min] to vv: 0.0166666667 watt [W]
+        /// 1 joule/minute [J/min] =  0.0166666667 watt [W]
         /// </summary>
         public static double JoulePerMinute_2_Watt(double inVal)                        => inVal * 0.0166666667;
         /// <summary>
@@ -812,7 +812,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kJ/h -> W
-        /// 1 kilojoule/hour [kJ/h] to vv: 0.2777777778 watt [W]
+        /// 1 kilojoule/hour [kJ/h] =  0.2777777778 watt [W]
         /// </summary>
         public static double KilojoulePerHour_2_Watt(double inVal)                      => inVal * 0.2777777778;
         /// <summary>
@@ -823,7 +823,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kJ/min -> W
-        /// 1 kilojoule/minute [kJ/min] to vv: 16.6666666667 watt [W]
+        /// 1 kilojoule/minute [kJ/min] =  16.6666666667 watt [W]
         /// </summary>
         public static double KilojoulePerMinute_2_Watt(double inVal)                    => inVal * 16.6666666667;
         /// <summary>

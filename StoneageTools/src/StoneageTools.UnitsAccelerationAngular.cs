@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// RadianPerSquareMinute -> RadianPerSquareSecond
-        /// 1 radian/square minute to vv: 0.0002777778 radian/square second
+        /// 1 radian/square minute =  0.0002777778 radian/square second
         /// </summary>
         public static double RadianPerSquareMinute_2_RadianPerSquareSecond(double inVal)=> inVal * 0.0002777778;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// RevolutionPerSquareSecond -> RadianPerSquareSecond
-        /// 1 revolution/square second to vv: 6.2831853069 radian/square second
+        /// 1 revolution/square second =  6.2831853069 radian/square second
         /// </summary>
         public static double RevolutionPerSquareSecond_2_RadianPerSquareSecond(double inVal)=> inVal * 6.2831853069;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// RevolutionPerMinutePerSecond -> RadianPerSquareSecond
-        /// 1 revolution/minute/second to vv: 0.1047197551 radian/square second
+        /// 1 revolution/minute/second =  0.1047197551 radian/square second
         /// </summary>
         public static double RevolutionPerMinutePerSecond_2_RadianPerSquareSecond(double inVal)=> inVal * 0.1047197551;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// RevolutionPerSquareMinute -> RadianPerSquareSecond
-        /// 1 revolution/square minute to vv: 0.0017453293 radian/square second
+        /// 1 revolution/square minute =  0.0017453293 radian/square second
         /// </summary>
         public static double RevolutionPerSquareMinute_2_RadianPerSquareSecond(double inVal)=> inVal * 0.0017453293;
         /// <summary>

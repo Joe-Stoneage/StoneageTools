@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Em/L -> m/L
-        /// 1 exameter/liter [Em/L] to vv: 1.0E+18 meter/liter [m/L]
+        /// 1 exameter/liter [Em/L] =  1.0E+18 meter/liter [m/L]
         /// </summary>
         public static double ExameterPerLiter_2_MeterPerLiter(double inVal)             => inVal * 1.0E+18;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Pm/L -> m/L
-        /// 1 petameter/liter [Pm/L] to vv: 1.0E+15 meter/liter [m/L]
+        /// 1 petameter/liter [Pm/L] =  1.0E+15 meter/liter [m/L]
         /// </summary>
         public static double PetameterPerLiter_2_MeterPerLiter(double inVal)            => inVal * 1.0E+15;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Tm/L -> m/L
-        /// 1 terameter/liter [Tm/L] to vv: 1000000000000 meter/liter [m/L]
+        /// 1 terameter/liter [Tm/L] =  1000000000000 meter/liter [m/L]
         /// </summary>
         public static double TerameterPerLiter_2_MeterPerLiter(double inVal)            => inVal * 1000000000000;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gm/L -> m/L
-        /// 1 gigameter/liter [Gm/L] to vv: 1000000000 meter/liter [m/L]
+        /// 1 gigameter/liter [Gm/L] =  1000000000 meter/liter [m/L]
         /// </summary>
         public static double GigameterPerLiter_2_MeterPerLiter(double inVal)            => inVal * 1000000000;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mm/L -> m/L
-        /// 1 megameter/liter [Mm/L] to vv: 1000000 meter/liter [m/L]
+        /// 1 megameter/liter [Mm/L] =  1000000 meter/liter [m/L]
         /// </summary>
         public static double MegameterPerLiter_2_MeterPerLiter(double inVal)            => inVal * 1000000;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// km/L -> m/L
-        /// 1 kilometer/liter [km/L] to vv: 1000 meter/liter [m/L]
+        /// 1 kilometer/liter [km/L] =  1000 meter/liter [m/L]
         /// </summary>
         public static double KilometerPerLiter_2_MeterPerLiter(double inVal)            => inVal * 1000;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hm/L -> m/L
-        /// 1 hectometer/liter [hm/L] to vv: 100 meter/liter [m/L]
+        /// 1 hectometer/liter [hm/L] =  100 meter/liter [m/L]
         /// </summary>
         public static double HectometerPerLiter_2_MeterPerLiter(double inVal)           => inVal * 100;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dam/L -> m/L
-        /// 1 dekameter/liter [dam/L] to vv: 10 meter/liter [m/L]
+        /// 1 dekameter/liter [dam/L] =  10 meter/liter [m/L]
         /// </summary>
         public static double DekameterPerLiter_2_MeterPerLiter(double inVal)            => inVal * 10;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cm/L -> m/L
-        /// 1 centimeter/liter [cm/L] to vv: 0.01 meter/liter [m/L]
+        /// 1 centimeter/liter [cm/L] =  0.01 meter/liter [m/L]
         /// </summary>
         public static double CentimeterPerLiter_2_MeterPerLiter(double inVal)           => inVal * 0.01;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi/L -> m/L
-        /// 1 mile (US)/liter [mi/L] to vv: 1609.344 meter/liter [m/L]
+        /// 1 mile (US)/liter [mi/L] =  1609.344 meter/liter [m/L]
         /// </summary>
         public static double MileUSPerLiter_2_MeterPerLiter(double inVal)               => inVal * 1609.344;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// n.mile/L -> m/L
-        /// 1 nautical mile/liter [n.mile/L] to vv: 1853.24496 meter/liter [m/L]
+        /// 1 nautical mile/liter [n.mile/L] =  1853.24496 meter/liter [m/L]
         /// </summary>
         public static double NauticalMilePerLiter_2_MeterPerLiter(double inVal)         => inVal * 1853.24496;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NauticalMilePerGallonUS -> m/L
-        /// 1 nautical mile/gallon (US) to vv: 489.5755247 meter/liter [m/L]
+        /// 1 nautical mile/gallon (US) =  489.5755247 meter/liter [m/L]
         /// </summary>
         public static double NauticalMilePerGallonUS_2_MeterPerLiter(double inVal)      => inVal * 489.5755247;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilometerPerGallonUS -> m/L
-        /// 1 kilometer/gallon (US) to vv: 264.1720524 meter/liter [m/L]
+        /// 1 kilometer/gallon (US) =  264.1720524 meter/liter [m/L]
         /// </summary>
         public static double KilometerPerGallonUS_2_MeterPerLiter(double inVal)         => inVal * 264.1720524;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeterPerGallonUS -> m/L
-        /// 1 meter/gallon (US) to vv: 0.2641720524 meter/liter [m/L]
+        /// 1 meter/gallon (US) =  0.2641720524 meter/liter [m/L]
         /// </summary>
         public static double MeterPerGallonUS_2_MeterPerLiter(double inVal)             => inVal * 0.2641720524;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeterPerGallonUK -> m/L
-        /// 1 meter/gallon (UK) to vv: 0.2199687986 meter/liter [m/L]
+        /// 1 meter/gallon (UK) =  0.2199687986 meter/liter [m/L]
         /// </summary>
         public static double MeterPerGallonUK_2_MeterPerLiter(double inVal)             => inVal * 0.2199687986;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MilePerGallonUS -> m/L
-        /// 1 mile/gallon (US) to vv: 425.1437075 meter/liter [m/L]
+        /// 1 mile/gallon (US) =  425.1437075 meter/liter [m/L]
         /// </summary>
         public static double MilePerGallonUS_2_MeterPerLiter(double inVal)              => inVal * 425.1437075;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MilePerGallonUK -> m/L
-        /// 1 mile/gallon (UK) to vv: 354.00619 meter/liter [m/L]
+        /// 1 mile/gallon (UK) =  354.00619 meter/liter [m/L]
         /// </summary>
         public static double MilePerGallonUK_2_MeterPerLiter(double inVal)              => inVal * 354.00619;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m/m^3 -> m/L
-        /// 1 meter/cubic meter [m/m^3] to vv: 0.001 meter/liter [m/L]
+        /// 1 meter/cubic meter [m/m^3] =  0.001 meter/liter [m/L]
         /// </summary>
         public static double MeterPerCubicMeter_2_MeterPerLiter(double inVal)           => inVal * 0.001;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeterPerCubicCentimeter -> m/L
-        /// 1 meter/cubic centimeter to vv: 1000 meter/liter [m/L]
+        /// 1 meter/cubic centimeter =  1000 meter/liter [m/L]
         /// </summary>
         public static double MeterPerCubicCentimeter_2_MeterPerLiter(double inVal)      => inVal * 1000;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m/yd^3 -> m/L
-        /// 1 meter/cubic yard [m/yd^3] to vv: 0.0013079506 meter/liter [m/L]
+        /// 1 meter/cubic yard [m/yd^3] =  0.0013079506 meter/liter [m/L]
         /// </summary>
         public static double MeterPerCubicYard_2_MeterPerLiter(double inVal)            => inVal * 0.0013079506;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m/ft^3 -> m/L
-        /// 1 meter/cubic foot [m/ft^3] to vv: 0.0353146667 meter/liter [m/L]
+        /// 1 meter/cubic foot [m/ft^3] =  0.0353146667 meter/liter [m/L]
         /// </summary>
         public static double MeterPerCubicFoot_2_MeterPerLiter(double inVal)            => inVal * 0.0353146667;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m/in^3 -> m/L
-        /// 1 meter/cubic inch [m/in^3] to vv: 61.02374409 meter/liter [m/L]
+        /// 1 meter/cubic inch [m/in^3] =  61.02374409 meter/liter [m/L]
         /// </summary>
         public static double MeterPerCubicInch_2_MeterPerLiter(double inVal)            => inVal * 61.02374409;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeterPerQuartUS -> m/L
-        /// 1 meter/quart (US) to vv: 1.056688209 meter/liter [m/L]
+        /// 1 meter/quart (US) =  1.056688209 meter/liter [m/L]
         /// </summary>
         public static double MeterPerQuartUS_2_MeterPerLiter(double inVal)              => inVal * 1.056688209;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeterPerQuartUK -> m/L
-        /// 1 meter/quart (UK) to vv: 0.8798751948 meter/liter [m/L]
+        /// 1 meter/quart (UK) =  0.8798751948 meter/liter [m/L]
         /// </summary>
         public static double MeterPerQuartUK_2_MeterPerLiter(double inVal)              => inVal * 0.8798751948;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m/pt (US) -> m/L
-        /// 1 meter/pint (US) [m/pt (US)] to vv: 2.113376419 meter/liter [m/L]
+        /// 1 meter/pint (US) [m/pt (US)] =  2.113376419 meter/liter [m/L]
         /// </summary>
         public static double MeterPerPintUS_2_MeterPerLiter(double inVal)               => inVal * 2.113376419;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m/pt (UK) -> m/L
-        /// 1 meter/pint (UK) [m/pt (UK)] to vv: 1.759750389 meter/liter [m/L]
+        /// 1 meter/pint (UK) [m/pt (UK)] =  1.759750389 meter/liter [m/L]
         /// </summary>
         public static double MeterPerPintUK_2_MeterPerLiter(double inVal)               => inVal * 1.759750389;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeterPerCupUS -> m/L
-        /// 1 meter/cup (US) to vv: 4.226752838 meter/liter [m/L]
+        /// 1 meter/cup (US) =  4.226752838 meter/liter [m/L]
         /// </summary>
         public static double MeterPerCupUS_2_MeterPerLiter(double inVal)                => inVal * 4.226752838;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeterPerCupUK -> m/L
-        /// 1 meter/cup (UK) to vv: 3.519500777 meter/liter [m/L]
+        /// 1 meter/cup (UK) =  3.519500777 meter/liter [m/L]
         /// </summary>
         public static double MeterPerCupUK_2_MeterPerLiter(double inVal)                => inVal * 3.519500777;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeterPerFluidOunceUS -> m/L
-        /// 1 meter/fluid ounce (US) to vv: 33.8140227 meter/liter [m/L]
+        /// 1 meter/fluid ounce (US) =  33.8140227 meter/liter [m/L]
         /// </summary>
         public static double MeterPerFluidOunceUS_2_MeterPerLiter(double inVal)         => inVal * 33.8140227;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeterPerFluidOunceUK -> m/L
-        /// 1 meter/fluid ounce (UK) to vv: 35.19500777 meter/liter [m/L]
+        /// 1 meter/fluid ounce (UK) =  35.19500777 meter/liter [m/L]
         /// </summary>
         public static double MeterPerFluidOunceUK_2_MeterPerLiter(double inVal)         => inVal * 35.19500777;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L/m -> m/L
-        /// 1 liter/meter [L/m] to vv: 1 meter/liter [m/L]
+        /// 1 liter/meter [L/m] =  1 meter/liter [m/L]
         /// </summary>
         public static double LiterPerMeter_2_MeterPerLiter(double inVal)                => inVal * 1;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L/100 km -> m/L
-        /// 1 liter/100 km [L/100 km] to vv: 100000 meter/liter [m/L]
+        /// 1 liter/100 km [L/100 km] =  100000 meter/liter [m/L]
         /// </summary>
         public static double LiterPer100Km_2_MeterPerLiter(double inVal)                => inVal * 100000;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUSPerMile -> m/L
-        /// 1 gallon (US)/mile to vv: 425.1437074976 meter/liter [m/L]
+        /// 1 gallon (US)/mile =  425.1437074976 meter/liter [m/L]
         /// </summary>
         public static double GallonUSPerMile_2_MeterPerLiter(double inVal)              => inVal * 425.1437074976;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUSPer100Mi -> m/L
-        /// 1 gallon (US)/100 mi to vv: 42514.370749763 meter/liter [m/L]
+        /// 1 gallon (US)/100 mi =  42514.370749763 meter/liter [m/L]
         /// </summary>
         public static double GallonUSPer100Mi_2_MeterPerLiter(double inVal)             => inVal * 42514.370749763;
         /// <summary>
@@ -383,7 +383,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUKPerMile -> m/L
-        /// 1 gallon (UK)/mile to vv: 354.0061899559 meter/liter [m/L]
+        /// 1 gallon (UK)/mile =  354.0061899559 meter/liter [m/L]
         /// </summary>
         public static double GallonUKPerMile_2_MeterPerLiter(double inVal)              => inVal * 354.0061899559;
         /// <summary>
@@ -394,7 +394,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUKPer100Mi -> m/L
-        /// 1 gallon (UK)/100 mi to vv: 35400.618995592 meter/liter [m/L]
+        /// 1 gallon (UK)/100 mi =  35400.618995592 meter/liter [m/L]
         /// </summary>
         public static double GallonUKPer100Mi_2_MeterPerLiter(double inVal)             => inVal * 35400.618995592;
         /// <summary>

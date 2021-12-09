@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mN/m -> N/m
-        /// 1 millinewnon/meter [mN/m] to vv: 0.001 newton/meter [N/m]
+        /// 1 millinewnon/meter [mN/m] =  0.001 newton/meter [N/m]
         /// </summary>
         public static double MillinewnonPerMeter_2_NewtonPerMeter(double inVal)         => inVal * 0.001;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GramForcePerCentimeter -> N/m
-        /// 1 gram-force/centimeter to vv: 0.980665 newton/meter [N/m]
+        /// 1 gram-force/centimeter =  0.980665 newton/meter [N/m]
         /// </summary>
         public static double GramForcePerCentimeter_2_NewtonPerMeter(double inVal)      => inVal * 0.980665;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dyn/cm -> N/m
-        /// 1 dyne/centimeter [dyn/cm] to vv: 0.001 newton/meter [N/m]
+        /// 1 dyne/centimeter [dyn/cm] =  0.001 newton/meter [N/m]
         /// </summary>
         public static double DynePerCentimeter_2_NewtonPerMeter(double inVal)           => inVal * 0.001;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ErgPerSquareCentimeter -> N/m
-        /// 1 erg/square centimeter to vv: 0.001 newton/meter [N/m]
+        /// 1 erg/square centimeter =  0.001 newton/meter [N/m]
         /// </summary>
         public static double ErgPerSquareCentimeter_2_NewtonPerMeter(double inVal)      => inVal * 0.001;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ErgPerSquareMillimeter -> N/m
-        /// 1 erg/square millimeter to vv: 0.1 newton/meter [N/m]
+        /// 1 erg/square millimeter =  0.1 newton/meter [N/m]
         /// </summary>
         public static double ErgPerSquareMillimeter_2_NewtonPerMeter(double inVal)      => inVal * 0.1;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pdl/in -> N/m
-        /// 1 poundal/inch [pdl/in] to vv: 5.443108491 newton/meter [N/m]
+        /// 1 poundal/inch [pdl/in] =  5.443108491 newton/meter [N/m]
         /// </summary>
         public static double PoundalPerInch_2_NewtonPerMeter(double inVal)              => inVal * 5.443108491;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lbf/in -> N/m
-        /// 1 pound-force/inch [lbf/in] to vv: 175.1268369864 newton/meter [N/m]
+        /// 1 pound-force/inch [lbf/in] =  175.1268369864 newton/meter [N/m]
         /// </summary>
         public static double PoundForcePerInch_2_NewtonPerMeter(double inVal)           => inVal * 175.1268369864;
         /// <summary>

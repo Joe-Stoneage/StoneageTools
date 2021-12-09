@@ -21,7 +21,7 @@ namespace StoneageTools.Units
         #region temperature interval, base: kelvin
         /// <summary>
         /// °C -> K
-        /// 1 degree Celsius [°C] to vv: 1 kelvin [K]
+        /// 1 degree Celsius [°C] =  1 kelvin [K]
         /// </summary>
         public static double DegreeCelsius_2_Kelvin(double inVal)                       => inVal * 1;
         /// <summary>
@@ -32,7 +32,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// °C -> K
-        /// 1 degree centigrade [°C] to vv: 1 kelvin [K]
+        /// 1 degree centigrade [°C] =  1 kelvin [K]
         /// </summary>
         public static double DegreeCentigrade_2_Kelvin(double inVal)                    => inVal * 1;
         /// <summary>
@@ -43,7 +43,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// °F -> K
-        /// 1 degree Fahrenheit [°F] to vv: 0.5555555556 kelvin [K]
+        /// 1 degree Fahrenheit [°F] =  0.5555555556 kelvin [K]
         /// </summary>
         public static double DegreeFahrenheit_2_Kelvin(double inVal)                    => inVal * 0.5555555556;
         /// <summary>
@@ -54,7 +54,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// °R -> K
-        /// 1 degree Rankine [°R] to vv: 0.5555555556 kelvin [K]
+        /// 1 degree Rankine [°R] =  0.5555555556 kelvin [K]
         /// </summary>
         public static double DegreeRankine_2_Kelvin(double inVal)                       => inVal * 0.5555555556;
         /// <summary>
@@ -65,7 +65,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// °r -> K
-        /// 1 degree Reaumur [°r] to vv: 1.25 kelvin [K]
+        /// 1 degree Reaumur [°r] =  1.25 kelvin [K]
         /// </summary>
         public static double DegreeReaumur_2_Kelvin(double inVal)                       => inVal * 1.25;
         /// <summary>

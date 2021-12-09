@@ -144,7 +144,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// ms -> s
-        /// 1 millisecond [ms] to vv: 0.001 second [s]
+        /// 1 millisecond [ms] =  0.001 second [s]
         /// </summary>
         public static double Millisecond_2_Second(double inVal)                         => inVal * 0.001;
         /// <summary>
@@ -155,7 +155,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// min -> s
-        /// 1 minute [min] to vv: 60 second [s]
+        /// 1 minute [min] =  60 second [s]
         /// </summary>
         public static double Minute_2_Second(double inVal)                              => inVal * 60;
         /// <summary>
@@ -166,7 +166,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// h -> s
-        /// 1 hour [h] to vv: 3600 second [s]
+        /// 1 hour [h] =  3600 second [s]
         /// </summary>
         public static double Hour_2_Second(double inVal)                                => inVal * 3600;
         /// <summary>
@@ -177,7 +177,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// d -> s
-        /// 1 day [d] to vv: 86400 second [s]
+        /// 1 day [d] =  86400 second [s]
         /// </summary>
         public static double Day_2_Second(double inVal)                                 => inVal * 86400;
         /// <summary>
@@ -188,7 +188,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Week -> s
-        /// 1 week to vv: 604800 second [s]
+        /// 1 week =  604800 second [s]
         /// </summary>
         public static double Week_2_Second(double inVal)                                => inVal * 604800;
         /// <summary>
@@ -199,7 +199,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Month -> s
-        /// 1 month to vv: 2628000 second [s]
+        /// 1 month =  2628000 second [s]
         /// </summary>
         public static double Month_2_Second(double inVal)                               => inVal * 2628000;
         /// <summary>
@@ -210,7 +210,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// y -> s
-        /// 1 year [y] to vv: 31536000 second [s]
+        /// 1 year [y] =  31536000 second [s]
         /// </summary>
         public static double Year_2_Second(double inVal)                                => inVal * 31536000;
         /// <summary>
@@ -221,7 +221,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Decade -> s
-        /// 1 decade to vv: 315360000 second [s]
+        /// 1 decade =  315360000 second [s]
         /// </summary>
         public static double Decade_2_Second(double inVal)                              => inVal * 315360000;
         /// <summary>
@@ -232,7 +232,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Century -> s
-        /// 1 century to vv: 3153600000 second [s]
+        /// 1 century =  3153600000 second [s]
         /// </summary>
         public static double Century_2_Second(double inVal)                             => inVal * 3153600000;
         /// <summary>
@@ -243,7 +243,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Millennium -> s
-        /// 1 millennium to vv: 31536000000 second [s]
+        /// 1 millennium =  31536000000 second [s]
         /// </summary>
         public static double Millennium_2_Second(double inVal)                          => inVal * 31536000000;
         /// <summary>
@@ -254,7 +254,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// µs -> s
-        /// 1 microsecond [µs] to vv: 1.0E-6 second [s]
+        /// 1 microsecond [µs] =  1.0E-6 second [s]
         /// </summary>
         public static double Microsecond_2_Second(double inVal)                         => inVal * 1.0E-6;
         /// <summary>
@@ -265,7 +265,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// ns -> s
-        /// 1 nanosecond [ns] to vv: 1.0E-9 second [s]
+        /// 1 nanosecond [ns] =  1.0E-9 second [s]
         /// </summary>
         public static double Nanosecond_2_Second(double inVal)                          => inVal * 1.0E-9;
         /// <summary>
@@ -276,7 +276,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// ps -> s
-        /// 1 picosecond [ps] to vv: 1.0E-12 second [s]
+        /// 1 picosecond [ps] =  1.0E-12 second [s]
         /// </summary>
         public static double Picosecond_2_Second(double inVal)                          => inVal * 1.0E-12;
         /// <summary>
@@ -287,7 +287,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// fs -> s
-        /// 1 femtosecond [fs] to vv: 1.0E-15 second [s]
+        /// 1 femtosecond [fs] =  1.0E-15 second [s]
         /// </summary>
         public static double Femtosecond_2_Second(double inVal)                         => inVal * 1.0E-15;
         /// <summary>
@@ -298,7 +298,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// as -> s
-        /// 1 attosecond [as] to vv: 1.0E-18 second [s]
+        /// 1 attosecond [as] =  1.0E-18 second [s]
         /// </summary>
         public static double Attosecond_2_Second(double inVal)                          => inVal * 1.0E-18;
         /// <summary>
@@ -309,7 +309,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Shake -> s
-        /// 1 shake to vv: 1.0E-8 second [s]
+        /// 1 shake =  1.0E-8 second [s]
         /// </summary>
         public static double Shake_2_Second(double inVal)                               => inVal * 1.0E-8;
         /// <summary>
@@ -320,7 +320,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// MonthSynodic -> s
-        /// 1 month (synodic) to vv: 2551443.84 second [s]
+        /// 1 month (synodic) =  2551443.84 second [s]
         /// </summary>
         public static double MonthSynodic_2_Second(double inVal)                        => inVal * 2551443.84;
         /// <summary>
@@ -331,7 +331,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// YearJulian -> s
-        /// 1 year (Julian) to vv: 31557600 second [s]
+        /// 1 year (Julian) =  31557600 second [s]
         /// </summary>
         public static double YearJulian_2_Second(double inVal)                          => inVal * 31557600;
         /// <summary>
@@ -342,7 +342,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// YearLeap -> s
-        /// 1 year (leap) to vv: 31622400 second [s]
+        /// 1 year (leap) =  31622400 second [s]
         /// </summary>
         public static double YearLeap_2_Second(double inVal)                            => inVal * 31622400;
         /// <summary>
@@ -353,7 +353,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// YearTropical -> s
-        /// 1 year (tropical) to vv: 31556930 second [s]
+        /// 1 year (tropical) =  31556930 second [s]
         /// </summary>
         public static double YearTropical_2_Second(double inVal)                        => inVal * 31556930;
         /// <summary>
@@ -364,7 +364,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// YearSidereal -> s
-        /// 1 year (sidereal) to vv: 31558149.54 second [s]
+        /// 1 year (sidereal) =  31558149.54 second [s]
         /// </summary>
         public static double YearSidereal_2_Second(double inVal)                        => inVal * 31558149.54;
         /// <summary>
@@ -375,7 +375,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// DaySidereal -> s
-        /// 1 day (sidereal) to vv: 86164.09 second [s]
+        /// 1 day (sidereal) =  86164.09 second [s]
         /// </summary>
         public static double DaySidereal_2_Second(double inVal)                         => inVal * 86164.09;
         /// <summary>
@@ -386,7 +386,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// HourSidereal -> s
-        /// 1 hour (sidereal) to vv: 3590.1704166667 second [s]
+        /// 1 hour (sidereal) =  3590.1704166667 second [s]
         /// </summary>
         public static double HourSidereal_2_Second(double inVal)                        => inVal * 3590.1704166667;
         /// <summary>
@@ -397,7 +397,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// MinuteSidereal -> s
-        /// 1 minute (sidereal) to vv: 59.8361736111 second [s]
+        /// 1 minute (sidereal) =  59.8361736111 second [s]
         /// </summary>
         public static double MinuteSidereal_2_Second(double inVal)                      => inVal * 59.8361736111;
         /// <summary>
@@ -408,7 +408,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// SecondSidereal -> s
-        /// 1 second (sidereal) to vv: 0.9972695602 second [s]
+        /// 1 second (sidereal) =  0.9972695602 second [s]
         /// </summary>
         public static double SecondSidereal_2_Second(double inVal)                      => inVal * 0.9972695602;
         /// <summary>
@@ -419,7 +419,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Fortnight -> s
-        /// 1 fortnight to vv: 1209600 second [s]
+        /// 1 fortnight =  1209600 second [s]
         /// </summary>
         public static double Fortnight_2_Second(double inVal)                           => inVal * 1209600;
         /// <summary>
@@ -430,7 +430,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Septennial -> s
-        /// 1 septennial to vv: 220752000 second [s]
+        /// 1 septennial =  220752000 second [s]
         /// </summary>
         public static double Septennial_2_Second(double inVal)                          => inVal * 220752000;
         /// <summary>
@@ -441,7 +441,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Octennial -> s
-        /// 1 octennial to vv: 252288000 second [s]
+        /// 1 octennial =  252288000 second [s]
         /// </summary>
         public static double Octennial_2_Second(double inVal)                           => inVal * 252288000;
         /// <summary>
@@ -452,7 +452,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Novennial -> s
-        /// 1 novennial to vv: 283824000 second [s]
+        /// 1 novennial =  283824000 second [s]
         /// </summary>
         public static double Novennial_2_Second(double inVal)                           => inVal * 283824000;
         /// <summary>
@@ -463,7 +463,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Quindecennial -> s
-        /// 1 quindecennial to vv: 473040000 second [s]
+        /// 1 quindecennial =  473040000 second [s]
         /// </summary>
         public static double Quindecennial_2_Second(double inVal)                       => inVal * 473040000;
         /// <summary>
@@ -474,7 +474,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// Quinquennial -> s
-        /// 1 quinquennial to vv: 157680000 second [s]
+        /// 1 quinquennial =  157680000 second [s]
         /// </summary>
         public static double Quinquennial_2_Second(double inVal)                        => inVal * 157680000;
         /// <summary>
@@ -485,7 +485,7 @@ namespace StoneageTools.Time
 
         /// <summary>
         /// PlanckTime -> s
-        /// 1 Planck time to vv: 5.39056E-44 second [s]
+        /// 1 Planck time =  5.39056E-44 second [s]
         /// </summary>
         public static double PlanckTime_2_Second(double inVal)                          => inVal * 5.39056E-44;
         /// <summary>

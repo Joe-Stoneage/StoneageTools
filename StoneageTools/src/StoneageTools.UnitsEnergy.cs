@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kJ -> J
-        /// 1 kilojoule [kJ] to vv: 1000 joule [J]
+        /// 1 kilojoule [kJ] =  1000 joule [J]
         /// </summary>
         public static double Kilojoule_2_Joule(double inVal)                            => inVal * 1000;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kW*h -> J
-        /// 1 kilowatt-hour [kW*h] to vv: 3600000 joule [J]
+        /// 1 kilowatt-hour [kW*h] =  3600000 joule [J]
         /// </summary>
         public static double KilowattHour_2_Joule(double inVal)                         => inVal * 3600000;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// W*h -> J
-        /// 1 watt-hour [W*h] to vv: 3600 joule [J]
+        /// 1 watt-hour [W*h] =  3600 joule [J]
         /// </summary>
         public static double WattHour_2_Joule(double inVal)                             => inVal * 3600;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CalorieNutritional -> J
-        /// 1 calorie (nutritional) to vv: 4186.8 joule [J]
+        /// 1 calorie (nutritional) =  4186.8 joule [J]
         /// </summary>
         public static double CalorieNutritional_2_Joule(double inVal)                   => inVal * 4186.8;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HorsepowerMetricHour -> J
-        /// 1 horsepower (metric) hour to vv: 2647795.5 joule [J]
+        /// 1 horsepower (metric) hour =  2647795.5 joule [J]
         /// </summary>
         public static double HorsepowerMetricHour_2_Joule(double inVal)                 => inVal * 2647795.5;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu (IT), Btu -> J
-        /// 1 Btu (IT) [Btu (IT), Btu] to vv: 1055.05585262 joule [J]
+        /// 1 Btu (IT) [Btu (IT), Btu] =  1055.05585262 joule [J]
         /// </summary>
         public static double BtuIT_2_Joule(double inVal)                                => inVal * 1055.05585262;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu (th) -> J
-        /// 1 Btu (th) [Btu (th)] to vv: 1054.3499999744 joule [J]
+        /// 1 Btu (th) [Btu (th)] =  1054.3499999744 joule [J]
         /// </summary>
         public static double BtuTh_2_Joule(double inVal)                                => inVal * 1054.3499999744;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GJ -> J
-        /// 1 gigajoule [GJ] to vv: 1000000000 joule [J]
+        /// 1 gigajoule [GJ] =  1000000000 joule [J]
         /// </summary>
         public static double Gigajoule_2_Joule(double inVal)                            => inVal * 1000000000;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MJ -> J
-        /// 1 megajoule [MJ] to vv: 1000000 joule [J]
+        /// 1 megajoule [MJ] =  1000000 joule [J]
         /// </summary>
         public static double Megajoule_2_Joule(double inVal)                            => inVal * 1000000;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mJ -> J
-        /// 1 millijoule [mJ] to vv: 0.001 joule [J]
+        /// 1 millijoule [mJ] =  0.001 joule [J]
         /// </summary>
         public static double Millijoule_2_Joule(double inVal)                           => inVal * 0.001;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µJ -> J
-        /// 1 microjoule [µJ] to vv: 1.0E-6 joule [J]
+        /// 1 microjoule [µJ] =  1.0E-6 joule [J]
         /// </summary>
         public static double Microjoule_2_Joule(double inVal)                           => inVal * 1.0E-6;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nJ -> J
-        /// 1 nanojoule [nJ] to vv: 1.0E-9 joule [J]
+        /// 1 nanojoule [nJ] =  1.0E-9 joule [J]
         /// </summary>
         public static double Nanojoule_2_Joule(double inVal)                            => inVal * 1.0E-9;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// aJ -> J
-        /// 1 attojoule [aJ] to vv: 1.0E-18 joule [J]
+        /// 1 attojoule [aJ] =  1.0E-18 joule [J]
         /// </summary>
         public static double Attojoule_2_Joule(double inVal)                            => inVal * 1.0E-18;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MeV -> J
-        /// 1 megaelectron-volt [MeV] to vv: 1.60217733E-13 joule [J]
+        /// 1 megaelectron-volt [MeV] =  1.60217733E-13 joule [J]
         /// </summary>
         public static double MegaelectronVolt_2_Joule(double inVal)                     => inVal * 1.60217733E-13;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// keV -> J
-        /// 1 kiloelectron-volt [keV] to vv: 1.60217733E-16 joule [J]
+        /// 1 kiloelectron-volt [keV] =  1.60217733E-16 joule [J]
         /// </summary>
         public static double KiloelectronVolt_2_Joule(double inVal)                     => inVal * 1.60217733E-16;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// eV -> J
-        /// 1 electron-volt [eV] to vv: 1.60217733E-19 joule [J]
+        /// 1 electron-volt [eV] =  1.60217733E-19 joule [J]
         /// </summary>
         public static double ElectronVolt_2_Joule(double inVal)                         => inVal * 1.60217733E-19;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Erg -> J
-        /// 1 erg to vv: 1.0E-7 joule [J]
+        /// 1 erg =  1.0E-7 joule [J]
         /// </summary>
         public static double Erg_2_Joule(double inVal)                                  => inVal * 1.0E-7;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GW*h -> J
-        /// 1 gigawatt-hour [GW*h] to vv: 3600000000000 joule [J]
+        /// 1 gigawatt-hour [GW*h] =  3600000000000 joule [J]
         /// </summary>
         public static double GigawattHour_2_Joule(double inVal)                         => inVal * 3600000000000;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MW*h -> J
-        /// 1 megawatt-hour [MW*h] to vv: 3600000000 joule [J]
+        /// 1 megawatt-hour [MW*h] =  3600000000 joule [J]
         /// </summary>
         public static double MegawattHour_2_Joule(double inVal)                         => inVal * 3600000000;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kW*s -> J
-        /// 1 kilowatt-second [kW*s] to vv: 1000 joule [J]
+        /// 1 kilowatt-second [kW*s] =  1000 joule [J]
         /// </summary>
         public static double KilowattSecond_2_Joule(double inVal)                       => inVal * 1000;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// W*s -> J
-        /// 1 watt-second [W*s] to vv: 1 joule [J]
+        /// 1 watt-second [W*s] =  1 joule [J]
         /// </summary>
         public static double WattSecond_2_Joule(double inVal)                           => inVal * 1;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// N*m -> J
-        /// 1 newton meter [N*m] to vv: 1 joule [J]
+        /// 1 newton meter [N*m] =  1 joule [J]
         /// </summary>
         public static double NewtonMeter_2_Joule(double inVal)                          => inVal * 1;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hp*h -> J
-        /// 1 horsepower hour [hp*h] to vv: 2684519.5368856 joule [J]
+        /// 1 horsepower hour [hp*h] =  2684519.5368856 joule [J]
         /// </summary>
         public static double HorsepowerHour_2_Joule(double inVal)                       => inVal * 2684519.5368856;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kcal (IT) -> J
-        /// 1 kilocalorie (IT) [kcal (IT)] to vv: 4186.8 joule [J]
+        /// 1 kilocalorie (IT) [kcal (IT)] =  4186.8 joule [J]
         /// </summary>
         public static double KilocalorieIT_2_Joule(double inVal)                        => inVal * 4186.8;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kcal (th) -> J
-        /// 1 kilocalorie (th) [kcal (th)] to vv: 4184 joule [J]
+        /// 1 kilocalorie (th) [kcal (th)] =  4184 joule [J]
         /// </summary>
         public static double KilocalorieTh_2_Joule(double inVal)                        => inVal * 4184;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cal (IT), cal -> J
-        /// 1 calorie (IT) [cal (IT), cal] to vv: 4.1868 joule [J]
+        /// 1 calorie (IT) [cal (IT), cal] =  4.1868 joule [J]
         /// </summary>
         public static double CalorieIT_2_Joule(double inVal)                            => inVal * 4.1868;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cal (th) -> J
-        /// 1 calorie (th) [cal (th)] to vv: 4.184 joule [J]
+        /// 1 calorie (th) [cal (th)] =  4.184 joule [J]
         /// </summary>
         public static double CalorieTh_2_Joule(double inVal)                            => inVal * 4.184;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MBtu (IT) -> J
-        /// 1 mega Btu (IT) [MBtu (IT)] to vv: 1055055852.62 joule [J]
+        /// 1 mega Btu (IT) [MBtu (IT)] =  1055055852.62 joule [J]
         /// </summary>
         public static double MegaBtuIT_2_Joule(double inVal)                            => inVal * 1055055852.62;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonHourRefrigeration -> J
-        /// 1 ton-hour (refrigeration) to vv: 12660670.23144 joule [J]
+        /// 1 ton-hour (refrigeration) =  12660670.23144 joule [J]
         /// </summary>
         public static double TonHourRefrigeration_2_Joule(double inVal)                 => inVal * 12660670.23144;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// FuelOilEquivalentAtKiloliter -> J
-        /// 1 fuel oil equivalent @kiloliter to vv: 40197627984.822 joule [J]
+        /// 1 fuel oil equivalent @kiloliter =  40197627984.822 joule [J]
         /// </summary>
         public static double FuelOilEquivalentAtKiloliter_2_Joule(double inVal)         => inVal * 40197627984.822;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// FuelOilEquivalentAtBarrelUS -> J
-        /// 1 fuel oil equivalent @barrel (US) to vv: 6383087908.3509 joule [J]
+        /// 1 fuel oil equivalent @barrel (US) =  6383087908.3509 joule [J]
         /// </summary>
         public static double FuelOilEquivalentAtBarrelUS_2_Joule(double inVal)          => inVal * 6383087908.3509;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gton -> J
-        /// 1 gigaton [Gton] to vv: 4.184E+18 joule [J]
+        /// 1 gigaton [Gton] =  4.184E+18 joule [J]
         /// </summary>
         public static double Gigaton_2_Joule(double inVal)                              => inVal * 4.184E+18;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mton -> J
-        /// 1 megaton [Mton] to vv: 4.184E+15 joule [J]
+        /// 1 megaton [Mton] =  4.184E+15 joule [J]
         /// </summary>
         public static double Megaton_2_Joule(double inVal)                              => inVal * 4.184E+15;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kton -> J
-        /// 1 kiloton [kton] to vv: 4184000000000 joule [J]
+        /// 1 kiloton [kton] =  4184000000000 joule [J]
         /// </summary>
         public static double Kiloton_2_Joule(double inVal)                              => inVal * 4184000000000;
         /// <summary>
@@ -383,7 +383,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonExplosives -> J
-        /// 1 ton (explosives) to vv: 4184000000 joule [J]
+        /// 1 ton (explosives) =  4184000000 joule [J]
         /// </summary>
         public static double TonExplosives_2_Joule(double inVal)                        => inVal * 4184000000;
         /// <summary>
@@ -394,7 +394,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dyn*cm -> J
-        /// 1 dyne centimeter [dyn*cm] to vv: 1.0E-7 joule [J]
+        /// 1 dyne centimeter [dyn*cm] =  1.0E-7 joule [J]
         /// </summary>
         public static double DyneCentimeter_2_Joule(double inVal)                       => inVal * 1.0E-7;
         /// <summary>
@@ -405,7 +405,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gf*m -> J
-        /// 1 gram-force meter [gf*m] to vv: 0.00980665 joule [J]
+        /// 1 gram-force meter [gf*m] =  0.00980665 joule [J]
         /// </summary>
         public static double GramForceMeter_2_Joule(double inVal)                       => inVal * 0.00980665;
         /// <summary>
@@ -416,7 +416,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GramForceCentimeter -> J
-        /// 1 gram-force centimeter to vv: 9.80665E-5 joule [J]
+        /// 1 gram-force centimeter =  9.80665E-5 joule [J]
         /// </summary>
         public static double GramForceCentimeter_2_Joule(double inVal)                  => inVal * 9.80665E-5;
         /// <summary>
@@ -427,7 +427,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramForceCentimeter -> J
-        /// 1 kilogram-force centimeter to vv: 0.0980665 joule [J]
+        /// 1 kilogram-force centimeter =  0.0980665 joule [J]
         /// </summary>
         public static double KilogramForceCentimeter_2_Joule(double inVal)              => inVal * 0.0980665;
         /// <summary>
@@ -438,7 +438,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramForceMeter -> J
-        /// 1 kilogram-force meter to vv: 9.8066499997 joule [J]
+        /// 1 kilogram-force meter =  9.8066499997 joule [J]
         /// </summary>
         public static double KilogramForceMeter_2_Joule(double inVal)                   => inVal * 9.8066499997;
         /// <summary>
@@ -449,7 +449,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kp*m -> J
-        /// 1 kilopond meter [kp*m] to vv: 9.8066499997 joule [J]
+        /// 1 kilopond meter [kp*m] =  9.8066499997 joule [J]
         /// </summary>
         public static double KilopondMeter_2_Joule(double inVal)                        => inVal * 9.8066499997;
         /// <summary>
@@ -460,7 +460,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lbf*ft -> J
-        /// 1 pound-force foot [lbf*ft] to vv: 1.3558179483 joule [J]
+        /// 1 pound-force foot [lbf*ft] =  1.3558179483 joule [J]
         /// </summary>
         public static double PoundForceFoot_2_Joule(double inVal)                       => inVal * 1.3558179483;
         /// <summary>
@@ -471,7 +471,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lbf*in -> J
-        /// 1 pound-force inch [lbf*in] to vv: 0.112984829 joule [J]
+        /// 1 pound-force inch [lbf*in] =  0.112984829 joule [J]
         /// </summary>
         public static double PoundForceInch_2_Joule(double inVal)                       => inVal * 0.112984829;
         /// <summary>
@@ -482,7 +482,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ozf*in -> J
-        /// 1 ounce-force inch [ozf*in] to vv: 0.0070615518 joule [J]
+        /// 1 ounce-force inch [ozf*in] =  0.0070615518 joule [J]
         /// </summary>
         public static double OunceForceInch_2_Joule(double inVal)                       => inVal * 0.0070615518;
         /// <summary>
@@ -493,7 +493,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft*lbf -> J
-        /// 1 foot-pound [ft*lbf] to vv: 1.3558179483 joule [J]
+        /// 1 foot-pound [ft*lbf] =  1.3558179483 joule [J]
         /// </summary>
         public static double FootPound_2_Joule(double inVal)                            => inVal * 1.3558179483;
         /// <summary>
@@ -504,7 +504,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in*lbf -> J
-        /// 1 inch-pound [in*lbf] to vv: 0.112984829 joule [J]
+        /// 1 inch-pound [in*lbf] =  0.112984829 joule [J]
         /// </summary>
         public static double InchPound_2_Joule(double inVal)                            => inVal * 0.112984829;
         /// <summary>
@@ -515,7 +515,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in*ozf -> J
-        /// 1 inch-ounce [in*ozf] to vv: 0.0070615518 joule [J]
+        /// 1 inch-ounce [in*ozf] =  0.0070615518 joule [J]
         /// </summary>
         public static double InchOunce_2_Joule(double inVal)                            => inVal * 0.0070615518;
         /// <summary>
@@ -526,7 +526,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pdl*ft -> J
-        /// 1 poundal foot [pdl*ft] to vv: 0.04214011 joule [J]
+        /// 1 poundal foot [pdl*ft] =  0.04214011 joule [J]
         /// </summary>
         public static double PoundalFoot_2_Joule(double inVal)                          => inVal * 0.04214011;
         /// <summary>
@@ -537,7 +537,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Therm -> J
-        /// 1 therm to vv: 105505600 joule [J]
+        /// 1 therm =  105505600 joule [J]
         /// </summary>
         public static double Therm_2_Joule(double inVal)                                => inVal * 105505600;
         /// <summary>
@@ -548,7 +548,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ThermEC -> J
-        /// 1 therm (EC) to vv: 105505600 joule [J]
+        /// 1 therm (EC) =  105505600 joule [J]
         /// </summary>
         public static double ThermEC_2_Joule(double inVal)                              => inVal * 105505600;
         /// <summary>
@@ -559,7 +559,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ThermUS -> J
-        /// 1 therm (US) to vv: 105480400 joule [J]
+        /// 1 therm (US) =  105480400 joule [J]
         /// </summary>
         public static double ThermUS_2_Joule(double inVal)                              => inVal * 105480400;
         /// <summary>
@@ -570,7 +570,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HartreeEnergy -> J
-        /// 1 Hartree energy to vv: 4.3597482E-18 joule [J]
+        /// 1 Hartree energy =  4.3597482E-18 joule [J]
         /// </summary>
         public static double HartreeEnergy_2_Joule(double inVal)                        => inVal * 4.3597482E-18;
         /// <summary>
@@ -581,7 +581,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// RydbergConstant -> J
-        /// 1 Rydberg constant to vv: 2.1798741E-18 joule [J]
+        /// 1 Rydberg constant =  2.1798741E-18 joule [J]
         /// </summary>
         public static double RydbergConstant_2_Joule(double inVal)                      => inVal * 2.1798741E-18;
         /// <summary>

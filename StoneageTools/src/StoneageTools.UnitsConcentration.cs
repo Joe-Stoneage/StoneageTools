@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mol/L -> mol/m^3
-        /// 1 mol/liter [mol/L] to vv: 1000 mol/cubic meter [mol/m^3]
+        /// 1 mol/liter [mol/L] =  1000 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double MolPerLiter_2_MolPerCubicMeter(double inVal)               => inVal * 1000;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MolPerCubicCentimeter -> mol/m^3
-        /// 1 mol/cubic centimeter to vv: 1000000 mol/cubic meter [mol/m^3]
+        /// 1 mol/cubic centimeter =  1000000 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double MolPerCubicCentimeter_2_MolPerCubicMeter(double inVal)     => inVal * 1000000;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MolPerCubicMillimeter -> mol/m^3
-        /// 1 mol/cubic millimeter to vv: 1000000000 mol/cubic meter [mol/m^3]
+        /// 1 mol/cubic millimeter =  1000000000 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double MolPerCubicMillimeter_2_MolPerCubicMeter(double inVal)     => inVal * 1000000000;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilomolPerCubicMeter -> mol/m^3
-        /// 1 kilomol/cubic meter to vv: 1000 mol/cubic meter [mol/m^3]
+        /// 1 kilomol/cubic meter =  1000 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double KilomolPerCubicMeter_2_MolPerCubicMeter(double inVal)      => inVal * 1000;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kmol/L -> mol/m^3
-        /// 1 kilomol/liter [kmol/L] to vv: 1000000 mol/cubic meter [mol/m^3]
+        /// 1 kilomol/liter [kmol/L] =  1000000 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double KilomolPerLiter_2_MolPerCubicMeter(double inVal)           => inVal * 1000000;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilomolPerCubicCentimeter -> mol/m^3
-        /// 1 kilomol/cubic centimeter to vv: 1000000000 mol/cubic meter [mol/m^3]
+        /// 1 kilomol/cubic centimeter =  1000000000 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double KilomolPerCubicCentimeter_2_MolPerCubicMeter(double inVal) => inVal * 1000000000;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilomolPerCubicMillimeter -> mol/m^3
-        /// 1 kilomol/cubic millimeter to vv: 1000000000000 mol/cubic meter [mol/m^3]
+        /// 1 kilomol/cubic millimeter =  1000000000000 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double KilomolPerCubicMillimeter_2_MolPerCubicMeter(double inVal) => inVal * 1000000000000;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MillimolPerCubicMeter -> mol/m^3
-        /// 1 millimol/cubic meter to vv: 0.001 mol/cubic meter [mol/m^3]
+        /// 1 millimol/cubic meter =  0.001 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double MillimolPerCubicMeter_2_MolPerCubicMeter(double inVal)     => inVal * 0.001;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mmol/L -> mol/m^3
-        /// 1 millimol/liter [mmol/L] to vv: 1 mol/cubic meter [mol/m^3]
+        /// 1 millimol/liter [mmol/L] =  1 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double MillimolPerLiter_2_MolPerCubicMeter(double inVal)          => inVal * 1;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MillimolPerCubicCentimeter -> mol/m^3
-        /// 1 millimol/cubic centimeter to vv: 1000 mol/cubic meter [mol/m^3]
+        /// 1 millimol/cubic centimeter =  1000 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double MillimolPerCubicCentimeter_2_MolPerCubicMeter(double inVal)=> inVal * 1000;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MillimolPerCubicMillimeter -> mol/m^3
-        /// 1 millimol/cubic millimeter to vv: 1000000 mol/cubic meter [mol/m^3]
+        /// 1 millimol/cubic millimeter =  1000000 mol/cubic meter [mol/m^3]
         /// </summary>
         public static double MillimolPerCubicMillimeter_2_MolPerCubicMeter(double inVal)=> inVal * 1000000;
         /// <summary>
@@ -134,7 +134,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// g/L -> kg/L
-        /// 1 gram/liter [g/L] to vv: 0.001 kilogram/liter [kg/L]
+        /// 1 gram/liter [g/L] =  0.001 kilogram/liter [kg/L]
         /// </summary>
         public static double GramPerLiter_2_KilogramPerLiter(double inVal)              => inVal * 0.001;
         /// <summary>
@@ -145,7 +145,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mg/L -> kg/L
-        /// 1 milligram/liter [mg/L] to vv: 1.0E-6 kilogram/liter [kg/L]
+        /// 1 milligram/liter [mg/L] =  1.0E-6 kilogram/liter [kg/L]
         /// </summary>
         public static double MilligramPerLiter_2_KilogramPerLiter(double inVal)         => inVal * 1.0E-6;
         /// <summary>
@@ -156,7 +156,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PartPerMillionPpm -> kg/L
-        /// 1 part/million (ppm) to vv: 9.988590003673E-7 kilogram/liter [kg/L]
+        /// 1 part/million (ppm) =  9.988590003673E-7 kilogram/liter [kg/L]
         /// </summary>
         public static double PartPerMillionPpm_2_KilogramPerLiter(double inVal)         => inVal * 9.988590003673E-7;
         /// <summary>
@@ -167,7 +167,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gr/gal (US) -> kg/L
-        /// 1 grain/gallon (US) [gr/gal (US)] to vv: 1.71181E-5 kilogram/liter [kg/L]
+        /// 1 grain/gallon (US) [gr/gal (US)] =  1.71181E-5 kilogram/liter [kg/L]
         /// </summary>
         public static double GrainPerGallonUS_2_KilogramPerLiter(double inVal)          => inVal * 1.71181E-5;
         /// <summary>
@@ -178,7 +178,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gr/gal (UK) -> kg/L
-        /// 1 grain/gallon (UK) [gr/gal (UK)] to vv: 1.42538E-5 kilogram/liter [kg/L]
+        /// 1 grain/gallon (UK) [gr/gal (UK)] =  1.42538E-5 kilogram/liter [kg/L]
         /// </summary>
         public static double GrainPerGallonUK_2_KilogramPerLiter(double inVal)          => inVal * 1.42538E-5;
         /// <summary>
@@ -189,7 +189,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerGallonUS -> kg/L
-        /// 1 pound/gallon (US) to vv: 0.1198264284 kilogram/liter [kg/L]
+        /// 1 pound/gallon (US) =  0.1198264284 kilogram/liter [kg/L]
         /// </summary>
         public static double PoundPerGallonUS_2_KilogramPerLiter(double inVal)          => inVal * 0.1198264284;
         /// <summary>
@@ -200,7 +200,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerGallonUK -> kg/L
-        /// 1 pound/gallon (UK) to vv: 0.0997763736 kilogram/liter [kg/L]
+        /// 1 pound/gallon (UK) =  0.0997763736 kilogram/liter [kg/L]
         /// </summary>
         public static double PoundPerGallonUK_2_KilogramPerLiter(double inVal)          => inVal * 0.0997763736;
         /// <summary>
@@ -211,7 +211,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerMillionGallonUS -> kg/L
-        /// 1 pound/million gallon (US) to vv: 1.1982642843713E-7 kilogram/liter [kg/L]
+        /// 1 pound/million gallon (US) =  1.1982642843713E-7 kilogram/liter [kg/L]
         /// </summary>
         public static double PoundPerMillionGallonUS_2_KilogramPerLiter(double inVal)   => inVal * 1.1982642843713E-7;
         /// <summary>
@@ -222,7 +222,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerMillionGallonUK -> kg/L
-        /// 1 pound/million gallon (UK) to vv: 9.9776373608464E-8 kilogram/liter [kg/L]
+        /// 1 pound/million gallon (UK) =  9.9776373608464E-8 kilogram/liter [kg/L]
         /// </summary>
         public static double PoundPerMillionGallonUK_2_KilogramPerLiter(double inVal)   => inVal * 9.9776373608464E-8;
         /// <summary>
@@ -233,7 +233,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lb/ft^3 -> kg/L
-        /// 1 pound/cubic foot [lb/ft^3] to vv: 0.0160184635 kilogram/liter [kg/L]
+        /// 1 pound/cubic foot [lb/ft^3] =  0.0160184635 kilogram/liter [kg/L]
         /// </summary>
         public static double PoundPerCubicFoot_2_KilogramPerLiter(double inVal)         => inVal * 0.0160184635;
         /// <summary>

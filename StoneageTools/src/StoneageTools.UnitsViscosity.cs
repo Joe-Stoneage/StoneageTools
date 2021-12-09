@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramForceSecondPerSquareMeter -> Pa*s
-        /// 1 kilogram-force second/square meter to vv: 9.80665 pascal second [Pa*s]
+        /// 1 kilogram-force second/square meter =  9.80665 pascal second [Pa*s]
         /// </summary>
         public static double KilogramForceSecondPerSquareMeter_2_PascalSecond(double inVal)=> inVal * 9.80665;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NewtonSecondPerSquareMeter -> Pa*s
-        /// 1 newton second/square meter to vv: 1 pascal second [Pa*s]
+        /// 1 newton second/square meter =  1 pascal second [Pa*s]
         /// </summary>
         public static double NewtonSecondPerSquareMeter_2_PascalSecond(double inVal)    => inVal * 1;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MillinewtonSecondPerSquareMeter -> Pa*s
-        /// 1 millinewton second/Square meter to vv: 0.001 pascal second [Pa*s]
+        /// 1 millinewton second/Square meter =  0.001 pascal second [Pa*s]
         /// </summary>
         public static double MillinewtonSecondPerSquareMeter_2_PascalSecond(double inVal)  => inVal * 0.001;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DyneSecondPerSquareCentimeter -> Pa*s
-        /// 1 dyne second/Square centimeter to vv: 0.1 pascal second [Pa*s]
+        /// 1 dyne second/Square centimeter =  0.1 pascal second [Pa*s]
         /// </summary>
         public static double DyneSecondPerSquareCentimeter_2_PascalSecond(double inVal)    => inVal * 0.1;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// P -> Pa*s
-        /// 1 poise [P] to vv: 0.1 pascal second [Pa*s]
+        /// 1 poise [P] =  0.1 pascal second [Pa*s]
         /// </summary>
         public static double Poise_2_PascalSecond(double inVal)                         => inVal * 0.1;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EP -> Pa*s
-        /// 1 exapoise [EP] to vv: 1.0E+17 pascal second [Pa*s]
+        /// 1 exapoise [EP] =  1.0E+17 pascal second [Pa*s]
         /// </summary>
         public static double Exapoise_2_PascalSecond(double inVal)                      => inVal * 1.0E+17;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PP -> Pa*s
-        /// 1 petapoise [PP] to vv: 1.0E+14 pascal second [Pa*s]
+        /// 1 petapoise [PP] =  1.0E+14 pascal second [Pa*s]
         /// </summary>
         public static double Petapoise_2_PascalSecond(double inVal)                     => inVal * 1.0E+14;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TP -> Pa*s
-        /// 1 terapoise [TP] to vv: 100000000000 pascal second [Pa*s]
+        /// 1 terapoise [TP] =  100000000000 pascal second [Pa*s]
         /// </summary>
         public static double Terapoise_2_PascalSecond(double inVal)                     => inVal * 100000000000;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GP -> Pa*s
-        /// 1 gigapoise [GP] to vv: 100000000 pascal second [Pa*s]
+        /// 1 gigapoise [GP] =  100000000 pascal second [Pa*s]
         /// </summary>
         public static double Gigapoise_2_PascalSecond(double inVal)                     => inVal * 100000000;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MP -> Pa*s
-        /// 1 megapoise [MP] to vv: 100000 pascal second [Pa*s]
+        /// 1 megapoise [MP] =  100000 pascal second [Pa*s]
         /// </summary>
         public static double Megapoise_2_PascalSecond(double inVal)                     => inVal * 100000;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kP -> Pa*s
-        /// 1 kilopoise [kP] to vv: 100 pascal second [Pa*s]
+        /// 1 kilopoise [kP] =  100 pascal second [Pa*s]
         /// </summary>
         public static double Kilopoise_2_PascalSecond(double inVal)                     => inVal * 100;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hP -> Pa*s
-        /// 1 hectopoise [hP] to vv: 10 pascal second [Pa*s]
+        /// 1 hectopoise [hP] =  10 pascal second [Pa*s]
         /// </summary>
         public static double Hectopoise_2_PascalSecond(double inVal)                    => inVal * 10;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// daP -> Pa*s
-        /// 1 dekapoise [daP] to vv: 1 pascal second [Pa*s]
+        /// 1 dekapoise [daP] =  1 pascal second [Pa*s]
         /// </summary>
         public static double Dekapoise_2_PascalSecond(double inVal)                     => inVal * 1;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dP -> Pa*s
-        /// 1 decipoise [dP] to vv: 0.01 pascal second [Pa*s]
+        /// 1 decipoise [dP] =  0.01 pascal second [Pa*s]
         /// </summary>
         public static double Decipoise_2_PascalSecond(double inVal)                     => inVal * 0.01;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cP -> Pa*s
-        /// 1 centipoise [cP] to vv: 0.001 pascal second [Pa*s]
+        /// 1 centipoise [cP] =  0.001 pascal second [Pa*s]
         /// </summary>
         public static double Centipoise_2_PascalSecond(double inVal)                    => inVal * 0.001;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mP -> Pa*s
-        /// 1 millipoise [mP] to vv: 0.0001 pascal second [Pa*s]
+        /// 1 millipoise [mP] =  0.0001 pascal second [Pa*s]
         /// </summary>
         public static double Millipoise_2_PascalSecond(double inVal)                    => inVal * 0.0001;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µP -> Pa*s
-        /// 1 micropoise [µP] to vv: 1.0E-7 pascal second [Pa*s]
+        /// 1 micropoise [µP] =  1.0E-7 pascal second [Pa*s]
         /// </summary>
         public static double Micropoise_2_PascalSecond(double inVal)                    => inVal * 1.0E-7;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nP -> Pa*s
-        /// 1 nanopoise [nP] to vv: 1.0E-10 pascal second [Pa*s]
+        /// 1 nanopoise [nP] =  1.0E-10 pascal second [Pa*s]
         /// </summary>
         public static double Nanopoise_2_PascalSecond(double inVal)                     => inVal * 1.0E-10;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pP -> Pa*s
-        /// 1 picopoise [pP] to vv: 1.0E-13 pascal second [Pa*s]
+        /// 1 picopoise [pP] =  1.0E-13 pascal second [Pa*s]
         /// </summary>
         public static double Picopoise_2_PascalSecond(double inVal)                     => inVal * 1.0E-13;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fP -> Pa*s
-        /// 1 femtopoise [fP] to vv: 1.0E-16 pascal second [Pa*s]
+        /// 1 femtopoise [fP] =  1.0E-16 pascal second [Pa*s]
         /// </summary>
         public static double Femtopoise_2_PascalSecond(double inVal)                    => inVal * 1.0E-16;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// aP -> Pa*s
-        /// 1 attopoise [aP] to vv: 1.0E-19 pascal second [Pa*s]
+        /// 1 attopoise [aP] =  1.0E-19 pascal second [Pa*s]
         /// </summary>
         public static double Attopoise_2_PascalSecond(double inVal)                     => inVal * 1.0E-19;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundForceSecondPerSquareInch -> Pa*s
-        /// 1 pound-force second/Square inch to vv: 6894.7572931684 pascal second [Pa*s]
+        /// 1 pound-force second/Square inch =  6894.7572931684 pascal second [Pa*s]
         /// </summary>
         public static double PoundForceSecondPerSquareInch_2_PascalSecond(double inVal)    => inVal * 6894.7572931684;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundForceSecondPerSquareFoot -> Pa*s
-        /// 1 pound-force second/Square foot to vv: 47.8802589802 pascal second [Pa*s]
+        /// 1 pound-force second/Square foot =  47.8802589802 pascal second [Pa*s]
         /// </summary>
         public static double PoundForceSecondPerSquareFoot_2_PascalSecond(double inVal)    => inVal * 47.8802589802;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundalSecondPerSquareFoot -> Pa*s
-        /// 1 poundal second/square foot to vv: 1.4881639436 pascal second [Pa*s]
+        /// 1 poundal second/square foot =  1.4881639436 pascal second [Pa*s]
         /// </summary>
         public static double PoundalSecondPerSquareFoot_2_PascalSecond(double inVal)    => inVal * 1.4881639436;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GramPerCentimeterPerSecond -> Pa*s
-        /// 1 gram/centimeter/second to vv: 0.1 pascal second [Pa*s]
+        /// 1 gram/centimeter/second =  0.1 pascal second [Pa*s]
         /// </summary>
         public static double GramPerCentimeterPerSecond_2_PascalSecond(double inVal)    => inVal * 0.1;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SlugPerFootPerSecond -> Pa*s
-        /// 1 slug/foot/second to vv: 47.8802589802 pascal second [Pa*s]
+        /// 1 slug/foot/second =  47.8802589802 pascal second [Pa*s]
         /// </summary>
         public static double SlugPerFootPerSecond_2_PascalSecond(double inVal)          => inVal * 47.8802589802;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerFootPerSecond -> Pa*s
-        /// 1 pound/foot/second to vv: 1.4881639436 pascal second [Pa*s]
+        /// 1 pound/foot/second =  1.4881639436 pascal second [Pa*s]
         /// </summary>
         public static double PoundPerFootPerSecond_2_PascalSecond(double inVal)         => inVal * 1.4881639436;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lb/(ft*h) -> Pa*s
-        /// 1 pound/foot/hour [lb/(ft*h)] to vv: 0.0004133789 pascal second [Pa*s]
+        /// 1 pound/foot/hour [lb/(ft*h)] =  0.0004133789 pascal second [Pa*s]
         /// </summary>
         public static double PoundPerFootPerHour_2_PascalSecond(double inVal)           => inVal * 0.0004133789;
         /// <summary>
@@ -321,7 +321,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m^2/h -> SquareMeterPerSecond
-        /// 1 square meter/hour [m^2/h] to vv: 0.0002777778 square meter/second
+        /// 1 square meter/hour [m^2/h] =  0.0002777778 square meter/second
         /// </summary>
         public static double SquareMeterPerHour_2_SquareMeterPerSecond(double inVal)    => inVal * 0.0002777778;
         /// <summary>
@@ -332,7 +332,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SquareCentimeterPerSecond -> SquareMeterPerSecond
-        /// 1 square centimeter/second to vv: 0.0001 square meter/second
+        /// 1 square centimeter/second =  0.0001 square meter/second
         /// </summary>
         public static double SquareCentimeterPerSecond_2_SquareMeterPerSecond(double inVal)=> inVal * 0.0001;
         /// <summary>
@@ -343,7 +343,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SquareMillimeterPerSecond -> SquareMeterPerSecond
-        /// 1 square millimeter/second to vv: 1.0E-6 square meter/second
+        /// 1 square millimeter/second =  1.0E-6 square meter/second
         /// </summary>
         public static double SquareMillimeterPerSecond_2_SquareMeterPerSecond(double inVal)=> inVal * 1.0E-6;
         /// <summary>
@@ -354,7 +354,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft^2/s -> SquareMeterPerSecond
-        /// 1 square foot/second [ft^2/s] to vv: 0.09290304 square meter/second
+        /// 1 square foot/second [ft^2/s] =  0.09290304 square meter/second
         /// </summary>
         public static double SquareFootPerSecond_2_SquareMeterPerSecond(double inVal)   => inVal * 0.09290304;
         /// <summary>
@@ -365,7 +365,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft^2/h -> SquareMeterPerSecond
-        /// 1 square foot/hour [ft^2/h] to vv: 2.58064E-5 square meter/second
+        /// 1 square foot/hour [ft^2/h] =  2.58064E-5 square meter/second
         /// </summary>
         public static double SquareFootPerHour_2_SquareMeterPerSecond(double inVal)     => inVal * 2.58064E-5;
         /// <summary>
@@ -376,7 +376,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in^2/s -> SquareMeterPerSecond
-        /// 1 square inch/second [in^2/s] to vv: 0.00064516 square meter/second
+        /// 1 square inch/second [in^2/s] =  0.00064516 square meter/second
         /// </summary>
         public static double SquareInchPerSecond_2_SquareMeterPerSecond(double inVal)   => inVal * 0.00064516;
         /// <summary>
@@ -387,7 +387,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// St -> SquareMeterPerSecond
-        /// 1 stokes [St] to vv: 0.0001 square meter/second
+        /// 1 stokes [St] =  0.0001 square meter/second
         /// </summary>
         public static double Stokes_2_SquareMeterPerSecond(double inVal)                => inVal * 0.0001;
         /// <summary>
@@ -398,7 +398,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ESt -> SquareMeterPerSecond
-        /// 1 exastokes [ESt] to vv: 1.0E+14 square meter/second
+        /// 1 exastokes [ESt] =  1.0E+14 square meter/second
         /// </summary>
         public static double Exastokes_2_SquareMeterPerSecond(double inVal)             => inVal * 1.0E+14;
         /// <summary>
@@ -409,7 +409,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PSt -> SquareMeterPerSecond
-        /// 1 petastokes [PSt] to vv: 100000000000 square meter/second
+        /// 1 petastokes [PSt] =  100000000000 square meter/second
         /// </summary>
         public static double Petastokes_2_SquareMeterPerSecond(double inVal)            => inVal * 100000000000;
         /// <summary>
@@ -420,7 +420,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TSt -> SquareMeterPerSecond
-        /// 1 terastokes [TSt] to vv: 100000000 square meter/second
+        /// 1 terastokes [TSt] =  100000000 square meter/second
         /// </summary>
         public static double Terastokes_2_SquareMeterPerSecond(double inVal)            => inVal * 100000000;
         /// <summary>
@@ -431,7 +431,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GSt -> SquareMeterPerSecond
-        /// 1 gigastokes [GSt] to vv: 100000 square meter/second
+        /// 1 gigastokes [GSt] =  100000 square meter/second
         /// </summary>
         public static double Gigastokes_2_SquareMeterPerSecond(double inVal)            => inVal * 100000;
         /// <summary>
@@ -442,7 +442,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MSt -> SquareMeterPerSecond
-        /// 1 megastokes [MSt] to vv: 100 square meter/second
+        /// 1 megastokes [MSt] =  100 square meter/second
         /// </summary>
         public static double Megastokes_2_SquareMeterPerSecond(double inVal)            => inVal * 100;
         /// <summary>
@@ -453,7 +453,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kSt -> SquareMeterPerSecond
-        /// 1 kilostokes [kSt] to vv: 0.1 square meter/second
+        /// 1 kilostokes [kSt] =  0.1 square meter/second
         /// </summary>
         public static double Kilostokes_2_SquareMeterPerSecond(double inVal)            => inVal * 0.1;
         /// <summary>
@@ -464,7 +464,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hSt -> SquareMeterPerSecond
-        /// 1 hectostokes [hSt] to vv: 0.01 square meter/second
+        /// 1 hectostokes [hSt] =  0.01 square meter/second
         /// </summary>
         public static double Hectostokes_2_SquareMeterPerSecond(double inVal)           => inVal * 0.01;
         /// <summary>
@@ -475,7 +475,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// daSt -> SquareMeterPerSecond
-        /// 1 dekastokes [daSt] to vv: 0.001 square meter/second
+        /// 1 dekastokes [daSt] =  0.001 square meter/second
         /// </summary>
         public static double Dekastokes_2_SquareMeterPerSecond(double inVal)            => inVal * 0.001;
         /// <summary>
@@ -486,7 +486,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dSt -> SquareMeterPerSecond
-        /// 1 decistokes [dSt] to vv: 1.0E-5 square meter/second
+        /// 1 decistokes [dSt] =  1.0E-5 square meter/second
         /// </summary>
         public static double Decistokes_2_SquareMeterPerSecond(double inVal)            => inVal * 1.0E-5;
         /// <summary>
@@ -497,7 +497,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cSt -> SquareMeterPerSecond
-        /// 1 centistokes [cSt] to vv: 1.0E-6 square meter/second
+        /// 1 centistokes [cSt] =  1.0E-6 square meter/second
         /// </summary>
         public static double Centistokes_2_SquareMeterPerSecond(double inVal)           => inVal * 1.0E-6;
         /// <summary>
@@ -508,7 +508,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mSt -> SquareMeterPerSecond
-        /// 1 millistokes [mSt] to vv: 1.0E-7 square meter/second
+        /// 1 millistokes [mSt] =  1.0E-7 square meter/second
         /// </summary>
         public static double Millistokes_2_SquareMeterPerSecond(double inVal)           => inVal * 1.0E-7;
         /// <summary>
@@ -519,7 +519,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µSt -> SquareMeterPerSecond
-        /// 1 microstokes [µSt] to vv: 1.0E-10 square meter/second
+        /// 1 microstokes [µSt] =  1.0E-10 square meter/second
         /// </summary>
         public static double Microstokes_2_SquareMeterPerSecond(double inVal)           => inVal * 1.0E-10;
         /// <summary>
@@ -530,7 +530,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nSt -> SquareMeterPerSecond
-        /// 1 nanostokes [nSt] to vv: 1.0E-13 square meter/second
+        /// 1 nanostokes [nSt] =  1.0E-13 square meter/second
         /// </summary>
         public static double Nanostokes_2_SquareMeterPerSecond(double inVal)            => inVal * 1.0E-13;
         /// <summary>
@@ -541,7 +541,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pSt -> SquareMeterPerSecond
-        /// 1 picostokes [pSt] to vv: 1.0E-16 square meter/second
+        /// 1 picostokes [pSt] =  1.0E-16 square meter/second
         /// </summary>
         public static double Picostokes_2_SquareMeterPerSecond(double inVal)            => inVal * 1.0E-16;
         /// <summary>
@@ -552,7 +552,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fSt -> SquareMeterPerSecond
-        /// 1 femtostokes [fSt] to vv: 1.0E-19 square meter/second
+        /// 1 femtostokes [fSt] =  1.0E-19 square meter/second
         /// </summary>
         public static double Femtostokes_2_SquareMeterPerSecond(double inVal)           => inVal * 1.0E-19;
         /// <summary>
@@ -563,7 +563,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// aSt -> SquareMeterPerSecond
-        /// 1 attostokes [aSt] to vv: 1.0E-22 square meter/second
+        /// 1 attostokes [aSt] =  1.0E-22 square meter/second
         /// </summary>
         public static double Attostokes_2_SquareMeterPerSecond(double inVal)            => inVal * 1.0E-22;
         /// <summary>

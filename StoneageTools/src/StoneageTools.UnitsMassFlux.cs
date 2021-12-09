@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramPerHourPerSquareMeter -> GramPerSecondPerSquareMeter
-        /// 1 kilogram/hour/square meter to vv: 0.2777777778 gram/second/square meter
+        /// 1 kilogram/hour/square meter =  0.2777777778 gram/second/square meter
         /// </summary>
         public static double KilogramPerHourPerSquareMeter_2_GramPerSecondPerSquareMeter(double inVal)=> inVal * 0.2777777778;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramPerHourPerSquareFoot -> GramPerSecondPerSquareMeter
-        /// 1 kilogram/hour/square foot to vv: 2.9899751173 gram/second/square meter
+        /// 1 kilogram/hour/square foot =  2.9899751173 gram/second/square meter
         /// </summary>
         public static double KilogramPerHourPerSquareFoot_2_GramPerSecondPerSquareMeter(double inVal)=> inVal * 2.9899751173;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramPerSecondPerSquareMeter -> GramPerSecondPerSquareMeter
-        /// 1 kilogram/second/square meter to vv: 1000 gram/second/square meter
+        /// 1 kilogram/second/square meter =  1000 gram/second/square meter
         /// </summary>
         public static double KilogramPerSecondPerSquareMeter_2_GramPerSecondPerSquareMeter(double inVal)=> inVal * 1000;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GramPerSecondPerSquareCentimeter -> GramPerSecondPerSquareMeter
-        /// 1 gram/second/Square centimeter to vv: 10000 gram/second/square meter
+        /// 1 gram/second/Square centimeter =  10000 gram/second/square meter
         /// </summary>
         public static double GramPerSecondPerSquareCentimeter_2_GramPerSecondPerSquareMeter(double inVal)=> inVal * 10000;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerHourPerSquareFoot -> GramPerSecondPerSquareMeter
-        /// 1 pound/hour/square foot to vv: 1.3562299132 gram/second/square meter
+        /// 1 pound/hour/square foot =  1.3562299132 gram/second/square meter
         /// </summary>
         public static double PoundPerHourPerSquareFoot_2_GramPerSecondPerSquareMeter(double inVal)=> inVal * 1.3562299132;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerSecondPerSquareFoot -> GramPerSecondPerSquareMeter
-        /// 1 pound/second/square foot to vv: 4882.4276872752 gram/second/square meter
+        /// 1 pound/second/square foot =  4882.4276872752 gram/second/square meter
         /// </summary>
         public static double PoundPerSecondPerSquareFoot_2_GramPerSecondPerSquareMeter(double inVal)=> inVal * 4882.4276872752;
         /// <summary>

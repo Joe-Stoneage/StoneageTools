@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// km -> m
-        /// 1 kilometer [km] to vv: 1000 meter [m]
+        /// 1 kilometer [km] =  1000 meter [m]
         /// </summary>
         public static double Kilometer_2_Meter(double inVal)                            => inVal * 1000;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dm -> m
-        /// 1 decimeter [dm] to vv: 0.1 meter [m]
+        /// 1 decimeter [dm] =  0.1 meter [m]
         /// </summary>
         public static double Decimeter_2_Meter(double inVal)                            => inVal * 0.1;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cm -> m
-        /// 1 centimeter [cm] to vv: 0.01 meter [m]
+        /// 1 centimeter [cm] =  0.01 meter [m]
         /// </summary>
         public static double Centimeter_2_Meter(double inVal)                           => inVal * 0.01;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mm -> m
-        /// 1 millimeter [mm] to vv: 0.001 meter [m]
+        /// 1 millimeter [mm] =  0.001 meter [m]
         /// </summary>
         public static double Millimeter_2_Meter(double inVal)                           => inVal * 0.001;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µm -> m
-        /// 1 micrometer [µm] to vv: 1.0E-6 meter [m]
+        /// 1 micrometer [µm] =  1.0E-6 meter [m]
         /// </summary>
         public static double Micrometer_2_Meter(double inVal)                           => inVal * 1.0E-6;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nm -> m
-        /// 1 nanometer [nm] to vv: 1.0E-9 meter [m]
+        /// 1 nanometer [nm] =  1.0E-9 meter [m]
         /// </summary>
         public static double Nanometer_2_Meter(double inVal)                            => inVal * 1.0E-9;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi, mi(Int) -> m
-        /// 1 mile [mi, mi(Int)] to vv: 1609.344 meter [m]
+        /// 1 mile [mi, mi(Int)] =  1609.344 meter [m]
         /// </summary>
         public static double Mile_2_Meter(double inVal)                                 => inVal * 1609.344;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// yd -> m
-        /// 1 yard [yd] to vv: 0.9144 meter [m]
+        /// 1 yard [yd] =  0.9144 meter [m]
         /// </summary>
         public static double Yard_2_Meter(double inVal)                                 => inVal * 0.9144;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft -> m
-        /// 1 foot [ft] to vv: 0.3048 meter [m]
+        /// 1 foot [ft] =  0.3048 meter [m]
         /// </summary>
         public static double Foot_2_Meter(double inVal)                                 => inVal * 0.3048;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in -> m
-        /// 1 inch [in] to vv: 0.0254 meter [m]
+        /// 1 inch [in] =  0.0254 meter [m]
         /// </summary>
         public static double Inch_2_Meter(double inVal)                                 => inVal * 0.0254;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ly -> m
-        /// 1 light year [ly] to vv: 9.46073047258E+15 meter [m]
+        /// 1 light year [ly] =  9.46073047258E+15 meter [m]
         /// </summary>
         public static double LightYear_2_Meter(double inVal)                            => inVal * 9.46073047258E+15;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Em -> m
-        /// 1 exameter [Em] to vv: 1.0E+18 meter [m]
+        /// 1 exameter [Em] =  1.0E+18 meter [m]
         /// </summary>
         public static double Exameter_2_Meter(double inVal)                             => inVal * 1.0E+18;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Pm -> m
-        /// 1 petameter [Pm] to vv: 1.0E+15 meter [m]
+        /// 1 petameter [Pm] =  1.0E+15 meter [m]
         /// </summary>
         public static double Petameter_2_Meter(double inVal)                            => inVal * 1.0E+15;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Tm -> m
-        /// 1 terameter [Tm] to vv: 1000000000000 meter [m]
+        /// 1 terameter [Tm] =  1000000000000 meter [m]
         /// </summary>
         public static double Terameter_2_Meter(double inVal)                            => inVal * 1000000000000;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gm -> m
-        /// 1 gigameter [Gm] to vv: 1000000000 meter [m]
+        /// 1 gigameter [Gm] =  1000000000 meter [m]
         /// </summary>
         public static double Gigameter_2_Meter(double inVal)                            => inVal * 1000000000;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mm -> m
-        /// 1 megameter [Mm] to vv: 1000000 meter [m]
+        /// 1 megameter [Mm] =  1000000 meter [m]
         /// </summary>
         public static double Megameter_2_Meter(double inVal)                            => inVal * 1000000;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hm -> m
-        /// 1 hectometer [hm] to vv: 100 meter [m]
+        /// 1 hectometer [hm] =  100 meter [m]
         /// </summary>
         public static double Hectometer_2_Meter(double inVal)                           => inVal * 100;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dam -> m
-        /// 1 dekameter [dam] to vv: 10 meter [m]
+        /// 1 dekameter [dam] =  10 meter [m]
         /// </summary>
         public static double Dekameter_2_Meter(double inVal)                            => inVal * 10;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µ -> m
-        /// 1 micron [µ] to vv: 1.0E-6 meter [m]
+        /// 1 micron [µ] =  1.0E-6 meter [m]
         /// </summary>
         public static double Micron_2_Meter(double inVal)                               => inVal * 1.0E-6;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pm -> m
-        /// 1 picometer [pm] to vv: 1.0E-12 meter [m]
+        /// 1 picometer [pm] =  1.0E-12 meter [m]
         /// </summary>
         public static double Picometer_2_Meter(double inVal)                            => inVal * 1.0E-12;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fm -> m
-        /// 1 femtometer [fm] to vv: 1.0E-15 meter [m]
+        /// 1 femtometer [fm] =  1.0E-15 meter [m]
         /// </summary>
         public static double Femtometer_2_Meter(double inVal)                           => inVal * 1.0E-15;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// am -> m
-        /// 1 attometer [am] to vv: 1.0E-18 meter [m]
+        /// 1 attometer [am] =  1.0E-18 meter [m]
         /// </summary>
         public static double Attometer_2_Meter(double inVal)                            => inVal * 1.0E-18;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mpc -> m
-        /// 1 megaparsec [Mpc] to vv: 3.08567758128E+22 meter [m]
+        /// 1 megaparsec [Mpc] =  3.08567758128E+22 meter [m]
         /// </summary>
         public static double Megaparsec_2_Meter(double inVal)                           => inVal * 3.08567758128E+22;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kpc -> m
-        /// 1 kiloparsec [kpc] to vv: 3.08567758128E+19 meter [m]
+        /// 1 kiloparsec [kpc] =  3.08567758128E+19 meter [m]
         /// </summary>
         public static double Kiloparsec_2_Meter(double inVal)                           => inVal * 3.08567758128E+19;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pc -> m
-        /// 1 parsec [pc] to vv: 3.08567758128E+16 meter [m]
+        /// 1 parsec [pc] =  3.08567758128E+16 meter [m]
         /// </summary>
         public static double Parsec_2_Meter(double inVal)                               => inVal * 3.08567758128E+16;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// AU, UA -> m
-        /// 1 astronomical unit [AU, UA] to vv: 149597870691 meter [m]
+        /// 1 astronomical unit [AU, UA] =  149597870691 meter [m]
         /// </summary>
         public static double AstronomicalUnit_2_Meter(double inVal)                     => inVal * 149597870691;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lea -> m
-        /// 1 league [lea] to vv: 4828.032 meter [m]
+        /// 1 league [lea] =  4828.032 meter [m]
         /// </summary>
         public static double League_2_Meter(double inVal)                               => inVal * 4828.032;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NauticalLeagueUK -> m
-        /// 1 nautical league (UK) to vv: 5559.552 meter [m]
+        /// 1 nautical league (UK) =  5559.552 meter [m]
         /// </summary>
         public static double NauticalLeagueUK_2_Meter(double inVal)                     => inVal * 5559.552;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NauticalLeagueInt. -> m
-        /// 1 nautical league (int.) to vv: 5556 meter [m]
+        /// 1 nautical league (int.) =  5556 meter [m]
         /// </summary>
         public static double NauticalLeagueInt_2_Meter(double inVal)                    => inVal * 5556;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// st.league -> m
-        /// 1 league (statute) [st.league] to vv: 4828.0416560833 meter [m]
+        /// 1 league (statute) [st.league] =  4828.0416560833 meter [m]
         /// </summary>
         public static double LeagueStatute_2_Meter(double inVal)                        => inVal * 4828.0416560833;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NM (UK) -> m
-        /// 1 nautical mile (UK) [NM (UK)] to vv: 1853.184 meter [m]
+        /// 1 nautical mile (UK) [NM (UK)] =  1853.184 meter [m]
         /// </summary>
         public static double NauticalMileUK_2_Meter(double inVal)                       => inVal * 1853.184;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NauticalMileInternational -> m
-        /// 1 nautical mile (international) to vv: 1852 meter [m]
+        /// 1 nautical mile (international) =  1852 meter [m]
         /// </summary>
         public static double NauticalMileInternational_2_Meter(double inVal)            => inVal * 1852;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi, mi (US) -> m
-        /// 1 mile (statute) [mi, mi (US)] to vv: 1609.3472186944 meter [m]
+        /// 1 mile (statute) [mi, mi (US)] =  1609.3472186944 meter [m]
         /// </summary>
         public static double MileStatute_2_Meter(double inVal)                          => inVal * 1609.3472186944;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi -> m
-        /// 1 mile (US survey) [mi] to vv: 1609.3472186944 meter [m]
+        /// 1 mile (US survey) [mi] =  1609.3472186944 meter [m]
         /// </summary>
         public static double MileUSSurvey_2_Meter(double inVal)                         => inVal * 1609.3472186944;
         /// <summary>
@@ -383,7 +383,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MileRoman -> m
-        /// 1 mile (Roman) to vv: 1479.804 meter [m]
+        /// 1 mile (Roman) =  1479.804 meter [m]
         /// </summary>
         public static double MileRoman_2_Meter(double inVal)                            => inVal * 1479.804;
         /// <summary>
@@ -394,7 +394,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kyd -> m
-        /// 1 kiloyard [kyd] to vv: 914.4 meter [m]
+        /// 1 kiloyard [kyd] =  914.4 meter [m]
         /// </summary>
         public static double Kiloyard_2_Meter(double inVal)                             => inVal * 914.4;
         /// <summary>
@@ -405,7 +405,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fur -> m
-        /// 1 furlong [fur] to vv: 201.168 meter [m]
+        /// 1 furlong [fur] =  201.168 meter [m]
         /// </summary>
         public static double Furlong_2_Meter(double inVal)                              => inVal * 201.168;
         /// <summary>
@@ -416,7 +416,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fur -> m
-        /// 1 furlong (US survey) [fur] to vv: 201.1684023368 meter [m]
+        /// 1 furlong (US survey) [fur] =  201.1684023368 meter [m]
         /// </summary>
         public static double FurlongUSSurvey_2_Meter(double inVal)                      => inVal * 201.1684023368;
         /// <summary>
@@ -427,7 +427,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ch -> m
-        /// 1 chain [ch] to vv: 20.1168 meter [m]
+        /// 1 chain [ch] =  20.1168 meter [m]
         /// </summary>
         public static double Chain_2_Meter(double inVal)                                => inVal * 20.1168;
         /// <summary>
@@ -438,7 +438,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ch -> m
-        /// 1 chain (US survey) [ch] to vv: 20.1168402337 meter [m]
+        /// 1 chain (US survey) [ch] =  20.1168402337 meter [m]
         /// </summary>
         public static double ChainUSSurvey_2_Meter(double inVal)                        => inVal * 20.1168402337;
         /// <summary>
@@ -449,7 +449,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Rope -> m
-        /// 1 rope to vv: 6.096 meter [m]
+        /// 1 rope =  6.096 meter [m]
         /// </summary>
         public static double Rope_2_Meter(double inVal)                                 => inVal * 6.096;
         /// <summary>
@@ -460,7 +460,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// rd -> m
-        /// 1 rod [rd] to vv: 5.0292 meter [m]
+        /// 1 rod [rd] =  5.0292 meter [m]
         /// </summary>
         public static double Rod_2_Meter(double inVal)                                  => inVal * 5.0292;
         /// <summary>
@@ -471,7 +471,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// rd -> m
-        /// 1 rod (US survey) [rd] to vv: 5.0292100584 meter [m]
+        /// 1 rod (US survey) [rd] =  5.0292100584 meter [m]
         /// </summary>
         public static double RodUSSurvey_2_Meter(double inVal)                          => inVal * 5.0292100584;
         /// <summary>
@@ -482,7 +482,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Perch -> m
-        /// 1 perch to vv: 5.0292 meter [m]
+        /// 1 perch =  5.0292 meter [m]
         /// </summary>
         public static double Perch_2_Meter(double inVal)                                => inVal * 5.0292;
         /// <summary>
@@ -493,7 +493,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Pole -> m
-        /// 1 pole to vv: 5.0292 meter [m]
+        /// 1 pole =  5.0292 meter [m]
         /// </summary>
         public static double Pole_2_Meter(double inVal)                                 => inVal * 5.0292;
         /// <summary>
@@ -504,7 +504,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fath -> m
-        /// 1 fathom [fath] to vv: 1.8288 meter [m]
+        /// 1 fathom [fath] =  1.8288 meter [m]
         /// </summary>
         public static double Fathom_2_Meter(double inVal)                               => inVal * 1.8288;
         /// <summary>
@@ -515,7 +515,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fath -> m
-        /// 1 fathom (US survey) [fath] to vv: 1.8288036576 meter [m]
+        /// 1 fathom (US survey) [fath] =  1.8288036576 meter [m]
         /// </summary>
         public static double FathomUSSurvey_2_Meter(double inVal)                       => inVal * 1.8288036576;
         /// <summary>
@@ -526,7 +526,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Ell -> m
-        /// 1 ell to vv: 1.143 meter [m]
+        /// 1 ell =  1.143 meter [m]
         /// </summary>
         public static double Ell_2_Meter(double inVal)                                  => inVal * 1.143;
         /// <summary>
@@ -537,7 +537,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft -> m
-        /// 1 foot (US survey) [ft] to vv: 0.3048006096 meter [m]
+        /// 1 foot (US survey) [ft] =  0.3048006096 meter [m]
         /// </summary>
         public static double FootUSSurvey_2_Meter(double inVal)                         => inVal * 0.3048006096;
         /// <summary>
@@ -548,7 +548,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// li -> m
-        /// 1 link [li] to vv: 0.201168 meter [m]
+        /// 1 link [li] =  0.201168 meter [m]
         /// </summary>
         public static double Link_2_Meter(double inVal)                                 => inVal * 0.201168;
         /// <summary>
@@ -559,7 +559,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// li -> m
-        /// 1 link (US survey) [li] to vv: 0.2011684023 meter [m]
+        /// 1 link (US survey) [li] =  0.2011684023 meter [m]
         /// </summary>
         public static double LinkUSSurvey_2_Meter(double inVal)                         => inVal * 0.2011684023;
         /// <summary>
@@ -570,7 +570,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CubitUK -> m
-        /// 1 cubit (UK) to vv: 0.4572 meter [m]
+        /// 1 cubit (UK) =  0.4572 meter [m]
         /// </summary>
         public static double CubitUK_2_Meter(double inVal)                              => inVal * 0.4572;
         /// <summary>
@@ -581,7 +581,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Hand -> m
-        /// 1 hand to vv: 0.1016 meter [m]
+        /// 1 hand =  0.1016 meter [m]
         /// </summary>
         public static double Hand_2_Meter(double inVal)                                 => inVal * 0.1016;
         /// <summary>
@@ -592,7 +592,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SpanCloth -> m
-        /// 1 span (cloth) to vv: 0.2286 meter [m]
+        /// 1 span (cloth) =  0.2286 meter [m]
         /// </summary>
         public static double SpanCloth_2_Meter(double inVal)                            => inVal * 0.2286;
         /// <summary>
@@ -603,7 +603,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// FingerCloth -> m
-        /// 1 finger (cloth) to vv: 0.1143 meter [m]
+        /// 1 finger (cloth) =  0.1143 meter [m]
         /// </summary>
         public static double FingerCloth_2_Meter(double inVal)                          => inVal * 0.1143;
         /// <summary>
@@ -614,7 +614,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NailCloth -> m
-        /// 1 nail (cloth) to vv: 0.05715 meter [m]
+        /// 1 nail (cloth) =  0.05715 meter [m]
         /// </summary>
         public static double NailCloth_2_Meter(double inVal)                            => inVal * 0.05715;
         /// <summary>
@@ -625,7 +625,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in -> m
-        /// 1 inch (US survey) [in] to vv: 0.0254000508 meter [m]
+        /// 1 inch (US survey) [in] =  0.0254000508 meter [m]
         /// </summary>
         public static double InchUSSurvey_2_Meter(double inVal)                         => inVal * 0.0254000508;
         /// <summary>
@@ -636,7 +636,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Barleycorn -> m
-        /// 1 barleycorn to vv: 0.0084666667 meter [m]
+        /// 1 barleycorn =  0.0084666667 meter [m]
         /// </summary>
         public static double Barleycorn_2_Meter(double inVal)                           => inVal * 0.0084666667;
         /// <summary>
@@ -647,7 +647,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mil, thou -> m
-        /// 1 mil [mil, thou] to vv: 2.54E-5 meter [m]
+        /// 1 mil [mil, thou] =  2.54E-5 meter [m]
         /// </summary>
         public static double Mil_2_Meter(double inVal)                                  => inVal * 2.54E-5;
         /// <summary>
@@ -658,7 +658,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Microinch -> m
-        /// 1 microinch to vv: 2.54E-8 meter [m]
+        /// 1 microinch =  2.54E-8 meter [m]
         /// </summary>
         public static double Microinch_2_Meter(double inVal)                            => inVal * 2.54E-8;
         /// <summary>
@@ -669,7 +669,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// A -> m
-        /// 1 angstrom [A] to vv: 1.0E-10 meter [m]
+        /// 1 angstrom [A] =  1.0E-10 meter [m]
         /// </summary>
         public static double Angstrom_2_Meter(double inVal)                             => inVal * 1.0E-10;
         /// <summary>
@@ -680,7 +680,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// a.u., b -> m
-        /// 1 a.u. of length [a.u., b] to vv: 5.2917724900001E-11 meter [m]
+        /// 1 a.u. of length [a.u., b] =  5.2917724900001E-11 meter [m]
         /// </summary>
 //TODO        public static double A.u.OfLength_2_Meter(double inVal)                         => inVal * 5.2917724900001E-11;
         /// <summary>
@@ -691,7 +691,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// X -> m
-        /// 1 X-unit [X] to vv: 1.00208E-13 meter [m]
+        /// 1 X-unit [X] =  1.00208E-13 meter [m]
         /// </summary>
         public static double XUnit_2_Meter(double inVal)                                => inVal * 1.00208E-13;
         /// <summary>
@@ -702,7 +702,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// F, f -> m
-        /// 1 fermi [F, f] to vv: 1.0E-15 meter [m]
+        /// 1 fermi [F, f] =  1.0E-15 meter [m]
         /// </summary>
         public static double Fermi_2_Meter(double inVal)                                => inVal * 1.0E-15;
         /// <summary>
@@ -713,7 +713,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Arpent -> m
-        /// 1 arpent to vv: 58.5216 meter [m]
+        /// 1 arpent =  58.5216 meter [m]
         /// </summary>
         public static double Arpent_2_Meter(double inVal)                               => inVal * 58.5216;
         /// <summary>
@@ -724,7 +724,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Pica -> m
-        /// 1 pica to vv: 0.0042333333 meter [m]
+        /// 1 pica =  0.0042333333 meter [m]
         /// </summary>
         public static double Pica_2_Meter(double inVal)                                 => inVal * 0.0042333333;
         /// <summary>
@@ -735,7 +735,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Point -> m
-        /// 1 point to vv: 0.0003527778 meter [m]
+        /// 1 point =  0.0003527778 meter [m]
         /// </summary>
         public static double Point_2_Meter(double inVal)                                => inVal * 0.0003527778;
         /// <summary>
@@ -746,7 +746,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Aln -> m
-        /// 1 aln to vv: 0.5937777778 meter [m]
+        /// 1 aln =  0.5937777778 meter [m]
         /// </summary>
         public static double Aln_2_Meter(double inVal)                                  => inVal * 0.5937777778;
         /// <summary>
@@ -757,7 +757,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Famn -> m
-        /// 1 famn to vv: 1.7813333333 meter [m]
+        /// 1 famn =  1.7813333333 meter [m]
         /// </summary>
         public static double Famn_2_Meter(double inVal)                                 => inVal * 1.7813333333;
         /// <summary>
@@ -768,7 +768,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cl -> m
-        /// 1 caliber [cl] to vv: 0.000254 meter [m]
+        /// 1 caliber [cl] =  0.000254 meter [m]
         /// </summary>
         public static double Caliber_2_Meter(double inVal)                              => inVal * 0.000254;
         /// <summary>
@@ -779,7 +779,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cin -> m
-        /// 1 centiinch [cin] to vv: 0.000254 meter [m]
+        /// 1 centiinch [cin] =  0.000254 meter [m]
         /// </summary>
         public static double Centiinch_2_Meter(double inVal)                            => inVal * 0.000254;
         /// <summary>
@@ -790,7 +790,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Ken -> m
-        /// 1 ken to vv: 2.11836 meter [m]
+        /// 1 ken =  2.11836 meter [m]
         /// </summary>
         public static double Ken_2_Meter(double inVal)                                  => inVal * 2.11836;
         /// <summary>
@@ -801,7 +801,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// RussianArchin -> m
-        /// 1 Russian archin to vv: 0.7112 meter [m]
+        /// 1 Russian archin =  0.7112 meter [m]
         /// </summary>
         public static double RussianArchin_2_Meter(double inVal)                        => inVal * 0.7112;
         /// <summary>
@@ -812,7 +812,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// RomanActus -> m
-        /// 1 Roman actus to vv: 35.47872 meter [m]
+        /// 1 Roman actus =  35.47872 meter [m]
         /// </summary>
         public static double RomanActus_2_Meter(double inVal)                           => inVal * 35.47872;
         /// <summary>
@@ -823,7 +823,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VaraDeTarea -> m
-        /// 1 vara de tarea to vv: 2.505456 meter [m]
+        /// 1 vara de tarea =  2.505456 meter [m]
         /// </summary>
         public static double VaraDeTarea_2_Meter(double inVal)                          => inVal * 2.505456;
         /// <summary>
@@ -834,7 +834,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VaraConuquera -> m
-        /// 1 vara conuquera to vv: 2.505456 meter [m]
+        /// 1 vara conuquera =  2.505456 meter [m]
         /// </summary>
         public static double VaraConuquera_2_Meter(double inVal)                        => inVal * 2.505456;
         /// <summary>
@@ -845,7 +845,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VaraCastellana -> m
-        /// 1 vara castellana to vv: 0.835152 meter [m]
+        /// 1 vara castellana =  0.835152 meter [m]
         /// </summary>
         public static double VaraCastellana_2_Meter(double inVal)                       => inVal * 0.835152;
         /// <summary>
@@ -856,7 +856,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CubitGreek -> m
-        /// 1 cubit (Greek) to vv: 0.462788 meter [m]
+        /// 1 cubit (Greek) =  0.462788 meter [m]
         /// </summary>
         public static double CubitGreek_2_Meter(double inVal)                           => inVal * 0.462788;
         /// <summary>
@@ -867,7 +867,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// LongReed -> m
-        /// 1 long reed to vv: 3.2004 meter [m]
+        /// 1 long reed =  3.2004 meter [m]
         /// </summary>
         public static double LongReed_2_Meter(double inVal)                             => inVal * 3.2004;
         /// <summary>
@@ -878,7 +878,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Reed -> m
-        /// 1 reed to vv: 2.7432 meter [m]
+        /// 1 reed =  2.7432 meter [m]
         /// </summary>
         public static double Reed_2_Meter(double inVal)                                 => inVal * 2.7432;
         /// <summary>
@@ -889,7 +889,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// LongCubit -> m
-        /// 1 long cubit to vv: 0.5334 meter [m]
+        /// 1 long cubit =  0.5334 meter [m]
         /// </summary>
         public static double LongCubit_2_Meter(double inVal)                            => inVal * 0.5334;
         /// <summary>
@@ -900,7 +900,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Handbreadth -> m
-        /// 1 handbreadth to vv: 0.0762 meter [m]
+        /// 1 handbreadth =  0.0762 meter [m]
         /// </summary>
         public static double Handbreadth_2_Meter(double inVal)                          => inVal * 0.0762;
         /// <summary>
@@ -911,7 +911,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Fingerbreadth -> m
-        /// 1 fingerbreadth to vv: 0.01905 meter [m]
+        /// 1 fingerbreadth =  0.01905 meter [m]
         /// </summary>
         public static double Fingerbreadth_2_Meter(double inVal)                        => inVal * 0.01905;
         /// <summary>
@@ -922,7 +922,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PlanckLength -> m
-        /// 1 Planck length to vv: 1.61605E-35 meter [m]
+        /// 1 Planck length =  1.61605E-35 meter [m]
         /// </summary>
         public static double PlanckLength_2_Meter(double inVal)                         => inVal * 1.61605E-35;
         /// <summary>
@@ -933,7 +933,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ElectronRadiusClassical -> m
-        /// 1 Electron radius (classical) to vv: 2.81794092E-15 meter [m]
+        /// 1 Electron radius (classical) =  2.81794092E-15 meter [m]
         /// </summary>
         public static double ElectronRadiusClassical_2_Meter(double inVal)              => inVal * 2.81794092E-15;
         /// <summary>
@@ -944,7 +944,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// b, a.u. -> m
-        /// 1 Bohr radius [b, a.u.] to vv: 5.2917724900001E-11 meter [m]
+        /// 1 Bohr radius [b, a.u.] =  5.2917724900001E-11 meter [m]
         /// </summary>
         public static double BohrRadius_2_Meter(double inVal)                           => inVal * 5.2917724900001E-11;
         /// <summary>
@@ -955,7 +955,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EarthEquatorialRadius -> m
-        /// 1 Earth's equatorial radius to vv: 6378160 meter [m]
+        /// 1 Earth's equatorial radius =  6378160 meter [m]
         /// </summary>
         public static double EarthEquatorialRadius_2_Meter(double inVal)                => inVal * 6378160;
         /// <summary>
@@ -966,7 +966,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EarthPolarRadius -> m
-        /// 1 Earth's polar radius to vv: 6356776.9999999 meter [m]
+        /// 1 Earth's polar radius =  6356776.9999999 meter [m]
         /// </summary>
         public static double EarthPolarRadius_2_Meter(double inVal)                     => inVal * 6356776.9999999;
         /// <summary>
@@ -977,7 +977,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EarthDistanceFromSun -> m
-        /// 1 Earth's distance from sun to vv: 149600000000 meter [m]
+        /// 1 Earth's distance from sun =  149600000000 meter [m]
         /// </summary>
         public static double EarthDistanceFromSun_2_Meter(double inVal)                 => inVal * 149600000000;
         /// <summary>
@@ -988,7 +988,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SunRadius -> m
-        /// 1 Sun's radius to vv: 696000000 meter [m]
+        /// 1 Sun's radius =  696000000 meter [m]
         /// </summary>
         public static double SunRadius_2_Meter(double inVal)                            => inVal * 696000000;
         /// <summary>

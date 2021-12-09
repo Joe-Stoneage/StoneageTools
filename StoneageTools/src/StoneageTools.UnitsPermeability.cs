@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Permeability0DegC -> KilogramPerPascalPerSecondPerSquareMeter
-        /// 1 permeability (0°C) to vv: 5.72135E-11 kilogram/pascal/second/square meter
+        /// 1 permeability (0°C) =  5.72135E-11 kilogram/pascal/second/square meter
         /// </summary>
         public static double Permeability0DegC_2_KilogramPerPascalPerSecondPerSquareMeter(double inVal)=> inVal * 5.72135E-11;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Permeability23DegC -> KilogramPerPascalPerSecondPerSquareMeter
-        /// 1 permeability (23°C) to vv: 5.74525E-11 kilogram/pascal/second/square meter
+        /// 1 permeability (23°C) =  5.74525E-11 kilogram/pascal/second/square meter
         /// </summary>
         public static double Permeability23DegC_2_KilogramPerPascalPerSecondPerSquareMeter(double inVal)=> inVal * 5.74525E-11;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PermeabilityInches0DegC -> KilogramPerPascalPerSecondPerSquareMeter
-        /// 1 permeability inches (0°C) to vv: 1.45322E-12 kilogram/pascal/second/square meter
+        /// 1 permeability inches (0°C) =  1.45322E-12 kilogram/pascal/second/square meter
         /// </summary>
         public static double PermeabilityInches0DegC_2_KilogramPerPascalPerSecondPerSquareMeter(double inVal)=> inVal * 1.45322E-12;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PermeabilityInches23DegC -> KilogramPerPascalPerSecondPerSquareMeter
-        /// 1 permeability inches (23°C) to vv: 1.45929E-12 kilogram/pascal/second/square meter
+        /// 1 permeability inches (23°C) =  1.45929E-12 kilogram/pascal/second/square meter
         /// </summary>
         public static double PermeabilityInches23DegC_2_KilogramPerPascalPerSecondPerSquareMeter(double inVal)=> inVal * 1.45929E-12;
         /// <summary>

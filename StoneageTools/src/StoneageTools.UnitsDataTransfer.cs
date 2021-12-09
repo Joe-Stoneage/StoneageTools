@@ -385,45 +385,45 @@ namespace StoneageTools.Units
         /// Modem14.4k -> b/s
         /// 1 modem (14.4k) =  14400 bit/second [b/s]
         /// </summary>
-        public static double Modem14k_2_BitPerSecond(double inVal)                      => inVal * 14400;
+        public static double Modem14400k_2_BitPerSecond(double inVal)                      => inVal * 14400;
         /// <summary>
         /// b/s -> Modem14.4k
         /// vv: 14400 bit/second [b/s] to 1 modem (14.4k)
         /// </summary>
-        public static double BitPerSecond_2_Modem144k(double inVal)                     => inVal / 14400;
+        public static double BitPerSecond_2_Modem14400k(double inVal)                     => inVal / 14400;
 
         /// <summary>
         /// Modem28.8k -> b/s
         /// 1 modem (28.8k) =  28800 bit/second [b/s]
         /// </summary>
-        public static double Modem28k_2_BitPerSecond(double inVal)                      => inVal * 28800;
+        public static double Modem28800k_2_BitPerSecond(double inVal)                      => inVal * 28800;
         /// <summary>
         /// b/s -> Modem28.8k
         /// vv: 28800 bit/second [b/s] to 1 modem (28.8k)
         /// </summary>
-        public static double BitPerSecond_2_Modem28k(double inVal)                      => inVal / 28800;
+        public static double BitPerSecond_2_Modem28800k(double inVal)                      => inVal / 28800;
 
         /// <summary>
         /// Modem33.6k -> b/s
         /// 1 modem (33.6k) =  33600 bit/second [b/s]
         /// </summary>
-        public static double Modem33k_2_BitPerSecond(double inVal)                      => inVal * 33600;
+        public static double Modem33600k_2_BitPerSecond(double inVal)                      => inVal * 33600;
         /// <summary>
         /// b/s -> Modem33.6k
         /// vv: 33600 bit/second [b/s] to 1 modem (33.6k)
         /// </summary>
-        public static double BitPerSecond_2_Modem33k(double inVal)                      => inVal / 33600;
+        public static double BitPerSecond_2_Modem33600k(double inVal)                      => inVal / 33600;
 
         /// <summary>
         /// Modem56k -> b/s
         /// 1 modem (56k) =  56000 bit/second [b/s]
         /// </summary>
-        public static double Modem56k_2_BitPerSecond(double inVal)                      => inVal * 56000;
+        public static double Modem56000k_2_BitPerSecond(double inVal)                      => inVal * 56000;
         /// <summary>
         /// b/s -> Modem56k
         /// vv: 56000 bit/second [b/s] to 1 modem (56k)
         /// </summary>
-        public static double BitPerSecond_2_Modem56k(double inVal)                      => inVal / 56000;
+        public static double BitPerSecond_2_Modem56000k(double inVal)                      => inVal / 56000;
 
         /// <summary>
         /// SCSIAsync -> b/s

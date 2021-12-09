@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m -> Twip
-        /// 1 meter [m] to vv: 56692.913385826 twip
+        /// 1 meter [m] =  56692.913385826 twip
         /// </summary>
         public static double Meter_2_Twip(double inVal)                                 => inVal * 56692.913385826;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cm -> Twip
-        /// 1 centimeter [cm] to vv: 566.9291338583 twip
+        /// 1 centimeter [cm] =  566.9291338583 twip
         /// </summary>
         public static double Centimeter_2_Twip(double inVal)                            => inVal * 566.9291338583;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mm -> Twip
-        /// 1 millimeter [mm] to vv: 56.6929133858 twip
+        /// 1 millimeter [mm] =  56.6929133858 twip
         /// </summary>
         public static double Millimeter_2_Twip(double inVal)                            => inVal * 56.6929133858;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CharacterX -> Twip
-        /// 1 character (X) to vv: 120 twip
+        /// 1 character (X) =  120 twip
         /// </summary>
         public static double CharacterX_2_Twip(double inVal)                            => inVal * 120;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CharacterY -> Twip
-        /// 1 character (Y) to vv: 240 twip
+        /// 1 character (Y) =  240 twip
         /// </summary>
         public static double CharacterY_2_Twip(double inVal)                            => inVal * 240;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PixelX -> Twip
-        /// 1 pixel (X) to vv: 15 twip
+        /// 1 pixel (X) =  15 twip
         /// </summary>
         public static double PixelX_2_Twip(double inVal)                                => inVal * 15;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PixelY -> Twip
-        /// 1 pixel (Y) to vv: 15 twip
+        /// 1 pixel (Y) =  15 twip
         /// </summary>
         public static double PixelY_2_Twip(double inVal)                                => inVal * 15;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in -> Twip
-        /// 1 inch [in] to vv: 1440 twip
+        /// 1 inch [in] =  1440 twip
         /// </summary>
         public static double Inch_2_Twip(double inVal)                                  => inVal * 1440;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PicaComputer -> Twip
-        /// 1 pica (computer) to vv: 240 twip
+        /// 1 pica (computer) =  240 twip
         /// </summary>
         public static double PicaComputer_2_Twip(double inVal)                          => inVal * 240;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PicaPrinter -> Twip
-        /// 1 pica (printer's) to vv: 239.10336 twip
+        /// 1 pica (printer's) =  239.10336 twip
         /// </summary>
         public static double PicaPrinter_2_Twip(double inVal)                           => inVal * 239.10336;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PostScriptPoint -> Twip
-        /// 1 PostScript point to vv: 20 twip
+        /// 1 PostScript point =  20 twip
         /// </summary>
         public static double PostScriptPoint_2_Twip(double inVal)                       => inVal * 20;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PointComputer -> Twip
-        /// 1 point (computer) to vv: 20 twip
+        /// 1 point (computer) =  20 twip
         /// </summary>
         public static double PointComputer_2_Twip(double inVal)                         => inVal * 20;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PointPrinter -> Twip
-        /// 1 point (printer's) to vv: 19.9252801993 twip
+        /// 1 point (printer's) =  19.9252801993 twip
         /// </summary>
         public static double PointPrinter_2_Twip(double inVal)                          => inVal * 19.9252801993;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// En -> Twip
-        /// 1 en to vv: 9.9626400996 twip
+        /// 1 en =  9.9626400996 twip
         /// </summary>
         public static double En_2_Twip(double inVal)                                    => inVal * 9.9626400996;
         /// <summary>

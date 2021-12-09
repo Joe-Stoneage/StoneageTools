@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// g -> kg
-        /// 1 gram [g] to vv: 0.001 kilogram [kg]
+        /// 1 gram [g] =  0.001 kilogram [kg]
         /// </summary>
         public static double Gram_2_Kilogram(double inVal)                              => inVal * 0.001;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mg -> kg
-        /// 1 milligram [mg] to vv: 1.0E-6 kilogram [kg]
+        /// 1 milligram [mg] =  1.0E-6 kilogram [kg]
         /// </summary>
         public static double Milligram_2_Kilogram(double inVal)                         => inVal * 1.0E-6;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// t -> kg
-        /// 1 ton (metric) [t] to vv: 1000 kilogram [kg]
+        /// 1 ton (metric) [t] =  1000 kilogram [kg]
         /// </summary>
         public static double TonMetric_2_Kilogram(double inVal)                         => inVal * 1000;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lbs -> kg
-        /// 1 pound [lbs] to vv: 0.45359237 kilogram [kg]
+        /// 1 pound [lbs] =  0.45359237 kilogram [kg]
         /// </summary>
         public static double Pound_2_Kilogram(double inVal)                             => inVal * 0.45359237;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// oz -> kg
-        /// 1 ounce [oz] to vv: 0.0283495231 kilogram [kg]
+        /// 1 ounce [oz] =  0.0283495231 kilogram [kg]
         /// </summary>
         public static double Ounce_2_Kilogram(double inVal)                             => inVal * 0.0283495231;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// car, ct -> kg
-        /// 1 carat [car, ct] to vv: 0.0002 kilogram [kg]
+        /// 1 carat [car, ct] =  0.0002 kilogram [kg]
         /// </summary>
         public static double Carat_2_Kilogram(double inVal)                             => inVal * 0.0002;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ton (US) -> kg
-        /// 1 ton (short) [ton (US)] to vv: 907.18474 kilogram [kg]
+        /// 1 ton (short) [ton (US)] =  907.18474 kilogram [kg]
         /// </summary>
         public static double TonShort_2_Kilogram(double inVal)                          => inVal * 907.18474;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ton (UK) -> kg
-        /// 1 ton (long) [ton (UK)] to vv: 1016.0469088 kilogram [kg]
+        /// 1 ton (long) [ton (UK)] =  1016.0469088 kilogram [kg]
         /// </summary>
         public static double TonLong_2_Kilogram(double inVal)                           => inVal * 1016.0469088;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// u -> kg
-        /// 1 Atomic mass unit [u] to vv: 1.6605402E-27 kilogram [kg]
+        /// 1 Atomic mass unit [u] =  1.6605402E-27 kilogram [kg]
         /// </summary>
         public static double AtomicMassUnit_2_Kilogram(double inVal)                    => inVal * 1.6605402E-27;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Eg -> kg
-        /// 1 exagram [Eg] to vv: 1.0E+15 kilogram [kg]
+        /// 1 exagram [Eg] =  1.0E+15 kilogram [kg]
         /// </summary>
         public static double Exagram_2_Kilogram(double inVal)                           => inVal * 1.0E+15;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Pg -> kg
-        /// 1 petagram [Pg] to vv: 1000000000000 kilogram [kg]
+        /// 1 petagram [Pg] =  1000000000000 kilogram [kg]
         /// </summary>
         public static double Petagram_2_Kilogram(double inVal)                          => inVal * 1000000000000;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Tg -> kg
-        /// 1 teragram [Tg] to vv: 1000000000 kilogram [kg]
+        /// 1 teragram [Tg] =  1000000000 kilogram [kg]
         /// </summary>
         public static double Teragram_2_Kilogram(double inVal)                          => inVal * 1000000000;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gg -> kg
-        /// 1 gigagram [Gg] to vv: 1000000 kilogram [kg]
+        /// 1 gigagram [Gg] =  1000000 kilogram [kg]
         /// </summary>
         public static double Gigagram_2_Kilogram(double inVal)                          => inVal * 1000000;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mg -> kg
-        /// 1 megagram [Mg] to vv: 1000 kilogram [kg]
+        /// 1 megagram [Mg] =  1000 kilogram [kg]
         /// </summary>
         public static double Megagram_2_Kilogram(double inVal)                          => inVal * 1000;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hg -> kg
-        /// 1 hectogram [hg] to vv: 0.1 kilogram [kg]
+        /// 1 hectogram [hg] =  0.1 kilogram [kg]
         /// </summary>
         public static double Hectogram_2_Kilogram(double inVal)                         => inVal * 0.1;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dag -> kg
-        /// 1 dekagram [dag] to vv: 0.01 kilogram [kg]
+        /// 1 dekagram [dag] =  0.01 kilogram [kg]
         /// </summary>
         public static double Dekagram_2_Kilogram(double inVal)                          => inVal * 0.01;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dg -> kg
-        /// 1 decigram [dg] to vv: 0.0001 kilogram [kg]
+        /// 1 decigram [dg] =  0.0001 kilogram [kg]
         /// </summary>
         public static double Decigram_2_Kilogram(double inVal)                          => inVal * 0.0001;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cg -> kg
-        /// 1 centigram [cg] to vv: 1.0E-5 kilogram [kg]
+        /// 1 centigram [cg] =  1.0E-5 kilogram [kg]
         /// </summary>
         public static double Centigram_2_Kilogram(double inVal)                         => inVal * 1.0E-5;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µg -> kg
-        /// 1 microgram [µg] to vv: 1.0E-9 kilogram [kg]
+        /// 1 microgram [µg] =  1.0E-9 kilogram [kg]
         /// </summary>
         public static double Microgram_2_Kilogram(double inVal)                         => inVal * 1.0E-9;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ng -> kg
-        /// 1 nanogram [ng] to vv: 1.0E-12 kilogram [kg]
+        /// 1 nanogram [ng] =  1.0E-12 kilogram [kg]
         /// </summary>
         public static double Nanogram_2_Kilogram(double inVal)                          => inVal * 1.0E-12;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pg -> kg
-        /// 1 picogram [pg] to vv: 1.0E-15 kilogram [kg]
+        /// 1 picogram [pg] =  1.0E-15 kilogram [kg]
         /// </summary>
         public static double Picogram_2_Kilogram(double inVal)                          => inVal * 1.0E-15;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fg -> kg
-        /// 1 femtogram [fg] to vv: 1.0E-18 kilogram [kg]
+        /// 1 femtogram [fg] =  1.0E-18 kilogram [kg]
         /// </summary>
         public static double Femtogram_2_Kilogram(double inVal)                         => inVal * 1.0E-18;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ag -> kg
-        /// 1 attogram [ag] to vv: 1.0E-21 kilogram [kg]
+        /// 1 attogram [ag] =  1.0E-21 kilogram [kg]
         /// </summary>
         public static double Attogram_2_Kilogram(double inVal)                          => inVal * 1.0E-21;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Dalton -> kg
-        /// 1 dalton to vv: 1.6605300000013E-27 kilogram [kg]
+        /// 1 dalton =  1.6605300000013E-27 kilogram [kg]
         /// </summary>
         public static double Dalton_2_Kilogram(double inVal)                            => inVal * 1.6605300000013E-27;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramForceSquareSecondPerMeter -> kg
-        /// 1 kilogram-force square second/meter to vv: 9.80665 kilogram [kg]
+        /// 1 kilogram-force square second/meter =  9.80665 kilogram [kg]
         /// </summary>
         public static double KilogramForceSquareSecondPerMeter_2_Kilogram(double inVal) => inVal * 9.80665;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kip -> kg
-        /// 1 kilopound [kip] to vv: 453.59237 kilogram [kg]
+        /// 1 kilopound [kip] =  453.59237 kilogram [kg]
         /// </summary>
         public static double Kilopound_2_Kilogram(double inVal)                         => inVal * 453.59237;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Kip -> kg
-        /// 1 kip to vv: 453.59237 kilogram [kg]
+        /// 1 kip =  453.59237 kilogram [kg]
         /// </summary>
         public static double Kip_2_Kilogram(double inVal)                               => inVal * 453.59237;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Slug -> kg
-        /// 1 slug to vv: 14.5939029372 kilogram [kg]
+        /// 1 slug =  14.5939029372 kilogram [kg]
         /// </summary>
         public static double Slug_2_Kilogram(double inVal)                              => inVal * 14.5939029372;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundForceSquareSecondPerFoot -> kg
-        /// 1 pound-force square second/foot to vv: 14.5939029372 kilogram [kg]
+        /// 1 pound-force square second/foot =  14.5939029372 kilogram [kg]
         /// </summary>
         public static double PoundForceSquareSecondPerFoot_2_Kilogram(double inVal)     => inVal * 14.5939029372;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundTroyOrApothecary -> kg
-        /// 1 pound (troy or apothecary) to vv: 0.3732417216 kilogram [kg]
+        /// 1 pound (troy or apothecary) =  0.3732417216 kilogram [kg]
         /// </summary>
         public static double PoundTroyOrApothecary_2_Kilogram(double inVal)             => inVal * 0.3732417216;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pdl -> kg
-        /// 1 poundal [pdl] to vv: 0.0140867196 kilogram [kg]
+        /// 1 poundal [pdl] =  0.0140867196 kilogram [kg]
         /// </summary>
         public static double Poundal_2_Kilogram(double inVal)                           => inVal * 0.0140867196;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// AT (US) -> kg
-        /// 1 ton (assay) (US) [AT (US)] to vv: 0.02916667 kilogram [kg]
+        /// 1 ton (assay) (US) [AT (US)] =  0.02916667 kilogram [kg]
         /// </summary>
         public static double TonAssayUS_2_Kilogram(double inVal)                        => inVal * 0.02916667;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// AT (UK) -> kg
-        /// 1 ton (assay) (UK) [AT (UK)] to vv: 0.0326666667 kilogram [kg]
+        /// 1 ton (assay) (UK) [AT (UK)] =  0.0326666667 kilogram [kg]
         /// </summary>
         public static double TonAssayUK_2_Kilogram(double inVal)                        => inVal * 0.0326666667;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kt -> kg
-        /// 1 kiloton (metric) [kt] to vv: 1000000 kilogram [kg]
+        /// 1 kiloton (metric) [kt] =  1000000 kilogram [kg]
         /// </summary>
         public static double KilotonMetric_2_Kilogram(double inVal)                     => inVal * 1000000;
         /// <summary>
@@ -383,7 +383,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cwt -> kg
-        /// 1 quintal (metric) [cwt] to vv: 100 kilogram [kg]
+        /// 1 quintal (metric) [cwt] =  100 kilogram [kg]
         /// </summary>
         public static double QuintalMetric_2_Kilogram(double inVal)                     => inVal * 100;
         /// <summary>
@@ -394,7 +394,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HundredweightUS -> kg
-        /// 1 hundredweight (US) to vv: 45.359237 kilogram [kg]
+        /// 1 hundredweight (US) =  45.359237 kilogram [kg]
         /// </summary>
         public static double HundredweightUS_2_Kilogram(double inVal)                   => inVal * 45.359237;
         /// <summary>
@@ -405,7 +405,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HundredweightUK -> kg
-        /// 1 hundredweight (UK) to vv: 50.80234544 kilogram [kg]
+        /// 1 hundredweight (UK) =  50.80234544 kilogram [kg]
         /// </summary>
         public static double HundredweightUK_2_Kilogram(double inVal)                   => inVal * 50.80234544;
         /// <summary>
@@ -416,7 +416,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// qr (US) -> kg
-        /// 1 quarter (US) [qr (US)] to vv: 11.33980925 kilogram [kg]
+        /// 1 quarter (US) [qr (US)] =  11.33980925 kilogram [kg]
         /// </summary>
         public static double QuarterUS_2_Kilogram(double inVal)                         => inVal * 11.33980925;
         /// <summary>
@@ -427,7 +427,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// qr (UK) -> kg
-        /// 1 quarter (UK) [qr (UK)] to vv: 12.70058636 kilogram [kg]
+        /// 1 quarter (UK) [qr (UK)] =  12.70058636 kilogram [kg]
         /// </summary>
         public static double QuarterUK_2_Kilogram(double inVal)                         => inVal * 12.70058636;
         /// <summary>
@@ -438,7 +438,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// StoneUS -> kg
-        /// 1 stone (US) to vv: 5.669904625 kilogram [kg]
+        /// 1 stone (US) =  5.669904625 kilogram [kg]
         /// </summary>
         public static double StoneUS_2_Kilogram(double inVal)                           => inVal * 5.669904625;
         /// <summary>
@@ -449,7 +449,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// StoneUK -> kg
-        /// 1 stone (UK) to vv: 6.35029318 kilogram [kg]
+        /// 1 stone (UK) =  6.35029318 kilogram [kg]
         /// </summary>
         public static double StoneUK_2_Kilogram(double inVal)                           => inVal * 6.35029318;
         /// <summary>
@@ -460,7 +460,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// t -> kg
-        /// 1 tonne [t] to vv: 1000 kilogram [kg]
+        /// 1 tonne [t] =  1000 kilogram [kg]
         /// </summary>
         public static double Tonne_2_Kilogram(double inVal)                             => inVal * 1000;
         /// <summary>
@@ -471,7 +471,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pwt -> kg
-        /// 1 pennyweight [pwt] to vv: 0.0015551738 kilogram [kg]
+        /// 1 pennyweight [pwt] =  0.0015551738 kilogram [kg]
         /// </summary>
         public static double Pennyweight_2_Kilogram(double inVal)                       => inVal * 0.0015551738;
         /// <summary>
@@ -482,7 +482,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// s.ap -> kg
-        /// 1 scruple (apothecary) [s.ap] to vv: 0.0012959782 kilogram [kg]
+        /// 1 scruple (apothecary) [s.ap] =  0.0012959782 kilogram [kg]
         /// </summary>
         public static double ScrupleApothecary_2_Kilogram(double inVal)                 => inVal * 0.0012959782;
         /// <summary>
@@ -493,7 +493,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gr -> kg
-        /// 1 grain [gr] to vv: 6.47989E-5 kilogram [kg]
+        /// 1 grain [gr] =  6.47989E-5 kilogram [kg]
         /// </summary>
         public static double Grain_2_Kilogram(double inVal)                             => inVal * 6.47989E-5;
         /// <summary>
@@ -504,7 +504,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gamma -> kg
-        /// 1 gamma to vv: 1.0E-9 kilogram [kg]
+        /// 1 gamma =  1.0E-9 kilogram [kg]
         /// </summary>
         public static double Gamma_2_Kilogram(double inVal)                             => inVal * 1.0E-9;
         /// <summary>
@@ -515,7 +515,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TalentBiblicalHebrew -> kg
-        /// 1 talent (Biblical Hebrew) to vv: 34.2 kilogram [kg]
+        /// 1 talent (Biblical Hebrew) =  34.2 kilogram [kg]
         /// </summary>
         public static double TalentBiblicalHebrew_2_Kilogram(double inVal)              => inVal * 34.2;
         /// <summary>
@@ -526,7 +526,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MinaBiblicalHebrew -> kg
-        /// 1 mina (Biblical Hebrew) to vv: 0.57 kilogram [kg]
+        /// 1 mina (Biblical Hebrew) =  0.57 kilogram [kg]
         /// </summary>
         public static double MinaBiblicalHebrew_2_Kilogram(double inVal)                => inVal * 0.57;
         /// <summary>
@@ -537,7 +537,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ShekelBiblicalHebrew -> kg
-        /// 1 shekel (Biblical Hebrew) to vv: 0.0114 kilogram [kg]
+        /// 1 shekel (Biblical Hebrew) =  0.0114 kilogram [kg]
         /// </summary>
         public static double ShekelBiblicalHebrew_2_Kilogram(double inVal)              => inVal * 0.0114;
         /// <summary>
@@ -548,7 +548,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BekanBiblicalHebrew -> kg
-        /// 1 bekan (Biblical Hebrew) to vv: 0.0057 kilogram [kg]
+        /// 1 bekan (Biblical Hebrew) =  0.0057 kilogram [kg]
         /// </summary>
         public static double BekanBiblicalHebrew_2_Kilogram(double inVal)               => inVal * 0.0057;
         /// <summary>
@@ -559,7 +559,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GerahBiblicalHebrew -> kg
-        /// 1 gerah (Biblical Hebrew) to vv: 0.00057 kilogram [kg]
+        /// 1 gerah (Biblical Hebrew) =  0.00057 kilogram [kg]
         /// </summary>
         public static double GerahBiblicalHebrew_2_Kilogram(double inVal)               => inVal * 0.00057;
         /// <summary>
@@ -570,7 +570,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TalentBiblicalGreek -> kg
-        /// 1 talent (Biblical Greek) to vv: 20.4 kilogram [kg]
+        /// 1 talent (Biblical Greek) =  20.4 kilogram [kg]
         /// </summary>
         public static double TalentBiblicalGreek_2_Kilogram(double inVal)               => inVal * 20.4;
         /// <summary>
@@ -581,7 +581,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MinaBiblicalGreek -> kg
-        /// 1 mina (Biblical Greek) to vv: 0.34 kilogram [kg]
+        /// 1 mina (Biblical Greek) =  0.34 kilogram [kg]
         /// </summary>
         public static double MinaBiblicalGreek_2_Kilogram(double inVal)                 => inVal * 0.34;
         /// <summary>
@@ -592,7 +592,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TetradrachmaBiblicalGreek -> kg
-        /// 1 tetradrachma (Biblical Greek) to vv: 0.0136 kilogram [kg]
+        /// 1 tetradrachma (Biblical Greek) =  0.0136 kilogram [kg]
         /// </summary>
         public static double TetradrachmaBiblicalGreek_2_Kilogram(double inVal)         => inVal * 0.0136;
         /// <summary>
@@ -603,7 +603,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DidrachmaBiblicalGreek -> kg
-        /// 1 didrachma (Biblical Greek) to vv: 0.0068 kilogram [kg]
+        /// 1 didrachma (Biblical Greek) =  0.0068 kilogram [kg]
         /// </summary>
         public static double DidrachmaBiblicalGreek_2_Kilogram(double inVal)            => inVal * 0.0068;
         /// <summary>
@@ -614,7 +614,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DrachmaBiblicalGreek -> kg
-        /// 1 drachma (Biblical Greek) to vv: 0.0034 kilogram [kg]
+        /// 1 drachma (Biblical Greek) =  0.0034 kilogram [kg]
         /// </summary>
         public static double DrachmaBiblicalGreek_2_Kilogram(double inVal)              => inVal * 0.0034;
         /// <summary>
@@ -625,7 +625,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DenariusBiblicalRoman -> kg
-        /// 1 denarius (Biblical Roman) to vv: 0.00385 kilogram [kg]
+        /// 1 denarius (Biblical Roman) =  0.00385 kilogram [kg]
         /// </summary>
         public static double DenariusBiblicalRoman_2_Kilogram(double inVal)             => inVal * 0.00385;
         /// <summary>
@@ -636,7 +636,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// AssarionBiblicalRoman -> kg
-        /// 1 assarion (Biblical Roman) to vv: 0.000240625 kilogram [kg]
+        /// 1 assarion (Biblical Roman) =  0.000240625 kilogram [kg]
         /// </summary>
         public static double AssarionBiblicalRoman_2_Kilogram(double inVal)             => inVal * 0.000240625;
         /// <summary>
@@ -647,7 +647,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// QuadransBiblicalRoman -> kg
-        /// 1 quadrans (Biblical Roman) to vv: 6.01563E-5 kilogram [kg]
+        /// 1 quadrans (Biblical Roman) =  6.01563E-5 kilogram [kg]
         /// </summary>
         public static double QuadransBiblicalRoman_2_Kilogram(double inVal)             => inVal * 6.01563E-5;
         /// <summary>
@@ -658,7 +658,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// LeptonBiblicalRoman -> kg
-        /// 1 lepton (Biblical Roman) to vv: 3.00781E-5 kilogram [kg]
+        /// 1 lepton (Biblical Roman) =  3.00781E-5 kilogram [kg]
         /// </summary>
         public static double LeptonBiblicalRoman_2_Kilogram(double inVal)               => inVal * 3.00781E-5;
         /// <summary>
@@ -669,7 +669,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PlanckMass -> kg
-        /// 1 Planck mass to vv: 2.17671E-8 kilogram [kg]
+        /// 1 Planck mass =  2.17671E-8 kilogram [kg]
         /// </summary>
         public static double PlanckMass_2_Kilogram(double inVal)                        => inVal * 2.17671E-8;
         /// <summary>
@@ -680,7 +680,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ElectronMassRest -> kg
-        /// 1 Electron mass (rest) to vv: 9.1093897E-31 kilogram [kg]
+        /// 1 Electron mass (rest) =  9.1093897E-31 kilogram [kg]
         /// </summary>
         public static double ElectronMassRest_2_Kilogram(double inVal)                  => inVal * 9.1093897E-31;
         /// <summary>
@@ -691,7 +691,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MuonMass -> kg
-        /// 1 Muon mass to vv: 1.8835327E-28 kilogram [kg]
+        /// 1 Muon mass =  1.8835327E-28 kilogram [kg]
         /// </summary>
         public static double MuonMass_2_Kilogram(double inVal)                          => inVal * 1.8835327E-28;
         /// <summary>
@@ -702,7 +702,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ProtonMass -> kg
-        /// 1 Proton mass to vv: 1.6726231E-27 kilogram [kg]
+        /// 1 Proton mass =  1.6726231E-27 kilogram [kg]
         /// </summary>
         public static double ProtonMass_2_Kilogram(double inVal)                        => inVal * 1.6726231E-27;
         /// <summary>
@@ -713,7 +713,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NeutronMass -> kg
-        /// 1 Neutron mass to vv: 1.6749286E-27 kilogram [kg]
+        /// 1 Neutron mass =  1.6749286E-27 kilogram [kg]
         /// </summary>
         public static double NeutronMass_2_Kilogram(double inVal)                       => inVal * 1.6749286E-27;
         /// <summary>
@@ -724,7 +724,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DeuteronMass -> kg
-        /// 1 Deuteron mass to vv: 3.343586E-27 kilogram [kg]
+        /// 1 Deuteron mass =  3.343586E-27 kilogram [kg]
         /// </summary>
         public static double DeuteronMass_2_Kilogram(double inVal)                      => inVal * 3.343586E-27;
         /// <summary>
@@ -735,7 +735,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EarthMass -> kg
-        /// 1 Earth's mass to vv: 5.9760000000002E+24 kilogram [kg]
+        /// 1 Earth's mass =  5.9760000000002E+24 kilogram [kg]
         /// </summary>
         public static double EarthMass_2_Kilogram(double inVal)                         => inVal * 5.9760000000002E+24;
         /// <summary>
@@ -746,7 +746,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SunMass -> kg
-        /// 1 Sun's mass to vv: 2.0E+30 kilogram [kg]
+        /// 1 Sun's mass =  2.0E+30 kilogram [kg]
         /// </summary>
         public static double SunMass_2_Kilogram(double inVal)                           => inVal * 2.0E+30;
         /// <summary>

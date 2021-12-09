@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// B/s -> b/s
-        /// 1 byte/second [B/s] to vv: 8 bit/second [b/s]
+        /// 1 byte/second [B/s] =  8 bit/second [b/s]
         /// </summary>
         public static double BytePerSecond_2_BitPerSecond(double inVal)                 => inVal * 8;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilobitPerSecondSIDef. -> b/s
-        /// 1 kilobit/second (SI def.) to vv: 1000 bit/second [b/s]
+        /// 1 kilobit/second (SI def.) =  1000 bit/second [b/s]
         /// </summary>
         public static double KilobitPerSecondSIDef_2_BitPerSecond(double inVal)         => inVal * 1000;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilobytePerSecondSIDef. -> b/s
-        /// 1 kilobyte/second (SI def.) to vv: 8000 bit/second [b/s]
+        /// 1 kilobyte/second (SI def.) =  8000 bit/second [b/s]
         /// </summary>
         public static double KilobytePerSecondSIDef_2_BitPerSecond(double inVal)        => inVal * 8000;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kb/s -> b/s
-        /// 1 kilobit/second [kb/s] to vv: 1024 bit/second [b/s]
+        /// 1 kilobit/second [kb/s] =  1024 bit/second [b/s]
         /// </summary>
         public static double KilobitPerSecond_2_BitPerSecond(double inVal)              => inVal * 1024;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kB/s -> b/s
-        /// 1 kilobyte/second [kB/s] to vv: 8192 bit/second [b/s]
+        /// 1 kilobyte/second [kB/s] =  8192 bit/second [b/s]
         /// </summary>
         public static double KilobytePerSecond_2_BitPerSecond(double inVal)             => inVal * 8192;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MegabitPerSecondSIDef. -> b/s
-        /// 1 megabit/second (SI def.) to vv: 1000000 bit/second [b/s]
+        /// 1 megabit/second (SI def.) =  1000000 bit/second [b/s]
         /// </summary>
         public static double MegabitPerSecondSIDef_2_BitPerSecond(double inVal)         => inVal * 1000000;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MegabytePerSecondSIDef. -> b/s
-        /// 1 megabyte/second (SI def.) to vv: 8000000 bit/second [b/s]
+        /// 1 megabyte/second (SI def.) =  8000000 bit/second [b/s]
         /// </summary>
         public static double MegabytePerSecondSIDef_2_BitPerSecond(double inVal)        => inVal * 8000000;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mb/s -> b/s
-        /// 1 megabit/second [Mb/s] to vv: 1048576 bit/second [b/s]
+        /// 1 megabit/second [Mb/s] =  1048576 bit/second [b/s]
         /// </summary>
         public static double MegabitPerSecond_2_BitPerSecond(double inVal)              => inVal * 1048576;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MB/s -> b/s
-        /// 1 megabyte/second [MB/s] to vv: 8388608 bit/second [b/s]
+        /// 1 megabyte/second [MB/s] =  8388608 bit/second [b/s]
         /// </summary>
         public static double MegabytePerSecond_2_BitPerSecond(double inVal)             => inVal * 8388608;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GigabitPerSecondSIDef. -> b/s
-        /// 1 gigabit/second (SI def.) to vv: 1000000000 bit/second [b/s]
+        /// 1 gigabit/second (SI def.) =  1000000000 bit/second [b/s]
         /// </summary>
         public static double GigabitPerSecondSIDef_2_BitPerSecond(double inVal)         => inVal * 1000000000;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GigabytePerSecondSIDef. -> b/s
-        /// 1 gigabyte/second (SI def.) to vv: 8000000000 bit/second [b/s]
+        /// 1 gigabyte/second (SI def.) =  8000000000 bit/second [b/s]
         /// </summary>
         public static double GigabytePerSecondSIDef_2_BitPerSecond(double inVal)        => inVal * 8000000000;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gb/s -> b/s
-        /// 1 gigabit/second [Gb/s] to vv: 1073741824 bit/second [b/s]
+        /// 1 gigabit/second [Gb/s] =  1073741824 bit/second [b/s]
         /// </summary>
         public static double GigabitPerSecond_2_BitPerSecond(double inVal)              => inVal * 1073741824;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GB/s -> b/s
-        /// 1 gigabyte/second [GB/s] to vv: 8589934592 bit/second [b/s]
+        /// 1 gigabyte/second [GB/s] =  8589934592 bit/second [b/s]
         /// </summary>
         public static double GigabytePerSecond_2_BitPerSecond(double inVal)             => inVal * 8589934592;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TerabitPerSecondSIDef. -> b/s
-        /// 1 terabit/second (SI def.) to vv: 1000000000000 bit/second [b/s]
+        /// 1 terabit/second (SI def.) =  1000000000000 bit/second [b/s]
         /// </summary>
         public static double TerabitPerSecondSIDef_2_BitPerSecond(double inVal)         => inVal * 1000000000000;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TerabytePerSecondSIDef. -> b/s
-        /// 1 terabyte/second (SI def.) to vv: 8000000000000 bit/second [b/s]
+        /// 1 terabyte/second (SI def.) =  8000000000000 bit/second [b/s]
         /// </summary>
         public static double TerabytePerSecondSIDef_2_BitPerSecond(double inVal)        => inVal * 8000000000000;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Tb/s -> b/s
-        /// 1 terabit/second [Tb/s] to vv: 1099511627776 bit/second [b/s]
+        /// 1 terabit/second [Tb/s] =  1099511627776 bit/second [b/s]
         /// </summary>
         public static double TerabitPerSecond_2_BitPerSecond(double inVal)              => inVal * 1099511627776;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TB/s -> b/s
-        /// 1 terabyte/second [TB/s] to vv: 8796093022208 bit/second [b/s]
+        /// 1 terabyte/second [TB/s] =  8796093022208 bit/second [b/s]
         /// </summary>
         public static double TerabytePerSecond_2_BitPerSecond(double inVal)             => inVal * 8796093022208;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Ethernet -> b/s
-        /// 1 ethernet to vv: 10000000 bit/second [b/s]
+        /// 1 ethernet =  10000000 bit/second [b/s]
         /// </summary>
         public static double Ethernet_2_BitPerSecond(double inVal)                      => inVal * 10000000;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EthernetFast -> b/s
-        /// 1 ethernet (fast) to vv: 100000000 bit/second [b/s]
+        /// 1 ethernet (fast) =  100000000 bit/second [b/s]
         /// </summary>
         public static double EthernetFast_2_BitPerSecond(double inVal)                  => inVal * 100000000;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EthernetGigabit -> b/s
-        /// 1 ethernet (gigabit) to vv: 1000000000 bit/second [b/s]
+        /// 1 ethernet (gigabit) =  1000000000 bit/second [b/s]
         /// </summary>
         public static double EthernetGigabit_2_BitPerSecond(double inVal)               => inVal * 1000000000;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// OC1 -> b/s
-        /// 1 OC1 to vv: 51840000 bit/second [b/s]
+        /// 1 OC1 =  51840000 bit/second [b/s]
         /// </summary>
         public static double OC1_2_BitPerSecond(double inVal)                           => inVal * 51840000;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// OC3 -> b/s
-        /// 1 OC3 to vv: 155520000 bit/second [b/s]
+        /// 1 OC3 =  155520000 bit/second [b/s]
         /// </summary>
         public static double OC3_2_BitPerSecond(double inVal)                           => inVal * 155520000;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// OC12 -> b/s
-        /// 1 OC12 to vv: 622080000 bit/second [b/s]
+        /// 1 OC12 =  622080000 bit/second [b/s]
         /// </summary>
         public static double OC12_2_BitPerSecond(double inVal)                          => inVal * 622080000;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// OC24 -> b/s
-        /// 1 OC24 to vv: 1244160000 bit/second [b/s]
+        /// 1 OC24 =  1244160000 bit/second [b/s]
         /// </summary>
         public static double OC24_2_BitPerSecond(double inVal)                          => inVal * 1244160000;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// OC48 -> b/s
-        /// 1 OC48 to vv: 2488320000 bit/second [b/s]
+        /// 1 OC48 =  2488320000 bit/second [b/s]
         /// </summary>
         public static double OC48_2_BitPerSecond(double inVal)                          => inVal * 2488320000;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// OC192 -> b/s
-        /// 1 OC192 to vv: 9953280000 bit/second [b/s]
+        /// 1 OC192 =  9953280000 bit/second [b/s]
         /// </summary>
         public static double OC192_2_BitPerSecond(double inVal)                         => inVal * 9953280000;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// OC768 -> b/s
-        /// 1 OC768 to vv: 39813120000 bit/second [b/s]
+        /// 1 OC768 =  39813120000 bit/second [b/s]
         /// </summary>
         public static double OC768_2_BitPerSecond(double inVal)                         => inVal * 39813120000;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ISDNSingleChannel -> b/s
-        /// 1 ISDN (single channel) to vv: 64000 bit/second [b/s]
+        /// 1 ISDN (single channel) =  64000 bit/second [b/s]
         /// </summary>
         public static double ISDNSingleChannel_2_BitPerSecond(double inVal)             => inVal * 64000;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ISDNDualChannel -> b/s
-        /// 1 ISDN (dual channel) to vv: 128000 bit/second [b/s]
+        /// 1 ISDN (dual channel) =  128000 bit/second [b/s]
         /// </summary>
         public static double ISDNDualChannel_2_BitPerSecond(double inVal)               => inVal * 128000;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Modem110 -> b/s
-        /// 1 modem (110) to vv: 110 bit/second [b/s]
+        /// 1 modem (110) =  110 bit/second [b/s]
         /// </summary>
         public static double Modem110_2_BitPerSecond(double inVal)                      => inVal * 110;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Modem300 -> b/s
-        /// 1 modem (300) to vv: 300 bit/second [b/s]
+        /// 1 modem (300) =  300 bit/second [b/s]
         /// </summary>
         public static double Modem300_2_BitPerSecond(double inVal)                      => inVal * 300;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Modem1200 -> b/s
-        /// 1 modem (1200) to vv: 1200 bit/second [b/s]
+        /// 1 modem (1200) =  1200 bit/second [b/s]
         /// </summary>
         public static double Modem1200_2_BitPerSecond(double inVal)                     => inVal * 1200;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Modem2400 -> b/s
-        /// 1 modem (2400) to vv: 2400 bit/second [b/s]
+        /// 1 modem (2400) =  2400 bit/second [b/s]
         /// </summary>
         public static double Modem2400_2_BitPerSecond(double inVal)                     => inVal * 2400;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Modem9600 -> b/s
-        /// 1 modem (9600) to vv: 9600 bit/second [b/s]
+        /// 1 modem (9600) =  9600 bit/second [b/s]
         /// </summary>
         public static double Modem9600_2_BitPerSecond(double inVal)                     => inVal * 9600;
         /// <summary>
@@ -383,51 +383,51 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Modem14.4k -> b/s
-        /// 1 modem (14.4k) to vv: 14400 bit/second [b/s]
+        /// 1 modem (14.4k) =  14400 bit/second [b/s]
         /// </summary>
-        public static double Modem14k_2_BitPerSecond(double inVal)                      => inVal * 14400;
+        public static double Modem14400k_2_BitPerSecond(double inVal)                      => inVal * 14400;
         /// <summary>
         /// b/s -> Modem14.4k
         /// vv: 14400 bit/second [b/s] to 1 modem (14.4k)
         /// </summary>
-        public static double BitPerSecond_2_Modem144k(double inVal)                     => inVal / 14400;
+        public static double BitPerSecond_2_Modem14400k(double inVal)                     => inVal / 14400;
 
         /// <summary>
         /// Modem28.8k -> b/s
-        /// 1 modem (28.8k) to vv: 28800 bit/second [b/s]
+        /// 1 modem (28.8k) =  28800 bit/second [b/s]
         /// </summary>
-        public static double Modem28k_2_BitPerSecond(double inVal)                      => inVal * 28800;
+        public static double Modem28800k_2_BitPerSecond(double inVal)                      => inVal * 28800;
         /// <summary>
         /// b/s -> Modem28.8k
         /// vv: 28800 bit/second [b/s] to 1 modem (28.8k)
         /// </summary>
-        public static double BitPerSecond_2_Modem28k(double inVal)                      => inVal / 28800;
+        public static double BitPerSecond_2_Modem28800k(double inVal)                      => inVal / 28800;
 
         /// <summary>
         /// Modem33.6k -> b/s
-        /// 1 modem (33.6k) to vv: 33600 bit/second [b/s]
+        /// 1 modem (33.6k) =  33600 bit/second [b/s]
         /// </summary>
-        public static double Modem33k_2_BitPerSecond(double inVal)                      => inVal * 33600;
+        public static double Modem33600k_2_BitPerSecond(double inVal)                      => inVal * 33600;
         /// <summary>
         /// b/s -> Modem33.6k
         /// vv: 33600 bit/second [b/s] to 1 modem (33.6k)
         /// </summary>
-        public static double BitPerSecond_2_Modem33k(double inVal)                      => inVal / 33600;
+        public static double BitPerSecond_2_Modem33600k(double inVal)                      => inVal / 33600;
 
         /// <summary>
         /// Modem56k -> b/s
-        /// 1 modem (56k) to vv: 56000 bit/second [b/s]
+        /// 1 modem (56k) =  56000 bit/second [b/s]
         /// </summary>
-        public static double Modem56k_2_BitPerSecond(double inVal)                      => inVal * 56000;
+        public static double Modem56000k_2_BitPerSecond(double inVal)                      => inVal * 56000;
         /// <summary>
         /// b/s -> Modem56k
         /// vv: 56000 bit/second [b/s] to 1 modem (56k)
         /// </summary>
-        public static double BitPerSecond_2_Modem56k(double inVal)                      => inVal / 56000;
+        public static double BitPerSecond_2_Modem56000k(double inVal)                      => inVal / 56000;
 
         /// <summary>
         /// SCSIAsync -> b/s
-        /// 1 SCSI (Async) to vv: 12000000 bit/second [b/s]
+        /// 1 SCSI (Async) =  12000000 bit/second [b/s]
         /// </summary>
         public static double SCSIAsync_2_BitPerSecond(double inVal)                     => inVal * 12000000;
         /// <summary>
@@ -438,7 +438,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SCSISync -> b/s
-        /// 1 SCSI (Sync) to vv: 40000000 bit/second [b/s]
+        /// 1 SCSI (Sync) =  40000000 bit/second [b/s]
         /// </summary>
         public static double SCSISync_2_BitPerSecond(double inVal)                      => inVal * 40000000;
         /// <summary>
@@ -449,7 +449,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SCSIFast -> b/s
-        /// 1 SCSI (Fast) to vv: 80000000 bit/second [b/s]
+        /// 1 SCSI (Fast) =  80000000 bit/second [b/s]
         /// </summary>
         public static double SCSIFast_2_BitPerSecond(double inVal)                      => inVal * 80000000;
         /// <summary>
@@ -460,7 +460,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SCSIFastUltra -> b/s
-        /// 1 SCSI (Fast Ultra) to vv: 160000000 bit/second [b/s]
+        /// 1 SCSI (Fast Ultra) =  160000000 bit/second [b/s]
         /// </summary>
         public static double SCSIFastUltra_2_BitPerSecond(double inVal)                 => inVal * 160000000;
         /// <summary>
@@ -471,7 +471,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SCSIFastWide -> b/s
-        /// 1 SCSI (Fast Wide) to vv: 160000000 bit/second [b/s]
+        /// 1 SCSI (Fast Wide) =  160000000 bit/second [b/s]
         /// </summary>
         public static double SCSIFastWide_2_BitPerSecond(double inVal)                  => inVal * 160000000;
         /// <summary>
@@ -482,7 +482,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SCSIFastUltraWide -> b/s
-        /// 1 SCSI (Fast Ultra Wide) to vv: 320000000 bit/second [b/s]
+        /// 1 SCSI (Fast Ultra Wide) =  320000000 bit/second [b/s]
         /// </summary>
         public static double SCSIFastUltraWide_2_BitPerSecond(double inVal)             => inVal * 320000000;
         /// <summary>
@@ -493,7 +493,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SCSIUltra2 -> b/s
-        /// 1 SCSI (Ultra-2) to vv: 640000000 bit/second [b/s]
+        /// 1 SCSI (Ultra-2) =  640000000 bit/second [b/s]
         /// </summary>
         public static double SCSIUltra2_2_BitPerSecond(double inVal)                    => inVal * 640000000;
         /// <summary>
@@ -504,7 +504,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SCSIUltra3 -> b/s
-        /// 1 SCSI (Ultra-3) to vv: 1280000000 bit/second [b/s]
+        /// 1 SCSI (Ultra-3) =  1280000000 bit/second [b/s]
         /// </summary>
         public static double SCSIUltra3_2_BitPerSecond(double inVal)                    => inVal * 1280000000;
         /// <summary>
@@ -515,7 +515,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SCSILVDUltra80 -> b/s
-        /// 1 SCSI (LVD Ultra80) to vv: 640000000 bit/second [b/s]
+        /// 1 SCSI (LVD Ultra80) =  640000000 bit/second [b/s]
         /// </summary>
         public static double SCSILVDUltra80_2_BitPerSecond(double inVal)                => inVal * 640000000;
         /// <summary>
@@ -526,7 +526,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SCSILVDUltra160 -> b/s
-        /// 1 SCSI (LVD Ultra160) to vv: 1280000000 bit/second [b/s]
+        /// 1 SCSI (LVD Ultra160) =  1280000000 bit/second [b/s]
         /// </summary>
         public static double SCSILVDUltra160_2_BitPerSecond(double inVal)               => inVal * 1280000000;
         /// <summary>
@@ -537,7 +537,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEPIOMode0 -> b/s
-        /// 1 IDE (PIO mode 0) to vv: 26400000 bit/second [b/s]
+        /// 1 IDE (PIO mode 0) =  26400000 bit/second [b/s]
         /// </summary>
         public static double IDEPIOMode0_2_BitPerSecond(double inVal)                   => inVal * 26400000;
         /// <summary>
@@ -548,7 +548,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEPIOMode1 -> b/s
-        /// 1 IDE (PIO mode 1) to vv: 41600000 bit/second [b/s]
+        /// 1 IDE (PIO mode 1) =  41600000 bit/second [b/s]
         /// </summary>
         public static double IDEPIOMode1_2_BitPerSecond(double inVal)                   => inVal * 41600000;
         /// <summary>
@@ -559,7 +559,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEPIOMode2 -> b/s
-        /// 1 IDE (PIO mode 2) to vv: 66400000 bit/second [b/s]
+        /// 1 IDE (PIO mode 2) =  66400000 bit/second [b/s]
         /// </summary>
         public static double IDEPIOMode2_2_BitPerSecond(double inVal)                   => inVal * 66400000;
         /// <summary>
@@ -570,7 +570,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEPIOMode3 -> b/s
-        /// 1 IDE (PIO mode 3) to vv: 88800000 bit/second [b/s]
+        /// 1 IDE (PIO mode 3) =  88800000 bit/second [b/s]
         /// </summary>
         public static double IDEPIOMode3_2_BitPerSecond(double inVal)                   => inVal * 88800000;
         /// <summary>
@@ -581,7 +581,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEPIOMode4 -> b/s
-        /// 1 IDE (PIO mode 4) to vv: 132800000 bit/second [b/s]
+        /// 1 IDE (PIO mode 4) =  132800000 bit/second [b/s]
         /// </summary>
         public static double IDEPIOMode4_2_BitPerSecond(double inVal)                   => inVal * 132800000;
         /// <summary>
@@ -592,7 +592,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEDMAMode0 -> b/s
-        /// 1 IDE (DMA mode 0) to vv: 33600000 bit/second [b/s]
+        /// 1 IDE (DMA mode 0) =  33600000 bit/second [b/s]
         /// </summary>
         public static double IDEDMAMode0_2_BitPerSecond(double inVal)                   => inVal * 33600000;
         /// <summary>
@@ -603,7 +603,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEDMAMode1 -> b/s
-        /// 1 IDE (DMA mode 1) to vv: 106400000 bit/second [b/s]
+        /// 1 IDE (DMA mode 1) =  106400000 bit/second [b/s]
         /// </summary>
         public static double IDEDMAMode1_2_BitPerSecond(double inVal)                   => inVal * 106400000;
         /// <summary>
@@ -614,7 +614,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEDMAMode2 -> b/s
-        /// 1 IDE (DMA mode 2) to vv: 132800000 bit/second [b/s]
+        /// 1 IDE (DMA mode 2) =  132800000 bit/second [b/s]
         /// </summary>
         public static double IDEDMAMode2_2_BitPerSecond(double inVal)                   => inVal * 132800000;
         /// <summary>
@@ -625,7 +625,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEUDMAMode0 -> b/s
-        /// 1 IDE (UDMA mode 0) to vv: 132800000 bit/second [b/s]
+        /// 1 IDE (UDMA mode 0) =  132800000 bit/second [b/s]
         /// </summary>
         public static double IDEUDMAMode0_2_BitPerSecond(double inVal)                  => inVal * 132800000;
         /// <summary>
@@ -636,7 +636,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEUDMAMode1 -> b/s
-        /// 1 IDE (UDMA mode 1) to vv: 200000000 bit/second [b/s]
+        /// 1 IDE (UDMA mode 1) =  200000000 bit/second [b/s]
         /// </summary>
         public static double IDEUDMAMode1_2_BitPerSecond(double inVal)                  => inVal * 200000000;
         /// <summary>
@@ -647,7 +647,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEUDMAMode2 -> b/s
-        /// 1 IDE (UDMA mode 2) to vv: 264000000 bit/second [b/s]
+        /// 1 IDE (UDMA mode 2) =  264000000 bit/second [b/s]
         /// </summary>
         public static double IDEUDMAMode2_2_BitPerSecond(double inVal)                  => inVal * 264000000;
         /// <summary>
@@ -658,7 +658,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEUDMAMode3 -> b/s
-        /// 1 IDE (UDMA mode 3) to vv: 400000000 bit/second [b/s]
+        /// 1 IDE (UDMA mode 3) =  400000000 bit/second [b/s]
         /// </summary>
         public static double IDEUDMAMode3_2_BitPerSecond(double inVal)                  => inVal * 400000000;
         /// <summary>
@@ -669,7 +669,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEUDMAMode4 -> b/s
-        /// 1 IDE (UDMA mode 4) to vv: 528000000 bit/second [b/s]
+        /// 1 IDE (UDMA mode 4) =  528000000 bit/second [b/s]
         /// </summary>
         public static double IDEUDMAMode4_2_BitPerSecond(double inVal)                  => inVal * 528000000;
         /// <summary>
@@ -680,7 +680,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEUDMA33 -> b/s
-        /// 1 IDE (UDMA-33) to vv: 264000000 bit/second [b/s]
+        /// 1 IDE (UDMA-33) =  264000000 bit/second [b/s]
         /// </summary>
         public static double IDEUDMA33_2_BitPerSecond(double inVal)                     => inVal * 264000000;
         /// <summary>
@@ -691,7 +691,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// IDEUDMA66 -> b/s
-        /// 1 IDE (UDMA-66) to vv: 528000000 bit/second [b/s]
+        /// 1 IDE (UDMA-66) =  528000000 bit/second [b/s]
         /// </summary>
         public static double IDEUDMA66_2_BitPerSecond(double inVal)                     => inVal * 528000000;
         /// <summary>
@@ -702,7 +702,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// USB -> b/s
-        /// 1 USB to vv: 12000000 bit/second [b/s]
+        /// 1 USB =  12000000 bit/second [b/s]
         /// </summary>
         public static double USB_2_BitPerSecond(double inVal)                           => inVal * 12000000;
         /// <summary>
@@ -713,7 +713,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// FirewireIEEE1394 -> b/s
-        /// 1 firewire (IEEE-1394) to vv: 400000000 bit/second [b/s]
+        /// 1 firewire (IEEE-1394) =  400000000 bit/second [b/s]
         /// </summary>
         public static double FirewireIEEE1394_2_BitPerSecond(double inVal)              => inVal * 400000000;
         /// <summary>
@@ -724,7 +724,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T0Payload -> b/s
-        /// 1 T0 (payload) to vv: 56000 bit/second [b/s]
+        /// 1 T0 (payload) =  56000 bit/second [b/s]
         /// </summary>
         public static double T0Payload_2_BitPerSecond(double inVal)                     => inVal * 56000;
         /// <summary>
@@ -735,7 +735,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T0B8ZSPayload -> b/s
-        /// 1 T0 (B8ZS payload) to vv: 64000 bit/second [b/s]
+        /// 1 T0 (B8ZS payload) =  64000 bit/second [b/s]
         /// </summary>
         public static double T0B8ZSPayload_2_BitPerSecond(double inVal)                 => inVal * 64000;
         /// <summary>
@@ -746,7 +746,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T1Signal -> b/s
-        /// 1 T1 (signal) to vv: 1544000 bit/second [b/s]
+        /// 1 T1 (signal) =  1544000 bit/second [b/s]
         /// </summary>
         public static double T1Signal_2_BitPerSecond(double inVal)                      => inVal * 1544000;
         /// <summary>
@@ -757,7 +757,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T1Payload -> b/s
-        /// 1 T1 (payload) to vv: 1344000 bit/second [b/s]
+        /// 1 T1 (payload) =  1344000 bit/second [b/s]
         /// </summary>
         public static double T1Payload_2_BitPerSecond(double inVal)                     => inVal * 1344000;
         /// <summary>
@@ -768,7 +768,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T1ZPayload -> b/s
-        /// 1 T1Z (payload) to vv: 1544000 bit/second [b/s]
+        /// 1 T1Z (payload) =  1544000 bit/second [b/s]
         /// </summary>
         public static double T1ZPayload_2_BitPerSecond(double inVal)                    => inVal * 1544000;
         /// <summary>
@@ -779,7 +779,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T1CSignal -> b/s
-        /// 1 T1C (signal) to vv: 3152000 bit/second [b/s]
+        /// 1 T1C (signal) =  3152000 bit/second [b/s]
         /// </summary>
         public static double T1CSignal_2_BitPerSecond(double inVal)                     => inVal * 3152000;
         /// <summary>
@@ -790,7 +790,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T1CPayload -> b/s
-        /// 1 T1C (payload) to vv: 2688000 bit/second [b/s]
+        /// 1 T1C (payload) =  2688000 bit/second [b/s]
         /// </summary>
         public static double T1CPayload_2_BitPerSecond(double inVal)                    => inVal * 2688000;
         /// <summary>
@@ -801,7 +801,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T2Signal -> b/s
-        /// 1 T2 (signal) to vv: 6312000 bit/second [b/s]
+        /// 1 T2 (signal) =  6312000 bit/second [b/s]
         /// </summary>
         public static double T2Signal_2_BitPerSecond(double inVal)                      => inVal * 6312000;
         /// <summary>
@@ -812,7 +812,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T3Signal -> b/s
-        /// 1 T3 (signal) to vv: 44736000 bit/second [b/s]
+        /// 1 T3 (signal) =  44736000 bit/second [b/s]
         /// </summary>
         public static double T3Signal_2_BitPerSecond(double inVal)                      => inVal * 44736000;
         /// <summary>
@@ -823,7 +823,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T3Payload -> b/s
-        /// 1 T3 (payload) to vv: 37632000 bit/second [b/s]
+        /// 1 T3 (payload) =  37632000 bit/second [b/s]
         /// </summary>
         public static double T3Payload_2_BitPerSecond(double inVal)                     => inVal * 37632000;
         /// <summary>
@@ -834,7 +834,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T3ZPayload -> b/s
-        /// 1 T3Z (payload) to vv: 43008000 bit/second [b/s]
+        /// 1 T3Z (payload) =  43008000 bit/second [b/s]
         /// </summary>
         public static double T3ZPayload_2_BitPerSecond(double inVal)                    => inVal * 43008000;
         /// <summary>
@@ -845,7 +845,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// T4Signal -> b/s
-        /// 1 T4 (signal) to vv: 274176000 bit/second [b/s]
+        /// 1 T4 (signal) =  274176000 bit/second [b/s]
         /// </summary>
         public static double T4Signal_2_BitPerSecond(double inVal)                      => inVal * 274176000;
         /// <summary>
@@ -856,7 +856,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EPTA1Signal -> b/s
-        /// 1 EPTA 1 (signal) to vv: 2048000 bit/second [b/s]
+        /// 1 EPTA 1 (signal) =  2048000 bit/second [b/s]
         /// </summary>
         public static double EPTA1Signal_2_BitPerSecond(double inVal)               => inVal * 2048000;
         /// <summary>
@@ -867,7 +867,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EPTA1Payload -> b/s
-        /// 1 EPTA 1 (payload) to vv: 1920000 bit/second [b/s]
+        /// 1 EPTA 1 (payload) =  1920000 bit/second [b/s]
         /// </summary>
         public static double EPTA1Payload_2_BitPerSecond(double inVal)              => inVal * 1920000;
         /// <summary>
@@ -878,7 +878,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EPTA2Signal -> b/s
-        /// 1 EPTA 2 (signal) to vv: 8448000 bit/second [b/s]
+        /// 1 EPTA 2 (signal) =  8448000 bit/second [b/s]
         /// </summary>
         public static double EPTA2Signal_2_BitPerSecond(double inVal)               => inVal * 8448000;
         /// <summary>
@@ -889,7 +889,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EPTA2Payload -> b/s
-        /// 1 EPTA 2 (payload) to vv: 7680000 bit/second [b/s]
+        /// 1 EPTA 2 (payload) =  7680000 bit/second [b/s]
         /// </summary>
         public static double EPTA2Payload_2_BitPerSecond(double inVal)              => inVal * 7680000;
         /// <summary>
@@ -900,7 +900,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EPTA3Signal -> b/s
-        /// 1 EPTA 3 (signal) to vv: 34368000 bit/second [b/s]
+        /// 1 EPTA 3 (signal) =  34368000 bit/second [b/s]
         /// </summary>
         public static double EPTA3Signal_2_BitPerSecond(double inVal)               => inVal * 34368000;
         /// <summary>
@@ -911,7 +911,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EPTA3Payload -> b/s
-        /// 1 EPTA 3 (payload) to vv: 30720000 bit/second [b/s]
+        /// 1 EPTA 3 (payload) =  30720000 bit/second [b/s]
         /// </summary>
         public static double EPTA3Payload_2_BitPerSecond(double inVal)              => inVal * 30720000;
         /// <summary>
@@ -922,7 +922,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// H0 -> b/s
-        /// 1 H0 to vv: 384000 bit/second [b/s]
+        /// 1 H0 =  384000 bit/second [b/s]
         /// </summary>
         public static double H0_2_BitPerSecond(double inVal)                            => inVal * 384000;
         /// <summary>
@@ -933,7 +933,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// H11 -> b/s
-        /// 1 H11 to vv: 1536000 bit/second [b/s]
+        /// 1 H11 =  1536000 bit/second [b/s]
         /// </summary>
         public static double H11_2_BitPerSecond(double inVal)                           => inVal * 1536000;
         /// <summary>
@@ -944,7 +944,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// H12 -> b/s
-        /// 1 H12 to vv: 1920000 bit/second [b/s]
+        /// 1 H12 =  1920000 bit/second [b/s]
         /// </summary>
         public static double H12_2_BitPerSecond(double inVal)                           => inVal * 1920000;
         /// <summary>
@@ -955,7 +955,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VirtualTributary1Signal -> b/s
-        /// 1 Virtual Tributary 1 (signal) to vv: 1728000 bit/second [b/s]
+        /// 1 Virtual Tributary 1 (signal) =  1728000 bit/second [b/s]
         /// </summary>
         public static double VirtualTributary1Signal_2_BitPerSecond(double inVal)       => inVal * 1728000;
         /// <summary>
@@ -966,7 +966,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VirtualTributary1Payload -> b/s
-        /// 1 Virtual Tributary 1 (payload) to vv: 1544000 bit/second [b/s]
+        /// 1 Virtual Tributary 1 (payload) =  1544000 bit/second [b/s]
         /// </summary>
         public static double VirtualTributary1Payload_2_BitPerSecond(double inVal)      => inVal * 1544000;
         /// <summary>
@@ -977,7 +977,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VirtualTributary2Signal -> b/s
-        /// 1 Virtual Tributary 2 (signal) to vv: 2304000 bit/second [b/s]
+        /// 1 Virtual Tributary 2 (signal) =  2304000 bit/second [b/s]
         /// </summary>
         public static double VirtualTributary2Signal_2_BitPerSecond(double inVal)       => inVal * 2304000;
         /// <summary>
@@ -988,7 +988,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VirtualTributary2Payload -> b/s
-        /// 1 Virtual Tributary 2 (payload) to vv: 2048000 bit/second [b/s]
+        /// 1 Virtual Tributary 2 (payload) =  2048000 bit/second [b/s]
         /// </summary>
         public static double VirtualTributary2Payload_2_BitPerSecond(double inVal)      => inVal * 2048000;
         /// <summary>
@@ -999,7 +999,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VirtualTributary6Signal -> b/s
-        /// 1 Virtual Tributary 6 (signal) to vv: 6312000 bit/second [b/s]
+        /// 1 Virtual Tributary 6 (signal) =  6312000 bit/second [b/s]
         /// </summary>
         public static double VirtualTributary6Signal_2_BitPerSecond(double inVal)       => inVal * 6312000;
         /// <summary>
@@ -1010,7 +1010,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// VirtualTributary6Payload -> b/s
-        /// 1 Virtual Tributary 6 (payload) to vv: 6000000 bit/second [b/s]
+        /// 1 Virtual Tributary 6 (payload) =  6000000 bit/second [b/s]
         /// </summary>
         public static double VirtualTributary6Payload_2_BitPerSecond(double inVal)      => inVal * 6000000;
         /// <summary>
@@ -1021,7 +1021,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS1Signal -> b/s
-        /// 1 STS1 (signal) to vv: 51840000 bit/second [b/s]
+        /// 1 STS1 (signal) =  51840000 bit/second [b/s]
         /// </summary>
         public static double STS1Signal_2_BitPerSecond(double inVal)                    => inVal * 51840000;
         /// <summary>
@@ -1032,7 +1032,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS1Payload -> b/s
-        /// 1 STS1 (payload) to vv: 49500000 bit/second [b/s]
+        /// 1 STS1 (payload) =  49500000 bit/second [b/s]
         /// </summary>
         public static double STS1Payload_2_BitPerSecond(double inVal)                   => inVal * 49500000;
         /// <summary>
@@ -1043,7 +1043,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS3Signal -> b/s
-        /// 1 STS3 (signal) to vv: 155520000 bit/second [b/s]
+        /// 1 STS3 (signal) =  155520000 bit/second [b/s]
         /// </summary>
         public static double STS3Signal_2_BitPerSecond(double inVal)                    => inVal * 155520000;
         /// <summary>
@@ -1054,7 +1054,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS3Payload -> b/s
-        /// 1 STS3 (payload) to vv: 150336000 bit/second [b/s]
+        /// 1 STS3 (payload) =  150336000 bit/second [b/s]
         /// </summary>
         public static double STS3Payload_2_BitPerSecond(double inVal)                   => inVal * 150336000;
         /// <summary>
@@ -1065,7 +1065,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS3cSignal -> b/s
-        /// 1 STS3c (signal) to vv: 155520000 bit/second [b/s]
+        /// 1 STS3c (signal) =  155520000 bit/second [b/s]
         /// </summary>
         public static double STS3cSignal_2_BitPerSecond(double inVal)                   => inVal * 155520000;
         /// <summary>
@@ -1076,7 +1076,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS3cPayload -> b/s
-        /// 1 STS3c (payload) to vv: 150336000 bit/second [b/s]
+        /// 1 STS3c (payload) =  150336000 bit/second [b/s]
         /// </summary>
         public static double STS3cPayload_2_BitPerSecond(double inVal)                  => inVal * 150336000;
         /// <summary>
@@ -1087,7 +1087,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS12Signal -> b/s
-        /// 1 STS12 (signal) to vv: 622080000 bit/second [b/s]
+        /// 1 STS12 (signal) =  622080000 bit/second [b/s]
         /// </summary>
         public static double STS12Signal_2_BitPerSecond(double inVal)                   => inVal * 622080000;
         /// <summary>
@@ -1098,7 +1098,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS24Signal -> b/s
-        /// 1 STS24 (signal) to vv: 1244160000 bit/second [b/s]
+        /// 1 STS24 (signal) =  1244160000 bit/second [b/s]
         /// </summary>
         public static double STS24Signal_2_BitPerSecond(double inVal)                   => inVal * 1244160000;
         /// <summary>
@@ -1109,7 +1109,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS48Signal -> b/s
-        /// 1 STS48 (signal) to vv: 2488320000 bit/second [b/s]
+        /// 1 STS48 (signal) =  2488320000 bit/second [b/s]
         /// </summary>
         public static double STS48Signal_2_BitPerSecond(double inVal)                   => inVal * 2488320000;
         /// <summary>
@@ -1120,7 +1120,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STS192Signal -> b/s
-        /// 1 STS192 (signal) to vv: 9953280000 bit/second [b/s]
+        /// 1 STS192 (signal) =  9953280000 bit/second [b/s]
         /// </summary>
         public static double STS192Signal_2_BitPerSecond(double inVal)                  => inVal * 9953280000;
         /// <summary>
@@ -1131,7 +1131,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STM1Signal -> b/s
-        /// 1 STM-1 (signal) to vv: 155520000 bit/second [b/s]
+        /// 1 STM-1 (signal) =  155520000 bit/second [b/s]
         /// </summary>
         public static double STM1Signal_2_BitPerSecond(double inVal)                    => inVal * 155520000;
         /// <summary>
@@ -1142,7 +1142,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STM4Signal -> b/s
-        /// 1 STM-4 (signal) to vv: 622080000 bit/second [b/s]
+        /// 1 STM-4 (signal) =  622080000 bit/second [b/s]
         /// </summary>
         public static double STM4Signal_2_BitPerSecond(double inVal)                    => inVal * 622080000;
         /// <summary>
@@ -1153,7 +1153,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STM16Signal -> b/s
-        /// 1 STM-16 (signal) to vv: 2488320000 bit/second [b/s]
+        /// 1 STM-16 (signal) =  2488320000 bit/second [b/s]
         /// </summary>
         public static double STM16Signal_2_BitPerSecond(double inVal)                   => inVal * 2488320000;
         /// <summary>
@@ -1164,7 +1164,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// STM64Signal -> b/s
-        /// 1 STM-64 (signal) to vv: 9953280000 bit/second [b/s]
+        /// 1 STM-64 (signal) =  9953280000 bit/second [b/s]
         /// </summary>
         public static double STM64Signal_2_BitPerSecond(double inVal)                   => inVal * 9953280000;
         /// <summary>

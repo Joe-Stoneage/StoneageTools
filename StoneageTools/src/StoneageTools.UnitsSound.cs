@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dB -> B
-        /// 1 decibel [dB] to vv: 0.1 bel [B]
+        /// 1 decibel [dB] =  0.1 bel [B]
         /// </summary>
         public static double Decibel_2_Bel(double inVal)                                => inVal * 0.1;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Np -> B
-        /// 1 neper [Np] to vv: 0.8686000004 bel [B]
+        /// 1 neper [Np] =  0.8686000004 bel [B]
         /// </summary>
         public static double Neper_2_Bel(double inVal)                                  => inVal * 0.8686000004;
         /// <summary>

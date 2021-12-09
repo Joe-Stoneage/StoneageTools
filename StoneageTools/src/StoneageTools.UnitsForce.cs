@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kN -> N
-        /// 1 kilonewton [kN] to vv: 1000 newton [N]
+        /// 1 kilonewton [kN] =  1000 newton [N]
         /// </summary>
         public static double Kilonewton_2_Newton(double inVal)                          => inVal * 1000;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gf -> N
-        /// 1 gram-force [gf] to vv: 0.00980665 newton [N]
+        /// 1 gram-force [gf] =  0.00980665 newton [N]
         /// </summary>
         public static double GramForce_2_Newton(double inVal)                           => inVal * 0.00980665;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kgf -> N
-        /// 1 kilogram-force [kgf] to vv: 9.80665 newton [N]
+        /// 1 kilogram-force [kgf] =  9.80665 newton [N]
         /// </summary>
         public static double KilogramForce_2_Newton(double inVal)                       => inVal * 9.80665;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// tf -> N
-        /// 1 ton-force (metric) [tf] to vv: 9806.65 newton [N]
+        /// 1 ton-force (metric) [tf] =  9806.65 newton [N]
         /// </summary>
         public static double TonForceMetric_2_Newton(double inVal)                      => inVal * 9806.65;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EN -> N
-        /// 1 exanewton [EN] to vv: 1.0E+18 newton [N]
+        /// 1 exanewton [EN] =  1.0E+18 newton [N]
         /// </summary>
         public static double Exanewton_2_Newton(double inVal)                           => inVal * 1.0E+18;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PT -> N
-        /// 1 petanewton [PT] to vv: 1.0E+15 newton [N]
+        /// 1 petanewton [PT] =  1.0E+15 newton [N]
         /// </summary>
         public static double Petanewton_2_Newton(double inVal)                          => inVal * 1.0E+15;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TN -> N
-        /// 1 teranewton [TN] to vv: 1000000000000 newton [N]
+        /// 1 teranewton [TN] =  1000000000000 newton [N]
         /// </summary>
         public static double Teranewton_2_Newton(double inVal)                          => inVal * 1000000000000;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GN -> N
-        /// 1 giganewton [GN] to vv: 1000000000 newton [N]
+        /// 1 giganewton [GN] =  1000000000 newton [N]
         /// </summary>
         public static double Giganewton_2_Newton(double inVal)                          => inVal * 1000000000;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MN -> N
-        /// 1 meganewton [MN] to vv: 1000000 newton [N]
+        /// 1 meganewton [MN] =  1000000 newton [N]
         /// </summary>
         public static double Meganewton_2_Newton(double inVal)                          => inVal * 1000000;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hN -> N
-        /// 1 hectonewton [hN] to vv: 100 newton [N]
+        /// 1 hectonewton [hN] =  100 newton [N]
         /// </summary>
         public static double Hectonewton_2_Newton(double inVal)                         => inVal * 100;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// daN -> N
-        /// 1 dekanewton [daN] to vv: 10 newton [N]
+        /// 1 dekanewton [daN] =  10 newton [N]
         /// </summary>
         public static double Dekanewton_2_Newton(double inVal)                          => inVal * 10;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dN -> N
-        /// 1 decinewton [dN] to vv: 0.1 newton [N]
+        /// 1 decinewton [dN] =  0.1 newton [N]
         /// </summary>
         public static double Decinewton_2_Newton(double inVal)                          => inVal * 0.1;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cN -> N
-        /// 1 centinewton [cN] to vv: 0.01 newton [N]
+        /// 1 centinewton [cN] =  0.01 newton [N]
         /// </summary>
         public static double Centinewton_2_Newton(double inVal)                         => inVal * 0.01;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mN -> N
-        /// 1 millinewton [mN] to vv: 0.001 newton [N]
+        /// 1 millinewton [mN] =  0.001 newton [N]
         /// </summary>
         public static double Millinewton_2_Newton(double inVal)                         => inVal * 0.001;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µN -> N
-        /// 1 micronewton [µN] to vv: 1.0E-6 newton [N]
+        /// 1 micronewton [µN] =  1.0E-6 newton [N]
         /// </summary>
         public static double Micronewton_2_Newton(double inVal)                         => inVal * 1.0E-6;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nN -> N
-        /// 1 nanonewton [nN] to vv: 1.0E-9 newton [N]
+        /// 1 nanonewton [nN] =  1.0E-9 newton [N]
         /// </summary>
         public static double Nanonewton_2_Newton(double inVal)                          => inVal * 1.0E-9;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pN -> N
-        /// 1 piconewton [pN] to vv: 1.0E-12 newton [N]
+        /// 1 piconewton [pN] =  1.0E-12 newton [N]
         /// </summary>
         public static double Piconewton_2_Newton(double inVal)                          => inVal * 1.0E-12;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fN -> N
-        /// 1 femtonewton [fN] to vv: 1.0E-15 newton [N]
+        /// 1 femtonewton [fN] =  1.0E-15 newton [N]
         /// </summary>
         public static double Femtonewton_2_Newton(double inVal)                         => inVal * 1.0E-15;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// aN -> N
-        /// 1 attonewton [aN] to vv: 1.0E-18 newton [N]
+        /// 1 attonewton [aN] =  1.0E-18 newton [N]
         /// </summary>
         public static double Attonewton_2_Newton(double inVal)                          => inVal * 1.0E-18;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dyn -> N
-        /// 1 dyne [dyn] to vv: 1.0E-5 newton [N]
+        /// 1 dyne [dyn] =  1.0E-5 newton [N]
         /// </summary>
         public static double Dyne_2_Newton(double inVal)                                => inVal * 1.0E-5;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// J/m -> N
-        /// 1 joule/meter [J/m] to vv: 1 newton [N]
+        /// 1 joule/meter [J/m] =  1 newton [N]
         /// </summary>
         public static double JoulePerMeter_2_Newton(double inVal)                       => inVal * 1;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// J/cm -> N
-        /// 1 joule/centimeter [J/cm] to vv: 0.01 newton [N]
+        /// 1 joule/centimeter [J/cm] =  0.01 newton [N]
         /// </summary>
         public static double JoulePerCentimeter_2_Newton(double inVal)                  => inVal * 0.01;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonForceShort -> N
-        /// 1 ton-force (short) to vv: 8896.443230521 newton [N]
+        /// 1 ton-force (short) =  8896.443230521 newton [N]
         /// </summary>
         public static double TonForceShort_2_Newton(double inVal)                       => inVal * 8896.443230521;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// tonf (UK) -> N
-        /// 1 ton-force (long) [tonf (UK)] to vv: 9964.0164181707 newton [N]
+        /// 1 ton-force (long) [tonf (UK)] =  9964.0164181707 newton [N]
         /// </summary>
         public static double TonForceLong_2_Newton(double inVal)                        => inVal * 9964.0164181707;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kipf -> N
-        /// 1 kip-force [kipf] to vv: 4448.2216152548 newton [N]
+        /// 1 kip-force [kipf] =  4448.2216152548 newton [N]
         /// </summary>
         public static double KipForce_2_Newton(double inVal)                            => inVal * 4448.2216152548;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kipf -> N
-        /// 1 kilopound-force [kipf] to vv: 4448.2216152548 newton [N]
+        /// 1 kilopound-force [kipf] =  4448.2216152548 newton [N]
         /// </summary>
         public static double KilopoundForce_2_Newton(double inVal)                      => inVal * 4448.2216152548;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lbf -> N
-        /// 1 pound-force [lbf] to vv: 4.4482216153 newton [N]
+        /// 1 pound-force [lbf] =  4.4482216153 newton [N]
         /// </summary>
         public static double PoundForce_2_Newton(double inVal)                          => inVal * 4.4482216153;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ozf -> N
-        /// 1 ounce-force [ozf] to vv: 0.278013851 newton [N]
+        /// 1 ounce-force [ozf] =  0.278013851 newton [N]
         /// </summary>
         public static double OunceForce_2_Newton(double inVal)                          => inVal * 0.278013851;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pdl -> N
-        /// 1 poundal [pdl] to vv: 0.1382549544 newton [N]
+        /// 1 poundal [pdl] =  0.1382549544 newton [N]
         /// </summary>
         public static double Poundal_2_Newton(double inVal)                             => inVal * 0.1382549544;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundFootPerSquareSecond -> N
-        /// 1 pound foot/square second to vv: 0.1382549544 newton [N]
+        /// 1 pound foot/square second =  0.1382549544 newton [N]
         /// </summary>
         public static double PoundFootPerSquareSecond_2_Newton(double inVal)            => inVal * 0.1382549544;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// p -> N
-        /// 1 pond [p] to vv: 0.00980665 newton [N]
+        /// 1 pond [p] =  0.00980665 newton [N]
         /// </summary>
         public static double Pond_2_Newton(double inVal)                                => inVal * 0.00980665;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kp -> N
-        /// 1 kilopond [kp] to vv: 9.80665 newton [N]
+        /// 1 kilopond [kp] =  9.80665 newton [N]
         /// </summary>
         public static double Kilopond_2_Newton(double inVal)                            => inVal * 9.80665;
         /// <summary>

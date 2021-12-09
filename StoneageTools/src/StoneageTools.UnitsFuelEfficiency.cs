@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kJ/kg -> J/kg
-        /// 1 kilojoule/kilogram [kJ/kg] to vv: 1000 joule/kilogram [J/kg]
+        /// 1 kilojoule/kilogram [kJ/kg] =  1000 joule/kilogram [J/kg]
         /// </summary>
         public static double KilojoulePerKilogram_2_JoulePerKilogram(double inVal)      => inVal * 1000;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cal/g -> J/kg
-        /// 1 calorie (IT)/gram [cal/g] to vv: 4186.8 joule/kilogram [J/kg]
+        /// 1 calorie (IT)/gram [cal/g] =  4186.8 joule/kilogram [J/kg]
         /// </summary>
         public static double CalorieITPerGram_2_JoulePerKilogram(double inVal)          => inVal * 4186.8;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cal (th)/g -> J/kg
-        /// 1 calorie (th)/gram [cal (th)/g] to vv: 4184.000000005 joule/kilogram [J/kg]
+        /// 1 calorie (th)/gram [cal (th)/g] =  4184.000000005 joule/kilogram [J/kg]
         /// </summary>
         public static double CalorieThPerGram_2_JoulePerKilogram(double inVal)          => inVal * 4184.000000005;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu/lb -> J/kg
-        /// 1 Btu (IT)/pound [Btu/lb] to vv: 2326 joule/kilogram [J/kg]
+        /// 1 Btu (IT)/pound [Btu/lb] =  2326 joule/kilogram [J/kg]
         /// </summary>
         public static double BtuITPerPound_2_JoulePerKilogram(double inVal)             => inVal * 2326;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu (th)/lb -> J/kg
-        /// 1 Btu (th)/pound [Btu (th)/lb] to vv: 2324.4444444446 joule/kilogram [J/kg]
+        /// 1 Btu (th)/pound [Btu (th)/lb] =  2324.4444444446 joule/kilogram [J/kg]
         /// </summary>
         public static double BtuThPerPound_2_JoulePerKilogram(double inVal)             => inVal * 2324.4444444446;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kg/J -> J/kg
-        /// 1 kilogram/joule [kg/J] to vv: 1 joule/kilogram [J/kg]
+        /// 1 kilogram/joule [kg/J] =  1 joule/kilogram [J/kg]
         /// </summary>
         public static double KilogramPerJoule_2_JoulePerKilogram(double inVal)          => inVal * 1;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kg/kJ -> J/kg
-        /// 1 kilogram/kilojoule [kg/kJ] to vv: 1000 joule/kilogram [J/kg]
+        /// 1 kilogram/kilojoule [kg/kJ] =  1000 joule/kilogram [J/kg]
         /// </summary>
         public static double KilogramPerKilojoule_2_JoulePerKilogram(double inVal)      => inVal * 1000;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// g/cal -> J/kg
-        /// 1 gram/calorie (IT) [g/cal] to vv: 4186.8 joule/kilogram [J/kg]
+        /// 1 gram/calorie (IT) [g/cal] =  4186.8 joule/kilogram [J/kg]
         /// </summary>
         public static double GramPerCalorieIT_2_JoulePerKilogram(double inVal)          => inVal * 4186.8;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// g/cal (th) -> J/kg
-        /// 1 gram/calorie (th) [g/cal (th)] to vv: 4184.000000005 joule/kilogram [J/kg]
+        /// 1 gram/calorie (th) [g/cal (th)] =  4184.000000005 joule/kilogram [J/kg]
         /// </summary>
         public static double GramPerCalorieTh_2_JoulePerKilogram(double inVal)          => inVal * 4184.000000005;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lb/Btu -> J/kg
-        /// 1 pound/Btu (IT) [lb/Btu] to vv: 2326 joule/kilogram [J/kg]
+        /// 1 pound/Btu (IT) [lb/Btu] =  2326 joule/kilogram [J/kg]
         /// </summary>
         public static double PoundPerBtuIT_2_JoulePerKilogram(double inVal)             => inVal * 2326;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lb/Btu (th) -> J/kg
-        /// 1 pound/Btu (th) [lb/Btu (th)] to vv: 2324.4444444446 joule/kilogram [J/kg]
+        /// 1 pound/Btu (th) [lb/Btu (th)] =  2324.4444444446 joule/kilogram [J/kg]
         /// </summary>
         public static double PoundPerBtuTh_2_JoulePerKilogram(double inVal)             => inVal * 2324.4444444446;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerHorsepowerPerHour -> J/kg
-        /// 1 pound/horsepower/hour to vv: 5918352.5016 joule/kilogram [J/kg]
+        /// 1 pound/horsepower/hour =  5918352.5016 joule/kilogram [J/kg]
         /// </summary>
         public static double PoundPerHorsepowerPerHour_2_JoulePerKilogram(double inVal) => inVal * 5918352.5016;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GramPerHorsepowerMetricPerHour -> J/kg
-        /// 1 gram/horsepower (metric)/hour to vv: 2647795500 joule/kilogram [J/kg]
+        /// 1 gram/horsepower (metric)/hour =  2647795500 joule/kilogram [J/kg]
         /// </summary>
         public static double GramPerHorsepowerMetricPerHour_2_JoulePerKilogram(double inVal)=> inVal * 2647795500;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GramPerKilowattPerHour -> J/kg
-        /// 1 gram/kilowatt/hour to vv: 3600000000 joule/kilogram [J/kg]
+        /// 1 gram/kilowatt/hour =  3600000000 joule/kilogram [J/kg]
         /// </summary>
         public static double GramPerKilowattPerHour_2_JoulePerKilogram(double inVal)    => inVal * 3600000000;
         /// <summary>
@@ -167,7 +167,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// J/L -> J/m^3
-        /// 1 joule/liter [J/L] to vv: 1000 joule/cubic meter [J/m^3]
+        /// 1 joule/liter [J/L] =  1000 joule/cubic meter [J/m^3]
         /// </summary>
         public static double JoulePerLiter_2_JoulePerCubicMeter(double inVal)           => inVal * 1000;
         /// <summary>
@@ -178,7 +178,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MegajoulePerCubicMeter -> J/m^3
-        /// 1 megajoule/cubic meter to vv: 1000000 joule/cubic meter [J/m^3]
+        /// 1 megajoule/cubic meter =  1000000 joule/cubic meter [J/m^3]
         /// </summary>
         public static double MegajoulePerCubicMeter_2_JoulePerCubicMeter(double inVal)  => inVal * 1000000;
         /// <summary>
@@ -189,7 +189,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kJ/m^3 -> J/m^3
-        /// 1 kilojoule/cubic meter [kJ/m^3] to vv: 1000 joule/cubic meter [J/m^3]
+        /// 1 kilojoule/cubic meter [kJ/m^3] =  1000 joule/cubic meter [J/m^3]
         /// </summary>
         public static double KilojoulePerCubicMeter_2_JoulePerCubicMeter(double inVal)  => inVal * 1000;
         /// <summary>
@@ -200,7 +200,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilocalorieITPerCubicMeter -> J/m^3
-        /// 1 kilocalorie (IT)/cubic meter to vv: 4186.800000482 joule/cubic meter [J/m^3]
+        /// 1 kilocalorie (IT)/cubic meter =  4186.800000482 joule/cubic meter [J/m^3]
         /// </summary>
         public static double KilocalorieITPerCubicMeter_2_JoulePerCubicMeter(double inVal)=> inVal * 4186.800000482;
         /// <summary>
@@ -211,7 +211,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CalorieITPerCubicCentimeter -> J/m^3
-        /// 1 calorie (IT)/cubic centimeter to vv: 4186800.000482 joule/cubic meter [J/m^3]
+        /// 1 calorie (IT)/cubic centimeter =  4186800.000482 joule/cubic meter [J/m^3]
         /// </summary>
         public static double CalorieITPerCubicCentimeter_2_JoulePerCubicMeter(double inVal)=> inVal * 4186800.000482;
         /// <summary>
@@ -222,7 +222,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// therm/ft^3 -> J/m^3
-        /// 1 therm/cubic foot [therm/ft^3] to vv: 3725894617.319 joule/cubic meter [J/m^3]
+        /// 1 therm/cubic foot [therm/ft^3] =  3725894617.319 joule/cubic meter [J/m^3]
         /// </summary>
         public static double ThermPerCubicFoot_2_JoulePerCubicMeter(double inVal)       => inVal * 3725894617.319;
         /// <summary>
@@ -233,7 +233,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ThermPerGallonUK -> J/m^3
-        /// 1 therm/gallon (UK) to vv: 23207984510.267 joule/cubic meter [J/m^3]
+        /// 1 therm/gallon (UK) =  23207984510.267 joule/cubic meter [J/m^3]
         /// </summary>
         public static double ThermPerGallonUK_2_JoulePerCubicMeter(double inVal)        => inVal * 23207984510.267;
         /// <summary>
@@ -244,7 +244,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Btu/ft^3 -> J/m^3
-        /// 1 Btu (IT)/cubic foot [Btu/ft^3] to vv: 37258.945807808 joule/cubic meter [J/m^3]
+        /// 1 Btu (IT)/cubic foot [Btu/ft^3] =  37258.945807808 joule/cubic meter [J/m^3]
         /// </summary>
         public static double BtuITPerCubicFoot_2_JoulePerCubicMeter(double inVal)       => inVal * 37258.945807808;
         /// <summary>
@@ -255,7 +255,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BtuThPerCubicFoot -> J/m^3
-        /// 1 Btu (th)/cubic foot to vv: 37234.028198186 joule/cubic meter [J/m^3]
+        /// 1 Btu (th)/cubic foot =  37234.028198186 joule/cubic meter [J/m^3]
         /// </summary>
         public static double BtuThPerCubicFoot_2_JoulePerCubicMeter(double inVal)       => inVal * 37234.028198186;
         /// <summary>
@@ -266,7 +266,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CHU/ft^3 -> J/m^3
-        /// 1 CHU/cubic foot [CHU/ft^3] to vv: 67066.103121737 joule/cubic meter [J/m^3]
+        /// 1 CHU/cubic foot [CHU/ft^3] =  67066.103121737 joule/cubic meter [J/m^3]
         /// </summary>
         public static double CHUPerCubicFoot_2_JoulePerCubicMeter(double inVal)         => inVal * 67066.103121737;
         /// <summary>
@@ -277,7 +277,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m^3/J -> J/m^3
-        /// 1 cubic meter/joule [m^3/J] to vv: 1 joule/cubic meter [J/m^3]
+        /// 1 cubic meter/joule [m^3/J] =  1 joule/cubic meter [J/m^3]
         /// </summary>
         public static double CubicMeterPerJoule_2_JoulePerCubicMeter(double inVal)      => inVal * 1;
         /// <summary>
@@ -288,7 +288,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L/J -> J/m^3
-        /// 1 liter/joule [L/J] to vv: 1000 joule/cubic meter [J/m^3]
+        /// 1 liter/joule [L/J] =  1000 joule/cubic meter [J/m^3]
         /// </summary>
         public static double LiterPerJoule_2_JoulePerCubicMeter(double inVal)           => inVal * 1000;
         /// <summary>
@@ -299,7 +299,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUSPerHorsepower -> J/m^3
-        /// 1 gallon (US)/horsepower to vv: 709175035.869 joule/cubic meter [J/m^3]
+        /// 1 gallon (US)/horsepower =  709175035.869 joule/cubic meter [J/m^3]
         /// </summary>
         public static double GallonUSPerHorsepower_2_JoulePerCubicMeter(double inVal)   => inVal * 709175035.869;
         /// <summary>

@@ -3,6 +3,7 @@ using StoneageTools.Strings;
 
 namespace StoneageToolsTest
 {
+    // Taking a units list from UnitConverters.net and creates c#-source (static methods)
     public static class DataTextConverter
     {
         public static void DoIt()

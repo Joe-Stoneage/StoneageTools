@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DecimeterPerSquareSecond -> MeterPerSquareSecond
-        /// 1 decimeter/square second to vv: 0.1 meter/square second
+        /// 1 decimeter/square second =  0.1 meter/square second
         /// </summary>
         public static double DecimeterPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 0.1;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilometerPerSquareSecond -> MeterPerSquareSecond
-        /// 1 kilometer/square second to vv: 1000 meter/square second
+        /// 1 kilometer/square second =  1000 meter/square second
         /// </summary>
         public static double KilometerPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 1000;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HectometerPerSquareSecond -> MeterPerSquareSecond
-        /// 1 hectometer/square second to vv: 100 meter/square second
+        /// 1 hectometer/square second =  100 meter/square second
         /// </summary>
         public static double HectometerPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 100;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DekameterPerSquareSecond -> MeterPerSquareSecond
-        /// 1 dekameter/square second to vv: 10 meter/square second
+        /// 1 dekameter/square second =  10 meter/square second
         /// </summary>
         public static double DekameterPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 10;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CentimeterPerSquareSecond -> MeterPerSquareSecond
-        /// 1 centimeter/square second to vv: 0.01 meter/square second
+        /// 1 centimeter/square second =  0.01 meter/square second
         /// </summary>
         public static double CentimeterPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 0.01;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MillimeterPerSquareSecond -> MeterPerSquareSecond
-        /// 1 millimeter/square second to vv: 0.001 meter/square second
+        /// 1 millimeter/square second =  0.001 meter/square second
         /// </summary>
         public static double MillimeterPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 0.001;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MicrometerPerSquareSecond -> MeterPerSquareSecond
-        /// 1 micrometer/square second to vv: 1.0E-6 meter/square second
+        /// 1 micrometer/square second =  1.0E-6 meter/square second
         /// </summary>
         public static double MicrometerPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 1.0E-6;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NanometerPerSquareSecond -> MeterPerSquareSecond
-        /// 1 nanometer/square second to vv: 1.0E-9 meter/square second
+        /// 1 nanometer/square second =  1.0E-9 meter/square second
         /// </summary>
         public static double NanometerPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 1.0E-9;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PicometerPerSquareSecond -> MeterPerSquareSecond
-        /// 1 picometer/square second to vv: 1.0E-12 meter/square second
+        /// 1 picometer/square second =  1.0E-12 meter/square second
         /// </summary>
         public static double PicometerPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 1.0E-12;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// FemtometerPerSquareSecond -> MeterPerSquareSecond
-        /// 1 femtometer/square second to vv: 1.0E-15 meter/square second
+        /// 1 femtometer/square second =  1.0E-15 meter/square second
         /// </summary>
         public static double FemtometerPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 1.0E-15;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// AttometerPerSquareSecond -> MeterPerSquareSecond
-        /// 1 attometer/square second to vv: 1.0E-18 meter/square second
+        /// 1 attometer/square second =  1.0E-18 meter/square second
         /// </summary>
         public static double AttometerPerSquareSecond_2_MeterPerSquareSecond(double inVal)=> inVal * 1.0E-18;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gal -> MeterPerSquareSecond
-        /// 1 gal [Gal] to vv: 0.01 meter/square second
+        /// 1 gal [Gal] =  0.01 meter/square second
         /// </summary>
         public static double Gal_2_MeterPerSquareSecond(double inVal)                   => inVal * 0.01;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gal -> MeterPerSquareSecond
-        /// 1 galileo [Gal] to vv: 0.01 meter/square second
+        /// 1 galileo [Gal] =  0.01 meter/square second
         /// </summary>
         public static double Galileo_2_MeterPerSquareSecond(double inVal)               => inVal * 0.01;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi/s^2 -> MeterPerSquareSecond
-        /// 1 mile/square second [mi/s^2] to vv: 1609.344 meter/square second
+        /// 1 mile/square second [mi/s^2] =  1609.344 meter/square second
         /// </summary>
         public static double MilePerSquareSecond_2_MeterPerSquareSecond(double inVal)   => inVal * 1609.344;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// YardPerSquareSecond -> MeterPerSquareSecond
-        /// 1 yard/square second to vv: 0.9144 meter/square second
+        /// 1 yard/square second =  0.9144 meter/square second
         /// </summary>
         public static double YardPerSquareSecond_2_MeterPerSquareSecond(double inVal)   => inVal * 0.9144;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft/s^2 -> MeterPerSquareSecond
-        /// 1 foot/square second [ft/s^2] to vv: 0.3048 meter/square second
+        /// 1 foot/square second [ft/s^2] =  0.3048 meter/square second
         /// </summary>
         public static double FootPerSquareSecond_2_MeterPerSquareSecond(double inVal)   => inVal * 0.3048;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in/s^2 -> MeterPerSquareSecond
-        /// 1 inch/square second [in/s^2] to vv: 0.0254 meter/square second
+        /// 1 inch/square second [in/s^2] =  0.0254 meter/square second
         /// </summary>
         public static double InchPerSquareSecond_2_MeterPerSquareSecond(double inVal)   => inVal * 0.0254;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// g -> MeterPerSquareSecond
-        /// 1 Acceleration of gravity [g] to vv: 9.80665 meter/square second
+        /// 1 Acceleration of gravity [g] =  9.80665 meter/square second
         /// </summary>
         public static double AccelerationOfGravity_2_MeterPerSquareSecond(double inVal) => inVal * 9.80665;
         /// <summary>

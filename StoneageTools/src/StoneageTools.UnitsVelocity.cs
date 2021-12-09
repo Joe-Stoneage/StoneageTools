@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// rad/d -> rad/s
-        /// 1 radian/day [rad/d] to vv: 1.15741E-5 radian/second [rad/s]
+        /// 1 radian/day [rad/d] =  1.15741E-5 radian/second [rad/s]
         /// </summary>
         public static double RadianPerDay_2_RadianPerSecond(double inVal)               => inVal * 1.15741E-5;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// rad/h -> rad/s
-        /// 1 radian/hour [rad/h] to vv: 0.0002777778 radian/second [rad/s]
+        /// 1 radian/hour [rad/h] =  0.0002777778 radian/second [rad/s]
         /// </summary>
         public static double RadianPerHour_2_RadianPerSecond(double inVal)              => inVal * 0.0002777778;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// rad/min -> rad/s
-        /// 1 radian/minute [rad/min] to vv: 0.0166666667 radian/second [rad/s]
+        /// 1 radian/minute [rad/min] =  0.0166666667 radian/second [rad/s]
         /// </summary>
         public static double RadianPerMinute_2_RadianPerSecond(double inVal)            => inVal * 0.0166666667;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// °/d -> rad/s
-        /// 1 degree/day [°/d] to vv: 2.0200570046231E-7 radian/second [rad/s]
+        /// 1 degree/day [°/d] =  2.0200570046231E-7 radian/second [rad/s]
         /// </summary>
         public static double DegreePerDay_2_RadianPerSecond(double inVal)               => inVal * 2.0200570046231E-7;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// °/h -> rad/s
-        /// 1 degree/hour [°/h] to vv: 4.8481368110954E-6 radian/second [rad/s]
+        /// 1 degree/hour [°/h] =  4.8481368110954E-6 radian/second [rad/s]
         /// </summary>
         public static double DegreePerHour_2_RadianPerSecond(double inVal)              => inVal * 4.8481368110954E-6;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// °/min -> rad/s
-        /// 1 degree/minute [°/min] to vv: 0.0002908882 radian/second [rad/s]
+        /// 1 degree/minute [°/min] =  0.0002908882 radian/second [rad/s]
         /// </summary>
         public static double DegreePerMinute_2_RadianPerSecond(double inVal)            => inVal * 0.0002908882;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// °/s -> rad/s
-        /// 1 degree/second [°/s] to vv: 0.0174532925 radian/second [rad/s]
+        /// 1 degree/second [°/s] =  0.0174532925 radian/second [rad/s]
         /// </summary>
         public static double DegreePerSecond_2_RadianPerSecond(double inVal)            => inVal * 0.0174532925;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// r/d -> rad/s
-        /// 1 revolution/day [r/d] to vv: 7.27221E-5 radian/second [rad/s]
+        /// 1 revolution/day [r/d] =  7.27221E-5 radian/second [rad/s]
         /// </summary>
         public static double RevolutionPerDay_2_RadianPerSecond(double inVal)           => inVal * 7.27221E-5;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// r/h -> rad/s
-        /// 1 revolution/hour [r/h] to vv: 0.0017453293 radian/second [rad/s]
+        /// 1 revolution/hour [r/h] =  0.0017453293 radian/second [rad/s]
         /// </summary>
         public static double RevolutionPerHour_2_RadianPerSecond(double inVal)          => inVal * 0.0017453293;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// r/min -> rad/s
-        /// 1 revolution/minute [r/min] to vv: 0.1047197551 radian/second [rad/s]
+        /// 1 revolution/minute [r/min] =  0.1047197551 radian/second [rad/s]
         /// </summary>
         public static double RevolutionPerMinute_2_RadianPerSecond(double inVal)        => inVal * 0.1047197551;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// r/s -> rad/s
-        /// 1 revolution/second [r/s] to vv: 6.2831853072 radian/second [rad/s]
+        /// 1 revolution/second [r/s] =  6.2831853072 radian/second [rad/s]
         /// </summary>
         public static double RevolutionPerSecond_2_RadianPerSecond(double inVal)        => inVal * 6.2831853072;
         /// <summary>

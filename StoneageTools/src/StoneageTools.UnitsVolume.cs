@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// km^3 -> m^3
-        /// 1 cubic kilometer [km^3] to vv: 1000000000 cubic meter [m^3]
+        /// 1 cubic kilometer [km^3] =  1000000000 cubic meter [m^3]
         /// </summary>
         public static double CubicKilometer_2_CubicMeter(double inVal)                  => inVal * 1000000000;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cm^3 -> m^3
-        /// 1 cubic centimeter [cm^3] to vv: 1.0E-6 cubic meter [m^3]
+        /// 1 cubic centimeter [cm^3] =  1.0E-6 cubic meter [m^3]
         /// </summary>
         public static double CubicCentimeter_2_CubicMeter(double inVal)                 => inVal * 1.0E-6;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mm^3 -> m^3
-        /// 1 cubic millimeter [mm^3] to vv: 1.0E-9 cubic meter [m^3]
+        /// 1 cubic millimeter [mm^3] =  1.0E-9 cubic meter [m^3]
         /// </summary>
         public static double CubicMillimeter_2_CubicMeter(double inVal)                 => inVal * 1.0E-9;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L, l -> m^3
-        /// 1 liter [L, l] to vv: 0.001 cubic meter [m^3]
+        /// 1 liter [L, l] =  0.001 cubic meter [m^3]
         /// </summary>
         public static double Liter_2_CubicMeter(double inVal)                           => inVal * 0.001;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mL -> m^3
-        /// 1 milliliter [mL] to vv: 1.0E-6 cubic meter [m^3]
+        /// 1 milliliter [mL] =  1.0E-6 cubic meter [m^3]
         /// </summary>
         public static double Milliliter_2_CubicMeter(double inVal)                      => inVal * 1.0E-6;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gal (US) -> m^3
-        /// 1 gallon (US) [gal (US)] to vv: 0.0037854118 cubic meter [m^3]
+        /// 1 gallon (US) [gal (US)] =  0.0037854118 cubic meter [m^3]
         /// </summary>
         public static double GallonUS_2_CubicMeter(double inVal)                        => inVal * 0.0037854118;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// qt (US) -> m^3
-        /// 1 quart (US) [qt (US)] to vv: 0.0009463529 cubic meter [m^3]
+        /// 1 quart (US) [qt (US)] =  0.0009463529 cubic meter [m^3]
         /// </summary>
         public static double QuartUS_2_CubicMeter(double inVal)                         => inVal * 0.0009463529;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pt (US) -> m^3
-        /// 1 pint (US) [pt (US)] to vv: 0.0004731765 cubic meter [m^3]
+        /// 1 pint (US) [pt (US)] =  0.0004731765 cubic meter [m^3]
         /// </summary>
         public static double PintUS_2_CubicMeter(double inVal)                          => inVal * 0.0004731765;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CupUS -> m^3
-        /// 1 cup (US) to vv: 0.0002365882 cubic meter [m^3]
+        /// 1 cup (US) =  0.0002365882 cubic meter [m^3]
         /// </summary>
         public static double CupUS_2_CubicMeter(double inVal)                           => inVal * 0.0002365882;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TablespoonUS -> m^3
-        /// 1 tablespoon (US) to vv: 1.47868E-5 cubic meter [m^3]
+        /// 1 tablespoon (US) =  1.47868E-5 cubic meter [m^3]
         /// </summary>
         public static double TablespoonUS_2_CubicMeter(double inVal)                    => inVal * 1.47868E-5;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TeaspoonUS -> m^3
-        /// 1 teaspoon (US) to vv: 4.92892159375E-6 cubic meter [m^3]
+        /// 1 teaspoon (US) =  4.92892159375E-6 cubic meter [m^3]
         /// </summary>
         public static double TeaspoonUS_2_CubicMeter(double inVal)                      => inVal * 4.92892159375E-6;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mi^3 -> m^3
-        /// 1 cubic mile [mi^3] to vv: 4168181825.4406 cubic meter [m^3]
+        /// 1 cubic mile [mi^3] =  4168181825.4406 cubic meter [m^3]
         /// </summary>
         public static double CubicMile_2_CubicMeter(double inVal)                       => inVal * 4168181825.4406;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// yd^3 -> m^3
-        /// 1 cubic yard [yd^3] to vv: 0.764554858 cubic meter [m^3]
+        /// 1 cubic yard [yd^3] =  0.764554858 cubic meter [m^3]
         /// </summary>
         public static double CubicYard_2_CubicMeter(double inVal)                       => inVal * 0.764554858;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft^3 -> m^3
-        /// 1 cubic foot [ft^3] to vv: 0.0283168466 cubic meter [m^3]
+        /// 1 cubic foot [ft^3] =  0.0283168466 cubic meter [m^3]
         /// </summary>
         public static double CubicFoot_2_CubicMeter(double inVal)                       => inVal * 0.0283168466;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in^3 -> m^3
-        /// 1 cubic inch [in^3] to vv: 1.63871E-5 cubic meter [m^3]
+        /// 1 cubic inch [in^3] =  1.63871E-5 cubic meter [m^3]
         /// </summary>
         public static double CubicInch_2_CubicMeter(double inVal)                       => inVal * 1.63871E-5;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dm^3 -> m^3
-        /// 1 cubic decimeter [dm^3] to vv: 0.001 cubic meter [m^3]
+        /// 1 cubic decimeter [dm^3] =  0.001 cubic meter [m^3]
         /// </summary>
         public static double CubicDecimeter_2_CubicMeter(double inVal)                  => inVal * 0.001;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EL -> m^3
-        /// 1 exaliter [EL] to vv: 1.0E+15 cubic meter [m^3]
+        /// 1 exaliter [EL] =  1.0E+15 cubic meter [m^3]
         /// </summary>
         public static double Exaliter_2_CubicMeter(double inVal)                        => inVal * 1.0E+15;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PL -> m^3
-        /// 1 petaliter [PL] to vv: 1000000000000 cubic meter [m^3]
+        /// 1 petaliter [PL] =  1000000000000 cubic meter [m^3]
         /// </summary>
         public static double Petaliter_2_CubicMeter(double inVal)                       => inVal * 1000000000000;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TL -> m^3
-        /// 1 teraliter [TL] to vv: 1000000000 cubic meter [m^3]
+        /// 1 teraliter [TL] =  1000000000 cubic meter [m^3]
         /// </summary>
         public static double Teraliter_2_CubicMeter(double inVal)                       => inVal * 1000000000;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GL -> m^3
-        /// 1 gigaliter [GL] to vv: 1000000 cubic meter [m^3]
+        /// 1 gigaliter [GL] =  1000000 cubic meter [m^3]
         /// </summary>
         public static double Gigaliter_2_CubicMeter(double inVal)                       => inVal * 1000000;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ML -> m^3
-        /// 1 megaliter [ML] to vv: 1000 cubic meter [m^3]
+        /// 1 megaliter [ML] =  1000 cubic meter [m^3]
         /// </summary>
         public static double Megaliter_2_CubicMeter(double inVal)                       => inVal * 1000;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kL -> m^3
-        /// 1 kiloliter [kL] to vv: 1 cubic meter [m^3]
+        /// 1 kiloliter [kL] =  1 cubic meter [m^3]
         /// </summary>
         public static double Kiloliter_2_CubicMeter(double inVal)                       => inVal * 1;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hL -> m^3
-        /// 1 hectoliter [hL] to vv: 0.1 cubic meter [m^3]
+        /// 1 hectoliter [hL] =  0.1 cubic meter [m^3]
         /// </summary>
         public static double Hectoliter_2_CubicMeter(double inVal)                      => inVal * 0.1;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// daL -> m^3
-        /// 1 dekaliter [daL] to vv: 0.01 cubic meter [m^3]
+        /// 1 dekaliter [daL] =  0.01 cubic meter [m^3]
         /// </summary>
         public static double Dekaliter_2_CubicMeter(double inVal)                       => inVal * 0.01;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dL -> m^3
-        /// 1 deciliter [dL] to vv: 0.0001 cubic meter [m^3]
+        /// 1 deciliter [dL] =  0.0001 cubic meter [m^3]
         /// </summary>
         public static double Deciliter_2_CubicMeter(double inVal)                       => inVal * 0.0001;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cL -> m^3
-        /// 1 centiliter [cL] to vv: 1.0E-5 cubic meter [m^3]
+        /// 1 centiliter [cL] =  1.0E-5 cubic meter [m^3]
         /// </summary>
         public static double Centiliter_2_CubicMeter(double inVal)                      => inVal * 1.0E-5;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µL -> m^3
-        /// 1 microliter [µL] to vv: 1.0E-9 cubic meter [m^3]
+        /// 1 microliter [µL] =  1.0E-9 cubic meter [m^3]
         /// </summary>
         public static double Microliter_2_CubicMeter(double inVal)                      => inVal * 1.0E-9;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nL -> m^3
-        /// 1 nanoliter [nL] to vv: 1.0E-12 cubic meter [m^3]
+        /// 1 nanoliter [nL] =  1.0E-12 cubic meter [m^3]
         /// </summary>
         public static double Nanoliter_2_CubicMeter(double inVal)                       => inVal * 1.0E-12;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pL -> m^3
-        /// 1 picoliter [pL] to vv: 1.0E-15 cubic meter [m^3]
+        /// 1 picoliter [pL] =  1.0E-15 cubic meter [m^3]
         /// </summary>
         public static double Picoliter_2_CubicMeter(double inVal)                       => inVal * 1.0E-15;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fL -> m^3
-        /// 1 femtoliter [fL] to vv: 1.0E-18 cubic meter [m^3]
+        /// 1 femtoliter [fL] =  1.0E-18 cubic meter [m^3]
         /// </summary>
         public static double Femtoliter_2_CubicMeter(double inVal)                      => inVal * 1.0E-18;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// aL -> m^3
-        /// 1 attoliter [aL] to vv: 1.0E-21 cubic meter [m^3]
+        /// 1 attoliter [aL] =  1.0E-21 cubic meter [m^3]
         /// </summary>
         public static double Attoliter_2_CubicMeter(double inVal)                       => inVal * 1.0E-21;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cc, cm^3 -> m^3
-        /// 1 cc [cc, cm^3] to vv: 1.0E-6 cubic meter [m^3]
+        /// 1 cc [cc, cm^3] =  1.0E-6 cubic meter [m^3]
         /// </summary>
         public static double Cc_2_CubicMeter(double inVal)                              => inVal * 1.0E-6;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Drop -> m^3
-        /// 1 drop to vv: 5.0E-8 cubic meter [m^3]
+        /// 1 drop =  5.0E-8 cubic meter [m^3]
         /// </summary>
         public static double Drop_2_CubicMeter(double inVal)                            => inVal * 5.0E-8;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// bbl (oil) -> m^3
-        /// 1 barrel (oil) [bbl (oil)] to vv: 0.1589872949 cubic meter [m^3]
+        /// 1 barrel (oil) [bbl (oil)] =  0.1589872949 cubic meter [m^3]
         /// </summary>
         public static double BarrelOil_2_CubicMeter(double inVal)                       => inVal * 0.1589872949;
         /// <summary>
@@ -383,7 +383,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// bbl (US) -> m^3
-        /// 1 barrel (US) [bbl (US)] to vv: 0.1192404712 cubic meter [m^3]
+        /// 1 barrel (US) [bbl (US)] =  0.1192404712 cubic meter [m^3]
         /// </summary>
         public static double BarrelUS_2_CubicMeter(double inVal)                        => inVal * 0.1192404712;
         /// <summary>
@@ -394,7 +394,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// bbl (UK) -> m^3
-        /// 1 barrel (UK) [bbl (UK)] to vv: 0.16365924 cubic meter [m^3]
+        /// 1 barrel (UK) [bbl (UK)] =  0.16365924 cubic meter [m^3]
         /// </summary>
         public static double BarrelUK_2_CubicMeter(double inVal)                        => inVal * 0.16365924;
         /// <summary>
@@ -405,7 +405,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gal (UK) -> m^3
-        /// 1 gallon (UK) [gal (UK)] to vv: 0.00454609 cubic meter [m^3]
+        /// 1 gallon (UK) [gal (UK)] =  0.00454609 cubic meter [m^3]
         /// </summary>
         public static double GallonUK_2_CubicMeter(double inVal)                        => inVal * 0.00454609;
         /// <summary>
@@ -416,7 +416,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// qt (UK) -> m^3
-        /// 1 quart (UK) [qt (UK)] to vv: 0.0011365225 cubic meter [m^3]
+        /// 1 quart (UK) [qt (UK)] =  0.0011365225 cubic meter [m^3]
         /// </summary>
         public static double QuartUK_2_CubicMeter(double inVal)                         => inVal * 0.0011365225;
         /// <summary>
@@ -427,7 +427,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pt (UK) -> m^3
-        /// 1 pint (UK) [pt (UK)] to vv: 0.0005682613 cubic meter [m^3]
+        /// 1 pint (UK) [pt (UK)] =  0.0005682613 cubic meter [m^3]
         /// </summary>
         public static double PintUK_2_CubicMeter(double inVal)                          => inVal * 0.0005682613;
         /// <summary>
@@ -438,7 +438,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CupMetric -> m^3
-        /// 1 cup (metric) to vv: 0.00025 cubic meter [m^3]
+        /// 1 cup (metric) =  0.00025 cubic meter [m^3]
         /// </summary>
         public static double CupMetric_2_CubicMeter(double inVal)                       => inVal * 0.00025;
         /// <summary>
@@ -449,7 +449,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CupUK -> m^3
-        /// 1 cup (UK) to vv: 0.0002841306 cubic meter [m^3]
+        /// 1 cup (UK) =  0.0002841306 cubic meter [m^3]
         /// </summary>
         public static double CupUK_2_CubicMeter(double inVal)                           => inVal * 0.0002841306;
         /// <summary>
@@ -460,7 +460,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fl oz (US) -> m^3
-        /// 1 fluid ounce (US) [fl oz (US)] to vv: 2.95735E-5 cubic meter [m^3]
+        /// 1 fluid ounce (US) [fl oz (US)] =  2.95735E-5 cubic meter [m^3]
         /// </summary>
         public static double FluidOunceUS_2_CubicMeter(double inVal)                    => inVal * 2.95735E-5;
         /// <summary>
@@ -471,7 +471,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fl oz (UK) -> m^3
-        /// 1 fluid ounce (UK) [fl oz (UK)] to vv: 2.84131E-5 cubic meter [m^3]
+        /// 1 fluid ounce (UK) [fl oz (UK)] =  2.84131E-5 cubic meter [m^3]
         /// </summary>
         public static double FluidOunceUK_2_CubicMeter(double inVal)                    => inVal * 2.84131E-5;
         /// <summary>
@@ -482,7 +482,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TablespoonMetric -> m^3
-        /// 1 tablespoon (metric) to vv: 1.5E-5 cubic meter [m^3]
+        /// 1 tablespoon (metric) =  1.5E-5 cubic meter [m^3]
         /// </summary>
         public static double TablespoonMetric_2_CubicMeter(double inVal)                => inVal * 1.5E-5;
         /// <summary>
@@ -493,7 +493,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TablespoonUK -> m^3
-        /// 1 tablespoon (UK) to vv: 1.77582E-5 cubic meter [m^3]
+        /// 1 tablespoon (UK) =  1.77582E-5 cubic meter [m^3]
         /// </summary>
         public static double TablespoonUK_2_CubicMeter(double inVal)                    => inVal * 1.77582E-5;
         /// <summary>
@@ -504,7 +504,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DessertspoonUS -> m^3
-        /// 1 dessertspoon (US) to vv: 9.8578431875E-6 cubic meter [m^3]
+        /// 1 dessertspoon (US) =  9.8578431875E-6 cubic meter [m^3]
         /// </summary>
         public static double DessertspoonUS_2_CubicMeter(double inVal)                  => inVal * 9.8578431875E-6;
         /// <summary>
@@ -515,7 +515,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DessertspoonUK -> m^3
-        /// 1 dessertspoon (UK) to vv: 1.18388E-5 cubic meter [m^3]
+        /// 1 dessertspoon (UK) =  1.18388E-5 cubic meter [m^3]
         /// </summary>
         public static double DessertspoonUK_2_CubicMeter(double inVal)                  => inVal * 1.18388E-5;
         /// <summary>
@@ -526,7 +526,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TeaspoonMetric -> m^3
-        /// 1 teaspoon (metric) to vv: 5.0E-6 cubic meter [m^3]
+        /// 1 teaspoon (metric) =  5.0E-6 cubic meter [m^3]
         /// </summary>
         public static double TeaspoonMetric_2_CubicMeter(double inVal)                  => inVal * 5.0E-6;
         /// <summary>
@@ -537,7 +537,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TeaspoonUK -> m^3
-        /// 1 teaspoon (UK) to vv: 5.9193880208333E-6 cubic meter [m^3]
+        /// 1 teaspoon (UK) =  5.9193880208333E-6 cubic meter [m^3]
         /// </summary>
         public static double TeaspoonUK_2_CubicMeter(double inVal)                      => inVal * 5.9193880208333E-6;
         /// <summary>
@@ -548,7 +548,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gi -> m^3
-        /// 1 gill (US) [gi] to vv: 0.0001182941 cubic meter [m^3]
+        /// 1 gill (US) [gi] =  0.0001182941 cubic meter [m^3]
         /// </summary>
         public static double GillUS_2_CubicMeter(double inVal)                          => inVal * 0.0001182941;
         /// <summary>
@@ -559,7 +559,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gi (UK) -> m^3
-        /// 1 gill (UK) [gi (UK)] to vv: 0.0001420653 cubic meter [m^3]
+        /// 1 gill (UK) [gi (UK)] =  0.0001420653 cubic meter [m^3]
         /// </summary>
         public static double GillUK_2_CubicMeter(double inVal)                          => inVal * 0.0001420653;
         /// <summary>
@@ -570,7 +570,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MinimUS -> m^3
-        /// 1 minim (US) to vv: 6.1611519921875E-8 cubic meter [m^3]
+        /// 1 minim (US) =  6.1611519921875E-8 cubic meter [m^3]
         /// </summary>
         public static double MinimUS_2_CubicMeter(double inVal)                         => inVal * 6.1611519921875E-8;
         /// <summary>
@@ -581,7 +581,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MinimUK -> m^3
-        /// 1 minim (UK) to vv: 5.9193880208333E-8 cubic meter [m^3]
+        /// 1 minim (UK) =  5.9193880208333E-8 cubic meter [m^3]
         /// </summary>
         public static double MinimUK_2_CubicMeter(double inVal)                         => inVal * 5.9193880208333E-8;
         /// <summary>
@@ -592,7 +592,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ton reg -> m^3
-        /// 1 ton register [ton reg] to vv: 2.8316846592 cubic meter [m^3]
+        /// 1 ton register [ton reg] =  2.8316846592 cubic meter [m^3]
         /// </summary>
         public static double TonRegister_2_CubicMeter(double inVal)                     => inVal * 2.8316846592;
         /// <summary>
@@ -603,7 +603,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Ccf -> m^3
-        /// 1 ccf to vv: 2.8316846592 cubic meter [m^3]
+        /// 1 ccf =  2.8316846592 cubic meter [m^3]
         /// </summary>
         public static double Ccf_2_CubicMeter(double inVal)                             => inVal * 2.8316846592;
         /// <summary>
@@ -614,7 +614,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HundredCubicFoot -> m^3
-        /// 1 hundred-cubic foot to vv: 2.8316846592 cubic meter [m^3]
+        /// 1 hundred-cubic foot =  2.8316846592 cubic meter [m^3]
         /// </summary>
         public static double HundredCubicFoot_2_CubicMeter(double inVal)                => inVal * 2.8316846592;
         /// <summary>
@@ -625,7 +625,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ac*ft -> m^3
-        /// 1 acre-foot [ac*ft] to vv: 1233.4818375475 cubic meter [m^3]
+        /// 1 acre-foot [ac*ft] =  1233.4818375475 cubic meter [m^3]
         /// </summary>
         public static double AcreFoot_2_CubicMeter(double inVal)                        => inVal * 1233.4818375475;
         /// <summary>
@@ -636,7 +636,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// AcreFootUSSurvey -> m^3
-        /// 1 acre-foot (US survey) to vv: 1233.4892384682 cubic meter [m^3]
+        /// 1 acre-foot (US survey) =  1233.4892384682 cubic meter [m^3]
         /// </summary>
         public static double AcreFootUSSurvey_2_CubicMeter(double inVal)                => inVal * 1233.4892384682;
         /// <summary>
@@ -647,7 +647,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ac*in -> m^3
-        /// 1 acre-inch [ac*in] to vv: 102.790153129 cubic meter [m^3]
+        /// 1 acre-inch [ac*in] =  102.790153129 cubic meter [m^3]
         /// </summary>
         public static double AcreInch_2_CubicMeter(double inVal)                        => inVal * 102.790153129;
         /// <summary>
@@ -658,7 +658,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Dekastere -> m^3
-        /// 1 dekastere to vv: 10 cubic meter [m^3]
+        /// 1 dekastere =  10 cubic meter [m^3]
         /// </summary>
         public static double Dekastere_2_CubicMeter(double inVal)                       => inVal * 10;
         /// <summary>
@@ -669,7 +669,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// st -> m^3
-        /// 1 stere [st] to vv: 1 cubic meter [m^3]
+        /// 1 stere [st] =  1 cubic meter [m^3]
         /// </summary>
         public static double Stere_2_CubicMeter(double inVal)                           => inVal * 1;
         /// <summary>
@@ -680,7 +680,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Decistere -> m^3
-        /// 1 decistere to vv: 0.1 cubic meter [m^3]
+        /// 1 decistere =  0.1 cubic meter [m^3]
         /// </summary>
         public static double Decistere_2_CubicMeter(double inVal)                       => inVal * 0.1;
         /// <summary>
@@ -691,7 +691,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cd -> m^3
-        /// 1 cord [cd] to vv: 3.6245563638 cubic meter [m^3]
+        /// 1 cord [cd] =  3.6245563638 cubic meter [m^3]
         /// </summary>
         public static double Cord_2_CubicMeter(double inVal)                            => inVal * 3.6245563638;
         /// <summary>
@@ -702,7 +702,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Tun -> m^3
-        /// 1 tun to vv: 0.9539237696 cubic meter [m^3]
+        /// 1 tun =  0.9539237696 cubic meter [m^3]
         /// </summary>
         public static double Tun_2_CubicMeter(double inVal)                             => inVal * 0.9539237696;
         /// <summary>
@@ -713,7 +713,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Hogshead -> m^3
-        /// 1 hogshead to vv: 0.2384809424 cubic meter [m^3]
+        /// 1 hogshead =  0.2384809424 cubic meter [m^3]
         /// </summary>
         public static double Hogshead_2_CubicMeter(double inVal)                        => inVal * 0.2384809424;
         /// <summary>
@@ -724,7 +724,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BoardFoot -> m^3
-        /// 1 board foot to vv: 0.0023597372 cubic meter [m^3]
+        /// 1 board foot =  0.0023597372 cubic meter [m^3]
         /// </summary>
         public static double BoardFoot_2_CubicMeter(double inVal)                       => inVal * 0.0023597372;
         /// <summary>
@@ -735,7 +735,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dr -> m^3
-        /// 1 dram [dr] to vv: 3.6966911953125E-6 cubic meter [m^3]
+        /// 1 dram [dr] =  3.6966911953125E-6 cubic meter [m^3]
         /// </summary>
         public static double Dram_2_CubicMeter(double inVal)                            => inVal * 3.6966911953125E-6;
         /// <summary>
@@ -746,7 +746,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CorBiblical -> m^3
-        /// 1 cor (Biblical) to vv: 0.22 cubic meter [m^3]
+        /// 1 cor (Biblical) =  0.22 cubic meter [m^3]
         /// </summary>
         public static double CorBiblical_2_CubicMeter(double inVal)                     => inVal * 0.22;
         /// <summary>
@@ -757,7 +757,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HomerBiblical -> m^3
-        /// 1 homer (Biblical) to vv: 0.22 cubic meter [m^3]
+        /// 1 homer (Biblical) =  0.22 cubic meter [m^3]
         /// </summary>
         public static double HomerBiblical_2_CubicMeter(double inVal)                   => inVal * 0.22;
         /// <summary>
@@ -768,7 +768,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BathBiblical -> m^3
-        /// 1 bath (Biblical) to vv: 0.022 cubic meter [m^3]
+        /// 1 bath (Biblical) =  0.022 cubic meter [m^3]
         /// </summary>
         public static double BathBiblical_2_CubicMeter(double inVal)                    => inVal * 0.022;
         /// <summary>
@@ -779,7 +779,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HinBiblical -> m^3
-        /// 1 hin (Biblical) to vv: 0.0036666667 cubic meter [m^3]
+        /// 1 hin (Biblical) =  0.0036666667 cubic meter [m^3]
         /// </summary>
         public static double HinBiblical_2_CubicMeter(double inVal)                     => inVal * 0.0036666667;
         /// <summary>
@@ -790,7 +790,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CabBiblical -> m^3
-        /// 1 cab (Biblical) to vv: 0.0012222222 cubic meter [m^3]
+        /// 1 cab (Biblical) =  0.0012222222 cubic meter [m^3]
         /// </summary>
         public static double CabBiblical_2_CubicMeter(double inVal)                     => inVal * 0.0012222222;
         /// <summary>
@@ -801,7 +801,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// LogBiblical -> m^3
-        /// 1 log (Biblical) to vv: 0.0003055556 cubic meter [m^3]
+        /// 1 log (Biblical) =  0.0003055556 cubic meter [m^3]
         /// </summary>
         public static double LogBiblical_2_CubicMeter(double inVal)                     => inVal * 0.0003055556;
         /// <summary>
@@ -812,7 +812,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TazaSpanish -> m^3
-        /// 1 Taza (Spanish) to vv: 0.0002365882 cubic meter [m^3]
+        /// 1 Taza (Spanish) =  0.0002365882 cubic meter [m^3]
         /// </summary>
         public static double TazaSpanish_2_CubicMeter(double inVal)                     => inVal * 0.0002365882;
         /// <summary>
@@ -823,7 +823,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EarthVolume -> m^3
-        /// 1 Earth's volume to vv: 1.083E+21 cubic meter [m^3]
+        /// 1 Earth's volume =  1.083E+21 cubic meter [m^3]
         /// </summary>
         public static double EarthVolume_2_CubicMeter(double inVal)                     => inVal * 1.083E+21;
         /// <summary>
@@ -838,7 +838,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CubicCentimeterPerGram -> CubicMeterPerKilogram
-        /// 1 cubic centimeter/gram to vv: 0.001 cubic meter/kilogram
+        /// 1 cubic centimeter/gram =  0.001 cubic meter/kilogram
         /// </summary>
         public static double CubicCentimeterPerGram_2_CubicMeterPerKilogram(double inVal)=> inVal * 0.001;
         /// <summary>
@@ -849,7 +849,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L/kg -> CubicMeterPerKilogram
-        /// 1 liter/kilogram [L/kg] to vv: 0.001 cubic meter/kilogram
+        /// 1 liter/kilogram [L/kg] =  0.001 cubic meter/kilogram
         /// </summary>
         public static double LiterPerKilogram_2_CubicMeterPerKilogram(double inVal)     => inVal * 0.001;
         /// <summary>
@@ -860,7 +860,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L/g -> CubicMeterPerKilogram
-        /// 1 liter/gram [L/g] to vv: 1 cubic meter/kilogram
+        /// 1 liter/gram [L/g] =  1 cubic meter/kilogram
         /// </summary>
         public static double LiterPerGram_2_CubicMeterPerKilogram(double inVal)         => inVal * 1;
         /// <summary>
@@ -871,7 +871,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft^3/kg -> CubicMeterPerKilogram
-        /// 1 cubic foot/kilogram [ft^3/kg] to vv: 0.0283168466 cubic meter/kilogram
+        /// 1 cubic foot/kilogram [ft^3/kg] =  0.0283168466 cubic meter/kilogram
         /// </summary>
         public static double CubicFootPerKilogram_2_CubicMeterPerKilogram(double inVal) => inVal * 0.0283168466;
         /// <summary>
@@ -882,7 +882,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft^3/lb -> CubicMeterPerKilogram
-        /// 1 cubic foot/pound [ft^3/lb] to vv: 0.06242796 cubic meter/kilogram
+        /// 1 cubic foot/pound [ft^3/lb] =  0.06242796 cubic meter/kilogram
         /// </summary>
         public static double CubicFootPerPound_2_CubicMeterPerKilogram(double inVal)    => inVal * 0.06242796;
         /// <summary>
@@ -893,7 +893,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUSPerPound -> CubicMeterPerKilogram
-        /// 1 gallon (US)/pound to vv: 0.0083454039 cubic meter/kilogram
+        /// 1 gallon (US)/pound =  0.0083454039 cubic meter/kilogram
         /// </summary>
         public static double GallonUSPerPound_2_CubicMeterPerKilogram(double inVal)     => inVal * 0.0083454039;
         /// <summary>
@@ -904,7 +904,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUKPerPound -> CubicMeterPerKilogram
-        /// 1 gallon (UK)/pound to vv: 0.0100224128 cubic meter/kilogram
+        /// 1 gallon (UK)/pound =  0.0100224128 cubic meter/kilogram
         /// </summary>
         public static double GallonUKPerPound_2_CubicMeterPerKilogram(double inVal)     => inVal * 0.0100224128;
         /// <summary>
@@ -919,7 +919,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BoardFeet -> m^3
-        /// 1 board feet to vv: 0.0023597372 cubic meter [m^3]
+        /// 1 board feet =  0.0023597372 cubic meter [m^3]
         /// </summary>
         public static double BoardFeet_2_CubicMeter(double inVal)                       => inVal * 0.0023597372;
         /// <summary>
@@ -930,7 +930,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ThousandBoardFeet -> m^3
-        /// 1 thousand board feet to vv: 2.3597372158 cubic meter [m^3]
+        /// 1 thousand board feet =  2.3597372158 cubic meter [m^3]
         /// </summary>
         public static double ThousandBoardFeet_2_CubicMeter(double inVal)               => inVal * 2.3597372158;
         /// <summary>
@@ -941,7 +941,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Cord80CubicFt -> m^3
-        /// 1 cord (80 cubic ft) to vv: 2.2653477275 cubic meter [m^3]
+        /// 1 cord (80 cubic ft) =  2.2653477275 cubic meter [m^3]
         /// </summary>
         public static double Cord80CubicFt_2_CubicMeter(double inVal)                   => inVal * 2.2653477275;
         /// <summary>
@@ -952,7 +952,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CordFeet -> m^3
-        /// 1 cord feet to vv: 0.4530695455 cubic meter [m^3]
+        /// 1 cord feet =  0.4530695455 cubic meter [m^3]
         /// </summary>
         public static double CordFeet_2_CubicMeter(double inVal)                        => inVal * 0.4530695455;
         /// <summary>
@@ -963,7 +963,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Cunit -> m^3
-        /// 1 cunit to vv: 2.8316846593 cubic meter [m^3]
+        /// 1 cunit =  2.8316846593 cubic meter [m^3]
         /// </summary>
         public static double Cunit_2_CubicMeter(double inVal)                           => inVal * 2.8316846593;
         /// <summary>
@@ -974,7 +974,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Pallet -> m^3
-        /// 1 pallet to vv: 0.0401155327 cubic meter [m^3]
+        /// 1 pallet =  0.0401155327 cubic meter [m^3]
         /// </summary>
         public static double Pallet_2_CubicMeter(double inVal)                          => inVal * 0.0401155327;
         /// <summary>
@@ -985,7 +985,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CrossTie -> m^3
-        /// 1 cross tie to vv: 0.0943894886 cubic meter [m^3]
+        /// 1 cross tie =  0.0943894886 cubic meter [m^3]
         /// </summary>
         public static double CrossTie_2_CubicMeter(double inVal)                        => inVal * 0.0943894886;
         /// <summary>
@@ -996,7 +996,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// SwitchTie -> m^3
-        /// 1 switch tie to vv: 0.1486634446 cubic meter [m^3]
+        /// 1 switch tie =  0.1486634446 cubic meter [m^3]
         /// </summary>
         public static double SwitchTie_2_CubicMeter(double inVal)                       => inVal * 0.1486634446;
         /// <summary>
@@ -1007,7 +1007,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ThousandSquareFeet1Per8InchPanels -> m^3
-        /// 1 thousand square feet (1/8-inch panels) to vv: 0.294967152 cubic meter [m^3]
+        /// 1 thousand square feet (1/8-inch panels) =  0.294967152 cubic meter [m^3]
         /// </summary>
         public static double ThousandSquareFeet1Per8InchPanels_2_CubicMeter(double inVal)=> inVal * 0.294967152;
         /// <summary>
@@ -1018,7 +1018,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ThousandSquareFeet1Per4InchPanels -> m^3
-        /// 1 thousand square feet (1/4-inch panels) to vv: 0.5899343039 cubic meter [m^3]
+        /// 1 thousand square feet (1/4-inch panels) =  0.5899343039 cubic meter [m^3]
         /// </summary>
         public static double ThousandSquareFeet1Per4InchPanels_2_CubicMeter(double inVal)=> inVal * 0.5899343039;
         /// <summary>
@@ -1029,7 +1029,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ThousandSquareFeet3Per8InchPanels -> m^3
-        /// 1 thousand square feet (3/8-inch panels) to vv: 0.8849014561 cubic meter [m^3]
+        /// 1 thousand square feet (3/8-inch panels) =  0.8849014561 cubic meter [m^3]
         /// </summary>
         public static double ThousandSquareFeet3Per8InchPanels_2_CubicMeter(double inVal)=> inVal * 0.8849014561;
         /// <summary>
@@ -1040,7 +1040,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ThousandSquareFeet1Per2InchPanels -> m^3
-        /// 1 thousand square feet (1/2-inch panels) to vv: 1.179868608 cubic meter [m^3]
+        /// 1 thousand square feet (1/2-inch panels) =  1.179868608 cubic meter [m^3]
         /// </summary>
         public static double ThousandSquareFeet1Per2InchPanels_2_CubicMeter(double inVal)=> inVal * 1.179868608;
         /// <summary>
@@ -1051,7 +1051,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ThousandSquareFeet3Per4InchPanels -> m^3
-        /// 1 thousand square feet (3/4-inch panels) to vv: 1.7698029121 cubic meter [m^3]
+        /// 1 thousand square feet (3/4-inch panels) =  1.7698029121 cubic meter [m^3]
         /// </summary>
         public static double ThousandSquareFeet3Per4InchPanels_2_CubicMeter(double inVal)=> inVal * 1.7698029121;
         /// <summary>

@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m^3/d -> m^3/s
-        /// 1 cubic meter/day [m^3/d] to vv: 1.15741E-5 cubic meter/second [m^3/s]
+        /// 1 cubic meter/day [m^3/d] =  1.15741E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicMeterPerDay_2_CubicMeterPerSecond(double inVal)       => inVal * 1.15741E-5;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// m^3/h -> m^3/s
-        /// 1 cubic meter/hour [m^3/h] to vv: 0.0002777778 cubic meter/second [m^3/s]
+        /// 1 cubic meter/hour [m^3/h] =  0.0002777778 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicMeterPerHour_2_CubicMeterPerSecond(double inVal)      => inVal * 0.0002777778;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CubicMeterPerMinute -> m^3/s
-        /// 1 cubic meter/minute to vv: 0.0166666667 cubic meter/second [m^3/s]
+        /// 1 cubic meter/minute =  0.0166666667 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicMeterPerMinute_2_CubicMeterPerSecond(double inVal)    => inVal * 0.0166666667;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CubicCentimeterPerDay -> m^3/s
-        /// 1 cubic centimeter/day to vv: 1.1574074074074E-11 cubic meter/second [m^3/s]
+        /// 1 cubic centimeter/day =  1.1574074074074E-11 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicCentimeterPerDay_2_CubicMeterPerSecond(double inVal)  => inVal * 1.1574074074074E-11;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CubicCentimeterPerHour -> m^3/s
-        /// 1 cubic centimeter/hour to vv: 2.7777777777778E-10 cubic meter/second [m^3/s]
+        /// 1 cubic centimeter/hour =  2.7777777777778E-10 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicCentimeterPerHour_2_CubicMeterPerSecond(double inVal) => inVal * 2.7777777777778E-10;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CubicCentimeterPerMinute -> m^3/s
-        /// 1 cubic centimeter/minute to vv: 1.6666666666667E-8 cubic meter/second [m^3/s]
+        /// 1 cubic centimeter/minute =  1.6666666666667E-8 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicCentimeterPerMinute_2_CubicMeterPerSecond(double inVal)=> inVal * 1.6666666666667E-8;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CubicCentimeterPerSecond -> m^3/s
-        /// 1 cubic centimeter/second to vv: 1.0E-6 cubic meter/second [m^3/s]
+        /// 1 cubic centimeter/second =  1.0E-6 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicCentimeterPerSecond_2_CubicMeterPerSecond(double inVal)=> inVal * 1.0E-6;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L/d -> m^3/s
-        /// 1 liter/day [L/d] to vv: 1.1574074074074E-8 cubic meter/second [m^3/s]
+        /// 1 liter/day [L/d] =  1.1574074074074E-8 cubic meter/second [m^3/s]
         /// </summary>
         public static double LiterPerDay_2_CubicMeterPerSecond(double inVal)            => inVal * 1.1574074074074E-8;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L/h -> m^3/s
-        /// 1 liter/hour [L/h] to vv: 2.7777777777778E-7 cubic meter/second [m^3/s]
+        /// 1 liter/hour [L/h] =  2.7777777777778E-7 cubic meter/second [m^3/s]
         /// </summary>
         public static double LiterPerHour_2_CubicMeterPerSecond(double inVal)           => inVal * 2.7777777777778E-7;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L/min -> m^3/s
-        /// 1 liter/minute [L/min] to vv: 1.66667E-5 cubic meter/second [m^3/s]
+        /// 1 liter/minute [L/min] =  1.66667E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double LiterPerMinute_2_CubicMeterPerSecond(double inVal)         => inVal * 1.66667E-5;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// L/s -> m^3/s
-        /// 1 liter/second [L/s] to vv: 0.001 cubic meter/second [m^3/s]
+        /// 1 liter/second [L/s] =  0.001 cubic meter/second [m^3/s]
         /// </summary>
         public static double LiterPerSecond_2_CubicMeterPerSecond(double inVal)         => inVal * 0.001;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mL/d -> m^3/s
-        /// 1 milliliter/day [mL/d] to vv: 1.1574074074074E-11 cubic meter/second [m^3/s]
+        /// 1 milliliter/day [mL/d] =  1.1574074074074E-11 cubic meter/second [m^3/s]
         /// </summary>
         public static double MilliliterPerDay_2_CubicMeterPerSecond(double inVal)       => inVal * 1.1574074074074E-11;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mL/h -> m^3/s
-        /// 1 milliliter/hour [mL/h] to vv: 2.7777777777778E-10 cubic meter/second [m^3/s]
+        /// 1 milliliter/hour [mL/h] =  2.7777777777778E-10 cubic meter/second [m^3/s]
         /// </summary>
         public static double MilliliterPerHour_2_CubicMeterPerSecond(double inVal)      => inVal * 2.7777777777778E-10;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mL/min -> m^3/s
-        /// 1 milliliter/minute [mL/min] to vv: 1.6666666666667E-8 cubic meter/second [m^3/s]
+        /// 1 milliliter/minute [mL/min] =  1.6666666666667E-8 cubic meter/second [m^3/s]
         /// </summary>
         public static double MilliliterPerMinute_2_CubicMeterPerSecond(double inVal)    => inVal * 1.6666666666667E-8;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mL/s -> m^3/s
-        /// 1 milliliter/second [mL/s] to vv: 1.0E-6 cubic meter/second [m^3/s]
+        /// 1 milliliter/second [mL/s] =  1.0E-6 cubic meter/second [m^3/s]
         /// </summary>
         public static double MilliliterPerSecond_2_CubicMeterPerSecond(double inVal)    => inVal * 1.0E-6;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gal (US)/d -> m^3/s
-        /// 1 gallon (US)/day [gal (US)/d] to vv: 4.3812636388889E-8 cubic meter/second [m^3/s]
+        /// 1 gallon (US)/day [gal (US)/d] =  4.3812636388889E-8 cubic meter/second [m^3/s]
         /// </summary>
         public static double GallonUSPerDay_2_CubicMeterPerSecond(double inVal)         => inVal * 4.3812636388889E-8;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gal (US)/h -> m^3/s
-        /// 1 gallon (US)/hour [gal (US)/h] to vv: 1.0515032733333E-6 cubic meter/second [m^3/s]
+        /// 1 gallon (US)/hour [gal (US)/h] =  1.0515032733333E-6 cubic meter/second [m^3/s]
         /// </summary>
         public static double GallonUSPerHour_2_CubicMeterPerSecond(double inVal)        => inVal * 1.0515032733333E-6;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUSPerMinute -> m^3/s
-        /// 1 gallon (US)/minute to vv: 6.30902E-5 cubic meter/second [m^3/s]
+        /// 1 gallon (US)/minute =  6.30902E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double GallonUSPerMinute_2_CubicMeterPerSecond(double inVal)      => inVal * 6.30902E-5;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUSPerSecond -> m^3/s
-        /// 1 gallon (US)/second to vv: 0.0037854118 cubic meter/second [m^3/s]
+        /// 1 gallon (US)/second =  0.0037854118 cubic meter/second [m^3/s]
         /// </summary>
         public static double GallonUSPerSecond_2_CubicMeterPerSecond(double inVal)      => inVal * 0.0037854118;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gal (UK)/d -> m^3/s
-        /// 1 gallon (UK)/day [gal (UK)/d] to vv: 5.2616782407407E-8 cubic meter/second [m^3/s]
+        /// 1 gallon (UK)/day [gal (UK)/d] =  5.2616782407407E-8 cubic meter/second [m^3/s]
         /// </summary>
         public static double GallonUKPerDay_2_CubicMeterPerSecond(double inVal)         => inVal * 5.2616782407407E-8;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// gal (UK)/h -> m^3/s
-        /// 1 gallon (UK)/hour [gal (UK)/h] to vv: 1.2628027777778E-6 cubic meter/second [m^3/s]
+        /// 1 gallon (UK)/hour [gal (UK)/h] =  1.2628027777778E-6 cubic meter/second [m^3/s]
         /// </summary>
         public static double GallonUKPerHour_2_CubicMeterPerSecond(double inVal)        => inVal * 1.2628027777778E-6;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUKPerMinute -> m^3/s
-        /// 1 gallon (UK)/minute to vv: 7.57682E-5 cubic meter/second [m^3/s]
+        /// 1 gallon (UK)/minute =  7.57682E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double GallonUKPerMinute_2_CubicMeterPerSecond(double inVal)      => inVal * 7.57682E-5;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GallonUKPerSecond -> m^3/s
-        /// 1 gallon (UK)/second to vv: 0.00454609 cubic meter/second [m^3/s]
+        /// 1 gallon (UK)/second =  0.00454609 cubic meter/second [m^3/s]
         /// </summary>
         public static double GallonUKPerSecond_2_CubicMeterPerSecond(double inVal)      => inVal * 0.00454609;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilobarrelUSPerDay -> m^3/s
-        /// 1 kilobarrel (US)/day to vv: 0.0018401307 cubic meter/second [m^3/s]
+        /// 1 kilobarrel (US)/day =  0.0018401307 cubic meter/second [m^3/s]
         /// </summary>
         public static double KilobarrelUSPerDay_2_CubicMeterPerSecond(double inVal)     => inVal * 0.0018401307;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// bbl (US)/d -> m^3/s
-        /// 1 barrel (US)/day [bbl (US)/d] to vv: 1.8401307283333E-6 cubic meter/second [m^3/s]
+        /// 1 barrel (US)/day [bbl (US)/d] =  1.8401307283333E-6 cubic meter/second [m^3/s]
         /// </summary>
         public static double BarrelUSPerDay_2_CubicMeterPerSecond(double inVal)         => inVal * 1.8401307283333E-6;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// bbl (US)/h -> m^3/s
-        /// 1 barrel (US)/hour [bbl (US)/h] to vv: 4.41631E-5 cubic meter/second [m^3/s]
+        /// 1 barrel (US)/hour [bbl (US)/h] =  4.41631E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double BarrelUSPerHour_2_CubicMeterPerSecond(double inVal)        => inVal * 4.41631E-5;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BarrelUSPerMinute -> m^3/s
-        /// 1 barrel (US)/minute to vv: 0.0026497882 cubic meter/second [m^3/s]
+        /// 1 barrel (US)/minute =  0.0026497882 cubic meter/second [m^3/s]
         /// </summary>
         public static double BarrelUSPerMinute_2_CubicMeterPerSecond(double inVal)      => inVal * 0.0026497882;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BarrelUSPerSecond -> m^3/s
-        /// 1 barrel (US)/second to vv: 0.1589872949 cubic meter/second [m^3/s]
+        /// 1 barrel (US)/second =  0.1589872949 cubic meter/second [m^3/s]
         /// </summary>
         public static double BarrelUSPerSecond_2_CubicMeterPerSecond(double inVal)      => inVal * 0.1589872949;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ac*ft/y -> m^3/s
-        /// 1 acre-foot/year [ac*ft/y] to vv: 3.91136E-5 cubic meter/second [m^3/s]
+        /// 1 acre-foot/year [ac*ft/y] =  3.91136E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double AcreFootPerYear_2_CubicMeterPerSecond(double inVal)        => inVal * 3.91136E-5;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ac*ft/d -> m^3/s
-        /// 1 acre-foot/day [ac*ft/d] to vv: 0.0142764673 cubic meter/second [m^3/s]
+        /// 1 acre-foot/day [ac*ft/d] =  0.0142764673 cubic meter/second [m^3/s]
         /// </summary>
         public static double AcreFootPerDay_2_CubicMeterPerSecond(double inVal)         => inVal * 0.0142764673;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ac*ft/h -> m^3/s
-        /// 1 acre-foot/hour [ac*ft/h] to vv: 0.3426352143 cubic meter/second [m^3/s]
+        /// 1 acre-foot/hour [ac*ft/h] =  0.3426352143 cubic meter/second [m^3/s]
         /// </summary>
         public static double AcreFootPerHour_2_CubicMeterPerSecond(double inVal)        => inVal * 0.3426352143;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HundredCubicFootPerDay -> m^3/s
-        /// 1 hundred-cubic foot/day to vv: 3.27741E-5 cubic meter/second [m^3/s]
+        /// 1 hundred-cubic foot/day =  3.27741E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double HundredCubicFootPerDay_2_CubicMeterPerSecond(double inVal) => inVal * 3.27741E-5;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HundredCubicFootPerHour -> m^3/s
-        /// 1 hundred-cubic foot/hour to vv: 0.0007865791 cubic meter/second [m^3/s]
+        /// 1 hundred-cubic foot/hour =  0.0007865791 cubic meter/second [m^3/s]
         /// </summary>
         public static double HundredCubicFootPerHour_2_CubicMeterPerSecond(double inVal)=> inVal * 0.0007865791;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// HundredCubicFootPerMinute -> m^3/s
-        /// 1 hundred-cubic foot/minute to vv: 0.0471947443 cubic meter/second [m^3/s]
+        /// 1 hundred-cubic foot/minute =  0.0471947443 cubic meter/second [m^3/s]
         /// </summary>
         public static double HundredCubicFootPerMinute_2_CubicMeterPerSecond(double inVal)=> inVal * 0.0471947443;
         /// <summary>
@@ -383,7 +383,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// oz/h -> m^3/s
-        /// 1 ounce/hour [oz/h] to vv: 8.2148693229167E-9 cubic meter/second [m^3/s]
+        /// 1 ounce/hour [oz/h] =  8.2148693229167E-9 cubic meter/second [m^3/s]
         /// </summary>
         public static double OuncePerHour_2_CubicMeterPerSecond(double inVal)           => inVal * 8.2148693229167E-9;
         /// <summary>
@@ -394,7 +394,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// oz/min -> m^3/s
-        /// 1 ounce/minute [oz/min] to vv: 4.92892159375E-7 cubic meter/second [m^3/s]
+        /// 1 ounce/minute [oz/min] =  4.92892159375E-7 cubic meter/second [m^3/s]
         /// </summary>
         public static double OuncePerMinute_2_CubicMeterPerSecond(double inVal)         => inVal * 4.92892159375E-7;
         /// <summary>
@@ -405,7 +405,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// oz/s -> m^3/s
-        /// 1 ounce/second [oz/s] to vv: 2.95735E-5 cubic meter/second [m^3/s]
+        /// 1 ounce/second [oz/s] =  2.95735E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double OuncePerSecond_2_CubicMeterPerSecond(double inVal)         => inVal * 2.95735E-5;
         /// <summary>
@@ -416,7 +416,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// oz (UK)/h -> m^3/s
-        /// 1 ounce (UK)/hour [oz (UK)/h] to vv: 7.8925178504774E-9 cubic meter/second [m^3/s]
+        /// 1 ounce (UK)/hour [oz (UK)/h] =  7.8925178504774E-9 cubic meter/second [m^3/s]
         /// </summary>
         public static double OunceUKPerHour_2_CubicMeterPerSecond(double inVal)         => inVal * 7.8925178504774E-9;
         /// <summary>
@@ -427,7 +427,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// OunceUKPerMinute -> m^3/s
-        /// 1 ounce (UK)/minute to vv: 4.7355107102865E-7 cubic meter/second [m^3/s]
+        /// 1 ounce (UK)/minute =  4.7355107102865E-7 cubic meter/second [m^3/s]
         /// </summary>
         public static double OunceUKPerMinute_2_CubicMeterPerSecond(double inVal)       => inVal * 4.7355107102865E-7;
         /// <summary>
@@ -438,7 +438,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// OunceUKPerSecond -> m^3/s
-        /// 1 ounce (UK)/second to vv: 2.84131E-5 cubic meter/second [m^3/s]
+        /// 1 ounce (UK)/second =  2.84131E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double OunceUKPerSecond_2_CubicMeterPerSecond(double inVal)       => inVal * 2.84131E-5;
         /// <summary>
@@ -449,7 +449,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// yd^3/h -> m^3/s
-        /// 1 cubic yard/hour [yd^3/h] to vv: 0.0002123763 cubic meter/second [m^3/s]
+        /// 1 cubic yard/hour [yd^3/h] =  0.0002123763 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicYardPerHour_2_CubicMeterPerSecond(double inVal)       => inVal * 0.0002123763;
         /// <summary>
@@ -460,7 +460,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CubicYardPerMinute -> m^3/s
-        /// 1 cubic yard/minute to vv: 0.012742581 cubic meter/second [m^3/s]
+        /// 1 cubic yard/minute =  0.012742581 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicYardPerMinute_2_CubicMeterPerSecond(double inVal)     => inVal * 0.012742581;
         /// <summary>
@@ -471,7 +471,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// yd^3/s -> m^3/s
-        /// 1 cubic yard/second [yd^3/s] to vv: 0.764554858 cubic meter/second [m^3/s]
+        /// 1 cubic yard/second [yd^3/s] =  0.764554858 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicYardPerSecond_2_CubicMeterPerSecond(double inVal)     => inVal * 0.764554858;
         /// <summary>
@@ -482,7 +482,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft^3/h -> m^3/s
-        /// 1 cubic foot/hour [ft^3/h] to vv: 7.86579072E-6 cubic meter/second [m^3/s]
+        /// 1 cubic foot/hour [ft^3/h] =  7.86579072E-6 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicFootPerHour_2_CubicMeterPerSecond(double inVal)       => inVal * 7.86579072E-6;
         /// <summary>
@@ -493,7 +493,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft^3/min -> m^3/s
-        /// 1 cubic foot/minute [ft^3/min] to vv: 0.0004719474 cubic meter/second [m^3/s]
+        /// 1 cubic foot/minute [ft^3/min] =  0.0004719474 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicFootPerMinute_2_CubicMeterPerSecond(double inVal)     => inVal * 0.0004719474;
         /// <summary>
@@ -504,7 +504,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ft^3/s -> m^3/s
-        /// 1 cubic foot/second [ft^3/s] to vv: 0.0283168466 cubic meter/second [m^3/s]
+        /// 1 cubic foot/second [ft^3/s] =  0.0283168466 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicFootPerSecond_2_CubicMeterPerSecond(double inVal)     => inVal * 0.0283168466;
         /// <summary>
@@ -515,7 +515,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in^3/h -> m^3/s
-        /// 1 cubic inch/hour [in^3/h] to vv: 4.5519622224454E-9 cubic meter/second [m^3/s]
+        /// 1 cubic inch/hour [in^3/h] =  4.5519622224454E-9 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicInchPerHour_2_CubicMeterPerSecond(double inVal)       => inVal * 4.5519622224454E-9;
         /// <summary>
@@ -526,7 +526,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in^3/min -> m^3/s
-        /// 1 cubic inch/minute [in^3/min] to vv: 2.7311773333333E-7 cubic meter/second [m^3/s]
+        /// 1 cubic inch/minute [in^3/min] =  2.7311773333333E-7 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicInchPerMinute_2_CubicMeterPerSecond(double inVal)     => inVal * 2.7311773333333E-7;
         /// <summary>
@@ -537,7 +537,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// in^3/s -> m^3/s
-        /// 1 cubic inch/second [in^3/s] to vv: 1.63871E-5 cubic meter/second [m^3/s]
+        /// 1 cubic inch/second [in^3/s] =  1.63871E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double CubicInchPerSecond_2_CubicMeterPerSecond(double inVal)     => inVal * 1.63871E-5;
         /// <summary>
@@ -548,7 +548,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerSecondGasolineAt15p5DegreesCelsius -> m^3/s
-        /// 1 pound/second (Gasoline at 15p5DegreesCelsius) to vv: 0.0006135189 cubic meter/second [m^3/s]
+        /// 1 pound/second (Gasoline at 15p5DegreesCelsius) =  0.0006135189 cubic meter/second [m^3/s]
         /// </summary>
         public static double PoundPerSecondGasolineAt15p5DegreesCelsius_2_CubicMeterPerSecond(double inVal)=> inVal * 0.0006135189;
         /// <summary>
@@ -559,7 +559,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerMinuteGasolineAt15p5DegreesCelsius -> m^3/s
-        /// 1 pound/minute (Gasoline at 15p5DegreesCelsius) to vv: 1.02253E-5 cubic meter/second [m^3/s]
+        /// 1 pound/minute (Gasoline at 15p5DegreesCelsius) =  1.02253E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double PoundPerMinuteGasolineAt15p5DegreesCelsius_2_CubicMeterPerSecond(double inVal)=> inVal * 1.02253E-5;
         /// <summary>
@@ -570,7 +570,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerHourGasolineAt15p5DegreesCelsius -> m^3/s
-        /// 1 pound/hour (Gasoline at 15p5DegreesCelsius) to vv: 1.704219244213E-7 cubic meter/second [m^3/s]
+        /// 1 pound/hour (Gasoline at 15p5DegreesCelsius) =  1.704219244213E-7 cubic meter/second [m^3/s]
         /// </summary>
         public static double PoundPerHourGasolineAt15p5DegreesCelsius_2_CubicMeterPerSecond(double inVal)=> inVal * 1.704219244213E-7;
         /// <summary>
@@ -581,7 +581,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundPerDayGasolineAt15p5DegreesCelsius -> m^3/s
-        /// 1 pound/day (Gasoline at 15p5DegreesCelsius) to vv: 7.1009135150463E-9 cubic meter/second [m^3/s]
+        /// 1 pound/day (Gasoline at 15p5DegreesCelsius) =  7.1009135150463E-9 cubic meter/second [m^3/s]
         /// </summary>
         public static double PoundPerDayGasolineAt15p5DegreesCelsius_2_CubicMeterPerSecond(double inVal)=> inVal * 7.1009135150463E-9;
         /// <summary>
@@ -592,7 +592,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramPerSecondGasolineAt15p5DegreesCelsius -> m^3/s
-        /// 1 kilogram/second (Gasoline at 15p5DegreesCelsius) to vv: 0.0013525777 cubic meter/second [m^3/s]
+        /// 1 kilogram/second (Gasoline at 15p5DegreesCelsius) =  0.0013525777 cubic meter/second [m^3/s]
         /// </summary>
         public static double KilogramPerSecondGasolineAt15p5DegreesCelsius_2_CubicMeterPerSecond(double inVal)=> inVal * 0.0013525777;
         /// <summary>
@@ -603,7 +603,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramPerMinuteGasolineAt15p5DegreesCelsius -> m^3/s
-        /// 1 kilogram/minute (Gasoline at 15p5DegreesCelsius) to vv: 2.2543E-5 cubic meter/second [m^3/s]
+        /// 1 kilogram/minute (Gasoline at 15p5DegreesCelsius) =  2.2543E-5 cubic meter/second [m^3/s]
         /// </summary>
         public static double KilogramPerMinuteGasolineAt15p5DegreesCelsius_2_CubicMeterPerSecond(double inVal)=> inVal * 2.2543E-5;
         /// <summary>
@@ -614,7 +614,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramPerHourGasolineAt15p5DegreesCelsius -> m^3/s
-        /// 1 kilogram/hour (Gasoline at 15p5DegreesCelsius) to vv: 3.7571602974537E-7 cubic meter/second [m^3/s]
+        /// 1 kilogram/hour (Gasoline at 15p5DegreesCelsius) =  3.7571602974537E-7 cubic meter/second [m^3/s]
         /// </summary>
         public static double KilogramPerHourGasolineAt15p5DegreesCelsius_2_CubicMeterPerSecond(double inVal)=> inVal * 3.7571602974537E-7;
         /// <summary>
@@ -625,7 +625,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramPerDayGasolineAt15p5DegreesCelsius -> m^3/s
-        /// 1 kilogram/day (Gasoline at 15p5DegreesCelsius) to vv: 1.5654834571759E-8 cubic meter/second [m^3/s]
+        /// 1 kilogram/day (Gasoline at 15p5DegreesCelsius) =  1.5654834571759E-8 cubic meter/second [m^3/s]
         /// </summary>
         public static double KilogramPerDayGasolineAt15p5DegreesCelsius_2_CubicMeterPerSecond(double inVal)=> inVal * 1.5654834571759E-8;
         /// <summary>
@@ -640,7 +640,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// g/s -> kg/s
-        /// 1 gram/second [g/s] to vv: 0.001 kilogram/second [kg/s]
+        /// 1 gram/second [g/s] =  0.001 kilogram/second [kg/s]
         /// </summary>
         public static double GramPerSecond_2_KilogramPerSecond(double inVal)            => inVal * 0.001;
         /// <summary>
@@ -651,7 +651,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// g/min -> kg/s
-        /// 1 gram/minute [g/min] to vv: 1.66667E-5 kilogram/second [kg/s]
+        /// 1 gram/minute [g/min] =  1.66667E-5 kilogram/second [kg/s]
         /// </summary>
         public static double GramPerMinute_2_KilogramPerSecond(double inVal)            => inVal * 1.66667E-5;
         /// <summary>
@@ -662,7 +662,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// g/h -> kg/s
-        /// 1 gram/hour [g/h] to vv: 2.7777777777778E-7 kilogram/second [kg/s]
+        /// 1 gram/hour [g/h] =  2.7777777777778E-7 kilogram/second [kg/s]
         /// </summary>
         public static double GramPerHour_2_KilogramPerSecond(double inVal)              => inVal * 2.7777777777778E-7;
         /// <summary>
@@ -673,7 +673,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// g/d -> kg/s
-        /// 1 gram/day [g/d] to vv: 1.1574074074074E-8 kilogram/second [kg/s]
+        /// 1 gram/day [g/d] =  1.1574074074074E-8 kilogram/second [kg/s]
         /// </summary>
         public static double GramPerDay_2_KilogramPerSecond(double inVal)               => inVal * 1.1574074074074E-8;
         /// <summary>
@@ -684,7 +684,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mg/min -> kg/s
-        /// 1 milligram/minute [mg/min] to vv: 1.6666666666667E-8 kilogram/second [kg/s]
+        /// 1 milligram/minute [mg/min] =  1.6666666666667E-8 kilogram/second [kg/s]
         /// </summary>
         public static double MilligramPerMinute_2_KilogramPerSecond(double inVal)       => inVal * 1.6666666666667E-8;
         /// <summary>
@@ -695,7 +695,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mg/h -> kg/s
-        /// 1 milligram/hour [mg/h] to vv: 2.7777777777778E-10 kilogram/second [kg/s]
+        /// 1 milligram/hour [mg/h] =  2.7777777777778E-10 kilogram/second [kg/s]
         /// </summary>
         public static double MilligramPerHour_2_KilogramPerSecond(double inVal)         => inVal * 2.7777777777778E-10;
         /// <summary>
@@ -706,7 +706,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mg/d -> kg/s
-        /// 1 milligram/day [mg/d] to vv: 1.1574074074074E-11 kilogram/second [kg/s]
+        /// 1 milligram/day [mg/d] =  1.1574074074074E-11 kilogram/second [kg/s]
         /// </summary>
         public static double MilligramPerDay_2_KilogramPerSecond(double inVal)          => inVal * 1.1574074074074E-11;
         /// <summary>
@@ -717,7 +717,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kg/min -> kg/s
-        /// 1 kilogram/minute [kg/min] to vv: 0.0166666667 kilogram/second [kg/s]
+        /// 1 kilogram/minute [kg/min] =  0.0166666667 kilogram/second [kg/s]
         /// </summary>
         public static double KilogramPerMinute_2_KilogramPerSecond(double inVal)        => inVal * 0.0166666667;
         /// <summary>
@@ -728,7 +728,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kg/h -> kg/s
-        /// 1 kilogram/hour [kg/h] to vv: 0.0002777778 kilogram/second [kg/s]
+        /// 1 kilogram/hour [kg/h] =  0.0002777778 kilogram/second [kg/s]
         /// </summary>
         public static double KilogramPerHour_2_KilogramPerSecond(double inVal)          => inVal * 0.0002777778;
         /// <summary>
@@ -739,7 +739,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kg/d -> kg/s
-        /// 1 kilogram/day [kg/d] to vv: 1.15741E-5 kilogram/second [kg/s]
+        /// 1 kilogram/day [kg/d] =  1.15741E-5 kilogram/second [kg/s]
         /// </summary>
         public static double KilogramPerDay_2_KilogramPerSecond(double inVal)           => inVal * 1.15741E-5;
         /// <summary>
@@ -750,7 +750,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Eg/s -> kg/s
-        /// 1 exagram/second [Eg/s] to vv: 1.0E+15 kilogram/second [kg/s]
+        /// 1 exagram/second [Eg/s] =  1.0E+15 kilogram/second [kg/s]
         /// </summary>
         public static double ExagramPerSecond_2_KilogramPerSecond(double inVal)         => inVal * 1.0E+15;
         /// <summary>
@@ -761,7 +761,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Pg/s -> kg/s
-        /// 1 petagram/second [Pg/s] to vv: 1000000000000 kilogram/second [kg/s]
+        /// 1 petagram/second [Pg/s] =  1000000000000 kilogram/second [kg/s]
         /// </summary>
         public static double PetagramPerSecond_2_KilogramPerSecond(double inVal)        => inVal * 1000000000000;
         /// <summary>
@@ -772,7 +772,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Tg/s -> kg/s
-        /// 1 teragram/second [Tg/s] to vv: 1000000000 kilogram/second [kg/s]
+        /// 1 teragram/second [Tg/s] =  1000000000 kilogram/second [kg/s]
         /// </summary>
         public static double TeragramPerSecond_2_KilogramPerSecond(double inVal)        => inVal * 1000000000;
         /// <summary>
@@ -783,7 +783,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gg/s -> kg/s
-        /// 1 gigagram/second [Gg/s] to vv: 1000000 kilogram/second [kg/s]
+        /// 1 gigagram/second [Gg/s] =  1000000 kilogram/second [kg/s]
         /// </summary>
         public static double GigagramPerSecond_2_KilogramPerSecond(double inVal)        => inVal * 1000000;
         /// <summary>
@@ -794,7 +794,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mg/s -> kg/s
-        /// 1 megagram/second [Mg/s] to vv: 1000 kilogram/second [kg/s]
+        /// 1 megagram/second [Mg/s] =  1000 kilogram/second [kg/s]
         /// </summary>
         public static double MegagramPerSecond_2_KilogramPerSecond(double inVal)        => inVal * 1000;
         /// <summary>
@@ -805,7 +805,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hg/s -> kg/s
-        /// 1 hectogram/second [hg/s] to vv: 0.1 kilogram/second [kg/s]
+        /// 1 hectogram/second [hg/s] =  0.1 kilogram/second [kg/s]
         /// </summary>
         public static double HectogramPerSecond_2_KilogramPerSecond(double inVal)       => inVal * 0.1;
         /// <summary>
@@ -816,7 +816,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dag/s -> kg/s
-        /// 1 dekagram/second [dag/s] to vv: 0.01 kilogram/second [kg/s]
+        /// 1 dekagram/second [dag/s] =  0.01 kilogram/second [kg/s]
         /// </summary>
         public static double DekagramPerSecond_2_KilogramPerSecond(double inVal)        => inVal * 0.01;
         /// <summary>
@@ -827,7 +827,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dg/s -> kg/s
-        /// 1 decigram/second [dg/s] to vv: 0.0001 kilogram/second [kg/s]
+        /// 1 decigram/second [dg/s] =  0.0001 kilogram/second [kg/s]
         /// </summary>
         public static double DecigramPerSecond_2_KilogramPerSecond(double inVal)        => inVal * 0.0001;
         /// <summary>
@@ -838,7 +838,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cg/s -> kg/s
-        /// 1 centigram/second [cg/s] to vv: 1.0E-5 kilogram/second [kg/s]
+        /// 1 centigram/second [cg/s] =  1.0E-5 kilogram/second [kg/s]
         /// </summary>
         public static double CentigramPerSecond_2_KilogramPerSecond(double inVal)       => inVal * 1.0E-5;
         /// <summary>
@@ -849,7 +849,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mg/s -> kg/s
-        /// 1 milligram/second [mg/s] to vv: 1.0E-6 kilogram/second [kg/s]
+        /// 1 milligram/second [mg/s] =  1.0E-6 kilogram/second [kg/s]
         /// </summary>
         public static double MilligramPerSecond_2_KilogramPerSecond(double inVal)       => inVal * 1.0E-6;
         /// <summary>
@@ -860,7 +860,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µg/s -> kg/s
-        /// 1 microgram/second [µg/s] to vv: 1.0E-9 kilogram/second [kg/s]
+        /// 1 microgram/second [µg/s] =  1.0E-9 kilogram/second [kg/s]
         /// </summary>
         public static double MicrogramPerSecond_2_KilogramPerSecond(double inVal)       => inVal * 1.0E-9;
         /// <summary>
@@ -871,7 +871,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// t/s -> kg/s
-        /// 1 ton (metric)/second [t/s] to vv: 1000 kilogram/second [kg/s]
+        /// 1 ton (metric)/second [t/s] =  1000 kilogram/second [kg/s]
         /// </summary>
         public static double TonMetricPerSecond_2_KilogramPerSecond(double inVal)       => inVal * 1000;
         /// <summary>
@@ -882,7 +882,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// t/min -> kg/s
-        /// 1 ton (metric)/minute [t/min] to vv: 16.6666666667 kilogram/second [kg/s]
+        /// 1 ton (metric)/minute [t/min] =  16.6666666667 kilogram/second [kg/s]
         /// </summary>
         public static double TonMetricPerMinute_2_KilogramPerSecond(double inVal)       => inVal * 16.6666666667;
         /// <summary>
@@ -893,7 +893,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// t/h -> kg/s
-        /// 1 ton (metric)/hour [t/h] to vv: 0.2777777778 kilogram/second [kg/s]
+        /// 1 ton (metric)/hour [t/h] =  0.2777777778 kilogram/second [kg/s]
         /// </summary>
         public static double TonMetricPerHour_2_KilogramPerSecond(double inVal)         => inVal * 0.2777777778;
         /// <summary>
@@ -904,7 +904,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// t/d -> kg/s
-        /// 1 ton (metric)/day [t/d] to vv: 0.0115740741 kilogram/second [kg/s]
+        /// 1 ton (metric)/day [t/d] =  0.0115740741 kilogram/second [kg/s]
         /// </summary>
         public static double TonMetricPerDay_2_KilogramPerSecond(double inVal)          => inVal * 0.0115740741;
         /// <summary>
@@ -915,7 +915,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ton (US)/h -> kg/s
-        /// 1 ton (short)/hour [ton (US)/h] to vv: 0.2519957611 kilogram/second [kg/s]
+        /// 1 ton (short)/hour [ton (US)/h] =  0.2519957611 kilogram/second [kg/s]
         /// </summary>
         public static double TonShortPerHour_2_KilogramPerSecond(double inVal)          => inVal * 0.2519957611;
         /// <summary>
@@ -926,7 +926,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lb/s -> kg/s
-        /// 1 pound/second [lb/s] to vv: 0.45359237 kilogram/second [kg/s]
+        /// 1 pound/second [lb/s] =  0.45359237 kilogram/second [kg/s]
         /// </summary>
         public static double PoundPerSecond_2_KilogramPerSecond(double inVal)           => inVal * 0.45359237;
         /// <summary>
@@ -937,7 +937,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lb/min -> kg/s
-        /// 1 pound/minute [lb/min] to vv: 0.0075598728 kilogram/second [kg/s]
+        /// 1 pound/minute [lb/min] =  0.0075598728 kilogram/second [kg/s]
         /// </summary>
         public static double PoundPerMinute_2_KilogramPerSecond(double inVal)           => inVal * 0.0075598728;
         /// <summary>
@@ -948,7 +948,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lb/h -> kg/s
-        /// 1 pound/hour [lb/h] to vv: 0.0001259979 kilogram/second [kg/s]
+        /// 1 pound/hour [lb/h] =  0.0001259979 kilogram/second [kg/s]
         /// </summary>
         public static double PoundPerHour_2_KilogramPerSecond(double inVal)             => inVal * 0.0001259979;
         /// <summary>
@@ -959,7 +959,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lb/d -> kg/s
-        /// 1 pound/day [lb/d] to vv: 5.2499116898148E-6 kilogram/second [kg/s]
+        /// 1 pound/day [lb/d] =  5.2499116898148E-6 kilogram/second [kg/s]
         /// </summary>
         public static double PoundPerDay_2_KilogramPerSecond(double inVal)              => inVal * 5.2499116898148E-6;
         /// <summary>
@@ -975,7 +975,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Emol/s -> mol/s
-        /// 1 examol/second [Emol/s] to vv: 1.0E+18 mol/second [mol/s]
+        /// 1 examol/second [Emol/s] =  1.0E+18 mol/second [mol/s]
         /// </summary>
         public static double ExamolPerSecond_2_MolPerSecond(double inVal)               => inVal * 1.0E+18;
         /// <summary>
@@ -986,7 +986,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Pmol/s -> mol/s
-        /// 1 petamol/second [Pmol/s] to vv: 1.0E+15 mol/second [mol/s]
+        /// 1 petamol/second [Pmol/s] =  1.0E+15 mol/second [mol/s]
         /// </summary>
         public static double PetamolPerSecond_2_MolPerSecond(double inVal)              => inVal * 1.0E+15;
         /// <summary>
@@ -997,7 +997,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Tmol/s -> mol/s
-        /// 1 teramol/second [Tmol/s] to vv: 1000000000000 mol/second [mol/s]
+        /// 1 teramol/second [Tmol/s] =  1000000000000 mol/second [mol/s]
         /// </summary>
         public static double TeramolPerSecond_2_MolPerSecond(double inVal)              => inVal * 1000000000000;
         /// <summary>
@@ -1008,7 +1008,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gmol/s -> mol/s
-        /// 1 gigamol/second [Gmol/s] to vv: 1000000000 mol/second [mol/s]
+        /// 1 gigamol/second [Gmol/s] =  1000000000 mol/second [mol/s]
         /// </summary>
         public static double GigamolPerSecond_2_MolPerSecond(double inVal)              => inVal * 1000000000;
         /// <summary>
@@ -1019,7 +1019,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mmol/s -> mol/s
-        /// 1 megamol/second [Mmol/s] to vv: 1000000 mol/second [mol/s]
+        /// 1 megamol/second [Mmol/s] =  1000000 mol/second [mol/s]
         /// </summary>
         public static double MegamolPerSecond_2_MolPerSecond(double inVal)              => inVal * 1000000;
         /// <summary>
@@ -1030,7 +1030,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kmol/s -> mol/s
-        /// 1 kilomol/second [kmol/s] to vv: 1000 mol/second [mol/s]
+        /// 1 kilomol/second [kmol/s] =  1000 mol/second [mol/s]
         /// </summary>
         public static double KilomolPerSecond_2_MolPerSecond(double inVal)              => inVal * 1000;
         /// <summary>
@@ -1041,7 +1041,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hmol/s -> mol/s
-        /// 1 hectomol/second [hmol/s] to vv: 100 mol/second [mol/s]
+        /// 1 hectomol/second [hmol/s] =  100 mol/second [mol/s]
         /// </summary>
         public static double HectomolPerSecond_2_MolPerSecond(double inVal)             => inVal * 100;
         /// <summary>
@@ -1052,7 +1052,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// damol/s -> mol/s
-        /// 1 dekamol/second [damol/s] to vv: 10 mol/second [mol/s]
+        /// 1 dekamol/second [damol/s] =  10 mol/second [mol/s]
         /// </summary>
         public static double DekamolPerSecond_2_MolPerSecond(double inVal)              => inVal * 10;
         /// <summary>
@@ -1063,7 +1063,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dmol/s -> mol/s
-        /// 1 decimol/second [dmol/s] to vv: 0.1 mol/second [mol/s]
+        /// 1 decimol/second [dmol/s] =  0.1 mol/second [mol/s]
         /// </summary>
         public static double DecimolPerSecond_2_MolPerSecond(double inVal)              => inVal * 0.1;
         /// <summary>
@@ -1074,7 +1074,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cmol/s -> mol/s
-        /// 1 centimol/second [cmol/s] to vv: 0.01 mol/second [mol/s]
+        /// 1 centimol/second [cmol/s] =  0.01 mol/second [mol/s]
         /// </summary>
         public static double CentimolPerSecond_2_MolPerSecond(double inVal)             => inVal * 0.01;
         /// <summary>
@@ -1085,7 +1085,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mmol/s -> mol/s
-        /// 1 millimol/second [mmol/s] to vv: 0.001 mol/second [mol/s]
+        /// 1 millimol/second [mmol/s] =  0.001 mol/second [mol/s]
         /// </summary>
         public static double MillimolPerSecond_2_MolPerSecond(double inVal)             => inVal * 0.001;
         /// <summary>
@@ -1096,7 +1096,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µmol/s -> mol/s
-        /// 1 micromol/second [µmol/s] to vv: 1.0E-6 mol/second [mol/s]
+        /// 1 micromol/second [µmol/s] =  1.0E-6 mol/second [mol/s]
         /// </summary>
         public static double MicromolPerSecond_2_MolPerSecond(double inVal)             => inVal * 1.0E-6;
         /// <summary>
@@ -1107,7 +1107,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nmol/s -> mol/s
-        /// 1 nanomol/second [nmol/s] to vv: 1.0E-9 mol/second [mol/s]
+        /// 1 nanomol/second [nmol/s] =  1.0E-9 mol/second [mol/s]
         /// </summary>
         public static double NanomolPerSecond_2_MolPerSecond(double inVal)              => inVal * 1.0E-9;
         /// <summary>
@@ -1118,7 +1118,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pmol/s -> mol/s
-        /// 1 picomol/second [pmol/s] to vv: 1.0E-12 mol/second [mol/s]
+        /// 1 picomol/second [pmol/s] =  1.0E-12 mol/second [mol/s]
         /// </summary>
         public static double PicomolPerSecond_2_MolPerSecond(double inVal)              => inVal * 1.0E-12;
         /// <summary>
@@ -1129,7 +1129,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fmol/s -> mol/s
-        /// 1 femtomol/second [fmol/s] to vv: 1.0E-15 mol/second [mol/s]
+        /// 1 femtomol/second [fmol/s] =  1.0E-15 mol/second [mol/s]
         /// </summary>
         public static double FemtomolPerSecond_2_MolPerSecond(double inVal)             => inVal * 1.0E-15;
         /// <summary>
@@ -1140,7 +1140,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// amol/s -> mol/s
-        /// 1 attomol/second [amol/s] to vv: 1.0E-18 mol/second [mol/s]
+        /// 1 attomol/second [amol/s] =  1.0E-18 mol/second [mol/s]
         /// </summary>
         public static double AttomolPerSecond_2_MolPerSecond(double inVal)              => inVal * 1.0E-18;
         /// <summary>
@@ -1151,7 +1151,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mol/min -> mol/s
-        /// 1 mol/minute [mol/min] to vv: 0.0166666667 mol/second [mol/s]
+        /// 1 mol/minute [mol/min] =  0.0166666667 mol/second [mol/s]
         /// </summary>
         public static double MolPerMinute_2_MolPerSecond(double inVal)                  => inVal * 0.0166666667;
         /// <summary>
@@ -1162,7 +1162,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mol/h -> mol/s
-        /// 1 mol/hour [mol/h] to vv: 0.0002777778 mol/second [mol/s]
+        /// 1 mol/hour [mol/h] =  0.0002777778 mol/second [mol/s]
         /// </summary>
         public static double MolPerHour_2_MolPerSecond(double inVal)                    => inVal * 0.0002777778;
         /// <summary>
@@ -1173,7 +1173,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mol/d -> mol/s
-        /// 1 mol/day [mol/d] to vv: 1.15741E-5 mol/second [mol/s]
+        /// 1 mol/day [mol/d] =  1.15741E-5 mol/second [mol/s]
         /// </summary>
         public static double MolPerDay_2_MolPerSecond(double inVal)                     => inVal * 1.15741E-5;
         /// <summary>
@@ -1184,7 +1184,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mmol/min -> mol/s
-        /// 1 millimol/minute [mmol/min] to vv: 1.66667E-5 mol/second [mol/s]
+        /// 1 millimol/minute [mmol/min] =  1.66667E-5 mol/second [mol/s]
         /// </summary>
         public static double MillimolPerMinute_2_MolPerSecond(double inVal)             => inVal * 1.66667E-5;
         /// <summary>
@@ -1195,7 +1195,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mmol/h -> mol/s
-        /// 1 millimol/hour [mmol/h] to vv: 2.7777777777778E-7 mol/second [mol/s]
+        /// 1 millimol/hour [mmol/h] =  2.7777777777778E-7 mol/second [mol/s]
         /// </summary>
         public static double MillimolPerHour_2_MolPerSecond(double inVal)               => inVal * 2.7777777777778E-7;
         /// <summary>
@@ -1206,7 +1206,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mmol/d -> mol/s
-        /// 1 millimol/day [mmol/d] to vv: 1.1574074074074E-8 mol/second [mol/s]
+        /// 1 millimol/day [mmol/d] =  1.1574074074074E-8 mol/second [mol/s]
         /// </summary>
         public static double MillimolPerDay_2_MolPerSecond(double inVal)                => inVal * 1.1574074074074E-8;
         /// <summary>
@@ -1217,7 +1217,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kmol/min -> mol/s
-        /// 1 kilomol/minute [kmol/min] to vv: 16.6666666667 mol/second [mol/s]
+        /// 1 kilomol/minute [kmol/min] =  16.6666666667 mol/second [mol/s]
         /// </summary>
         public static double KilomolPerMinute_2_MolPerSecond(double inVal)              => inVal * 16.6666666667;
         /// <summary>
@@ -1228,7 +1228,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kmol/h -> mol/s
-        /// 1 kilomol/hour [kmol/h] to vv: 0.2777777778 mol/second [mol/s]
+        /// 1 kilomol/hour [kmol/h] =  0.2777777778 mol/second [mol/s]
         /// </summary>
         public static double KilomolPerHour_2_MolPerSecond(double inVal)                => inVal * 0.2777777778;
         /// <summary>
@@ -1239,7 +1239,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kmol/d -> mol/s
-        /// 1 kilomol/day [kmol/d] to vv: 0.0115740741 mol/second [mol/s]
+        /// 1 kilomol/day [kmol/d] =  0.0115740741 mol/second [mol/s]
         /// </summary>
         public static double KilomolPerDay_2_MolPerSecond(double inVal)                 => inVal * 0.0115740741;
         /// <summary>

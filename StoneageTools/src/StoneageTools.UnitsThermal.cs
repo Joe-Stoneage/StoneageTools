@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DegreeFahrenheitHourPerBtuIT -> K/W
-        /// 1 degree Fahrenheit hour/Btu (IT) to vv: 1.8956342406 kelvin/watt [K/W]
+        /// 1 degree Fahrenheit hour/Btu (IT) =  1.8956342406 kelvin/watt [K/W]
         /// </summary>
         public static double DegreeFahrenheitHourPerBtuIT_2_KelvinPerWatt(double inVal) => inVal * 1.8956342406;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DegreeFahrenheitHourPerBtuTh -> K/W
-        /// 1 degree Fahrenheit hour/Btu (th) to vv: 1.8969028295 kelvin/watt [K/W]
+        /// 1 degree Fahrenheit hour/Btu (th) =  1.8969028295 kelvin/watt [K/W]
         /// </summary>
         public static double DegreeFahrenheitHourPerBtuTh_2_KelvinPerWatt(double inVal) => inVal * 1.8969028295;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DegreeFahrenheitSecondPerBtuIT -> K/W
-        /// 1 degree Fahrenheit second/Btu (IT) to vv: 0.0005265651 kelvin/watt [K/W]
+        /// 1 degree Fahrenheit second/Btu (IT) =  0.0005265651 kelvin/watt [K/W]
         /// </summary>
         public static double DegreeFahrenheitSecondPerBtuIT_2_KelvinPerWatt(double inVal)=> inVal * 0.0005265651;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DegreeFahrenheitSecondPerBtuTh -> K/W
-        /// 1 degree Fahrenheit second/Btu (th) to vv: 0.0005269175 kelvin/watt [K/W]
+        /// 1 degree Fahrenheit second/Btu (th) =  0.0005269175 kelvin/watt [K/W]
         /// </summary>
         public static double DegreeFahrenheitSecondPerBtuTh_2_KelvinPerWatt(double inVal)=> inVal * 0.0005269175;
         /// <summary>
@@ -57,7 +57,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// WattPerCentimeterPerDegC -> W/(m*K)
-        /// 1 watt/centimeter/°C to vv: 100 watt/meter/K [W/(m*K)]
+        /// 1 watt/centimeter/°C =  100 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double WattPerCentimeterPerDegC_2_WattPerMeterPerK(double inVal)  => inVal * 100;
         /// <summary>
@@ -68,7 +68,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kW/(m*K) -> W/(m*K)
-        /// 1 kilowatt/meter/K [kW/(m*K)] to vv: 1000 watt/meter/K [W/(m*K)]
+        /// 1 kilowatt/meter/K [kW/(m*K)] =  1000 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double KilowattPerMeterPerK_2_WattPerMeterPerK(double inVal)      => inVal * 1000;
         /// <summary>
@@ -79,7 +79,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CalorieITPerSecondPerCmPerDegC -> W/(m*K)
-        /// 1 calorie (IT)/second/cm/°C to vv: 418.6800000009 watt/meter/K [W/(m*K)]
+        /// 1 calorie (IT)/second/cm/°C =  418.6800000009 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double CalorieITPerSecondPerCmPerDegC_2_WattPerMeterPerK(double inVal)=> inVal * 418.6800000009;
         /// <summary>
@@ -90,7 +90,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CalorieThPerSecondPerCmPerDegC -> W/(m*K)
-        /// 1 calorie (th)/second/cm/°C to vv: 418.3999999994 watt/meter/K [W/(m*K)]
+        /// 1 calorie (th)/second/cm/°C =  418.3999999994 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double CalorieThPerSecondPerCmPerDegC_2_WattPerMeterPerK(double inVal)=> inVal * 418.3999999994;
         /// <summary>
@@ -101,7 +101,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilocalorieITPerHourPerMeterPerDegC -> W/(m*K)
-        /// 1 kilocalorie (IT)/hour/meter/°C to vv: 1.163 watt/meter/K [W/(m*K)]
+        /// 1 kilocalorie (IT)/hour/meter/°C =  1.163 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double KilocalorieITPerHourPerMeterPerDegC_2_WattPerMeterPerK(double inVal)=> inVal * 1.163;
         /// <summary>
@@ -112,7 +112,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilocalorieThPerHourPerMeterPerDegC -> W/(m*K)
-        /// 1 kilocalorie (th)/hour/meter/°C to vv: 1.1622222222 watt/meter/K [W/(m*K)]
+        /// 1 kilocalorie (th)/hour/meter/°C =  1.1622222222 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double KilocalorieThPerHourPerMeterPerDegC_2_WattPerMeterPerK(double inVal)=> inVal * 1.1622222222;
         /// <summary>
@@ -123,7 +123,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BtuITInchPerSecondPerSquareFootPerDegF -> W/(m*K)
-        /// 1 Btu (IT) inch/second/Square foot/°F to vv: 519.2203999105 watt/meter/K [W/(m*K)]
+        /// 1 Btu (IT) inch/second/Square foot/°F =  519.2203999105 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double BtuITInchPerSecondPerSquareFootPerDegF_2_WattPerMeterPerK(double inVal)=> inVal * 519.2203999105;
         /// <summary>
@@ -134,7 +134,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BtuThInchPerSecondPerSquareFootPerDegF -> W/(m*K)
-        /// 1 Btu (th) inch/second/Square foot/°F to vv: 518.8731616576 watt/meter/K [W/(m*K)]
+        /// 1 Btu (th) inch/second/Square foot/°F =  518.8731616576 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double BtuThInchPerSecondPerSquareFootPerDegF_2_WattPerMeterPerK(double inVal)=> inVal * 518.8731616576;
         /// <summary>
@@ -145,7 +145,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BtuITFootPerHourPerSquareFootPerDegF -> W/(m*K)
-        /// 1 Btu (IT) foot/hour/Square foot/°F to vv: 1.7307346664 watt/meter/K [W/(m*K)]
+        /// 1 Btu (IT) foot/hour/Square foot/°F =  1.7307346664 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double BtuITFootPerHourPerSquareFootPerDegF_2_WattPerMeterPerK(double inVal)=> inVal * 1.7307346664;
         /// <summary>
@@ -156,7 +156,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BtuThFootPerHourPerSquareFootPerDegF -> W/(m*K)
-        /// 1 Btu (th) foot/hour/Square foot/°F to vv: 1.7295772055 watt/meter/K [W/(m*K)]
+        /// 1 Btu (th) foot/hour/Square foot/°F =  1.7295772055 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double BtuThFootPerHourPerSquareFootPerDegF_2_WattPerMeterPerK(double inVal)=> inVal * 1.7295772055;
         /// <summary>
@@ -167,7 +167,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BtuITInchPerHourPerSquareFootPerDegF -> W/(m*K)
-        /// 1 Btu (IT) inch/hour/Square foot/°F to vv: 0.1442278889 watt/meter/K [W/(m*K)]
+        /// 1 Btu (IT) inch/hour/Square foot/°F =  0.1442278889 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double BtuITInchPerHourPerSquareFootPerDegF_2_WattPerMeterPerK(double inVal)=> inVal * 0.1442278889;
         /// <summary>
@@ -178,7 +178,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// BtuThInchPerHourPerSquareFootPerDegF -> W/(m*K)
-        /// 1 Btu (th) inch/hour/Square foot/°F to vv: 0.1441314338 watt/meter/K [W/(m*K)]
+        /// 1 Btu (th) inch/hour/Square foot/°F =  0.1441314338 watt/meter/K [W/(m*K)]
         /// </summary>
         public static double BtuThInchPerHourPerSquareFootPerDegF_2_WattPerMeterPerK(double inVal)=> inVal * 0.1441314338;
         /// <summary>

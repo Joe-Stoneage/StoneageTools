@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kN*m -> N*m
-        /// 1 kilonewton meter [kN*m] to vv: 1000 newton meter [N*m]
+        /// 1 kilonewton meter [kN*m] =  1000 newton meter [N*m]
         /// </summary>
         public static double KilonewtonMeter_2_NewtonMeter(double inVal)                => inVal * 1000;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mN*m -> N*m
-        /// 1 millinewton meter [mN*m] to vv: 0.001 newton meter [N*m]
+        /// 1 millinewton meter [mN*m] =  0.001 newton meter [N*m]
         /// </summary>
         public static double MillinewtonMeter_2_NewtonMeter(double inVal)               => inVal * 0.001;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µN*m -> N*m
-        /// 1 micronewton meter [µN*m] to vv: 1.0E-6 newton meter [N*m]
+        /// 1 micronewton meter [µN*m] =  1.0E-6 newton meter [N*m]
         /// </summary>
         public static double MicronewtonMeter_2_NewtonMeter(double inVal)               => inVal * 1.0E-6;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonForceShortMeter -> N*m
-        /// 1 ton-force (short) meter to vv: 8896.4400000035 newton meter [N*m]
+        /// 1 ton-force (short) meter =  8896.4400000035 newton meter [N*m]
         /// </summary>
         public static double TonForceShortMeter_2_NewtonMeter(double inVal)             => inVal * 8896.4400000035;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonForceLongMeter -> N*m
-        /// 1 ton-force (long) meter to vv: 9964.0200000047 newton meter [N*m]
+        /// 1 ton-force (long) meter =  9964.0200000047 newton meter [N*m]
         /// </summary>
         public static double TonForceLongMeter_2_NewtonMeter(double inVal)              => inVal * 9964.0200000047;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonForceMetricMeter -> N*m
-        /// 1 ton-force (metric) meter to vv: 9806.6499999993 newton meter [N*m]
+        /// 1 ton-force (metric) meter =  9806.6499999993 newton meter [N*m]
         /// </summary>
         public static double TonForceMetricMeter_2_NewtonMeter(double inVal)            => inVal * 9806.6499999993;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kgf*m -> N*m
-        /// 1 kilogram-force meter [kgf*m] to vv: 9.80665 newton meter [N*m]
+        /// 1 kilogram-force meter [kgf*m] =  9.80665 newton meter [N*m]
         /// </summary>
         public static double KilogramForceMeter_2_NewtonMeter(double inVal)             => inVal * 9.80665;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GramForceCentimeter -> N*m
-        /// 1 gram-force centimeter to vv: 9.80665E-5 newton meter [N*m]
+        /// 1 gram-force centimeter =  9.80665E-5 newton meter [N*m]
         /// </summary>
         public static double GramForceCentimeter_2_NewtonMeter(double inVal)            => inVal * 9.80665E-5;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// lbf*ft -> N*m
-        /// 1 pound-force foot [lbf*ft] to vv: 1.35582 newton meter [N*m]
+        /// 1 pound-force foot [lbf*ft] =  1.35582 newton meter [N*m]
         /// </summary>
         public static double PoundForceFoot_2_NewtonMeter(double inVal)                 => inVal * 1.35582;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pdl*ft -> N*m
-        /// 1 poundal foot [pdl*ft] to vv: 0.0421401 newton meter [N*m]
+        /// 1 poundal foot [pdl*ft] =  0.0421401 newton meter [N*m]
         /// </summary>
         public static double PoundalFoot_2_NewtonMeter(double inVal)                    => inVal * 0.0421401;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pdl*in -> N*m
-        /// 1 poundal inch [pdl*in] to vv: 0.003511675 newton meter [N*m]
+        /// 1 poundal inch [pdl*in] =  0.003511675 newton meter [N*m]
         /// </summary>
         public static double PoundalInch_2_NewtonMeter(double inVal)                    => inVal * 0.003511675;
         /// <summary>

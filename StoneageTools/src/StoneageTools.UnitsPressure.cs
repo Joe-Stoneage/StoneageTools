@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// kPa -> Pa
-        /// 1 kilopascal [kPa] to vv: 1000 pascal [Pa]
+        /// 1 kilopascal [kPa] =  1000 pascal [Pa]
         /// </summary>
         public static double Kilopascal_2_Pascal(double inVal)                          => inVal * 1000;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Bar -> Pa
-        /// 1 bar to vv: 100000 pascal [Pa]
+        /// 1 bar =  100000 pascal [Pa]
         /// </summary>
         public static double Bar_2_Pascal(double inVal)                                 => inVal * 100000;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// psi -> Pa
-        /// 1 psi [psi] to vv: 6894.7572931783 pascal [Pa]
+        /// 1 psi [psi] =  6894.7572931783 pascal [Pa]
         /// </summary>
         public static double Psi_2_Pascal(double inVal)                                 => inVal * 6894.7572931783;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ksi -> Pa
-        /// 1 ksi [ksi] to vv: 6894757.2931783 pascal [Pa]
+        /// 1 ksi [ksi] =  6894757.2931783 pascal [Pa]
         /// </summary>
         public static double Ksi_2_Pascal(double inVal)                                 => inVal * 6894757.2931783;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// atm -> Pa
-        /// 1 Standard atmosphere [atm] to vv: 101325 pascal [Pa]
+        /// 1 Standard atmosphere [atm] =  101325 pascal [Pa]
         /// </summary>
         public static double StandardAtmosphere_2_Pascal(double inVal)                  => inVal * 101325;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// EPa -> Pa
-        /// 1 exapascal [EPa] to vv: 1.0E+18 pascal [Pa]
+        /// 1 exapascal [EPa] =  1.0E+18 pascal [Pa]
         /// </summary>
         public static double Exapascal_2_Pascal(double inVal)                           => inVal * 1.0E+18;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PPa -> Pa
-        /// 1 petapascal [PPa] to vv: 1.0E+15 pascal [Pa]
+        /// 1 petapascal [PPa] =  1.0E+15 pascal [Pa]
         /// </summary>
         public static double Petapascal_2_Pascal(double inVal)                          => inVal * 1.0E+15;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TPa -> Pa
-        /// 1 terapascal [TPa] to vv: 1000000000000 pascal [Pa]
+        /// 1 terapascal [TPa] =  1000000000000 pascal [Pa]
         /// </summary>
         public static double Terapascal_2_Pascal(double inVal)                          => inVal * 1000000000000;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GPa -> Pa
-        /// 1 gigapascal [GPa] to vv: 1000000000 pascal [Pa]
+        /// 1 gigapascal [GPa] =  1000000000 pascal [Pa]
         /// </summary>
         public static double Gigapascal_2_Pascal(double inVal)                          => inVal * 1000000000;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MPa -> Pa
-        /// 1 megapascal [MPa] to vv: 1000000 pascal [Pa]
+        /// 1 megapascal [MPa] =  1000000 pascal [Pa]
         /// </summary>
         public static double Megapascal_2_Pascal(double inVal)                          => inVal * 1000000;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// hPa -> Pa
-        /// 1 hectopascal [hPa] to vv: 100 pascal [Pa]
+        /// 1 hectopascal [hPa] =  100 pascal [Pa]
         /// </summary>
         public static double Hectopascal_2_Pascal(double inVal)                         => inVal * 100;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// daPa -> Pa
-        /// 1 dekapascal [daPa] to vv: 10 pascal [Pa]
+        /// 1 dekapascal [daPa] =  10 pascal [Pa]
         /// </summary>
         public static double Dekapascal_2_Pascal(double inVal)                          => inVal * 10;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// dPa -> Pa
-        /// 1 decipascal [dPa] to vv: 0.1 pascal [Pa]
+        /// 1 decipascal [dPa] =  0.1 pascal [Pa]
         /// </summary>
         public static double Decipascal_2_Pascal(double inVal)                          => inVal * 0.1;
         /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// cPa -> Pa
-        /// 1 centipascal [cPa] to vv: 0.01 pascal [Pa]
+        /// 1 centipascal [cPa] =  0.01 pascal [Pa]
         /// </summary>
         public static double Centipascal_2_Pascal(double inVal)                         => inVal * 0.01;
         /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mPa -> Pa
-        /// 1 millipascal [mPa] to vv: 0.001 pascal [Pa]
+        /// 1 millipascal [mPa] =  0.001 pascal [Pa]
         /// </summary>
         public static double Millipascal_2_Pascal(double inVal)                         => inVal * 0.001;
         /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µPa -> Pa
-        /// 1 micropascal [µPa] to vv: 1.0E-6 pascal [Pa]
+        /// 1 micropascal [µPa] =  1.0E-6 pascal [Pa]
         /// </summary>
         public static double Micropascal_2_Pascal(double inVal)                         => inVal * 1.0E-6;
         /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// nPa -> Pa
-        /// 1 nanopascal [nPa] to vv: 1.0E-9 pascal [Pa]
+        /// 1 nanopascal [nPa] =  1.0E-9 pascal [Pa]
         /// </summary>
         public static double Nanopascal_2_Pascal(double inVal)                          => inVal * 1.0E-9;
         /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// pPa -> Pa
-        /// 1 picopascal [pPa] to vv: 1.0E-12 pascal [Pa]
+        /// 1 picopascal [pPa] =  1.0E-12 pascal [Pa]
         /// </summary>
         public static double Picopascal_2_Pascal(double inVal)                          => inVal * 1.0E-12;
         /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// fPa -> Pa
-        /// 1 femtopascal [fPa] to vv: 1.0E-15 pascal [Pa]
+        /// 1 femtopascal [fPa] =  1.0E-15 pascal [Pa]
         /// </summary>
         public static double Femtopascal_2_Pascal(double inVal)                         => inVal * 1.0E-15;
         /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// aPa -> Pa
-        /// 1 attopascal [aPa] to vv: 1.0E-18 pascal [Pa]
+        /// 1 attopascal [aPa] =  1.0E-18 pascal [Pa]
         /// </summary>
         public static double Attopascal_2_Pascal(double inVal)                          => inVal * 1.0E-18;
         /// <summary>
@@ -229,7 +229,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NewtonPerSquareMeter -> Pa
-        /// 1 newton/square meter to vv: 1 pascal [Pa]
+        /// 1 newton/square meter =  1 pascal [Pa]
         /// </summary>
         public static double NewtonPerSquareMeter_2_Pascal(double inVal)                => inVal * 1;
         /// <summary>
@@ -240,7 +240,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NewtonPerSquareCentimeter -> Pa
-        /// 1 newton/square centimeter to vv: 10000 pascal [Pa]
+        /// 1 newton/square centimeter =  10000 pascal [Pa]
         /// </summary>
         public static double NewtonPerSquareCentimeter_2_Pascal(double inVal)           => inVal * 10000;
         /// <summary>
@@ -251,7 +251,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// NewtonPerSquareMillimeter -> Pa
-        /// 1 newton/square millimeter to vv: 1000000 pascal [Pa]
+        /// 1 newton/square millimeter =  1000000 pascal [Pa]
         /// </summary>
         public static double NewtonPerSquareMillimeter_2_Pascal(double inVal)           => inVal * 1000000;
         /// <summary>
@@ -262,7 +262,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilonewtonPerSquareMeter -> Pa
-        /// 1 kilonewton/square meter to vv: 1000 pascal [Pa]
+        /// 1 kilonewton/square meter =  1000 pascal [Pa]
         /// </summary>
         public static double KilonewtonPerSquareMeter_2_Pascal(double inVal)            => inVal * 1000;
         /// <summary>
@@ -273,7 +273,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// mbar -> Pa
-        /// 1 millibar [mbar] to vv: 100 pascal [Pa]
+        /// 1 millibar [mbar] =  100 pascal [Pa]
         /// </summary>
         public static double Millibar_2_Pascal(double inVal)                            => inVal * 100;
         /// <summary>
@@ -284,7 +284,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// µbar -> Pa
-        /// 1 microbar [µbar] to vv: 0.1 pascal [Pa]
+        /// 1 microbar [µbar] =  0.1 pascal [Pa]
         /// </summary>
         public static double Microbar_2_Pascal(double inVal)                            => inVal * 0.1;
         /// <summary>
@@ -295,7 +295,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// DynePerSquareCentimeter -> Pa
-        /// 1 dyne/square centimeter to vv: 0.1 pascal [Pa]
+        /// 1 dyne/square centimeter =  0.1 pascal [Pa]
         /// </summary>
         public static double DynePerSquareCentimeter_2_Pascal(double inVal)             => inVal * 0.1;
         /// <summary>
@@ -306,7 +306,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramForcePerSquareMeter -> Pa
-        /// 1 kilogram-force/square meter to vv: 9.80665 pascal [Pa]
+        /// 1 kilogram-force/square meter =  9.80665 pascal [Pa]
         /// </summary>
         public static double KilogramForcePerSquareMeter_2_Pascal(double inVal)         => inVal * 9.80665;
         /// <summary>
@@ -317,7 +317,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramForcePerSquareCm -> Pa
-        /// 1 kilogram-force/Square cm to vv: 98066.5 pascal [Pa]
+        /// 1 kilogram-force/Square cm =  98066.5 pascal [Pa]
         /// </summary>
         public static double KilogramForcePerSquareCm_2_Pascal(double inVal)               => inVal * 98066.5;
         /// <summary>
@@ -328,7 +328,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KilogramForcePerSquareMillimeter -> Pa
-        /// 1 kilogram-force/Square millimeter to vv: 9806650 pascal [Pa]
+        /// 1 kilogram-force/Square millimeter =  9806650 pascal [Pa]
         /// </summary>
         public static double KilogramForcePerSquareMillimeter_2_Pascal(double inVal)       => inVal * 9806650;
         /// <summary>
@@ -339,7 +339,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// GramForcePerSquareCentimeter -> Pa
-        /// 1 gram-force/Square centimeter to vv: 98.0665 pascal [Pa]
+        /// 1 gram-force/Square centimeter =  98.0665 pascal [Pa]
         /// </summary>
         public static double GramForcePerSquareCentimeter_2_Pascal(double inVal)           => inVal * 98.0665;
         /// <summary>
@@ -350,7 +350,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonForceShortPerSquareFoot -> Pa
-        /// 1 ton-force (short)/Square foot to vv: 95760.517960678 pascal [Pa]
+        /// 1 ton-force (short)/Square foot =  95760.517960678 pascal [Pa]
         /// </summary>
         public static double TonForceShortPerSquareFoot_2_Pascal(double inVal)             => inVal * 95760.517960678;
         /// <summary>
@@ -361,7 +361,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonForceShortPerSquareInch -> Pa
-        /// 1 ton-force (short)/Square inch to vv: 13789514.586338 pascal [Pa]
+        /// 1 ton-force (short)/Square inch =  13789514.586338 pascal [Pa]
         /// </summary>
         public static double TonForceShortPerSquareInch_2_Pascal(double inVal)             => inVal * 13789514.586338;
         /// <summary>
@@ -372,7 +372,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonForceLongPerSquareFoot -> Pa
-        /// 1 ton-force (long)/square foot to vv: 107251.78011595 pascal [Pa]
+        /// 1 ton-force (long)/square foot =  107251.78011595 pascal [Pa]
         /// </summary>
         public static double TonForceLongPerSquareFoot_2_Pascal(double inVal)           => inVal * 107251.78011595;
         /// <summary>
@@ -383,7 +383,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// TonForceLongPerSquareInch -> Pa
-        /// 1 ton-force (long)/square inch to vv: 15444256.336697 pascal [Pa]
+        /// 1 ton-force (long)/square inch =  15444256.336697 pascal [Pa]
         /// </summary>
         public static double TonForceLongPerSquareInch_2_Pascal(double inVal)           => inVal * 15444256.336697;
         /// <summary>
@@ -394,7 +394,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// KipForcePerSquareInch -> Pa
-        /// 1 kip-force/square inch to vv: 6894757.2931783 pascal [Pa]
+        /// 1 kip-force/square inch =  6894757.2931783 pascal [Pa]
         /// </summary>
         public static double KipForcePerSquareInch_2_Pascal(double inVal)               => inVal * 6894757.2931783;
         /// <summary>
@@ -405,7 +405,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundForcePerSquareFoot -> Pa
-        /// 1 pound-force/square foot to vv: 47.8802589804 pascal [Pa]
+        /// 1 pound-force/square foot =  47.8802589804 pascal [Pa]
         /// </summary>
         public static double PoundForcePerSquareFoot_2_Pascal(double inVal)             => inVal * 47.8802589804;
         /// <summary>
@@ -416,7 +416,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundForcePerSquareInch -> Pa
-        /// 1 pound-force/square inch to vv: 6894.7572931783 pascal [Pa]
+        /// 1 pound-force/square inch =  6894.7572931783 pascal [Pa]
         /// </summary>
         public static double PoundForcePerSquareInch_2_Pascal(double inVal)             => inVal * 6894.7572931783;
         /// <summary>
@@ -427,7 +427,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// PoundalPerSquareFoot -> Pa
-        /// 1 poundal/square foot to vv: 1.4881639436 pascal [Pa]
+        /// 1 poundal/square foot =  1.4881639436 pascal [Pa]
         /// </summary>
         public static double PoundalPerSquareFoot_2_Pascal(double inVal)                => inVal * 1.4881639436;
         /// <summary>
@@ -438,7 +438,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Torr -> Pa
-        /// 1 torr [Torr] to vv: 133.3223684211 pascal [Pa]
+        /// 1 torr [Torr] =  133.3223684211 pascal [Pa]
         /// </summary>
         public static double Torr_2_Pascal(double inVal)                                => inVal * 133.3223684211;
         /// <summary>
@@ -449,7 +449,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CentimeterMercury0DegC -> Pa
-        /// 1 centimeter mercury (0°C) to vv: 1333.22 pascal [Pa]
+        /// 1 centimeter mercury (0°C) =  1333.22 pascal [Pa]
         /// </summary>
         public static double CentimeterMercury0DegC_2_Pascal(double inVal)              => inVal * 1333.22;
         /// <summary>
@@ -460,7 +460,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MillimeterMercury0DegC -> Pa
-        /// 1 millimeter mercury (0°C) to vv: 133.322 pascal [Pa]
+        /// 1 millimeter mercury (0°C) =  133.322 pascal [Pa]
         /// </summary>
         public static double MillimeterMercury0DegC_2_Pascal(double inVal)              => inVal * 133.322;
         /// <summary>
@@ -471,7 +471,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// inHg -> Pa
-        /// 1 inch mercury (32°F) [inHg] to vv: 3386.38 pascal [Pa]
+        /// 1 inch mercury (32°F) [inHg] =  3386.38 pascal [Pa]
         /// </summary>
         public static double InchMercury32DegF_2_Pascal(double inVal)                   => inVal * 3386.38;
         /// <summary>
@@ -482,7 +482,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// inHg -> Pa
-        /// 1 inch mercury (60°F) [inHg] to vv: 3376.85 pascal [Pa]
+        /// 1 inch mercury (60°F) [inHg] =  3376.85 pascal [Pa]
         /// </summary>
         public static double InchMercury60DegF_2_Pascal(double inVal)                   => inVal * 3376.85;
         /// <summary>
@@ -493,7 +493,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// CentimeterWater4DegC -> Pa
-        /// 1 centimeter water (4°C) to vv: 98.0638 pascal [Pa]
+        /// 1 centimeter water (4°C) =  98.0638 pascal [Pa]
         /// </summary>
         public static double CentimeterWater4DegC_2_Pascal(double inVal)                => inVal * 98.0638;
         /// <summary>
@@ -504,7 +504,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// MillimeterWater4DegC -> Pa
-        /// 1 millimeter water (4°C) to vv: 9.80638 pascal [Pa]
+        /// 1 millimeter water (4°C) =  9.80638 pascal [Pa]
         /// </summary>
         public static double MillimeterWater4DegC_2_Pascal(double inVal)                => inVal * 9.80638;
         /// <summary>
@@ -515,7 +515,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// inAq -> Pa
-        /// 1 inch water (4°C) [inAq] to vv: 249.082 pascal [Pa]
+        /// 1 inch water (4°C) [inAq] =  249.082 pascal [Pa]
         /// </summary>
         public static double InchWater4DegC_2_Pascal(double inVal)                      => inVal * 249.082;
         /// <summary>
@@ -526,7 +526,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ftAq -> Pa
-        /// 1 foot water (4°C) [ftAq] to vv: 2988.98 pascal [Pa]
+        /// 1 foot water (4°C) [ftAq] =  2988.98 pascal [Pa]
         /// </summary>
         public static double FootWater4DegC_2_Pascal(double inVal)                      => inVal * 2988.98;
         /// <summary>
@@ -537,7 +537,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// inAq -> Pa
-        /// 1 inch water (60°F) [inAq] to vv: 248.843 pascal [Pa]
+        /// 1 inch water (60°F) [inAq] =  248.843 pascal [Pa]
         /// </summary>
         public static double InchWater60DegF_2_Pascal(double inVal)                     => inVal * 248.843;
         /// <summary>
@@ -548,7 +548,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ftAq -> Pa
-        /// 1 foot water (60°F) [ftAq] to vv: 2986.116 pascal [Pa]
+        /// 1 foot water (60°F) [ftAq] =  2986.116 pascal [Pa]
         /// </summary>
         public static double FootWater60DegF_2_Pascal(double inVal)                     => inVal * 2986.116;
         /// <summary>
@@ -559,7 +559,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// at -> Pa
-        /// 1 atmosphere technical [at] to vv: 98066.500000003 pascal [Pa]
+        /// 1 atmosphere technical [at] =  98066.500000003 pascal [Pa]
         /// </summary>
         public static double AtmosphereTechnical_2_Pascal(double inVal)                 => inVal * 98066.500000003;
         /// <summary>

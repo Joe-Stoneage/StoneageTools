@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// rad -> °
-        /// 1 radian [rad] to vv: 57.2957795131 degree [°]
+        /// 1 radian [rad] =  57.2957795131 degree [°]
         /// </summary>
         public static double Radian_2_Degree(double inVal)                              => inVal * 57.2957795131;
         /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ^g -> °
-        /// 1 grad [^g] to vv: 0.9 degree [°]
+        /// 1 grad [^g] =  0.9 degree [°]
         /// </summary>
         public static double Grad_2_Degree(double inVal)                                => inVal * 0.9;
         /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// ' -> °
-        /// 1 minute ['] to vv: 0.0166666667 degree [°]
+        /// 1 minute ['] =  0.0166666667 degree [°]
         /// </summary>
         public static double Minute_2_Degree(double inVal)                              => inVal * 0.0166666667;
         /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// " -> °
-        /// 1 second ["] to vv: 0.0002777778 degree [°]
+        /// 1 second ["] =  0.0002777778 degree [°]
         /// </summary>
         public static double Second_2_Degree(double inVal)                              => inVal * 0.0002777778;
         /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Gon -> °
-        /// 1 gon to vv: 0.9 degree [°]
+        /// 1 gon =  0.9 degree [°]
         /// </summary>
         public static double Gon_2_Degree(double inVal)                                 => inVal * 0.9;
         /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Sign -> °
-        /// 1 sign to vv: 30 degree [°]
+        /// 1 sign =  30 degree [°]
         /// </summary>
         public static double Sign_2_Degree(double inVal)                                => inVal * 30;
         /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Mil -> °
-        /// 1 mil to vv: 0.05625 degree [°]
+        /// 1 mil =  0.05625 degree [°]
         /// </summary>
         public static double Mil_2_Degree(double inVal)                                 => inVal * 0.05625;
         /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// r -> °
-        /// 1 revolution [r] to vv: 360 degree [°]
+        /// 1 revolution [r] =  360 degree [°]
         /// </summary>
         public static double Revolution_2_Degree(double inVal)                          => inVal * 360;
         /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Circle -> °
-        /// 1 circle to vv: 360 degree [°]
+        /// 1 circle =  360 degree [°]
         /// </summary>
         public static double Circle_2_Degree(double inVal)                              => inVal * 360;
         /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Turn -> °
-        /// 1 turn to vv: 360 degree [°]
+        /// 1 turn =  360 degree [°]
         /// </summary>
         public static double Turn_2_Degree(double inVal)                                => inVal * 360;
         /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Quadrant -> °
-        /// 1 quadrant to vv: 90 degree [°]
+        /// 1 quadrant =  90 degree [°]
         /// </summary>
         public static double Quadrant_2_Degree(double inVal)                            => inVal * 90;
         /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// RightAngle -> °
-        /// 1 right angle to vv: 90 degree [°]
+        /// 1 right angle =  90 degree [°]
         /// </summary>
         public static double RightAngle_2_Degree(double inVal)                          => inVal * 90;
         /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
         /// <summary>
         /// Sextant -> °
-        /// 1 sextant to vv: 60 degree [°]
+        /// 1 sextant =  60 degree [°]
         /// </summary>
         public static double Sextant_2_Degree(double inVal)                             => inVal * 60;
         /// <summary>

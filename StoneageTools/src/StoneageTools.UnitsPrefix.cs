@@ -9,7 +9,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// Y -> None
-    /// 1 yotta [Y] to vv: 1.0E+24 none
+    /// 1 yotta [Y] =  1.0E+24 none
     /// </summary>
     public static double Yotta_2_None(double inVal)                                 => inVal * 1.0E+24;
     /// <summary>
@@ -20,7 +20,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// Z -> None
-    /// 1 zetta [Z] to vv: 1.0E+21 none
+    /// 1 zetta [Z] =  1.0E+21 none
     /// </summary>
     public static double Zetta_2_None(double inVal)                                 => inVal * 1.0E+21;
     /// <summary>
@@ -31,7 +31,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// E -> None
-    /// 1 exa [E] to vv: 1.0E+18 none
+    /// 1 exa [E] =  1.0E+18 none
     /// </summary>
     public static double Exa_2_None(double inVal)                                   => inVal * 1.0E+18;
     /// <summary>
@@ -42,7 +42,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// P -> None
-    /// 1 peta [P] to vv: 1.0E+15 none
+    /// 1 peta [P] =  1.0E+15 none
     /// </summary>
     public static double Peta_2_None(double inVal)                                  => inVal * 1.0E+15;
     /// <summary>
@@ -53,7 +53,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// T -> None
-    /// 1 tera [T] to vv: 1000000000000 none
+    /// 1 tera [T] =  1000000000000 none
     /// </summary>
     public static double Tera_2_None(double inVal)                                  => inVal * 1000000000000;
     /// <summary>
@@ -64,7 +64,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// G -> None
-    /// 1 giga [G] to vv: 1000000000 none
+    /// 1 giga [G] =  1000000000 none
     /// </summary>
     public static double Giga_2_None(double inVal)                                  => inVal * 1000000000;
     /// <summary>
@@ -75,7 +75,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// M -> None
-    /// 1 mega [M] to vv: 1000000 none
+    /// 1 mega [M] =  1000000 none
     /// </summary>
     public static double Mega_2_None(double inVal)                                  => inVal * 1000000;
     /// <summary>
@@ -86,7 +86,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// k -> None
-    /// 1 kilo [k] to vv: 1000 none
+    /// 1 kilo [k] =  1000 none
     /// </summary>
     public static double Kilo_2_None(double inVal)                                  => inVal * 1000;
     /// <summary>
@@ -97,7 +97,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// h -> None
-    /// 1 hecto [h] to vv: 100 none
+    /// 1 hecto [h] =  100 none
     /// </summary>
     public static double Hecto_2_None(double inVal)                                 => inVal * 100;
     /// <summary>
@@ -108,7 +108,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// da -> None
-    /// 1 deka [da] to vv: 10 none
+    /// 1 deka [da] =  10 none
     /// </summary>
     public static double Deka_2_None(double inVal)                                  => inVal * 10;
     /// <summary>
@@ -119,7 +119,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// d -> None
-    /// 1 deci [d] to vv: 0.1 none
+    /// 1 deci [d] =  0.1 none
     /// </summary>
     public static double Deci_2_None(double inVal)                                  => inVal * 0.1;
     /// <summary>
@@ -130,7 +130,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// c -> None
-    /// 1 centi [c] to vv: 0.01 none
+    /// 1 centi [c] =  0.01 none
     /// </summary>
     public static double Centi_2_None(double inVal)                                 => inVal * 0.01;
     /// <summary>
@@ -141,7 +141,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// m -> None
-    /// 1 milli [m] to vv: 0.001 none
+    /// 1 milli [m] =  0.001 none
     /// </summary>
     public static double Milli_2_None(double inVal)                                 => inVal * 0.001;
     /// <summary>
@@ -152,7 +152,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// µ -> None
-    /// 1 micro [µ] to vv: 1.0E-6 none
+    /// 1 micro [µ] =  1.0E-6 none
     /// </summary>
     public static double Micro_2_None(double inVal)                                 => inVal * 1.0E-6;
     /// <summary>
@@ -163,7 +163,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// n -> None
-    /// 1 nano [n] to vv: 1.0E-9 none
+    /// 1 nano [n] =  1.0E-9 none
     /// </summary>
     public static double Nano_2_None(double inVal)                                  => inVal * 1.0E-9;
     /// <summary>
@@ -174,7 +174,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// p -> None
-    /// 1 pico [p] to vv: 1.0E-12 none
+    /// 1 pico [p] =  1.0E-12 none
     /// </summary>
     public static double Pico_2_None(double inVal)                                  => inVal * 1.0E-12;
     /// <summary>
@@ -185,7 +185,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// f -> None
-    /// 1 femto [f] to vv: 1.0E-15 none
+    /// 1 femto [f] =  1.0E-15 none
     /// </summary>
     public static double Femto_2_None(double inVal)                                 => inVal * 1.0E-15;
     /// <summary>
@@ -196,7 +196,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// a -> None
-    /// 1 atto [a] to vv: 1.0E-18 none
+    /// 1 atto [a] =  1.0E-18 none
     /// </summary>
     public static double Atto_2_None(double inVal)                                  => inVal * 1.0E-18;
     /// <summary>
@@ -207,7 +207,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// z -> None
-    /// 1 zepto [z] to vv: 1.0E-21 none
+    /// 1 zepto [z] =  1.0E-21 none
     /// </summary>
     public static double Zepto_2_None(double inVal)                                 => inVal * 1.0E-21;
     /// <summary>
@@ -218,7 +218,7 @@ namespace StoneageTools.Units
 
     /// <summary>
     /// y -> None
-    /// 1 yocto [y] to vv: 1.0E-24 none
+    /// 1 yocto [y] =  1.0E-24 none
     /// </summary>
     public static double Yocto_2_None(double inVal)                                 => inVal * 1.0E-24;
     /// <summary>

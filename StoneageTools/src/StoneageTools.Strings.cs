@@ -22,12 +22,12 @@ namespace StoneageTools.Strings
                 // ret = input.Substring(input.Length - numberOfChars);
                 ret = input[^numberOfChars..];
             }
-            return ret;
+            return string.Empty;
         }
         public static string Mid(this string input, int startAbsolutNumber, int numberOfChars)
         {
             string ret = string.Empty;
-            if (!string.IsNullOrWhiteSpace(input) && (startAbsolutNumber + numberOfChars) <= input.Length && startAbsolutNumber > 0)
+            if (!string.IsNullOrWhiteSpace(input) && (startAbsolutNumber + numberOfChars) <= (input.Length+1) && startAbsolutNumber > 0)
             {
                 ret = input.Substring(startAbsolutNumber - 1, System.Math.Min(numberOfChars, input.Length));
             }

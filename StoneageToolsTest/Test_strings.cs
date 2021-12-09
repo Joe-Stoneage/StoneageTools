@@ -12,7 +12,7 @@ namespace StoneageToolsTest
             Console.WriteLine($"Right {StoneageToolsStrings.Right("StoneAge", 3)}");     // Age
             Console.WriteLine($"Mid {StoneageToolsStrings.Mid("StoneAge", 5, 2)}");      // eA
             Console.WriteLine($"Mid {StoneageToolsStrings.Mid("StoneAge", 3, 3)}");      // one
-            Console.WriteLine($"Mid {StoneageToolsStrings.Mid("StoneAge", 6, 3)}");      // Age TODO ERROR
+            Console.WriteLine($"Mid {StoneageToolsStrings.Mid("StoneAge", 6, 3)}");      // Age
             Console.WriteLine($"Mid {StoneageToolsStrings.Mid("StoneAge", 6)}");         // Age
         }
     }

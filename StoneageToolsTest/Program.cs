@@ -21,18 +21,17 @@ namespace StoneageToolsTest
 
         private static void Main()
         {
-            DataTextConverter.DoIt();
-            /*
             NewSection("");
+            // DataTextConverter.DoIt();
 
             NewSection("Start Strings");
             Test_strings.Test();
 
-            NewSection("Start Math");
-            Test_math.Test();
+            // NewSection("Start Math");
+            // Test_math.Test();
 
-            NewSection("Start Coordinates");
-            Test_coordinates.Test(); */
+            // NewSection("Start Coordinates");
+            // Test_coordinates.Test();
         }
     }
 }

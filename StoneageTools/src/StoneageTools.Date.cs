@@ -5,14 +5,29 @@ namespace StoneageTools.Date
 {
     public static class StoneageToolsDate
     {
-        public static DateTime GetTomorrow()                => DateTime.Today.AddDays(1);
+        /// <summary>
+        /// Get tomorrows date
+        /// </summary>
+        public static DateTime GetTomorrow()                    => DateTime.Today.AddDays(1);
 
-        public static DateTime GetYesterday()               => DateTime.Today.AddDays(-1);
+        /// <summary>
+        /// Get yesterdays date
+        /// </summary>
+        public static DateTime GetYesterday()                   => DateTime.Today.AddDays(-1);
 
-        public static DateTime GetToday()                   => DateTime.Today;
+        /// <summary>
+        /// Get rodays date
+        /// </summary>
+        public static DateTime GetToday()                       => DateTime.Today;
 
-        public static DateTime GetFirstDayOfYear(DateTime y)   => new (y.Year, 1, 1);
+        /// <summary>
+        /// Get date of first day in year y
+        /// </summary>
+        public static DateTime GetFirstDayOfYear(DateTime y)    => new (y.Year, 1, 1);
 
+        /// <summary>
+        /// Get date of last day in year y
+        /// </summary>
         public static DateTime GetLastDayOfYear(DateTime y)
         {
             DateTime n = new(y.Year + 1, 1, 1);

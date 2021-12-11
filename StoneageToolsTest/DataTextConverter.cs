@@ -11,8 +11,8 @@ namespace StoneageToolsTest
     {
         public static void DoIt()
         {
-            string fileIn ="data";
-            string fileOut ="result.txt";
+            const string fileIn ="data";
+            const string fileOut ="result.txt";
             int t, len;
             string wert1, wert2;
             string a1, a2, wertstr;
@@ -58,12 +58,12 @@ namespace StoneageToolsTest
                         u2 = string.Empty;
                     }
 
-                    t = a1.IndexOf(" ");    // wert 1 links
+                    t = a1.IndexOf(" ");
                     wertstr = a1[..t].Trim();
                     wert1 = wertstr;
                     a1 = a1[(t+1)..].Trim();
 
-                    t = a2.IndexOf(" ");    // wert 2 rechts
+                    t = a2.IndexOf(" ");
                     wertstr = a2[..t].Trim();
                     wert2 = wertstr;
                     a2 = a2[(t+1)..].Trim();
@@ -90,11 +90,11 @@ namespace StoneageToolsTest
                     a2 = a2.Capitalize('-');
                     a2 = a2.RemoveCharacters('(', ')','-',' ');
 
-                    if (u1 == string.Empty)
+                    if (u1?.Length == 0)
                     {
                         u1 = a1;
                     }
-                    if (u2 == string.Empty)
+                    if (u2?.Length == 0)
                     {
                         u2 = a2;
                     }
@@ -107,9 +107,9 @@ namespace StoneageToolsTest
                     p1 = $"public static double {a1}_2_{a2}(double inVal)";
                     while (p1.Length < 80)
                     {
-                        p1 = p1 + " ";
+                        p1 += " ";
                     }
-                    p1 = p1 + $"=> inVal * {wert2};";
+                    p1 += $"=> inVal * {wert2};";
 
                     System.Console.WriteLine($"{line}");
                     System.Console.WriteLine($"{p1}");
@@ -117,9 +117,9 @@ namespace StoneageToolsTest
                     p2 = $"public static double {a2}_2_{a1}(double inVal)";
                     while (p2.Length < 80)
                     {
-                        p2 = p2 + " ";
+                        p2 += " ";
                     }
-                    p2 = p2 + $"=> inVal / {wert2};";
+                    p2 += $"=> inVal / {wert2};";
                     System.Console.WriteLine($"{p2}");
 
                     System.Console.WriteLine("\n");

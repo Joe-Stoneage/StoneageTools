@@ -4,8 +4,8 @@ using System;
 
 namespace StoneageToolsTest;
 
-    [TestClass]
-   internal static class Program
+[TestClass]
+public static class UnitTest1
     {
         private static void NewSection(string info)
         {
@@ -23,7 +23,7 @@ namespace StoneageToolsTest;
         }
 
         [TestMethod]
-        private static void Main()
+        private static void Tests()
         {
             NewSection("");
             // DataTextConverter.DoIt();
@@ -31,10 +31,10 @@ namespace StoneageToolsTest;
             NewSection("Start Strings");
             Test_strings.Test();
 
-            // NewSection("Start Math");
-            // Test_math.Test();
+            NewSection("Start Math");
+            Test_math.Test();
 
-            // NewSection("Start Coordinates");
-            // Test_coordinates.Test();
+            NewSection("Start Coordinates");
+            Test_coordinates.Test();
         }
     }

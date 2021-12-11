@@ -3,7 +3,7 @@
   <PropertyGroup>
 
     <PackageId>StoneageTools</PackageId>
-    <Author>Joe Stoneage (joefromstoneage@gmail.com)</Author>
+    <Author>Joe Hurst (joefromstoneage@gmail.com)</Author>
     <License>Public Domain</License>
     <VersionPrefix>0.1.0</VersionPrefix>
 

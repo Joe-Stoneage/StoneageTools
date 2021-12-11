@@ -1,8 +1,11 @@
-﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace StoneageToolsTest
-{
-    internal static class Program
+using System;
+
+namespace StoneageToolsTest;
+
+    [TestClass]
+   internal static class Program
     {
         private static void NewSection(string info)
         {
@@ -14,11 +17,12 @@ namespace StoneageToolsTest
             }
             else
             {
-                Console.WriteLine("NEW TESTRUN");
+                Console.WriteLine("NEW TEST RUN");
             }
             Console.WriteLine(new string('=', 79));
         }
 
+        [TestMethod]
         private static void Main()
         {
             NewSection("");
@@ -34,4 +38,3 @@ namespace StoneageToolsTest
             // Test_coordinates.Test();
         }
     }
-}

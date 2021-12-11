@@ -1,11 +1,16 @@
-﻿using System;
+﻿
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+using System;
 
 using StoneageTools.Strings;
 
 namespace StoneageToolsTest
 {
+    [TestClass]
     public static class Test_strings
     {
+        [TestMethod]
         public static void Test()
         {
             Console.WriteLine($"Left {StoneageToolsStrings.Left ("StoneAge", 5)}");      // Stone

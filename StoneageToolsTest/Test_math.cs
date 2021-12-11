@@ -1,10 +1,15 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 using System;
+
 using StoneageTools.Math;
 
 namespace StoneageToolsTest
 {
+    [TestClass]
     public static class Test_math
     {
+        [TestMethod]
         public static void Test()
         {
             const byte x = 129;

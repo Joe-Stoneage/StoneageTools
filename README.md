@@ -1,5 +1,5 @@
 # StoneageTools 12/2021
-# English / German (native)
+# Language: English / German (native)
 Eine Sammlung von Konvertierungsmethoden in C#/.Net. .Net ist jezt auf Version 6 und mit jeder Version gibt es mehr coole Umrechnungsfunktionen, aber man kan nicht auf jede Neuigkeit immer nur warten...
 
 Im Moment sind ca. 1500 Konvertierungen implementiert.
@@ -16,7 +16,10 @@ Lizenz/License:
 
 
 To-Do:
-- Testing, would like to use https://docs.microsoft.com/de-de/visualstudio/test/writing-unit-tests-for-c-cpp?view=vs-2022
+- Testing, would like to use https://docs.microsoft.com/de-de/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0
+- Testing, would like to use https://docs.microsoft.com/en-us/dnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0
 
 Hints:
 - would like to go completely to static classes
+
+**My dev-machine runs on Ubuntu, I use Visual Studio Code**

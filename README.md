@@ -20,6 +20,7 @@ To-Do:
 - Testing, would like to use https://docs.microsoft.com/en-us/dnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0
 
 Ziel/Goal: Package
+
 Derzeitge Nutzuung/Current usage: Download/Clone and add a reference to your csproj-file:
 ```
 <ItemGroup>
@@ -30,4 +31,4 @@ Derzeitge Nutzuung/Current usage: Download/Clone and add a reference to your csp
 Hints:
 - would like to go completely to static classes
 
-**My dev-machine runs on Ubuntu 21.10, I use Visual Studio Code with C# **
+***My dev-machine runs Ubuntu 21.10, I use Visual Studio Code with C#***

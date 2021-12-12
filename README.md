@@ -30,7 +30,7 @@ Or add a package reference to your csproj-file from commandline: (need to figure
 ```
 dotnet add YOURPROJECT package StoneageTools --version 1.0.0
 ```
-Or immidiate edit your csproj-file and add these lines: (need to figure out why this is not working yet)
+Or simply edit your csproj-file and add these lines: (need to figure out why this is not working yet)
 ```
 <ItemGroup>
   <PackageReference Include="StoneageTools" Version ="1.0.0"/>

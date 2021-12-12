@@ -19,7 +19,8 @@ At the moment: ca. 1500 conversion methods included
 - Tests entsprechend https://docs.microsoft.com/de-de/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0
 - Testing, would like to use https://docs.microsoft.com/en-us/dnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0
 
-## Nutzung/Usage: Download/Clone and add a reference to your csproj-file:
+## Nutzung/Usage: 
+Download/Clone and add a reference to your csproj-file:
 ```
 <ItemGroup>
     <ProjectReference Include="<YOURPATH>/StoneageTools.csproj"/>

@@ -5,7 +5,7 @@ A large collection of conversion methods for C#/.Net .Net is now on 6.0 and sure
 
 At the moment: ca. 1500 conversion methods included
 
-This C#-library-project manages units of measure and conversions between them. It is not a port of any other library, it is a pure collection, designed to be lightweight and simple to use, yet comprehensive. It includes a very large number of units of measure commonly found in science, engineering, technology, finance and the household. These recognized systems of measurement include the International System of Units (SI), International Customary, United States and British Imperial and even biblical. More unit conversions will be added when I find more formulas or someone contributes (see below). Each conversion method, b.t.w., has always its' vice versa method included in the library. 
+This C#-library-project manages units of measure and conversions between them. It is not a port of any other library, it is a pure collection, designed to be lightweight and simple to use, yet comprehensive. It includes a very large number of units of measure commonly found in science, engineering, technology, finance and the household, even some biblical units can be found here. These recognized systems of measurement include the International System of Units (SI), International Customary, United States and British Imperial. More unit conversions will be added when I find more formulas or someone contributes (see below). Each conversion method, b.t.w., has always its' vice versa method included in the library. 
 
 ## Participation: 
 - Branch & pull request

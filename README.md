@@ -25,9 +25,15 @@ At the moment: ca. 1500 conversion methods included
     <ProjectReference Include="<YOURPATH>/StoneageTools.csproj"/>
 </ItemGroup>
 ```
-Or add a package reference to your csproj-file from commandline:
+Or add a package reference to your csproj-file from commandline: (need to figure out why this is not working yet)
 ```
 dotnet add YOURPROJECT package StoneageTools --version 1.0.0
+```
+Or immidiate edit your csproj-file and add these lines: (need to figure out why this is not working yet)
+```
+<ItemGroup>
+  <PackageReference Include="StoneageTools" Version ="1.0.0"/>
+</ItemGroup>
 ```
 
 ## Hints:

@@ -18,4 +18,6 @@ nuget pack -properties Configuration=Release (uses "StoneageTools.nuspec" in roo
 dotnet pack StoneageTools.csproj -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg -c Release
 (final nuget packages are created in /bin/Release/-folder of project)
 
-3. Upload to nuget.org
+3. Upload to github
+(uses a nuget.config in the root folder, not included in this repo!)
+dotnet nuget push "bin/Release/StoneageTools.1.0.0.nupkg"  --api-key MYPAT --source "github"

@@ -4,3 +4,6 @@
 /StoneageTools/obj
 /.vs
 StoneageTools/StoneageTools.1.0.0.nupkg
+
+.fake
+.ionide

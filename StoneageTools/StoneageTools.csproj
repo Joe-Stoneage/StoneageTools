@@ -5,6 +5,9 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <RepositoryUrl>https://github.com/Joe-Stoneage/StoneageTools</RepositoryUrl>
+  </PropertyGroup>
 
   <PropertyGroup>
     <PackageId>StoneageTools</PackageId>

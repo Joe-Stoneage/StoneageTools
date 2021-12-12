@@ -1,0 +1,21 @@
+###
+### Info
+###
+### StoneageTools, build the .Net-library & pack the nuget-packages
+### Joe Hurst, Dec. 2022
+###
+##################################################
+
+1. Build a release version of the library
+dotnet build --configuration Release
+
+2. Pack the package und include debugging symbols
+!problems with dependency group!
+nuget pack -properties Configuration=Release (uses "StoneageTools.nuspec" in root)
+(final nuget package is created in root of project)
+
+!better and includes the debugging symbols!
+dotnet pack StoneageTools.csproj -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg -c Release
+(final nuget packages are created in /bin/Release/-folder of project)
+
+3. Upload to nuget.org

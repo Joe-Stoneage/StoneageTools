@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>StoneageTools</id>
+    <version>1.0</version>
+    <title>StoneageTools: Unit Conversions</title>
+    <authors>Joe Hurst (Joe-Stoneage)</authors>
+    <owners>none</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Joe-Stoneage/StoneageTools</projectUrl>
+    <description>Big collection of conversion methods like Angle, Heat, DataStorage, Force, Power and many, many, many, many, many more.</description>
+    <releaseNotes>First package.</releaseNotes>
+    <copyright>Public Domain</copyright>
+    <tags>Conversion Convert Units Konvertierung Konvert Einheiten C-Sharp C# Dotnet DOTNET6 NET6 Source Quelltext Stoneage Tools</tags>
+    <dependencies> 
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+</package>

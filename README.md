@@ -19,6 +19,12 @@ To-Do:
 - Tests entsprechend https://docs.microsoft.com/de-de/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0
 - Testing, would like to use https://docs.microsoft.com/en-us/dnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0
 
+Ziel/Goal: Ppackage
+Derzeitge Nutzuung/Current usage: Download/Clone and add reference to your csproj-file:
+-  <ItemGroup>
+-    <ProjectReference Include="<YOURPATH>/StoneageTools.csproj"/>
+-  </ItemGroup>
+
 Hints:
 - would like to go completely to static classes
 

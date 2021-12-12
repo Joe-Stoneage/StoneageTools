@@ -8,27 +8,29 @@ A large collection of conversion methods for C#/.Net .Net is now on 6.0 and sure
 
 At the moment: ca. 1500 conversion methods included
 
-Teilnahme/Participation: Branch & pull request
+##Teilnahme/Participation: 
+- Branch & pull request
 
-Lizenz/License: 
+##Lizenz/License: 
 - vollständig Public Domain für jede Art von Nutzung
 - complete public domain for any kind of use
 
-
-To-Do:
+##To-Do:
 - Tests entsprechend https://docs.microsoft.com/de-de/dotnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0
 - Testing, would like to use https://docs.microsoft.com/en-us/dnet/core/tutorials/testing-library-with-visual-studio-code?pivots=dotnet-6-0
 
-Ziel/Goal: Package
-
-Derzeitge Nutzuung/Current usage: Download/Clone and add a reference to your csproj-file:
+##Nutzung/Usage: Download/Clone and add a reference to your csproj-file:
 ```
 <ItemGroup>
     <ProjectReference Include="<YOURPATH>/StoneageTools.csproj"/>
 </ItemGroup>
 ```
+Or add a package reference to your csproj-file from commandline:
+```
+dotnet add YOURPROJECT package StoneageTools --version 1.0.0
+```
 
-Hints:
+##Hints:
 - would like to go completely to static classes
 
 ***My dev-machine runs Ubuntu 21.10, I use Visual Studio Code for C#***

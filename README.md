@@ -31,4 +31,4 @@ Derzeitge Nutzuung/Current usage: Download/Clone and add a reference to your csp
 Hints:
 - would like to go completely to static classes
 
-***My dev-machine runs Ubuntu 21.10, I use Visual Studio Code with C#***
+***My dev-machine runs Ubuntu 21.10, I use Visual Studio Code for C#***

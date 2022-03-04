@@ -22,7 +22,7 @@ namespace StoneageTools.Strings
                 // ret = input.Substring(input.Length - numberOfChars);
                 ret = input[^numberOfChars..];
             }
-            return string.Empty;
+            return ret;
         }
         public static string Mid(this string input, int startAbsolutNumber, int numberOfChars)
         {

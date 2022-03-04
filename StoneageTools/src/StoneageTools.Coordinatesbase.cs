@@ -20,7 +20,7 @@ namespace StoneageTools.Coordinatesbase
 
     public class EllipsoidBase
     {
-        public List<EllipsoidStructure> Ellipsoids { get; set; } = new();
+        public List<EllipsoidStructure> Ellipsoids { get; } = new();
 
         public EllipsoidBase()
         {

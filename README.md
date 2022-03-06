@@ -1,4 +1,4 @@
-# StoneageTools (10/2021 - 03/2022)
+# StoneageTools (updated 03/2022)
 # Language: English
 
 A large collection of conversion methods for C#/.Net .Net is now on 6.0 and surely contains again much of the work herein, but you can't wait for eternity to get what you need right now...
@@ -37,5 +37,7 @@ Or simply edit your csproj-file and add these lines: (need to figure out why thi
 ## Hints:
 - would like to go completely to static classes
 
+## Known problems:
+- Seems I can't publish a package correctly
 
 ***My dev-machine runs Ubuntu 21.10, I use Visual Studio Code for C#***

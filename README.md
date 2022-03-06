@@ -20,7 +20,7 @@ This C#-library-project manages units of measure and conversions between them. I
 Download/clone and add a reference to your csproj-file:
 ```
 <ItemGroup>
-    <ProjectReference Include="<YOURPATH>/StoneageTools.csproj"/>
+    <ProjectReference Include="<YOUR_PROJECTS_PATH>/StoneageTools/StoneageTools.csproj"/>
 </ItemGroup>
 ```
 Or add a package reference to your csproj-file from commandline: (need to figure out why this is not working yet)
